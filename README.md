@@ -12,6 +12,8 @@
 
 ## Links
 
+- [Personality](https://github.com/yoshikouki/yoshikouki/tree/main/Personality)
+- [Curriculum Vitae (職務経歴書)](https://github.com/yoshikouki/yoshikouki/tree/main/Curriculum-Vitae)
 - https://yoshikouki.com/
 
 ### SNS
@@ -20,3 +22,11 @@
 - [note](https://note.com/yoshikouki)
 - [Facebook](https://www.facebook.com/yoshikoukii/)
 - [LinkedIn](https://www.linkedin.com/in/yoshikouki/)
+
+### Other
+
+- [GitHub](https://github.com/yoshikouki)
+- [connpass](https://connpass.com/user/yoshikouki/)
+- [Speaker Deck](https://speakerdeck.com/yoshikouki)
+- [Zenn](https://zenn.dev/yoshikouki)
+- [Qiita](https://qiita.com/yoshikouki)
