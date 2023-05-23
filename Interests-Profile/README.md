@@ -18,3 +18,25 @@
 - [Personality 人となり](../Personality/)
 - [Curriculum Vitae 職務経歴書](../Curriculum-Vitae/)
 - [Interests Profile 興味分野](../Interests-Profile/)
+
+## 変遷
+
+| 西暦 | テーマ |
+| ------- | ------- |
+<!-- |  |  | -->
+| 2022 | Next.js |
+| 2022 | Web 3.0 |
+| 2021 | Frontity |
+| 2021 | WordPress |
+| 2021 | Deno |
+| 2021 | React |
+| 2021 | DeFi |
+| 2021 | Ruby on Rails |
+| 2021 | Go |
+| 2021 | Docker |
+| 2021 | Shell Script |
+| 2021 | GAS |
+| 2020 | IaC (Chef・Terraform) |
+| 2020 | AWS |
+| 2020 | Next.js |
+| 2020 | TypeScript |
