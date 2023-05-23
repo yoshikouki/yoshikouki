@@ -1,4 +1,4 @@
-# 職務経歴書
+# Curriculum Vitae 職務経歴書
 
 ## 基本情報
 
@@ -14,6 +14,10 @@
 | Speaker Deck | [yoshikouki](https://speakerdeck.com/yoshikouki) |
 | Zenn | [yoshikouki](https://zenn.dev/yoshikouki) |
 | Qiita | [@yoshikouki](https://qiita.com/yoshikouki) |
+
+- [Personality 人となり](../Presonality/)
+- [Curriculum Vitae 職務経歴書](../Curriculum-Vitae/)
+- [Interests and Study 興味と学習](../Interests-and-Study/)
 
 ## 概要
 

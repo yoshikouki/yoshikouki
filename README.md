@@ -6,14 +6,18 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoshikouki&layout=compact&theme=slateorange&exclude_repo=yoshikouki.wp" height="150px" />
 </p>
 
+## Profile
+
+- [Personality 人となり](../Presonality/)
+- [Curriculum Vitae 職務経歴書](../Curriculum-Vitae/)
+- [Interests and Study 興味と学習](../Interests-and-Study/)
+
 ## Writing
 
 - [WEB+DB PRESS Vol.130「作って学ぶWeb3」](https://gihyo.jp/magazine/wdpress/archive/2022/vol130)
 
 ## Links
 
-- [Personality](https://github.com/yoshikouki/yoshikouki/tree/main/Personality)
-- [Curriculum Vitae (職務経歴書)](https://github.com/yoshikouki/yoshikouki/tree/main/Curriculum-Vitae)
 - https://yoshikouki.com/
 
 ### SNS

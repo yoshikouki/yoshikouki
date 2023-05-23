@@ -1,4 +1,4 @@
-# Personality
+# Personality 人となり
 
 ## 基本情報
 
@@ -14,6 +14,10 @@
 | Speaker Deck | [yoshikouki](https://speakerdeck.com/yoshikouki) |
 | Zenn | [yoshikouki](https://zenn.dev/yoshikouki) |
 | Qiita | [@yoshikouki](https://qiita.com/yoshikouki) |
+
+- [Personality 人となり](../Presonality/)
+- [Curriculum Vitae 職務経歴書](../Curriculum-Vitae/)
+- [Interests and Study 興味と学習](../Interests-and-Study/)
 
 ## 注意事項
 
@@ -37,8 +41,8 @@
 
 - 心身の健康を優先する。人間は思ったより弱い
 - 子供との時間はすぐに少なくなる。可能な限り子供との時間を大切にする
-  - ![年齢と誰と過ごすのかの推移](../images/who_americans_spend_their_time_with_by_age.png)
-    https://ourworldindata.org/time-with-others-lifetime
+  ![年齢と誰と過ごすのかの推移](../images/who_americans_spend_their_time_with_by_age.png)
+  https://ourworldindata.org/time-with-others-lifetime
 - 手の届く範囲の人に貢献したい
 - 手の届く範囲を広げたい
 - 人間が発達させた技術 (科学) は手段・道具として有用。また興味の対象でもある
