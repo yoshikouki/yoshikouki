@@ -17,7 +17,7 @@
 
 - [Personality 人となり](../Personality/)
 - [Curriculum Vitae 職務経歴書](../Curriculum-Vitae/)
-- [Interests and Study 興味と学習](../Interests-and-Study/)
+- [Interests Profile 興味分野](../Interests-Profile/)
 
 ## 注意事項
 
