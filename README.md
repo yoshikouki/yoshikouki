@@ -8,9 +8,9 @@
 
 ## Profile
 
-- [Personality 人となり](../Personality/)
-- [Curriculum Vitae 職務経歴書](../Curriculum-Vitae/)
-- [Interests and Study 興味と学習](../Interests-and-Study/)
+- [Personality 人となり](./Personality/)
+- [Curriculum Vitae 職務経歴書](./Curriculum-Vitae/)
+- [Interests and Study 興味と学習](./Interests-and-Study/)
 
 ## Writing
 
