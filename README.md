@@ -8,9 +8,9 @@
 
 ## Profile
 
-- [Personality 人となり](./Personality/)
-- [Curriculum Vitae 職務経歴書](./Curriculum-Vitae/)
-- [Interests Profile 興味分野](./Interests-Profile/)
+- [Personality 人となり](https://github.com/yoshikouki/yoshikouki/tree/main/Personality/)
+- [Curriculum Vitae 職務経歴書](https://github.com/yoshikouki/yoshikouki/tree/main/Curriculum-Vitae/)
+- [Interests Profile 興味分野](https://github.com/yoshikouki/yoshikouki/tree/main/Interests-Profile/)
 
 ## Writing
 
