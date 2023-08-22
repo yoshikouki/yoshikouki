@@ -1,10 +1,9 @@
 # yoshikouki
-[![Twitter: yoshikouki_](https://img.shields.io/twitter/follow/yoshikouki_?style=social)](https://twitter.com/yoshikouki_)
 
-<p>
+<div>
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=yoshikouki&theme=slateorange&show_icons=true&count_private=true" height="150px" />
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoshikouki&layout=compact&theme=slateorange&exclude_repo=yoshikouki.wp" height="150px" />
-</p>
+</div>
 
 ## Profile
 
