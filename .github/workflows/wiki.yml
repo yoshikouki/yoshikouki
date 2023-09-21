@@ -1,0 +1,27 @@
+name: Update Wiki Submodule on Wiki Change
+
+on:
+  gollum:
+
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: 'recursive'
+
+    - name: Update Wiki submodule
+      run: |
+        cd wiki
+        git pull origin main
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add wiki
+        git commit -m "Update Wiki submodule by GitHub Actions"
+        git push
