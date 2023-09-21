@@ -16,7 +16,7 @@ jobs:
     - name: Update Wiki submodule
       run: |
         cd wiki
-        git pull origin main
+        git pull origin master
 
     - name: Commit and push changes
       run: |
