@@ -1,5 +1,13 @@
 {
+  "name": "yoshikouki",
+  "type": "module",
   "dependencies": {
     "happy-dom": "^12.2.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
