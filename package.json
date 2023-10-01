@@ -1,13 +1,14 @@
 {
   "name": "yoshikouki",
-  "type": "module",
-  "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
-  },
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "playwright": "^1.38.1"
   }
 }

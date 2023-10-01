@@ -1,4 +1,5 @@
 import { load } from "cheerio";
+import { chromium } from "playwright";
 
 const getUrl = (): string => {
   const url: string | undefined = process.argv[2];
@@ -54,8 +55,33 @@ const formatContent = (content: string): string => {
 }
 
 const getContent = async (url: string): Promise<string> => {
-  const html = await fetchHTML(url);
-  const rawContent = extractContent(html, url);
+    const browser = await chromium.launch();
+    const page = await browser.newPage();
+    await page.goto(url);
+
+    if (url.includes("twitter.com")) {
+      // For Twitter, return the tweet text
+      const description = await page.$eval(
+        "meta[property='og:description']",
+        (meta) => meta.getAttribute("content")
+      );
+      if (!description) {
+        throw new Error(
+          "Failed to retrieve the X content. No og:description found"
+        );
+      }
+      await browser.close();
+      return description;
+    } else {
+      // For other sites, return the page title
+      const title = await page.title();
+      if (!title) {
+        throw new Error("Failed to retrieve the content. No title found");
+      }
+      await browser.close();
+      return title;
+    }
+
   const content = formatContent(rawContent);
   return content;
 };
