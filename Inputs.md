@@ -1,3 +1,7 @@
+- [
+ installed puppeteer@21.3.6
+
+[73.00ms] done doesn't run postinstall script for trusted dependency · Issue #4705 · oven-sh/b…](https://github.com/oven-sh/bun/issues/4705)
 - [AIDB on X: GPT-4、Bard、Claude2などの異なるLLMが円卓を囲んで「ああでもないこうでもない」と議論した末に出す回答の精度が高いという検証報告がありました。 さらにこの異…](https://twitter.com/ai_database/status/1707639676063162509)
 - [
  installed puppeteer@21.3.6
