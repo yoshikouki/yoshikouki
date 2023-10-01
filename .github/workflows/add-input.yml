@@ -20,13 +20,10 @@ jobs:
 
     - name: Run script
       id: script
+      env:
+        URL: ${{ github.event.client_payload.url }}
       run: |
-        url=${{ github.event.client_payload.url }}
-        echo $url
-        echo "$url"
-        echo ${url}
-        echo "${url}"
-        content=$(bun scripts/add-input.ts "$url")
+        content=$(bun scripts/add-input.ts "${{ github.event.client_payload.url }}")
         echo "content=$content" >> $GITHUB_OUTPUT
 
     - name: Update file

@@ -2,7 +2,7 @@ import { load } from "cheerio";
 import puppeteer from "puppeteer";
 
 const getUrl = (): string => {
-  const url: string | undefined = process.argv[2];
+  const url: string | undefined = process.env.URL || process.argv[2];
   if (!url) {
     throw new Error("A URL is required");
   }
