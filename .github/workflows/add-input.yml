@@ -25,7 +25,7 @@ jobs:
         echo $url
         echo "$url"
         echo ${url}
-        echo "${url}""
+        echo "${url}"
         content=$(bun scripts/add-input.ts "$url")
         echo "content=$content" >> $GITHUB_OUTPUT
 
