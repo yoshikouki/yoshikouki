@@ -2,7 +2,7 @@
   "name": "yoshikouki",
   "type": "module",
   "dependencies": {
-    "happy-dom": "^12.2.1"
+    "cheerio": "^1.0.0-rc.12"
   },
   "devDependencies": {
     "bun-types": "latest"

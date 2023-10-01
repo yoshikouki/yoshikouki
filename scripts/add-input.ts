@@ -1,4 +1,4 @@
-import { Window } from "happy-dom";
+import { load } from "cheerio";
 
 const getUrl = (): string => {
   const url: string | undefined = process.argv[2];
@@ -21,27 +21,28 @@ const getContent = async (url: string): Promise<string> => {
     }
 
     const html = await response.text();
-    const window = new Window();
-    window.document.write(html);
+    const $ = load(html);
 
     if (url.includes("twitter.com")) {
       // twitter の場合は、meta[property='og:description'] を返す
-      const description = window.document.head.querySelector(
+      const description = $(
         "meta[property='og:description']"
+      ).attr(
+        "content"
       );
       if (!description) {
         throw new Error(
           "Failed to retrieve the X content. No og:description found"
         );
       }
-      return description.getAttribute("content") || "";
+      return description;
     } else {
       // head.title を返す
-      const title = window.document.head.querySelector("title");
+      const title = $("head title").text();
       if (!title) {
         throw new Error("Failed to retrieve the content. No title found");
       }
-      return title.textContent || "";
+      return title;
     }
   } catch (error) {
     throw new Error(
