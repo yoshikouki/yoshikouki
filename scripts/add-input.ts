@@ -43,9 +43,20 @@ const extractContent = (html: string, url: string): string => {
   }
 };
 
+const formatContent = (content: string): string => {
+  const formattedContent = content
+    // Remove newlines
+    .replace(/\n/g, " ")
+    // Remove extra spaces
+    .replace(/\s{2,}/g, " ")
+    .trim();
+  return formattedContent;
+}
+
 const getContent = async (url: string): Promise<string> => {
   const html = await fetchHTML(url);
-  const content = extractContent(html, url);
+  const rawContent = extractContent(html, url);
+  const content = formatContent(rawContent);
   return content;
 };
 
