@@ -1,7 +1,7 @@
-import { GlobalWindow as Window } from "happy-dom";
+import { Window } from "happy-dom";
 
-const getUrl = () => {
-  const url = process.argv[2];
+const getUrl = (): string => {
+  const url: string | undefined = process.argv[2];
   if (!url) {
     throw new Error("A URL is required");
   }
@@ -11,7 +11,7 @@ const getUrl = () => {
   return url;
 };
 
-const getContent = async (url) => {
+const getContent = async (url: string): Promise<string> => {
   try {
     const response = await fetch(url);
     if (response.status !== 200) {
