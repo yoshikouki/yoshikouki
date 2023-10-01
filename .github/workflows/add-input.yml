@@ -22,12 +22,12 @@ jobs:
       id: script
       run: |
         url=${{ github.event.client_payload.url }}
-        content=$(bun scripts/add-input.ts $url)
+        content=$(bun scripts/add-input.ts "$url")
         echo "content=$content" >> $GITHUB_OUTPUT
 
     - name: Update file
       run: |
-        echo -e "- ${{ steps.script.outputs.content }}\n$(cat ./Inputs.md)" > temp
+        echo -e "${{ steps.script.outputs.content }}$(cat ./Inputs.md)" > temp
         mv -f temp ./Inputs.md
 
     - name: Commit and push changes

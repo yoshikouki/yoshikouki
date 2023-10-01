@@ -93,7 +93,7 @@ const getContent = async (url: string): Promise<string> => {
 const run = async () => {
   const url = getUrl();
   const content = await getContent(url);
-  const output = `[${content}](${url})`;
+  const output = `- [${content}](${url})\n`;
   console.log(output);
 };
 
