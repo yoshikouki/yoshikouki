@@ -1,3 +1,4 @@
+- [Introducing Duet AI for Google Cloud - YouTube](https://youtube.com/watch?v=g5TwQx60NXs&si=7kz__whsnqHM5n7w)
 - [
  installed puppeteer@21.3.6
 
