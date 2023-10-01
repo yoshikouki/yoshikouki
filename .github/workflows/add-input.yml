@@ -27,7 +27,7 @@ jobs:
       run: bun install
 
     - name: Install Chrome
-      run: bunx @puppeteer/browsers install chrome@stable --path ./node_modules/@puppeteer
+      run: bunx @puppeteer/browsers install chrome@stable --path ${{ github.workspace }}/node_modules/@puppeteer
 
     - name: Run script
       id: script
