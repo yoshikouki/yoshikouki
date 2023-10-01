@@ -53,6 +53,15 @@ const fetchTitle = async (url: string): Promise<string> => {
   return title;
 };
 
+const truncate = (text: string, length: number): string => {
+  if (text.length <= length) {
+    return text;
+  } else {
+    const truncatedText = text.substring(0, length - 1);
+    return truncatedText + "…";
+  }
+}
+
 const formatContent = (content: string): string => {
   const formattedContent = content
     // Remove newlines
@@ -60,7 +69,8 @@ const formatContent = (content: string): string => {
     // Remove extra spaces
     .replace(/\s{2,}/g, " ")
     .trim();
-  return formattedContent;
+  const truncatedContent = truncate(formattedContent, 100);
+  return truncatedContent;
 }
 
 const getContent = async (url: string): Promise<string> => {
