@@ -1,5 +1,5 @@
 import { load } from "cheerio";
-import { chromium } from "playwright";
+import puppeteer from "puppeteer";
 
 const getUrl = (): string => {
   const url: string | undefined = process.argv[2];
@@ -12,7 +12,36 @@ const getUrl = (): string => {
   return url;
 };
 
-const fetchHTML = async (url: string): Promise<string> => {
+const fetchTitleByPuppeteer = async (url: string): Promise<string> => {
+  const browser = await puppeteer.launch({
+    headless: "new",
+  });
+  const page = await browser.newPage();
+  try {
+    await page.setUserAgent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    );
+    await page.goto(url, { waitUntil: "networkidle0", timeout: 3000 });
+    const title = await page.title();
+    return title;
+  } catch (error) {
+    if (error instanceof Error) {
+      throw new Error(`Failed to retrieve the content. ${error.message}`);
+    } else {
+      throw new Error(`Failed to retrieve the content. ${error}`);
+    }
+  } finally {
+    await browser.close();
+  }
+};
+
+const extractTitle = (html: string): string => {
+  const $ = load(html);
+  const title = $("head title").text();
+  return title;
+};
+
+const fetchTitle = async (url: string): Promise<string> => {
   const response = await fetch(url);
   if (response.status !== 200) {
     throw new Error(
@@ -20,28 +49,8 @@ const fetchHTML = async (url: string): Promise<string> => {
     );
   }
   const html = await response.text();
-  return html;
-};
-
-const extractContent = (html: string, url: string): string => {
-  const $ = load(html);
-  if (url.includes("twitter.com")) {
-    // For Twitter, return the tweet text
-    const description = $("meta[property='og:description']").attr("content");
-    if (!description) {
-      throw new Error(
-        "Failed to retrieve the X content. No og:description found"
-      );
-    }
-    return description;
-  } else {
-    // For other sites, return the page title
-    const title = $("head title").text();
-    if (!title) {
-      throw new Error("Failed to retrieve the content. No title found");
-    }
-    return title;
-  }
+  const title = extractTitle(html);
+  return title;
 };
 
 const formatContent = (content: string): string => {
@@ -55,32 +64,17 @@ const formatContent = (content: string): string => {
 }
 
 const getContent = async (url: string): Promise<string> => {
-    const browser = await chromium.launch();
-    const page = await browser.newPage();
-    await page.goto(url);
-
-    if (url.includes("twitter.com")) {
-      // For Twitter, return the tweet text
-      const description = await page.$eval(
-        "meta[property='og:description']",
-        (meta) => meta.getAttribute("content")
-      );
-      if (!description) {
-        throw new Error(
-          "Failed to retrieve the X content. No og:description found"
-        );
-      }
-      await browser.close();
-      return description;
-    } else {
-      // For other sites, return the page title
-      const title = await page.title();
-      if (!title) {
-        throw new Error("Failed to retrieve the content. No title found");
-      }
-      await browser.close();
-      return title;
-    }
+  let rawContent: string;
+  if (url.includes("twitter.com")) {
+    // For Twitter, return the tweet text
+    rawContent = await fetchTitleByPuppeteer(url);
+  } else {
+    // For other sites, return the page title
+    rawContent = await fetchTitle(url);
+  }
+  if (!rawContent) {
+    throw new Error("Failed to retrieve the content. No title found");
+  }
 
   const content = formatContent(rawContent);
   return content;
