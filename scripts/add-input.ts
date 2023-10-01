@@ -11,44 +11,42 @@ const getUrl = (): string => {
   return url;
 };
 
-const getContent = async (url: string): Promise<string> => {
-  try {
-    const response = await fetch(url);
-    if (response.status !== 200) {
-      throw new Error(
-        `Failed to retrieve the content. HTTP status: ${response.status}`
-      );
-    }
-
-    const html = await response.text();
-    const $ = load(html);
-
-    if (url.includes("twitter.com")) {
-      // twitter の場合は、meta[property='og:description'] を返す
-      const description = $(
-        "meta[property='og:description']"
-      ).attr(
-        "content"
-      );
-      if (!description) {
-        throw new Error(
-          "Failed to retrieve the X content. No og:description found"
-        );
-      }
-      return description;
-    } else {
-      // head.title を返す
-      const title = $("head title").text();
-      if (!title) {
-        throw new Error("Failed to retrieve the content. No title found");
-      }
-      return title;
-    }
-  } catch (error) {
+const fetchHTML = async (url: string): Promise<string> => {
+  const response = await fetch(url);
+  if (response.status !== 200) {
     throw new Error(
-      `An error occurred while fetching the content: ${error.message}`
+      `Failed to retrieve the content. HTTP status: ${response.status}`
     );
   }
+  const html = await response.text();
+  return html;
+};
+
+const extractContent = (html: string, url: string): string => {
+  const $ = load(html);
+  if (url.includes("twitter.com")) {
+    // For Twitter, return the tweet text
+    const description = $("meta[property='og:description']").attr("content");
+    if (!description) {
+      throw new Error(
+        "Failed to retrieve the X content. No og:description found"
+      );
+    }
+    return description;
+  } else {
+    // For other sites, return the page title
+    const title = $("head title").text();
+    if (!title) {
+      throw new Error("Failed to retrieve the content. No title found");
+    }
+    return title;
+  }
+};
+
+const getContent = async (url: string): Promise<string> => {
+  const html = await fetchHTML(url);
+  const content = extractContent(html, url);
+  return content;
 };
 
 const run = async () => {
