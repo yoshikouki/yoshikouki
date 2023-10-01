@@ -1,3 +1,7 @@
+- [
+ installed puppeteer@21.3.6
+
+[193.00ms] done doesn't run postinstall script for trusted dependency · Issue #4705 · oven-sh/b…](https://github.com/oven-sh/bun/issues/4705)
 - [Cache downloaded Chromium · Issue #6833 · puppeteer/puppeteer · GitHub](https://github.com/puppeteer/puppeteer/issues/6833)
 - [GitHub Actions上でPuppeteerを動かす - Qiita](https://qiita.com/n0bisuke/items/6ecfdcb4d1bbb4b6419c)
 - [Github Actionsで簡単にPuppeteerを使えるaction-puppeteer-scriptを作りました - The Third Law](https://maku693.hatenablog.jp/entry/2022/10/17/090000)
