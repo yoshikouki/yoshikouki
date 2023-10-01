@@ -27,14 +27,13 @@ jobs:
 
     - name: Update file
       run: |
-        echo "${{ steps.script.outputs.content }}\n$(cat wiki/Inputs.md)" > temp
-        mv -f temp wiki/Inputs.md
+        echo "${{ steps.script.outputs.content }}\n$(cat ./Inputs.md)" > temp
+        mv -f temp ./Inputs.md
 
     - name: Commit and push changes
       run: |
-        cd wiki
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        git add Inputs.md
+        git add ./Inputs.md
         git commit -m "Add Input by GitHub Actions"
         git push
