@@ -22,7 +22,7 @@ jobs:
       id: script
       run: |
         url=${{ github.event.client_payload.url }}
-        content=$(bun scripts/add-input.ts '$url')
+        content=$(bun scripts/add-input.ts "$url")
         echo "content=$content" >> $GITHUB_OUTPUT
 
     - name: Update file
