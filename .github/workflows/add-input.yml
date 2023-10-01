@@ -27,7 +27,7 @@ jobs:
 
     - name: Update file
       run: |
-        echo "${{ steps.script.outputs.content }}\n$(cat ./Inputs.md)" > temp
+        echo -e "- ${{ steps.script.outputs.content }}\n$(cat ./Inputs.md)" > temp
         mv -f temp ./Inputs.md
 
     - name: Commit and push changes
