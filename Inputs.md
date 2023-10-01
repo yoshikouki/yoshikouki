@@ -1,2 +1,4 @@
+- [Duet AI in Google Cloud overview](https://cloud.google.com/duet-ai/docs/overview)
+- [NoSQLデータモデリング技法 · GitHub](https://gist.github.com/matope/2396234)
 - [Built-in HTML parser and DOM · oven-sh/bun · Discussion #1522 · GitHub](https://github.com/oven-sh/bun/discussions/1522)
 - [Install and run Bun in GitHub Actions | Bun Examples](https://bun.sh/guides/runtime/cicd)
