@@ -16,6 +16,8 @@ jobs:
       with:
         bun-version: latest
 
+    - run: bun install
+
     - name: Run script
       id: script
       run: |
