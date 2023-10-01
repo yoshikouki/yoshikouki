@@ -16,7 +16,18 @@ jobs:
       with:
         bun-version: latest
 
-    - run: bun install
+    - uses: actions/cache@v3
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-${{ hashFiles('**/bun.lockb') }}
+        restore-keys: |
+          ${{ runner.os }}-
+
+    - name: Install dependencies
+      run: bun install
+
+    - name: Install Chrome
+      run: bunx @puppeteer/browsers install chrome@stable --path ./node_modules/@puppeteer
 
     - name: Run script
       id: script
