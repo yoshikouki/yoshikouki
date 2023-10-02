@@ -10,6 +10,7 @@
 - [Personality 人となり](https://github.com/yoshikouki/yoshikouki/wiki/Personality-%E4%BA%BA%E3%81%A8%E3%81%AA%E3%82%8A)
 - [Curriculum Vitae 職務経歴書](https://github.com/yoshikouki/yoshikouki/wiki/Curriculum-Vitae-%E8%81%B7%E5%8B%99%E7%B5%8C%E6%AD%B4%E6%9B%B8)
 - [Interests Profile 興味分野](https://github.com/yoshikouki/yoshikouki/wiki/Interests-Profile-%E8%88%88%E5%91%B3%E5%88%86%E9%87%8E)
+- [Inputs 日々のインプット](https://github.com/yoshikouki/yoshikouki/blob/main/Inputs.md)
 
 ## Writing
 
