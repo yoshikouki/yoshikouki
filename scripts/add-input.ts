@@ -1,5 +1,6 @@
 import { load } from "cheerio";
 import puppeteer from "puppeteer";
+import sanitizeHtml from "sanitize-html";
 
 const getUrl = (): string => {
   const url: string | undefined = process.env.URL || process.argv[2];
@@ -75,6 +76,13 @@ const formatContent = (content: string): string => {
   return truncatedContent;
 }
 
+const sanitize = (input: string): string => {
+  return sanitizeHtml(input, {
+    allowedTags: [], // No HTML tags are allowed
+    allowedAttributes: {}, // No HTML attributes are allowed
+  });
+};
+
 const isTwitterUrl = (url: string): boolean => {
   return /(twitter|x)\.com/.test(url);
 };
@@ -92,8 +100,9 @@ const getContent = async (url: string): Promise<string> => {
     throw new Error("Failed to retrieve the content. No title found");
   }
 
-  const content = formatContent(rawContent);
-  return content;
+  const sanitizedContent = sanitize(rawContent);
+  const formattedContent = formatContent(sanitizedContent);
+  return formattedContent;
 };
 
 const run = async () => {
