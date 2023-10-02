@@ -73,9 +73,13 @@ const formatContent = (content: string): string => {
   return truncatedContent;
 }
 
+const isTwitterUrl = (url: string): boolean => {
+  return /(twitter|x)\.com/.test(url);
+};
+
 const getContent = async (url: string): Promise<string> => {
   let rawContent: string;
-  if (url.includes("twitter.com")) {
+  if (isTwitterUrl(url)) {
     // For Twitter, return the tweet text
     rawContent = await fetchTitleByPuppeteer(url);
   } else {
