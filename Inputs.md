@@ -1,3 +1,4 @@
+- [「円キャリー天国」条件整う - 日本経済新聞](https://www.nikkei.com/article/DGKKZO74917350R01C23A0ENG000/)
 - [プログラミング言語の歴史【訂正版作成予定】 - YouTube](https://youtube.com/watch?v=jBksc8SdUF8&si=k2_t15T4C7XznfOd)
 - [Introducing Duet AI for Google Cloud - YouTube](https://youtube.com/watch?v=g5TwQx60NXs&si=7kz__whsnqHM5n7w)
 - [
