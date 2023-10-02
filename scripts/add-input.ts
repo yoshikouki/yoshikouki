@@ -68,8 +68,8 @@ const formatContent = (content: string): string => {
     .replace(/\n/g, " ")
     // Remove extra spaces
     .replace(/\s{2,}/g, " ")
-    // Sanitize
-    .replace(/`/g, "\`")
+    // Escape backticks
+    .replace(/`/g, "\\`")
     .trim();
   const truncatedContent = truncate(formattedContent, 100);
   return truncatedContent;

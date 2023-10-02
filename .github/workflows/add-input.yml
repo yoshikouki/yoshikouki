@@ -29,17 +29,15 @@ jobs:
     - name: Install Chrome
       run: bunx @puppeteer/browsers install chrome@stable --path ${{ github.workspace }}/node_modules/@puppeteer
 
-    - name: Run script
+    - name: Run script and Update file
       id: script
       env:
         URL: ${{ github.event.client_payload.url }}
       run: |
-        content=$(bun scripts/add-input.ts "${{ github.event.client_payload.url }}")
-        echo "content=$content" >> $GITHUB_OUTPUT
-
-    - name: Update file
-      run: |
-        printf "%s\n%s" "${{ steps.script.outputs.content }}" "$(cat ./Inputs.md)" > temp
+        printf "%s\n%s" \
+          "$(bun scripts/add-input.ts "${{ github.event.client_payload.url }}")" \
+          "$(cat ./Inputs.md)" \
+          > temp
         mv -f temp ./Inputs.md
 
     - name: Commit and push changes
