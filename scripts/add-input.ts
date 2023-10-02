@@ -109,10 +109,18 @@ const getContent = async (url: string): Promise<string> => {
   return formattedContent;
 };
 
+const getTodayString = (): string => {
+  const currentDate = new Date();
+  const formattedDate = `${currentDate.getFullYear()}/${currentDate.getMonth() + 1}/${currentDate.getDate()}`;
+  return formattedDate;
+};
+
+
 const run = async () => {
   const url = getUrl();
   const content = await getContent(url);
-  const output = `- [${content}](${url})`;
+  const today = getTodayString();
+  const output = `- [${content}](${url}): ${today}`;
   console.log(output);
 };
 
