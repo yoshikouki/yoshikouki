@@ -1,3 +1,4 @@
+- [Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows): 2023/10/2
 - [HTML Sanitizer API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Sanitizer_API): 2023/10/2
 - [Puppeteer | Puppeteer](https://pptr.dev/): 2023/10/2
 - [AIDB on X: "GPT-4、Bard、Claude2などの異なるLLMが円卓を囲んで「ああでもないこうでもない」と議論した末に出す回答の精度が高いという検証報告がありました。 さらにこの"異…](https://twitter.com/ai_database/status/1707639676063162509): 2023/10/2
