@@ -10,6 +10,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "puppeteer": "^21.3.6",
-    "sanitize-html": "^2.11.0"
+    "sanitize-html": "^2.11.0",
+    "zod": "^3.22.2"
   }
 }

@@ -1,16 +1,20 @@
 import { load } from "cheerio";
 import puppeteer from "puppeteer";
 import sanitizeHtml from "sanitize-html";
+import { z } from "zod";
+
+const UrlSchema = z.string().url();
 
 const getUrl = (): string => {
   const url: string | undefined = process.env.URL || process.argv[2];
-  if (!url) {
-    throw new Error("A URL is required");
+  try {
+    UrlSchema.parse(url);
+    return url;
+  } catch (error) {
+    throw new Error(
+      `URL Error: ${error instanceof Error ? error.message : error}`
+    );
   }
-  if (!/^(https?:\/\/)?([^\s]+)/.test(url)) {
-    throw new Error("Invalid URL");
-  }
-  return url;
 };
 
 const fetchTitleByPuppeteer = async (url: string): Promise<string> => {
@@ -61,7 +65,7 @@ const truncate = (text: string, length: number): string => {
     const truncatedText = text.substring(0, length - 1);
     return truncatedText + "…";
   }
-}
+};
 
 const formatContent = (content: string): string => {
   const formattedContent = content
@@ -74,7 +78,7 @@ const formatContent = (content: string): string => {
     .trim();
   const truncatedContent = truncate(formattedContent, 100);
   return truncatedContent;
-}
+};
 
 const sanitize = (input: string): string => {
   return sanitizeHtml(input, {
