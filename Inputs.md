@@ -1,6 +1,10 @@
 - [
  installed puppeteer@21.3.6
 
+[68.00ms] done doesn't run postinstall script for trusted dependency · Issue #4705 · oven-sh/b…](https://github.com/oven-sh/bun/issues/4705)
+- [
+ installed puppeteer@21.3.6
+
 [93.00ms] done doesn't run postinstall script for trusted dependency · Issue #4705 · oven-sh/b…](https://github.com/oven-sh/bun/issues/4705)
 - [「円キャリー天国」条件整う - 日本経済新聞](https://www.nikkei.com/article/DGKKZO74917350R01C23A0ENG000/)
 - [プログラミング言語の歴史【訂正版作成予定】 - YouTube](https://youtube.com/watch?v=jBksc8SdUF8&si=k2_t15T4C7XznfOd)
