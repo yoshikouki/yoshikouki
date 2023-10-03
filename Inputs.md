@@ -1,3 +1,4 @@
+- [科学がもたらす不老長寿への道 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO74926450S3A001C2TCR000/): 2023/10/3
 - [キカイ / Akuma.ai on X: "どんなStable diffusionモデルでも画像生成ができる 「https://t.co/5gEeGIaaEc」を正式リリースしました！ 環境構築やG…](https://twitter.com/AkumaAI_JP/status/1709051687401648401): 2023/10/3
 
 - [Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows): 2023/10/2
