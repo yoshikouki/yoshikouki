@@ -1,3 +1,4 @@
+- [キカイ / Akuma.ai on X: "どんなStable diffusionモデルでも画像生成ができる 「https://t.co/5gEeGIaaEc」を正式リリースしました！ 環境構築やG…](https://twitter.com/AkumaAI_JP/status/1709051687401648401): 2023/10/3
 
 - [Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows): 2023/10/2
 - [HTML Sanitizer API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Sanitizer_API): 2023/10/2
