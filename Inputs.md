@@ -1,3 +1,4 @@
+- [Manage data in Docker | Docker Docs](https://docs.docker.com/storage/): 2023/10/4
 - [History of Docker Compose | Docker Docs](https://docs.docker.com/compose/history/): 2023/10/3
 - [GitLab、「ソフトウェア開発におけるAIの現状」レポートを発表|CodeZine（コードジン）](https://codezine.jp/article/detail/18444): 2023/10/3
 - [「心理的安全性」はなぜ混乱を招き続けるのか | Q by Livesense](https://q.livesense.co.jp/2023/09/26/2287.html): 2023/10/3
