@@ -1,3 +1,4 @@
+- [Googleの新しいスマホ｢Pixel 8｣でやらなくてよくなる、“めんどうなこと”まとめ | ギズモード・ジャパン](https://www.gizmodo.jp/2023/10/google-pixel-8-ai-assistant-with-bard.html): 2023/10/5
 - [イメージ英単語](https://imageeitango.com/): 2023/10/5
 - [まだChatGPTを使ってない人は「人生を悔い改めた方がいい」――孫正義節が炸裂](https://www.itmedia.co.jp/news/spv/2310/04/news175.html): 2023/10/5
 - [大規模言語モデルで「無限の入力」を受け付けることを可能にする手法「StreamingLLM」が開発される - GIGAZINE](https://gigazine.net/news/20231004-streaming-llm/): 2023/10/4
