@@ -1,3 +1,4 @@
+- [KSI官公庁オークション](https://kankocho.jp/search?category=REAL_ESTATE&searchGovernmentSubCategoryId=46&searchPropertyCategoryId&page=1&pageSize=50): 2023/10/5
 - [Googleの新しいスマホ｢Pixel 8｣でやらなくてよくなる、“めんどうなこと”まとめ | ギズモード・ジャパン](https://www.gizmodo.jp/2023/10/google-pixel-8-ai-assistant-with-bard.html): 2023/10/5
 - [イメージ英単語](https://imageeitango.com/): 2023/10/5
 - [まだChatGPTを使ってない人は「人生を悔い改めた方がいい」――孫正義節が炸裂](https://www.itmedia.co.jp/news/spv/2310/04/news175.html): 2023/10/5
