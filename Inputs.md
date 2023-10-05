@@ -1,6 +1,5 @@
 - [イメージ英単語](https://imageeitango.com/): 2023/10/5
-- [�܂�ChatGPT���g�BĂȂ��l�́u�l�����������߂����������v�\�\�����\`�߂��y��i1/2 �y�[�W�j - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/2310/04/news175.html): 2023/10/5
-- [�܂�ChatGPT���g�BĂȂ��l�́u�l�����������߂����������v�\�\�����\`�߂��y��i1/2 �y�[�W�j - ITmedia NEWS](https://www.itmedia.co.jp/news/spv/2310/04/news175.html): 2023/10/5
+- [まだChatGPTを使ってない人は「人生を悔い改めた方がいい」――孫正義節が炸裂](https://www.itmedia.co.jp/news/spv/2310/04/news175.html): 2023/10/5
 - [大規模言語モデルで「無限の入力」を受け付けることを可能にする手法「StreamingLLM」が開発される - GIGAZINE](https://gigazine.net/news/20231004-streaming-llm/): 2023/10/4
 - [鹿児島市下荒田パーソナルジム | 【健康】だから【楽しめる】](https://www.olikagoshima.com/): 2023/10/4
 - [tmpfs mounts | Docker Docs](https://docs.docker.com/storage/tmpfs/): 2023/10/4
