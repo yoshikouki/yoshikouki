@@ -1,3 +1,4 @@
+- [「スティーブ・ジョブズ1.0」の真実（中編）｜NHK取材ノート](https://note.com/nhk_syuzai/n/n091d3b846575): 2023/10/6
 - [Initiating SAML single sign-on](https://git.pepabo.com/michi/michi/pull/1620/files): 2023/10/6
 - [���|�W�g���S�̂̃R�[�f�B���O��Ƃ���C�Ɏ����ҏW���鐶��AI�uCodePlan�v�@��Microsoft���J���FInnovative Tech -…](https://www.itmedia.co.jp/news/articles/2310/05/news051.html): 2023/10/6
 - [鹿児島オフィスで働くエンジニアの1日に密着！](https://hr.pepabo.com/report/2023/10/06/9209): 2023/10/6
