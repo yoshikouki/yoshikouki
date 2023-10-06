@@ -1,3 +1,4 @@
+- [新しくなった Slack のデザインで、仕事にさらに集中 | Slack](https://slack.com/intl/ja-jp/blog/productivity/a-redesigned-slack-built-for-focus): 2023/10/6
 - [ReactのおすすめUIコンポーネントライブラリ｜Kinsta®](https://kinsta.com/jp/blog/react-components-library/): 2023/10/6
 - [react-transition-groupの使い方メモ](https://penpen-dev.com/blog/react-transition-group/): 2023/10/5
 - [docker-compose の bind mount を1行で書くな](https://zenn.dev/sarisia/articles/0c1db052d09921): 2023/10/5
