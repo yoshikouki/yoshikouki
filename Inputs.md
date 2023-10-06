@@ -1,3 +1,4 @@
+- [鹿児島オフィスで働くエンジニアの1日に密着！](https://hr.pepabo.com/report/2023/10/06/9209): 2023/10/6
 
 - [マネックスG「寄らばドコモ」　SBI・楽天が迫った再編 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75056330V01C23A0EA1000/): 2023/10/6
 - [新しくなった Slack のデザインで、仕事にさらに集中 | Slack](https://slack.com/intl/ja-jp/blog/productivity/a-redesigned-slack-built-for-focus): 2023/10/6
