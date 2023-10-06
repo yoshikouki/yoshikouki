@@ -1,3 +1,4 @@
+- [���|�W�g���S�̂̃R�[�f�B���O��Ƃ���C�Ɏ����ҏW���鐶��AI�uCodePlan�v�@��Microsoft���J���FInnovative Tech -…](https://www.itmedia.co.jp/news/articles/2310/05/news051.html): 2023/10/6
 - [鹿児島オフィスで働くエンジニアの1日に密着！](https://hr.pepabo.com/report/2023/10/06/9209): 2023/10/6
 
 - [マネックスG「寄らばドコモ」　SBI・楽天が迫った再編 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75056330V01C23A0EA1000/): 2023/10/6
