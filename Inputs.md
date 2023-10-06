@@ -1,3 +1,4 @@
+- [マネックスG「寄らばドコモ」　SBI・楽天が迫った再編 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75056330V01C23A0EA1000/): 2023/10/6
 - [新しくなった Slack のデザインで、仕事にさらに集中 | Slack](https://slack.com/intl/ja-jp/blog/productivity/a-redesigned-slack-built-for-focus): 2023/10/6
 - [ReactのおすすめUIコンポーネントライブラリ｜Kinsta®](https://kinsta.com/jp/blog/react-components-library/): 2023/10/6
 - [react-transition-groupの使い方メモ](https://penpen-dev.com/blog/react-transition-group/): 2023/10/5
