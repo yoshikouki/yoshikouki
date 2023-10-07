@@ -4,7 +4,6 @@
 - [Initiating SAML single sign-on](https://git.pepabo.com/michi/michi/pull/1620/files): 2023/10/6
 - [リポジトリ全体のコーディング作業を一気に自動編集する生成AI「CodePlan」　米Microsoftが開発](https://www.itmedia.co.jp/news/articles/2310/05/news051.html): 2023/10/6
 - [鹿児島オフィスで働くエンジニアの1日に密着！](https://hr.pepabo.com/report/2023/10/06/9209): 2023/10/6
-
 - [マネックスG「寄らばドコモ」　SBI・楽天が迫った再編 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75056330V01C23A0EA1000/): 2023/10/6
 - [新しくなった Slack のデザインで、仕事にさらに集中 | Slack](https://slack.com/intl/ja-jp/blog/productivity/a-redesigned-slack-built-for-focus): 2023/10/6
 - [ReactのおすすめUIコンポーネントライブラリ｜Kinsta®](https://kinsta.com/jp/blog/react-components-library/): 2023/10/6
