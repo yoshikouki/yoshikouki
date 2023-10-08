@@ -1,3 +1,4 @@
+- [米長期金利、迫る5%　雇用大幅増で利上げ長期化の見方 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75110230X01C23A0EA2000/): 2023/10/8
 - [経営中枢にプロ人材 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75112030Y3A001C2MM8000/): 2023/10/8
 - [OpenAIのサム・アルトマンも… AIと｢中央値の人間｣を置き換えることにこだわり続けるテック・ブロたち | Business Insider Japan](https://www.businessinsider.jp/post-276027): 2023/10/6
 - [「スティーブ・ジョブズ1.0」の真実（後編）｜NHK取材ノート](https://note.com/nhk_syuzai/n/ndaba55e8b367): 2023/10/6
