@@ -1,3 +1,4 @@
+- [ゆっくりで学ぶ経済学 on X: "ノーベル経済学賞をとったクルーグマンなども指摘していますが日本は人口動態を考慮した生産年齢人口一人当たり実質GDPでは米国よりも成長しているんですよね 日本の停滞…](https://x.com/yukkurikeizai/status/1707234426969792792?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/8
 - [How is the swr cache implemented and what technology is used? · vercel/swr · Discussion #2233 · Git…](https://github.com/vercel/swr/discussions/2233?sort=top#): 2023/10/8
 - [jschardetを使って、ファイルの文字コードを判断する - Qiita](https://qiita.com/pyon_kiti_jp/items/1b1fa9fc6b13121dd49c): 2023/10/8
 - [「うるう秒」廃止へ　国連機関、システム障害防ぐ - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75110400X01C23A0EA2000/): 2023/10/8
