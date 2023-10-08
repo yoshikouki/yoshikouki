@@ -1,3 +1,4 @@
+- [How is the swr cache implemented and what technology is used? · vercel/swr · Discussion #2233 · Git…](https://github.com/vercel/swr/discussions/2233?sort=top#): 2023/10/8
 - [jschardetを使って、ファイルの文字コードを判断する - Qiita](https://qiita.com/pyon_kiti_jp/items/1b1fa9fc6b13121dd49c): 2023/10/8
 - [「うるう秒」廃止へ　国連機関、システム障害防ぐ - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75110400X01C23A0EA2000/): 2023/10/8
 - [米長期金利、迫る5%　雇用大幅増で利上げ長期化の見方 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75110230X01C23A0EA2000/): 2023/10/8
