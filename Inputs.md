@@ -1,3 +1,4 @@
+
 - [Takato Sakurai｜HONE inc. on X: "地方マーケにおいて大切なことを独断と偏見でラベリングしてみました。 ・ベーシックスキル・倫理的判断力・プロジェクトマネジメント力はあっ…](https://x.com/locama_at/status/1711255585889636739?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/9
 
 - [Google re:Work - ガイド: 「効果的なチームとは何か」を知る](https://rework.withgoogle.com/jp/guides/understanding-team-effectiveness/#introduction): 2023/10/9
