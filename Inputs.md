@@ -1,3 +1,4 @@
+- [ノーベル経済学賞にゴールディン氏　男女の賃金格差、要因解明 - 日本経済新聞](https://www.nikkei.com/article/DGXZQOCD091ZV0Z01C23A0000000/): 2023/10/9
 
 - [Takato Sakurai｜HONE inc. on X: "地方マーケにおいて大切なことを独断と偏見でラベリングしてみました。 ・ベーシックスキル・倫理的判断力・プロジェクトマネジメント力はあっ…](https://x.com/locama_at/status/1711255585889636739?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/9
 
