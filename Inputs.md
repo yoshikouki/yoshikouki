@@ -1,3 +1,4 @@
+
 - [Google re:Work - ガイド: 「効果的なチームとは何か」を知る](https://rework.withgoogle.com/jp/guides/understanding-team-effectiveness/#introduction): 2023/10/9
 - [介護職員の配置　緩和を検討 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75118880Z01C23A0MM8000/): 2023/10/9
 - [AIDB on X: "さまざまなLLMエージェントに協力して問題解決を行わせる際は、"個別のエージェント特性よりも「協力戦略」が重要である"と示唆されました。 さらにこの「協力戦略導入ツール」は公…](https://x.com/ai_database/status/1711016637565108558?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/9
