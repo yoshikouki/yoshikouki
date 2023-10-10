@@ -1,3 +1,4 @@
+- [IndexedDB API - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/IndexedDB_API): 2023/10/10
 - [Ruby on Rails — Rails 7.1: Dockerfiles, BYO Authentication, More Async Queries, and more!](https://rubyonrails.org/2023/10/5/Rails-7-1-0-has-been-released): 2023/10/10
 - [もとやま📚著書『投資としての読書』 on X: "「リーダーとか面倒くさそうだし責任増えるだけっしょ。タイパ悪そうだし絶対やりたくねーわ」とぼやいていたときに薦められた本がこちら。 リーダーに対す…](https://twitter.com/ysk_motoyama/status/1711690846339571979): 2023/10/10
 - [ブレーキダストに！輸入車のアルミホイールケアにオススメな2つのアイテム｜ソフト99広報ブログ「99ブロ」](https://www.soft99.co.jp/blog/1889/): 2023/10/10
