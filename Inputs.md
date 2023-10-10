@@ -1,3 +1,4 @@
+- [【新連載・栗林健太郎氏】私がキャリア戦略をもたない理由と、結局は一番大事だと思う3つの考え方の話。 | レバテックラボ（レバテックLAB）](https://levtech.jp/media/article/column/detail_318/): 2023/10/10
 - [Arc from The Browser Company](https://arc.net/): 2023/10/10
 - [AIリスク回避、連携策を議論へ - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75114830Y3A001C2PE8000/): 2023/10/9
 - [ノーベル経済学賞にゴールディン氏　男女の賃金格差、要因解明 - 日本経済新聞](https://www.nikkei.com/article/DGXZQOCD091ZV0Z01C23A0000000/): 2023/10/9
