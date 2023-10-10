@@ -1,3 +1,4 @@
+- [Ruby on Rails 7.1 リリースノート - Railsガイド](https://railsguides.jp/v7.1/7_1_release_notes.html): 2023/10/10
 - [孫正義さんも実践する「AI同士のディベート」をノーコードで実現してみた！｜tomohoga](https://note.com/tomohoga/n/n5a68dfe160bf): 2023/10/10
 - [【新連載・栗林健太郎氏】私がキャリア戦略をもたない理由と、結局は一番大事だと思う3つの考え方の話。 | レバテックラボ（レバテックLAB）](https://levtech.jp/media/article/column/detail_318/): 2023/10/10
 - [Arc from The Browser Company](https://arc.net/): 2023/10/10
