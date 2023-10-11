@@ -1,3 +1,4 @@
+- [バブリング と キャプチャリング](https://ja.javascript.info/bubbling-and-capturing): 2023/10/11
 - [Rで JINS MEME のデータを分析する - くろみーの日報テンプレ](https://blog.kuromiyahiroyuki.tech/entry/2023/10/09/135924): 2023/10/11
 - [Microsoftはコード補完AIツール「GitHub Copilot」でユーザー1人あたり月額3000円近くの損失を出しているという報告 - GIGAZINE](https://gigazine.net/news/20231010-microsoft-github-copilot-losing-money/): 2023/10/11
 - [全銀ネット障害、11行影響 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75156890R11C23A0EA1000/): 2023/10/11
