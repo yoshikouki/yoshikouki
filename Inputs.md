@@ -1,3 +1,4 @@
+- [Microsoftはコード補完AIツール「GitHub Copilot」でユーザー1人あたり月額3000円近くの損失を出しているという報告 - GIGAZINE](https://gigazine.net/news/20231010-microsoft-github-copilot-losing-money/): 2023/10/11
 - [全銀ネット障害、11行影響 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75156890R11C23A0EA1000/): 2023/10/11
 - [IndexedDB API - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/IndexedDB_API): 2023/10/10
 - [Ruby on Rails — Rails 7.1: Dockerfiles, BYO Authentication, More Async Queries, and more!](https://rubyonrails.org/2023/10/5/Rails-7-1-0-has-been-released): 2023/10/10
