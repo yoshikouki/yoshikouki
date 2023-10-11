@@ -1,3 +1,4 @@
+- [package.jsonの脆弱性を一気に修正する - 🐾 Nekonote](https://scrapbox.io/dojineko/package.json%E3%81%AE%E8%84%86%E5%BC%B1%E6%80%A7%E3%82%92%E4%B8%80%E6%B0%97%E3%81%AB%E4%BF%AE%E6%AD%A3%E3%81%99%E3%82%8B): 2023/10/11
 - [バブリング と キャプチャリング](https://ja.javascript.info/bubbling-and-capturing): 2023/10/11
 - [Rで JINS MEME のデータを分析する - くろみーの日報テンプレ](https://blog.kuromiyahiroyuki.tech/entry/2023/10/09/135924): 2023/10/11
 - [Microsoftはコード補完AIツール「GitHub Copilot」でユーザー1人あたり月額3000円近くの損失を出しているという報告 - GIGAZINE](https://gigazine.net/news/20231010-microsoft-github-copilot-losing-money/): 2023/10/11
