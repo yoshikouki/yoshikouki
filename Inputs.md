@@ -1,6 +1,5 @@
 - [DDDを実践するための手引き（概論・導入編）](https://zenn.dev/kohii/articles/b96634b9a14897): 2023/10/12
 - [【特集】iPhoneのはるか先を行く、Pixel 8のAI機能。生成AIがより高次元に - PC Watch](https://pc.watch.impress.co.jp/docs/topic/feature/1537953.html): 2023/10/12
-
 - [藤井聡太八冠誕生　沈む日本に「Z世代の衝撃」 - 日本経済新聞](https://www.nikkei.com/article/DGXZQODK116Y60R11C23A0000000/): 2023/10/12
 - [colimaのおすすめ設定 - 🐾 Nekonote](https://scrapbox.io/dojineko/colima%E3%81%AE%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E8%A8%AD%E5%AE%9A): 2023/10/12
 - [package.jsonの脆弱性を一気に修正する - 🐾 Nekonote](https://scrapbox.io/dojineko/package.json%E3%81%AE%E8%84%86%E5%BC%B1%E6%80%A7%E3%82%92%E4%B8%80%E6%B0%97%E3%81%AB%E4%BF%AE%E6%AD%A3%E3%81%99%E3%82%8B): 2023/10/11
@@ -18,9 +17,7 @@
 - [Arc from The Browser Company](https://arc.net/): 2023/10/10
 - [AIリスク回避、連携策を議論へ - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75114830Y3A001C2PE8000/): 2023/10/9
 - [ノーベル経済学賞にゴールディン氏　男女の賃金格差、要因解明 - 日本経済新聞](https://www.nikkei.com/article/DGXZQOCD091ZV0Z01C23A0000000/): 2023/10/9
-
 - [Takato Sakurai｜HONE inc. on X: "地方マーケにおいて大切なことを独断と偏見でラベリングしてみました。 ・ベーシックスキル・倫理的判断力・プロジェクトマネジメント力はあっ…](https://x.com/locama_at/status/1711255585889636739?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/9
-
 - [Google re:Work - ガイド: 「効果的なチームとは何か」を知る](https://rework.withgoogle.com/jp/guides/understanding-team-effectiveness/#introduction): 2023/10/9
 - [介護職員の配置　緩和を検討 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO75118880Z01C23A0MM8000/): 2023/10/9
 - [AIDB on X: "さまざまなLLMエージェントに協力して問題解決を行わせる際は、"個別のエージェント特性よりも「協力戦略」が重要である"と示唆されました。 さらにこの「協力戦略導入ツール」は公…](https://x.com/ai_database/status/1711016637565108558?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/9
@@ -55,7 +52,6 @@
 - [「心理的安全性」はなぜ混乱を招き続けるのか | Q by Livesense](https://q.livesense.co.jp/2023/09/26/2287.html): 2023/10/3
 - [科学がもたらす不老長寿への道 - 日本経済新聞](https://www.nikkei.com/article/DGKKZO74926450S3A001C2TCR000/): 2023/10/3
 - [キカイ / Akuma.ai on X: "どんなStable diffusionモデルでも画像生成ができる 「https://t.co/5gEeGIaaEc」を正式リリースしました！ 環境構築やG…](https://twitter.com/AkumaAI_JP/status/1709051687401648401): 2023/10/3
-
 - [Events that trigger workflows - GitHub Docs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows): 2023/10/2
 - [HTML Sanitizer API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Sanitizer_API): 2023/10/2
 - [Puppeteer | Puppeteer](https://pptr.dev/): 2023/10/2
