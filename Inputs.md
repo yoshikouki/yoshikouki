@@ -1,3 +1,4 @@
+- [DDDを実践するための手引き（概論・導入編）](https://zenn.dev/kohii/articles/b96634b9a14897): 2023/10/12
 - [【特集】iPhoneのはるか先を行く、Pixel 8のAI機能。生成AIがより高次元に - PC Watch](https://pc.watch.impress.co.jp/docs/topic/feature/1537953.html): 2023/10/12
 
 - [藤井聡太八冠誕生　沈む日本に「Z世代の衝撃」 - 日本経済新聞](https://www.nikkei.com/article/DGXZQODK116Y60R11C23A0000000/): 2023/10/12
