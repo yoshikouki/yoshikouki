@@ -1,3 +1,4 @@
+- [有料会員向けサービス　朝刊・夕刊:日経電子版](https://www.nikkei.com/paper/article/?b=20231013&ng=DGKKZO75228640S3A011C2EA1000): 2023/10/13
 - [Domain Driven Design（ドメイン駆動設計） Quickly 日本語版](https://www.infoq.com/jp/minibooks/domain-driven-design-quickly/): 2023/10/13
 - [生成AIがDockerを使った開発の質問に答えてくれる「Docker AI」発表、Dockerfileのエラーなども修正。VSCode対応。DockerCon 23 － Publickey](https://www.publickey1.jp/blog/23/aidockerdocker_aidockerfilevscodedockercon_23.html): 2023/10/12
 - [DDDを実践するための手引き（概論・導入編）](https://zenn.dev/kohii/articles/b96634b9a14897): 2023/10/12
