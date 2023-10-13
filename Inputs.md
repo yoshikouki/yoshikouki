@@ -1,3 +1,4 @@
+- [Domain Driven Design（ドメイン駆動設計） Quickly 日本語版](https://www.infoq.com/jp/minibooks/domain-driven-design-quickly/): 2023/10/13
 - [生成AIがDockerを使った開発の質問に答えてくれる「Docker AI」発表、Dockerfileのエラーなども修正。VSCode対応。DockerCon 23 － Publickey](https://www.publickey1.jp/blog/23/aidockerdocker_aidockerfilevscodedockercon_23.html): 2023/10/12
 - [DDDを実践するための手引き（概論・導入編）](https://zenn.dev/kohii/articles/b96634b9a14897): 2023/10/12
 - [【特集】iPhoneのはるか先を行く、Pixel 8のAI機能。生成AIがより高次元に - PC Watch](https://pc.watch.impress.co.jp/docs/topic/feature/1537953.html): 2023/10/12
