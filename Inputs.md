@@ -1,3 +1,4 @@
+- [AIにニュースの収集を任せている方法。（GPT-4からSlack投稿） - toyoshiの日記](https://toyoshi.hatenablog.com/entry/2023/10/13/103701): 2023/10/13
 - [SOLID - Wikipedia](https://ja.wikipedia.org/wiki/SOLID): 2023/10/13
 - [Docker Compose Watchのすすめ - Hatena Developer Blog](https://developer.hatenastaff.com/entry/2023/10/13/120000): 2023/10/13
 - [Docker Compose Watchのすすめ - Hatena Developer Blog](https://developer.hatenastaff.com/entry/2023/10/13/120000): 2023/10/13
