@@ -1,3 +1,4 @@
+- [AIDB on X: "LLMに聞きたいことの一歩後ろから質問をはじめる『ステップバック・プロンプティング』が、様々なベンチマークでCoTやTake a Deep Breatheを凌駕する性能を発揮…](https://x.com/ai_database/status/1712311244072624445?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/13
 - [AIDB on X: "複数のエージェントに協力して仕事を開始させ、タスクの進行に応じて重要なエージェントを取捨選択する『Dynamic LLM-Agent Network（DyLAN）』フレームワ…](https://x.com/ai_database/status/1712422166665510999?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/13
 - [有料会員向けサービス　朝刊・夕刊:日経電子版](https://www.nikkei.com/paper/article/?b=20231013&ng=DGKKZO75228640S3A011C2EA1000): 2023/10/13
 - [Domain Driven Design（ドメイン駆動設計） Quickly 日本語版](https://www.infoq.com/jp/minibooks/domain-driven-design-quickly/): 2023/10/13
