@@ -1,3 +1,4 @@
+- [SOLID - Wikipedia](https://ja.wikipedia.org/wiki/SOLID): 2023/10/13
 - [Docker Compose Watchのすすめ - Hatena Developer Blog](https://developer.hatenastaff.com/entry/2023/10/13/120000): 2023/10/13
 - [Docker Compose Watchのすすめ - Hatena Developer Blog](https://developer.hatenastaff.com/entry/2023/10/13/120000): 2023/10/13
 - [AIDB on X: "LLMに聞きたいことの一歩後ろから質問をはじめる『ステップバック・プロンプティング』が、様々なベンチマークでCoTやTake a Deep Breatheを凌駕する性能を発揮…](https://x.com/ai_database/status/1712311244072624445?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/13
