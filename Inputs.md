@@ -1,3 +1,4 @@
+- [｢AIと共同作業したい｣と本気で思った。アドビの次なる生成AIの凄さ【Adobe Max 2023現地レポート】 | ギズモード・ジャパン](https://www.gizmodo.jp/2023/10/adobe-max-2023-1.html): 2023/10/14
 - [React/Next によるアプリケーション開発のこれから - Speaker Deck](https://speakerdeck.com/koba04/next-niyoruapurikesiyonkai-fa-nokorekara?slide=34): 2023/10/13
 - [AIにニュースの収集を任せている方法。（GPT-4からSlack投稿） - toyoshiの日記](https://toyoshi.hatenablog.com/entry/2023/10/13/103701): 2023/10/13
 - [SOLID - Wikipedia](https://ja.wikipedia.org/wiki/SOLID): 2023/10/13
