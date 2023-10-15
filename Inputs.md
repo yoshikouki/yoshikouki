@@ -1,3 +1,4 @@
+- [個人開発で参考になるNext.jsリポジトリ10選](https://zenn.dev/ya_s_u/articles/awesome-nextjs-repos): 2023/10/15
 - [DDDを実践するための手引き（リポジトリパターン編）](https://zenn.dev/kohii/articles/e4f325ed011db8): 2023/10/15
 - [DDDを実践するための手引き（概論・導入編）](https://zenn.dev/kohii/articles/b96634b9a14897): 2023/10/15
 - [CQRS 完全に理解した](https://zenn.dev/shmi593/articles/c1baeb2d453929): 2023/10/15
