@@ -1,3 +1,4 @@
+- [CQRS 完全に理解した](https://zenn.dev/shmi593/articles/c1baeb2d453929): 2023/10/15
 - [DDD Europe 2016](https://www.zweitag.de/en/blog-article/ddd-europe-2016): 2023/10/15
 - [言語的相対論 - Wikipedia](https://ja.m.wikipedia.org/wiki/%E8%A8%80%E8%AA%9E%E7%9A%84%E7%9B%B8%E5%AF%BE%E8%AB%96): 2023/10/15
 - [言語的相対論 - Wikipedia](https://ja.m.wikipedia.org/wiki/%E8%A8%80%E8%AA%9E%E7%9A%84%E7%9B%B8%E5%AF%BE%E8%AB%96): 2023/10/14
