@@ -1,3 +1,4 @@
+- [質とスピード（2020秋100分拡大版） / Quality and Speed 2020 Autumn Edition - Speaker Deck](https://speakerdeck.com/twada/quality-and-speed-2020-autumn-edition): 2023/10/18
 - [良いコードとは何か - エンジニア新卒研修 スライド公開｜CyberZ Developer](https://note.com/cyberz_cto/n/n26f535d6c575): 2023/10/18
 - [イラストで理解するSOLID原則 #初心者 - Qiita](https://qiita.com/baby-degu/items/d058a62f145235a0f007): 2023/10/17
 - [WEB+DB PRESSと私 - Speaker Deck](https://speakerdeck.com/inao/oedo10): 2023/10/17
