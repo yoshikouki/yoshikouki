@@ -1,3 +1,4 @@
+- [Overview | Auth.js](https://authjs.dev/reference/adapters): 2023/10/19
 - [オブジェクト指向のその前に-凝集度と結合度/Coheision-Coupling - Speaker Deck](https://speakerdeck.com/sonatard/coheision-coupling?slide=61): 2023/10/19
 - [VRで視力回復するメカニズムを最新の研究事例から解説！ – XR-Hub](https://xr-hub.com/archives/2874): 2023/10/18
 - [世界一わかりやすいClean Architecture | PPT](https://www.slideshare.net/AtsushiNakamura4/clean-architecture-release): 2023/10/18
