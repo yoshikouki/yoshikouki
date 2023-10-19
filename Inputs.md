@@ -1,3 +1,4 @@
+- [オブジェクト指向のその前に-凝集度と結合度/Coheision-Coupling - Speaker Deck](https://speakerdeck.com/sonatard/coheision-coupling?slide=61): 2023/10/19
 - [VRで視力回復するメカニズムを最新の研究事例から解説！ – XR-Hub](https://xr-hub.com/archives/2874): 2023/10/18
 - [世界一わかりやすいClean Architecture | PPT](https://www.slideshare.net/AtsushiNakamura4/clean-architecture-release): 2023/10/18
 - [質とスピード（2020秋100分拡大版） / Quality and Speed 2020 Autumn Edition - Speaker Deck](https://speakerdeck.com/twada/quality-and-speed-2020-autumn-edition): 2023/10/18
