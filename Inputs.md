@@ -1,3 +1,4 @@
+- [CTO×PM公開2on1 〜ペパボのプロダクトマネジメントについて〜](https://hr.pepabo.com/interview/2023/10/20/9245): 2023/10/20
 - [Docker on Lima なツールを色々試してみた - freee Developers Hub](https://developers.freee.co.jp/entry/freee-docker-desktop-alternative): 2023/10/20
 - [行動変容 自分と世界を変える技術 / Behavior change techniques - Speaker Deck](https://speakerdeck.com/dmattsun/behavior-change-techniques): 2023/10/20
 - [Overview | Auth.js](https://authjs.dev/reference/adapters): 2023/10/19
