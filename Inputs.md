@@ -1,3 +1,4 @@
+- [行動変容 自分と世界を変える技術 / Behavior change techniques - Speaker Deck](https://speakerdeck.com/dmattsun/behavior-change-techniques): 2023/10/20
 - [Overview | Auth.js](https://authjs.dev/reference/adapters): 2023/10/19
 - [オブジェクト指向のその前に-凝集度と結合度/Coheision-Coupling - Speaker Deck](https://speakerdeck.com/sonatard/coheision-coupling?slide=61): 2023/10/19
 - [VRで視力回復するメカニズムを最新の研究事例から解説！ – XR-Hub](https://xr-hub.com/archives/2874): 2023/10/18
