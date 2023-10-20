@@ -1,3 +1,4 @@
+- [不振の「iPad」Appleが狙う逆転の一手 | AppBank](https://www.appbank.net/2023/10/20/technology/2599253.php): 2023/10/20
 - [CTO×PM公開2on1 〜ペパボのプロダクトマネジメントについて〜](https://hr.pepabo.com/interview/2023/10/20/9245): 2023/10/20
 - [Docker on Lima なツールを色々試してみた - freee Developers Hub](https://developers.freee.co.jp/entry/freee-docker-desktop-alternative): 2023/10/20
 - [行動変容 自分と世界を変える技術 / Behavior change techniques - Speaker Deck](https://speakerdeck.com/dmattsun/behavior-change-techniques): 2023/10/20
