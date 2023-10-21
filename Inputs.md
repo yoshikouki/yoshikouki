@@ -1,3 +1,4 @@
+- [Meta の新しいリッチテキストエディターフレームワーク Lexical を調べる](https://zenn.dev/stin/articles/getting-started-with-lexical): 2023/10/21
 - [draft-js vs lexical vs medium-editor vs quill vs slate vs tiptap | npm trends](https://npmtrends.com/draft-js-vs-lexical-vs-medium-editor-vs-quill-vs-slate-vs-tiptap): 2023/10/21
 - [不振の「iPad」Appleが狙う逆転の一手 | AppBank](https://www.appbank.net/2023/10/20/technology/2599253.php): 2023/10/20
 - [CTO×PM公開2on1 〜ペパボのプロダクトマネジメントについて〜](https://hr.pepabo.com/interview/2023/10/20/9245): 2023/10/20
