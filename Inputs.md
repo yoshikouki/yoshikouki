@@ -1,3 +1,4 @@
+- [リッチテキストエディタフレームワークLexicalの実践的な使い方 - バイセル Tech Blog](https://tech.buysell-technologies.com/entry/2023/05/02/083000): 2023/10/22
 - [Meta の新しいリッチテキストエディターフレームワーク Lexical を調べる(実践編)](https://zenn.dev/stin/articles/lexical-rich-editor-trial): 2023/10/22
 - [Meta の新しいリッチテキストエディターフレームワーク Lexical を調べる](https://zenn.dev/stin/articles/getting-started-with-lexical): 2023/10/21
 - [draft-js vs lexical vs medium-editor vs quill vs slate vs tiptap | npm trends](https://npmtrends.com/draft-js-vs-lexical-vs-medium-editor-vs-quill-vs-slate-vs-tiptap): 2023/10/21
