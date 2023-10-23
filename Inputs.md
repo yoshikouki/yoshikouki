@@ -1,3 +1,4 @@
+- [Apple Insiders Expose iPhone 16 Pro’s Chaotic AI Plans](https://www.forbes.com/sites/ewanspence/2023/10/22/apple-iphone-16-iphone-16-pro-ios-18-chatgpt-generative-ai-llm-ai/?sh=79cd73431501): 2023/10/23
 - [Ollama](https://ollama.ai/): 2023/10/23
 - [明るさ調整可能、家でも外でも見やすい「XREAL Air 2 Pro」11月17日発売 - Impress Watch](https://www.watch.impress.co.jp/docs/news/1539873.html): 2023/10/23
 - [リッチテキストエディタフレームワークLexicalの実践的な使い方 - バイセル Tech Blog](https://tech.buysell-technologies.com/entry/2023/05/02/083000): 2023/10/22
