@@ -1,3 +1,4 @@
+- [【SUUMO】4LDK/4階/129.81m2（アパマンショップ鹿児島南店(有)ビルム提供）／鹿児島県鹿児島市城山町／水族館口駅の賃貸・部屋探し情報（100348161108） | 賃貸マンション・…](https://suumo.jp/chintai/bc_100348161108/): 2023/10/23
 - [Apple Insiders Expose iPhone 16 Pro’s Chaotic AI Plans](https://www.forbes.com/sites/ewanspence/2023/10/22/apple-iphone-16-iphone-16-pro-ios-18-chatgpt-generative-ai-llm-ai/?sh=79cd73431501): 2023/10/23
 - [Ollama](https://ollama.ai/): 2023/10/23
 - [明るさ調整可能、家でも外でも見やすい「XREAL Air 2 Pro」11月17日発売 - Impress Watch](https://www.watch.impress.co.jp/docs/news/1539873.html): 2023/10/23
