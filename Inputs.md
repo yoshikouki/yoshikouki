@@ -1,3 +1,4 @@
+- [明るさ調整可能、家でも外でも見やすい「XREAL Air 2 Pro」11月17日発売 - Impress Watch](https://www.watch.impress.co.jp/docs/news/1539873.html): 2023/10/23
 - [リッチテキストエディタフレームワークLexicalの実践的な使い方 - バイセル Tech Blog](https://tech.buysell-technologies.com/entry/2023/05/02/083000): 2023/10/22
 - [Meta の新しいリッチテキストエディターフレームワーク Lexical を調べる(実践編)](https://zenn.dev/stin/articles/lexical-rich-editor-trial): 2023/10/22
 - [Meta の新しいリッチテキストエディターフレームワーク Lexical を調べる](https://zenn.dev/stin/articles/getting-started-with-lexical): 2023/10/21
