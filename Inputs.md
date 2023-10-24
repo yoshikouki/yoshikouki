@@ -1,3 +1,4 @@
+- [キャッチアップ速度が速い #とは - Speaker Deck](https://speakerdeck.com/nrryuya/kiyatutiatuhusu-du-kasu-i-number-toha): 2023/10/24
 
 - [VercelへのデプロイをGitHub Actions経由で行うことでVercelチームメンバー以外でも開発に参加できるようにする](https://zenn.dev/ttskch/articles/691fb62fbb6b1b): 2023/10/23
 - [アニメ系イラストに特化した生成AI「にじジャーニー」のスマホアプリ「niji・journey」が正式公開されたので使ってみた - GIGAZINE](https://gigazine.net/news/20231023-niji-journey-mobile-app/): 2023/10/23
