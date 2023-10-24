@@ -1,3 +1,4 @@
+- [Welcome — Phoenix LiveView v0.20.1](https://hexdocs.pm/phoenix_live_view/welcome.html): 2023/10/24
 - [キャッチアップ速度が速い #とは - Speaker Deck](https://speakerdeck.com/nrryuya/kiyatutiatuhusu-du-kasu-i-number-toha): 2023/10/24
 
 - [VercelへのデプロイをGitHub Actions経由で行うことでVercelチームメンバー以外でも開発に参加できるようにする](https://zenn.dev/ttskch/articles/691fb62fbb6b1b): 2023/10/23
