@@ -1,3 +1,4 @@
+- [Next.js Server Actions の裏側を理解したくて動きとコードを追う](https://zenn.dev/cybozu_frontend/articles/server-actions-deep-dive): 2023/10/24
 
 - [なんとなくでuseStateを使うのをやめたい。](https://zenn.dev/shiro12/articles/e5f2093ac7eea2): 2023/10/24
 
