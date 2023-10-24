@@ -1,3 +1,4 @@
+- [なんとなくでuseStateを使うのをやめたい。](https://zenn.dev/shiro12/articles/e5f2093ac7eea2): 2023/10/24
 
 - [Welcome — Phoenix LiveView v0.20.1](https://hexdocs.pm/phoenix_live_view/welcome.html): 2023/10/24
 - [キャッチアップ速度が速い #とは - Speaker Deck](https://speakerdeck.com/nrryuya/kiyatutiatuhusu-du-kasu-i-number-toha): 2023/10/24
