@@ -1,3 +1,4 @@
+- [Fanny Kemble | British Actress, Abolitionist, Playwright | Britannica](https://www.britannica.com/biography/Fanny-Kemble): 2023/10/26
 - [Is there a way to enforce strict node ordering (Eg. Ensuring that a document has a title) · faceboo…](https://github.com/facebook/lexical/discussions/2987): 2023/10/26
 
 - [Home | Laws of UX](https://lawsofux.com/): 2023/10/25
