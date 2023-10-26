@@ -1,3 +1,4 @@
+- [Is there a way to enforce strict node ordering (Eg. Ensuring that a document has a title) · faceboo…](https://github.com/facebook/lexical/discussions/2987): 2023/10/26
 
 - [Home | Laws of UX](https://lawsofux.com/): 2023/10/25
 - [ベルの不等式とは何か(CHSH不等式) - YouTube](https://youtube.com/watch?v=O99Zy-6YwoU&si=S7HonF-Dhl1m75gz): 2023/10/25
