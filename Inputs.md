@@ -1,3 +1,4 @@
+- [家の購入を考え始めたら読んでほしい。購入体験を良くするために知りたいことの全て｜Yuko Kawashima](https://note.com/yuko_kawashima/n/ne4ba98448d5a): 2023/10/26
 - [Fanny Kemble | British Actress, Abolitionist, Playwright | Britannica](https://www.britannica.com/biography/Fanny-Kemble): 2023/10/26
 - [Is there a way to enforce strict node ordering (Eg. Ensuring that a document has a title) · faceboo…](https://github.com/facebook/lexical/discussions/2987): 2023/10/26
 
