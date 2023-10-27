@@ -1,3 +1,4 @@
+- [theme-color - HTML: ハイパーテキストマークアップ言語 | MDN](https://developer.mozilla.org/ja/docs/Web/HTML/Element/meta/name/theme-color): 2023/10/27
 
 - [家の購入を考え始めたら読んでほしい。購入体験を良くするために知りたいことの全て｜Yuko Kawashima](https://note.com/yuko_kawashima/n/ne4ba98448d5a): 2023/10/26
 - [Fanny Kemble | British Actress, Abolitionist, Playwright | Britannica](https://www.britannica.com/biography/Fanny-Kemble): 2023/10/26
