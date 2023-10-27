@@ -1,3 +1,4 @@
+- [XMLHttpRequest とはなんだったのか | blog.jxck.io](https://blog.jxck.io/entries/2022-09-30/XMLHttpRequest.html): 2023/10/27
 - [Astro 3.4: Page Partials | Astro](https://astro.build/blog/astro-340/): 2023/10/27
 - [Standard metadata names - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name#): 2023/10/27
 - [theme-color - HTML: ハイパーテキストマークアップ言語 | MDN](https://developer.mozilla.org/ja/docs/Web/HTML/Element/meta/name/theme-color): 2023/10/27
