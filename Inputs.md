@@ -1,3 +1,4 @@
+- [サーバーサイドの人を React に引き込む作戦――コンポーネントベースの考え方をまとめる](https://zenn.dev/honey32/scraps/1c66725ee2de02): 2023/10/27
 - [XMLHttpRequest とはなんだったのか | blog.jxck.io](https://blog.jxck.io/entries/2022-09-30/XMLHttpRequest.html): 2023/10/27
 - [Astro 3.4: Page Partials | Astro](https://astro.build/blog/astro-340/): 2023/10/27
 - [Standard metadata names - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name#): 2023/10/27
