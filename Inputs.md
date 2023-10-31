@@ -1,3 +1,4 @@
+- [エフェクトは必要ないかもしれない – React](https://ja.react.dev/learn/you-might-not-need-an-effect): 2023/10/31
 - [Daichi Ninomiya on X: "shadcn がお勧めしていた Klack を試してみる。 ◆ キーストロークごとに心地よいサウンドが ◆ 空間オーディオで没入できる ◆ 600円買い…](https://x.com/d151005/status/1719180635661832284?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/31
 
 - [LLMのファインチューニングのためのツール Axolotl｜npaka](https://note.com/npaka/n/ne27e0ceec960): 2023/10/31
