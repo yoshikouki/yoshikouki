@@ -1,3 +1,4 @@
+
 - [Vercel PostgresがどうやってEdge RuntimeでORMとコネクションプールを使えるようにしているのか](https://zenn.dev/laiso/articles/542fdfac2acb6b): 2023/10/30
 - [Fat_Modelを解消するためのCQRSアーキテクチャ.pdf - Speaker Deck](https://speakerdeck.com/krpk1900/fat-modelwojie-xiao-surutamenocqrsakitekutiya): 2023/10/28
 - [サーバーサイドの人を React に引き込む作戦――コンポーネントベースの考え方をまとめる](https://zenn.dev/honey32/scraps/1c66725ee2de02): 2023/10/27
