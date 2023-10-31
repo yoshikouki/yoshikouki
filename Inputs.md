@@ -1,3 +1,4 @@
+- [エフェクトは必要ないかもしれない – React](https://ja.react.dev/learn/you-might-not-need-an-effect): 2023/10/31
 
 - [Vercel PostgresがどうやってEdge RuntimeでORMとコネクションプールを使えるようにしているのか](https://zenn.dev/laiso/articles/542fdfac2acb6b): 2023/10/30
 - [Fat_Modelを解消するためのCQRSアーキテクチャ.pdf - Speaker Deck](https://speakerdeck.com/krpk1900/fat-modelwojie-xiao-surutamenocqrsakitekutiya): 2023/10/28
