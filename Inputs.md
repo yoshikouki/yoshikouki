@@ -1,3 +1,4 @@
+- [「作ってから売る」と「売ってから作る」と「売れるようにしてから作る」　～技術の社会実装のための『開発』～ - Speaker Deck](https://speakerdeck.com/tumada/zuo-tutekaramai-ru-to-mai-tutekarazuo-ru-to-mai-reruyounisitekarazuo-ru): 2023/10/31
 - [エフェクトは必要ないかもしれない – React](https://ja.react.dev/learn/you-might-not-need-an-effect): 2023/10/31
 
 - [Vercel PostgresがどうやってEdge RuntimeでORMとコネクションプールを使えるようにしているのか](https://zenn.dev/laiso/articles/542fdfac2acb6b): 2023/10/30
