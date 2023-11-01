@@ -1,3 +1,4 @@
+- [もとやま📚著書『投資としての読書』 on X: "本日のオススメ本は『リーダーシップに出会う瞬間』 「リーダーなんて〇んでもなりたくない」と思っている人ほど刺さる一冊です。 物語形式で書かれていて…](https://x.com/ysk_motoyama/status/1689407726768762885?s=20): 2023/11/1
 - [従来の小さなニューラルネットワークでも「メタ学習」でChatGPTを凌駕するほど高度な生成AIができるとの報告、Nature誌 | AIDB](https://aiboom.net/archives/57838): 2023/11/1
 - [エフェクトは必要ないかもしれない – React](https://ja.react.dev/learn/you-might-not-need-an-effect): 2023/10/31
 - [Daichi Ninomiya on X: "shadcn がお勧めしていた Klack を試してみる。 ◆ キーストロークごとに心地よいサウンドが ◆ 空間オーディオで没入できる ◆ 600円買い…](https://x.com/d151005/status/1719180635661832284?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/31
