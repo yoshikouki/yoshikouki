@@ -1,3 +1,4 @@
+- [WALL FOR ONE](https://tent1000.com/wallforone/): 2023/11/1
 
 - [RailsアプリのCI高速化](https://r7kamura.com/articles/2023-10-31-rails-ci): 2023/11/1
 - [Lucide React | Lucide](https://lucide.dev/guide/packages/lucide-react): 2023/11/1
