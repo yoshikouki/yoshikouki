@@ -1,3 +1,4 @@
+- [Subsetting – Fonts Knowledge - Google Fonts](https://fonts.google.com/knowledge/glossary/subsetting): 2023/11/2
 - [GitHub - astoilkov/use-local-storage-state: React hook that persists data in localStorage](https://github.com/astoilkov/use-local-storage-state): 2023/11/1
 - [WALL FOR ONE](https://tent1000.com/wallforone/): 2023/11/1
 
