@@ -1,3 +1,4 @@
+- [Rehype Pretty Code](https://rehype-pretty-code.netlify.app/): 2023/11/2
 - [【革命】リアルタイムボイチェンソフト「VC Client」でついに念願のカワボをてにいれたぞ！｜星影](https://note.com/unsoluble_sugar/n/ndd8781101700): 2023/11/2
 - [RailsアプリのCI高速化](https://r7kamura.com/articles/2023-10-31-rails-ci): 2023/11/2
 - [Subsetting – Fonts Knowledge - Google Fonts](https://fonts.google.com/knowledge/glossary/subsetting): 2023/11/2
