@@ -1,3 +1,4 @@
+- [Service Workerのライフサイクルについて - YouTube](https://youtube.com/live/AIdQkNYsViM?si=MxJubWIILUT6C7XR): 2023/11/3
 - [Workspaces – Package manager | Bun Docs](https://bun.sh/docs/install/workspaces): 2023/11/3
 - [GitHub - shadowwalker/next-pwa: Zero config PWA plugin for Next.js, with workbox 🧰](https://github.com/shadowwalker/next-pwa): 2023/11/2
 - [Rehype Pretty Code](https://rehype-pretty-code.netlify.app/): 2023/11/2
