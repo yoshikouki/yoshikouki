@@ -1,3 +1,4 @@
+- [Stately | Understand your app logic](https://stately.ai/): 2023/11/3
 - [Service Worker のライフサイクル | Articles | web.dev](https://web.dev/articles/service-worker-lifecycle?hl=ja): 2023/11/3
 - [Service Workerについて調べたのでメモ](https://zenn.dev/s_takashi/articles/b01980461f3b21): 2023/11/3
 - [Service Workerのライフサイクルについて - YouTube](https://youtube.com/live/AIdQkNYsViM?si=MxJubWIILUT6C7XR): 2023/11/3
