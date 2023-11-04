@@ -1,3 +1,4 @@
+- [useReducerの活用方法を広げてみよう](https://zenn.dev/k_log24/articles/289bdb1070f57d): 2023/11/4
 - [Stately | Understand your app logic](https://stately.ai/): 2023/11/3
 - [Service Worker のライフサイクル | Articles | web.dev](https://web.dev/articles/service-worker-lifecycle?hl=ja): 2023/11/3
 - [Service Workerについて調べたのでメモ](https://zenn.dev/s_takashi/articles/b01980461f3b21): 2023/11/3
