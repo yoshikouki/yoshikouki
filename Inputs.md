@@ -1,3 +1,4 @@
+- [xAI��AI�{�b�g�uGrok�v�AX�v���~�A���̃n�C�G���h�v�����Œ񋟂� - ITmedia NEWS](https://www.itmedia.co.jp/news/spv/2311/05/news031.html): 2023/11/5
 - [Be able to create service-worker in typescript · Issue #33863 · vercel/next.js · GitHub](https://github.com/vercel/next.js/issues/33863): 2023/11/5
 - [Vibration API - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Vibration_API): 2023/11/5
 - [イーロン・マスク「宇宙の本質理解する」人工知能企業xAI、初のAIを公開 | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2023/11/05/2199.html): 2023/11/5
