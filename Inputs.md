@@ -1,3 +1,4 @@
+- [Vibration API - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Vibration_API): 2023/11/5
 - [イーロン・マスク「宇宙の本質理解する」人工知能企業xAI、初のAIを公開 | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2023/11/05/2199.html): 2023/11/5
 - [useReducerの活用方法を広げてみよう](https://zenn.dev/k_log24/articles/289bdb1070f57d): 2023/11/4
 - [Stately | Understand your app logic](https://stately.ai/): 2023/11/3
