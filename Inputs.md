@@ -1,3 +1,4 @@
+- [Introducing GPTs](https://openai.com/blog/introducing-gpts): 2023/11/6
 - [「生成AIを仕事で使い倒す人たち」に取材して回ったら「自分の10年後の失業」が見えてしまった | Books&amp;Apps](https://blog.tinect.jp/?p=83992): 2023/11/6
 - [xAI��AI�{�b�g�uGrok�v�AX�v���~�A���̃n�C�G���h�v�����Œ񋟂� - ITmedia NEWS](https://www.itmedia.co.jp/news/spv/2311/05/news031.html): 2023/11/5
 - [Be able to create service-worker in typescript · Issue #33863 · vercel/next.js · GitHub](https://github.com/vercel/next.js/issues/33863): 2023/11/5
