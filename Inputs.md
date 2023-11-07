@@ -1,3 +1,4 @@
+- [catnose on X: "https://t.co/8uoCkmjAhW 触ってみたんだけど、めちゃくちゃ便利やんけ JPEG、PNGとかのビットマップ画像を数秒でSVGに変換できるやつなんだけ…](https://x.com/catnose99/status/1721717884941185169?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/11/7
 - [Introducing GPTs](https://openai.com/blog/introducing-gpts): 2023/11/6
 - [「生成AIを仕事で使い倒す人たち」に取材して回ったら「自分の10年後の失業」が見えてしまった | Books&amp;Apps](https://blog.tinect.jp/?p=83992): 2023/11/6
 - [xAI��AI�{�b�g�uGrok�v�AX�v���~�A���̃n�C�G���h�v�����Œ񋟂� - ITmedia NEWS](https://www.itmedia.co.jp/news/spv/2311/05/news031.html): 2023/11/5
