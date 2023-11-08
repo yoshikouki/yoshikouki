@@ -1,3 +1,4 @@
+- [Workboxを使うと何ができるのか？Workboxの各packageのまとめ #PWA - Qiita](https://qiita.com/kyntk/items/169ed1c93fc281116c2f): 2023/11/8
 - [Stickify](https://stickify.xyz/): 2023/11/8
 - [オペレーティング・システムから、オペレーティング・エージェントへ｜深津 貴之 (fladdict)](https://note.com/fladdict/n/nf4c104d4ed2b): 2023/11/7
 - [catnose on X: "https://t.co/8uoCkmjAhW 触ってみたんだけど、めちゃくちゃ便利やんけ JPEG、PNGとかのビットマップ画像を数秒でSVGに変換できるやつなんだけ…](https://x.com/catnose99/status/1721717884941185169?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/11/7
