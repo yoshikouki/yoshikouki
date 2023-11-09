@@ -1,3 +1,4 @@
+- [「AITuberを作ってみたら生成AIプログラミングがよくわかった件」が発売されました｜Saldra](https://note.com/saldra/n/nc5e09f822f1b?sub_rt=share_pb&s=31): 2023/11/9
 - [Workboxを使うと何ができるのか？Workboxの各packageのまとめ #PWA - Qiita](https://qiita.com/kyntk/items/169ed1c93fc281116c2f): 2023/11/8
 - [Stickify](https://stickify.xyz/): 2023/11/8
 - [オペレーティング・システムから、オペレーティング・エージェントへ｜深津 貴之 (fladdict)](https://note.com/fladdict/n/nf4c104d4ed2b): 2023/11/7
