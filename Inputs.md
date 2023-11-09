@@ -1,3 +1,4 @@
+- [「イベントで3回連続誰も来なかった」描きたいものとやる気さえあれば一人でも続けることは可能／カレー沢薫の創作相談](https://www.pixivision.net/ja/a/9209): 2023/11/9
 - [「AITuberを作ってみたら生成AIプログラミングがよくわかった件」が発売されました｜Saldra](https://note.com/saldra/n/nc5e09f822f1b?sub_rt=share_pb&s=31): 2023/11/9
 - [Workboxを使うと何ができるのか？Workboxの各packageのまとめ #PWA - Qiita](https://qiita.com/kyntk/items/169ed1c93fc281116c2f): 2023/11/8
 - [Stickify](https://stickify.xyz/): 2023/11/8
