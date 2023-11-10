@@ -1,3 +1,4 @@
+- [GitHub、Copilotの将来像となる「Copilot Workspace」発表。人間がコードを書くことなく、Copilotが仕様作成からコード作成、デバッグまで実行。GitHub Univer…](https://www.publickey1.jp/blog/23/githubcopilotcopilot_workspacecopilotcopilotgithub_universe_2023.html): 2023/11/10
 - [OpenAI DevDay で発表された新モデルと新開発ツール まとめ｜npaka](https://note.com/npaka/n/n9cd206d96f85#713ea787-4527-431c-b590-ed5611310f31): 2023/11/10
 - [「システム設計の面接試験」という本が良かった](https://zenn.dev/taiga533/articles/3e3671d92e6cfe): 2023/11/9
 - [「ソフトウェアアーキテクチャの基礎」を読んだので、その要点 #アーキテクチャ - Qiita](https://qiita.com/e99h2121/items/1844f5ed8da453a6dfb0): 2023/11/9
