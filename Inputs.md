@@ -1,3 +1,4 @@
+- [GPT-4 Turbo、GPTs、Assistants APIはこう使う！GPT4を使いこなす猛者達のOpenAI最新アプデ活用事例10選 | WEEL](https://weel.co.jp/media/gpt-4-turbo-gpts-assistants-api): 2023/11/10
 - [Contextual and Nonstationary Multi-armed Bandits Using the Linear Gaussian State Space Model for th…](https://speakerdeck.com/monochromegane/contextual-and-nonstationary-multi-armed-bandits-using-the-linear-gaussian-state-space-model-for-the-meta-recommender-system): 2023/11/10
 - [GitHub、Copilotの将来像となる「Copilot Workspace」発表。人間がコードを書くことなく、Copilotが仕様作成からコード作成、デバッグまで実行。GitHub Univer…](https://www.publickey1.jp/blog/23/githubcopilotcopilot_workspacecopilotcopilotgithub_universe_2023.html): 2023/11/10
 - [OpenAI DevDay で発表された新モデルと新開発ツール まとめ｜npaka](https://note.com/npaka/n/n9cd206d96f85#713ea787-4527-431c-b590-ed5611310f31): 2023/11/10
