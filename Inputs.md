@@ -1,3 +1,4 @@
+- [AGIへの道のり：LLMを活用した自律エージェントの開発とその挑戦｜0xpanda alpha lab](https://note.com/panda_lab/n/nfd2de1d3fa63): 2023/11/11
 - [GPT-4 Turbo、GPTs、Assistants APIはこう使う！GPT4を使いこなす猛者達のOpenAI最新アプデ活用事例10選 | WEEL](https://weel.co.jp/media/gpt-4-turbo-gpts-assistants-api): 2023/11/10
 - [Contextual and Nonstationary Multi-armed Bandits Using the Linear Gaussian State Space Model for th…](https://speakerdeck.com/monochromegane/contextual-and-nonstationary-multi-armed-bandits-using-the-linear-gaussian-state-space-model-for-the-meta-recommender-system): 2023/11/10
 - [GitHub、Copilotの将来像となる「Copilot Workspace」発表。人間がコードを書くことなく、Copilotが仕様作成からコード作成、デバッグまで実行。GitHub Univer…](https://www.publickey1.jp/blog/23/githubcopilotcopilot_workspacecopilotcopilotgithub_universe_2023.html): 2023/11/10
