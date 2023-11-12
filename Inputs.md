@@ -1,3 +1,4 @@
+- [Core Concepts – Turbopack](https://turbo.build/pack/docs/core-concepts): 2023/11/12
 - [Index – Turbopack](https://turbo.build/pack): 2023/11/12
 - [6 Tips to make your iOS PWA feel like a native app](https://www.netguru.com/blog/pwa-ios): 2023/11/12
 - [AGIへの道のり：LLMを活用した自律エージェントの開発とその挑戦｜0xpanda alpha lab](https://note.com/panda_lab/n/nfd2de1d3fa63): 2023/11/11
