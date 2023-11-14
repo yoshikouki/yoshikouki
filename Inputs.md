@@ -1,3 +1,4 @@
+- [The notification prompt can only be triggered by a user gesture on some browsers - Pushpad](https://pushpad.xyz/blog/the-notification-prompt-can-only-be-triggered-by-a-user-gesture-on-some-browsers): 2023/11/14
 - [親の歯周病が子供にうつるというのは本当ですか？ | 月島 勝どきで歯を残すならならユズデンタル｜](https://yuz-dental.com/dentalcolumn/20190924/): 2023/11/14
 - [アップル、iPhoneやMacのソフト刷新開発を一時停止－バグ修正に注力 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2023-11-07/S3RM9CDWRGG001): 2023/11/14
 - [加齢と共に傲慢にならないために](https://www.smokeymonkey.net/2023/11/blog-post.html?m=1): 2023/11/14
