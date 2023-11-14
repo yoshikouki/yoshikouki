@@ -1,3 +1,4 @@
+- [Labsから事業部へ、生成AIによるプロセスのリデザイン｜Matsumoto Yuki](https://note.com/y_matsuwitter/n/nf6a1b781d447): 2023/11/14
 - [LLM・生成AIという巨大トレンドにどう挑むか （LayerX創業以来の経験を踏まえて）｜中村 龍矢 | LayerX 事業部執行役員 AI・LLM事業部長](https://note.com/nrryuya/n/nb0cd6e53bdea): 2023/11/14
 - [Explore 3000+ Free UI Elements: CSS &amp; Tailwind](https://uiverse.io/): 2023/11/12
 - [Core Concepts – Turbopack](https://turbo.build/pack/docs/core-concepts): 2023/11/12
