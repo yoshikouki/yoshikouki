@@ -1,3 +1,4 @@
+- [ローコード開発ツール「Copilot Studio」発表。Copilotのカスタマイズ、プラグイン開発、ワークフロー設定などが可能に（Microsoft Ignite 2023） | テクノエッジ …](https://www.techno-edge.net/article/2023/11/17/2273.html): 2023/11/17
 - [エンジニアが給料を12倍にする方法 - k0kubun's blog](https://k0kubun.hatenablog.com/entry/12x-salary): 2023/11/16
 - [「SFプロトタイピング」で描く、“手触り”のある未来の価値と事業 | ウェブ電通報](https://dentsu-ho.com/articles/8567): 2023/11/16
 - [課題解決としての起業の終焉｜きゅーい / koyo](https://note.com/kiwiwi/n/n85123a242c18): 2023/11/16
