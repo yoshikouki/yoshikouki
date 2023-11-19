@@ -1,3 +1,4 @@
+- [シバタナオキ Naoki Shibata on X: "OpenAI　アルトマンCEO退任の詳細 今日はたまたま生成AIクラスターの人たちとMTGが立て続けにあって、MTG中にニュースが流れてきて、…](https://x.com/shibataism/status/1725739270466621489?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/11/19
 - [しゃべるようになったiPad miniに気持ちを整理してもらってます | ギズモード・ジャパン](https://www.gizmodo.jp/2023/11/how-to-use-chatgpt-voice-conversation-feature.html): 2023/11/17
 - [OpenAI announces leadership transition](https://openai.com/blog/openai-announces-leadership-transition): 2023/11/17
 - [ローコード開発ツール「Copilot Studio」発表。Copilotのカスタマイズ、プラグイン開発、ワークフロー設定などが可能に（Microsoft Ignite 2023） | テクノエッジ …](https://www.techno-edge.net/article/2023/11/17/2273.html): 2023/11/17
