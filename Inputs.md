@@ -1,3 +1,4 @@
+- [生きのびるための事務 | POPEYE Web | ポパイウェブ](https://popeyemagazine.jp/tag/ikinobirutameno-jimu/): 2023/11/21
 
 - [JavaScript なしで動作するモダンなコードの書き方 - Speaker Deck](https://speakerdeck.com/azukiazusa1/javascript-nasidedong-zuo-surumodannakodonoshu-kifang): 2023/11/21
 - [Font Variant Numeric - Tailwind CSS](https://tailwindcss.com/docs/font-variant-numeric#tabular-figures): 2023/11/21
