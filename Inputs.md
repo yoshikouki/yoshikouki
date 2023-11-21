@@ -1,3 +1,4 @@
+- [デザイナーが30年成長し続けるために知っておくべき罠 - Speaker Deck](https://speakerdeck.com/inoue_tatsunori/dezainaga30nian-cheng-chang-sisok-kerutamenizhi-tuteokubekimin): 2023/11/21
 - [生きのびるための事務 | POPEYE Web | ポパイウェブ](https://popeyemagazine.jp/tag/ikinobirutameno-jimu/): 2023/11/21
 
 - [JavaScript なしで動作するモダンなコードの書き方 - Speaker Deck](https://speakerdeck.com/azukiazusa1/javascript-nasidedong-zuo-surumodannakodonoshu-kifang): 2023/11/21
