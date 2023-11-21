@@ -1,3 +1,4 @@
+- [Font Variant Numeric - Tailwind CSS](https://tailwindcss.com/docs/font-variant-numeric#tabular-figures): 2023/11/21
 - [Intlの今までとこれから - Speaker Deck](https://speakerdeck.com/sajikix/intlnojin-madetokorekara): 2023/11/21
 - [シバタナオキ Naoki Shibata on X: "OpenAI　アルトマンCEO退任の詳細 今日はたまたま生成AIクラスターの人たちとMTGが立て続けにあって、MTG中にニュースが流れてきて、…](https://x.com/shibataism/status/1725739270466621489?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/11/19
 - [しゃべるようになったiPad miniに気持ちを整理してもらってます | ギズモード・ジャパン](https://www.gizmodo.jp/2023/11/how-to-use-chatgpt-voice-conversation-feature.html): 2023/11/17
