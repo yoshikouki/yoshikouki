@@ -1,3 +1,4 @@
+- [JavaScript なしで動作するモダンなコードの書き方 - Speaker Deck](https://speakerdeck.com/azukiazusa1/javascript-nasidedong-zuo-surumodannakodonoshu-kifang): 2023/11/21
 - [Font Variant Numeric - Tailwind CSS](https://tailwindcss.com/docs/font-variant-numeric#tabular-figures): 2023/11/21
 - [Intlの今までとこれから - Speaker Deck](https://speakerdeck.com/sajikix/intlnojin-madetokorekara): 2023/11/21
 - [シバタナオキ Naoki Shibata on X: "OpenAI　アルトマンCEO退任の詳細 今日はたまたま生成AIクラスターの人たちとMTGが立て続けにあって、MTG中にニュースが流れてきて、…](https://x.com/shibataism/status/1725739270466621489?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/11/19
