@@ -1,3 +1,4 @@
+- [「コードがむずかしい」からの脱却 - Speaker Deck](https://speakerdeck.com/jimpei/kodogamuzukasii-karanotuo-que): 2023/11/23
 - [iOS(16.4+)を含むブラウザでWeb Push機能を実装したメモ](https://zenn.dev/neriko/articles/2e0cde5f93ea95): 2023/11/23
 - [iOS16.4からiOSのSafariでもWebプッシュが受け取れる様になったので試してみた！ | ニフティライフスタイル Tech Blog](https://tech.niftylifestyle.co.jp/entry/815): 2023/11/23
 - [【VScode今までありがとう】新時代のコードエディタ、Cursorのメリット・できることを網羅的に解説した](https://zenn.dev/gamuprog/articles/53e7adee04b337): 2023/11/23
