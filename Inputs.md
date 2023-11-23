@@ -1,3 +1,4 @@
+- [【VScode今までありがとう】新時代のコードエディタ、Cursorのメリット・できることを網羅的に解説した](https://zenn.dev/gamuprog/articles/53e7adee04b337): 2023/11/23
 - [デザイナーが30年成長し続けるために知っておくべき罠 - Speaker Deck](https://speakerdeck.com/inoue_tatsunori/dezainaga30nian-cheng-chang-sisok-kerutamenizhi-tuteokubekimin): 2023/11/21
 - [生きのびるための事務 | POPEYE Web | ポパイウェブ](https://popeyemagazine.jp/tag/ikinobirutameno-jimu/): 2023/11/21
 
