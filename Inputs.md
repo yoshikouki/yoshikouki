@@ -1,3 +1,4 @@
+- [「しずかなインターネット」の技術スタックを調べる - laiso](https://laiso.hatenablog.com/entry/2023/11/23/210736): 2023/11/25
 - [「しずかなインターネット」の技術スタックを調べる - laiso](https://laiso.hatenablog.com/entry/2023/11/23/210736): 2023/11/23
 - [「コードがむずかしい」からの脱却 - Speaker Deck](https://speakerdeck.com/jimpei/kodogamuzukasii-karanotuo-que): 2023/11/23
 - [iOS(16.4+)を含むブラウザでWeb Push機能を実装したメモ](https://zenn.dev/neriko/articles/2e0cde5f93ea95): 2023/11/23
