@@ -1,3 +1,4 @@
+- [Google Colab で LCM LoRA を試す｜npaka](https://note.com/npaka/n/n940ee84ca5b6): 2023/11/27
 - [「しずかなインターネット」の技術スタックを調べる - laiso](https://laiso.hatenablog.com/entry/2023/11/23/210736): 2023/11/25
 - [「しずかなインターネット」の技術スタックを調べる - laiso](https://laiso.hatenablog.com/entry/2023/11/23/210736): 2023/11/23
 - [「コードがむずかしい」からの脱却 - Speaker Deck](https://speakerdeck.com/jimpei/kodogamuzukasii-karanotuo-que): 2023/11/23
