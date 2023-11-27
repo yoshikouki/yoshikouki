@@ -1,3 +1,4 @@
+- [「コテンラジオ」深井氏に聞く、歴史をビジネスの“武器”にする方法 | ウェブ電通報](https://dentsu-ho.com/articles/8658): 2023/11/27
 - [Google Colab で LCM LoRA を試す｜npaka](https://note.com/npaka/n/n940ee84ca5b6): 2023/11/27
 - [「しずかなインターネット」の技術スタックを調べる - laiso](https://laiso.hatenablog.com/entry/2023/11/23/210736): 2023/11/25
 - [「しずかなインターネット」の技術スタックを調べる - laiso](https://laiso.hatenablog.com/entry/2023/11/23/210736): 2023/11/23
