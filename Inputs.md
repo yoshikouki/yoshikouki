@@ -1,3 +1,4 @@
+- [「コテンラジオ」深井氏に聞く、日本人が“パフォーマンス”を上げるカギ | ウェブ電通報](https://dentsu-ho.com/articles/8659): 2023/11/28
 - [ローカルホストを実機でデバッグする(Mac and iPhone)](https://zenn.dev/gmomedia/articles/2adadb54bb5c4c): 2023/11/27
 - [引地耕太 | Creative Director on X: "先日デザイナーを目指すべきか悩んでいる学生から相談を受けた。「AI時代にデザインを勉強することはどう思いますか？」と。結論から言えば「…](https://x.com/kouta_hikichi/status/1728761159392870579?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/11/27
 - [生成AIを導入するなら、最初にCFOと話をしよう｜深津 貴之 (fladdict)](https://note.com/fladdict/n/ndcda55645ede): 2023/11/27
