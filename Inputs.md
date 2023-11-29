@@ -1,3 +1,4 @@
+- [ストーリーポイントではなくアウトカムで開発速度を測る #LayerXテックアドカレ - LayerX エンジニアブログ](https://tech.layerx.co.jp/entry/measure-development-speed-by-outcomes-not-story-points): 2023/11/29
 - [なぜ HTML の form は PUT / DELETE をサポートしないのか? | blog.jxck.io](https://blog.jxck.io/entries/2023-11-27/hixie.html): 2023/11/28
 - [「コテンラジオ」深井氏に聞く、日本人が“パフォーマンス”を上げるカギ | ウェブ電通報](https://dentsu-ho.com/articles/8659): 2023/11/28
 - [ローカルホストを実機でデバッグする(Mac and iPhone)](https://zenn.dev/gmomedia/articles/2adadb54bb5c4c): 2023/11/27
