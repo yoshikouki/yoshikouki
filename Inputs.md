@@ -1,3 +1,4 @@
+- [ASCII.jp：コロナ禍の裏で中国で爆発的に増えたRISC-Vコアの出荷数　RISC-Vプロセッサー遍歴 (1/3)](https://ascii.jp/elem/000/004/171/4171502/): 2023/11/29
 - [思ったより全然使えそう。OpenAIが提供する｢有用GPT｣ランキング | ギズモード・ジャパン](https://www.gizmodo.jp/2023/11/useful-gpt-ranking.html): 2023/11/29
 - [507 Mechanical Movements](https://507movements.com/): 2023/11/29
 - [ストーリーポイントではなくアウトカムで開発速度を測る #LayerXテックアドカレ - LayerX エンジニアブログ](https://tech.layerx.co.jp/entry/measure-development-speed-by-outcomes-not-story-points): 2023/11/29
