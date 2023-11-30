@@ -1,3 +1,4 @@
+- [3DCGの終焉とAI生成レンダリングという未来｜kogu](https://note.com/kogu_dev/n/ne0f9fbb47b0c): 2023/11/30
 - [AIの民主化が進む時代におけるバクラクのAI-OCR機能の開発戦略 #LayerXテックアドカレ - LayerX エンジニアブログ](https://tech.layerx.co.jp/entry/aiocr-in-llm-2023): 2023/11/30
 - [生成AIでシステム開発はどう変わるか - Speaker Deck](https://speakerdeck.com/etaroid/sheng-cheng-aidesisutemukai-fa-hadoubian-waruka): 2023/11/30
 - [【西川和久の不定期コラム】Stable Diffusion高速化の決定版登場！？品質落とさず制限もほぼなしで2～3倍速に - PC Watch](https://pc.watch.impress.co.jp/docs/column/nishikawa/1547611.html): 2023/11/30
