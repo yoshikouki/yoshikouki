@@ -1,3 +1,4 @@
+- [【西川和久の不定期コラム】Stable Diffusion高速化の決定版登場！？品質落とさず制限もほぼなしで2～3倍速に - PC Watch](https://pc.watch.impress.co.jp/docs/column/nishikawa/1547611.html): 2023/11/30
 - [ベルメゾン 伸縮できる腰高本棚 「 ホワイト ライトナチュラル ダークブラウン 」 ◆ B／90～150 ◆ ◇ 家具 収納 リビング 壁 本 棚 ラック 大容量 隙間 すき間 ◇](https://room.rakuten.co.jp/room_0434381144/1700227477555225): 2023/11/29
 - [UI Guideline](https://www.uiguideline.com/components): 2023/11/29
 - [GPTを利用したBotの精度を実用レベルに引き上げる１０個のアプローチ｜maKunugi](https://note.com/makunugi/n/n1661507618d5?sub_rt=share_pb): 2023/11/29
