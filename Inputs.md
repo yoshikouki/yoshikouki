@@ -1,3 +1,4 @@
+
 - [なぜ Server Actions を使うのか](https://azukiazusa.dev/blog/why-use-server-actions/): 2023/11/30
 - [3DCGの終焉とAI生成レンダリングという未来｜kogu](https://note.com/kogu_dev/n/ne0f9fbb47b0c): 2023/11/30
 - [AIの民主化が進む時代におけるバクラクのAI-OCR機能の開発戦略 #LayerXテックアドカレ - LayerX エンジニアブログ](https://tech.layerx.co.jp/entry/aiocr-in-llm-2023): 2023/11/30
