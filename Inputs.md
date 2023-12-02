@@ -1,3 +1,4 @@
+- [作業時間を可視化し、生産性を向上させる『Wakatime』を使ってみた。](https://zenn.dev/ackndev/articles/c1308e1dac265b): 2023/12/2
 
 - [なぜ Server Actions を使うのか](https://azukiazusa.dev/blog/why-use-server-actions/): 2023/11/30
 - [3DCGの終焉とAI生成レンダリングという未来｜kogu](https://note.com/kogu_dev/n/ne0f9fbb47b0c): 2023/11/30
