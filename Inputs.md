@@ -1,3 +1,4 @@
+- [「最も使っている」プログラミング言語で異変、前年首位のJavaが王座陥落 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/02670/112900001/): 2023/12/4
 - [セールスアニマルになろう v2 🦄 - スタートアップの営業活動 (1) 🎰 - Speaker Deck](https://speakerdeck.com/tumada/serusuanimaruninarou-v2-sutatoatupufalseying-ye-huo-dong-1): 2023/12/4
 
 - [OSS 観光名所を貼るスレ - ぽ靴な缶](https://blog.pokutuna.com/entry/oss-sightseeing-spots): 2023/12/3
