@@ -1,3 +1,4 @@
+- [「オタク」に関する消費者アンケート調査を実施（2023年） | ニュース・トピックス | 市場調査とマーケティングの矢野経済研究所](https://www.yano.co.jp/press-release/show/press_id/3382): 2023/12/5
 - [中途入社や部署異動で来た新メンバーを活躍しづらくするアンチパターン #新人プログラマ応援 - Qiita](https://qiita.com/kojimadev/items/06506d374f19493d7e72): 2023/12/5
 - [iPhone や iPad Pro で Face ID が無効という警告が表示される場合 - Apple サポート (日本)](https://support.apple.com/ja-jp/105130?cid=iOS_SettingsUI_iphone_article_HT208186?cid=iOS_SettingsUI_iphone_article_HT208186): 2023/12/4
 - [「最も使っている」プログラミング言語で異変、前年首位のJavaが王座陥落 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/02670/112900001/): 2023/12/4
