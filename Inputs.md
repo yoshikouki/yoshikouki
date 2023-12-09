@@ -1,4 +1,5 @@
 - [package by feature のススメ](https://zenn.dev/pandanoir/articles/d74d317f2b3caf): 2023/12/9
+- [package by feature のススメ](https://zenn.dev/pandanoir/articles/d74d317f2b3caf): 2023/12/9
 - [VSCode のおすすめ拡張機能 2023年度版](https://zenn.dev/yumemi_inc/articles/45ffb104c1d0a9): 2023/12/7
 - [3rd Party Cookieのカレンダー | Advent Calendar 2023 - Qiita](https://qiita.com/advent-calendar/2023/3rd-party-cookie): 2023/12/6
 - [3rd Party Cookieのカレンダー | Advent Calendar 2023 - Qiita](https://qiita.com/advent-calendar/2023/3rd-party-cookie): 2023/12/6
