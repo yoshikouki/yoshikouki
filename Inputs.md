@@ -1,3 +1,4 @@
+- [Appleによる大規模言語モデル「FERRET」を調査！他のLLMとの違い、性能を完全解説｜ChatGPT大学](https://note.com/chatgpt_univ/n/nece3f0a13318): 2023/12/10
 - [package by feature のススメ](https://zenn.dev/pandanoir/articles/d74d317f2b3caf): 2023/12/9
 - [package by feature のススメ](https://zenn.dev/pandanoir/articles/d74d317f2b3caf): 2023/12/9
 - [VSCode のおすすめ拡張機能 2023年度版](https://zenn.dev/yumemi_inc/articles/45ffb104c1d0a9): 2023/12/7
