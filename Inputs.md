@@ -1,3 +1,4 @@
+- [Arc Browser はいいぞ！ - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2023/12/13/0700): 2023/12/13
 - [Appleによる大規模言語モデル「FERRET」を調査！他のLLMとの違い、性能を完全解説｜ChatGPT大学](https://note.com/chatgpt_univ/n/nece3f0a13318): 2023/12/10
 - [package by feature のススメ](https://zenn.dev/pandanoir/articles/d74d317f2b3caf): 2023/12/9
 - [package by feature のススメ](https://zenn.dev/pandanoir/articles/d74d317f2b3caf): 2023/12/9
