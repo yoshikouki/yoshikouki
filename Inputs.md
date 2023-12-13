@@ -1,3 +1,4 @@
+- [�u�C�i�Y�}�C���u���v�u�d���E�H�b�\`�v�ŉ摜����AI�����p�@���x���t�@�C�u��AI���p�Ⴊ���J�Ɂi1/2 �y�[�W�j -…](https://www.itmedia.co.jp/news/articles/2312/12/news175.html): 2023/12/13
 - [Arc Browser はいいぞ！ - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2023/12/13/0700): 2023/12/13
 - [Appleによる大規模言語モデル「FERRET」を調査！他のLLMとの違い、性能を完全解説｜ChatGPT大学](https://note.com/chatgpt_univ/n/nece3f0a13318): 2023/12/10
 - [package by feature のススメ](https://zenn.dev/pandanoir/articles/d74d317f2b3caf): 2023/12/9
