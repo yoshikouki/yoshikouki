@@ -1,3 +1,4 @@
+- [WebVR — ウェブによる仮想現実 - ゲーム開発 | MDN](https://developer.mozilla.org/ja/docs/Games/Techniques/3D_on_the_web/WebXR): 2023/12/14
 - [three.js で VRM を表示する (1) - 事始め｜npaka](https://note.com/npaka/n/n477c15fedaef): 2023/12/14
 - [不動産の人に「今後どの地域に家を買ったら良いか？」と聞いたら「生鮮食品に強いスーパーがある地域」と言われた→その理由とは？ - Togetter](https://togetter.com/li/2275079): 2023/12/14
 - [レガシーフロントエンドをNext.jsにリプレイス　「開発生産性の向上」を感じさせてくれた5つのこと - ログミーTech](https://logmi.jp/tech/articles/329780): 2023/12/13
