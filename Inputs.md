@@ -1,3 +1,4 @@
+- [vrma-loader-sample](https://tfuru.github.io/vrma-loader-sample/): 2023/12/15
 - [GLTFやVrmをreact-three-fiberまたはThree.js＋Reactで表示する](https://zenn.dev/yosipy/articles/730c762cb04f83): 2023/12/15
 - [便利すぎて反則級、ずるい無料デザインツール・素材80選【2023年ベスト】 | PhotoshopVIP](https://photoshopvip.net/154352): 2023/12/15
 - [WebVR — ウェブによる仮想現実 - ゲーム開発 | MDN](https://developer.mozilla.org/ja/docs/Games/Techniques/3D_on_the_web/WebXR): 2023/12/14
