@@ -1,3 +1,4 @@
+- [チームで仕事をするなら、リアクションし続けよ｜森 一貴（Mori Kazuki）](https://note.com/dutoit6/n/ned66041f43ff): 2023/12/18
 - [WasmでLLMが動く仕組みの解説](https://zenn.dev/skanehira/articles/2023-12-16-wasm-llm-how-to-work): 2023/12/17
 - [VRMを作成する [VirtualCast]](https://wiki.virtualcast.jp/wiki/vrm/make): 2023/12/17
 - [コードレビューの優先順位を高めたらチームの生産量が上がった話](https://zenn.dev/counterworks/articles/ff83d90fdbe03c): 2023/12/16
