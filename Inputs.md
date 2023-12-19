@@ -1,3 +1,4 @@
+- [これは嬉しい　ChatGPTプロンプト書き方のコツ、OpenAIが公開 - 週刊アスキー](https://weekly.ascii.jp/elem/000/004/175/4175960/): 2023/12/19
 - [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://efcl.notion.site/Open-Job-Letter-v2-ce8b95c88bb74eff9dc4d0f347fcaf9d): 2023/12/19
 - [Web フロントエンドの推しディレクトリ構成と Next.js App Router なコードベース | Offers Tech Blog](https://zenn.dev/overflow_offers/articles/20231215-directory-structure): 2023/12/19
 - [Web フロントエンドにおけるコロケーション (co-location) という考え方について - mizdra's blog](https://www.mizdra.net/entry/2022/12/11/203940): 2023/12/19
