@@ -1,3 +1,4 @@
+- [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://efcl.notion.site/Open-Job-Letter-v2-ce8b95c88bb74eff9dc4d0f347fcaf9d): 2023/12/19
 - [Web フロントエンドの推しディレクトリ構成と Next.js App Router なコードベース | Offers Tech Blog](https://zenn.dev/overflow_offers/articles/20231215-directory-structure): 2023/12/19
 - [Web フロントエンドにおけるコロケーション (co-location) という考え方について - mizdra's blog](https://www.mizdra.net/entry/2022/12/11/203940): 2023/12/19
 - [チームで仕事をするなら、リアクションし続けよ｜森 一貴（Mori Kazuki）](https://note.com/dutoit6/n/ned66041f43ff): 2023/12/18
