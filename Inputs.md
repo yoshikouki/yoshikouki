@@ -1,3 +1,4 @@
+- [Webフロントエンドの開発効率を高く保つための考え方](https://zenn.dev/adwd/articles/e173f75c512e10): 2023/12/20
 - [クリーンアーキテクチャの功罪](https://zenn.dev/adwd/articles/5d4a89262f4fc5): 2023/12/20
 - [MozillaがAIでWebサイトを自動制作してくれる「Solo」を公開。基本的な情報を基に、説明文からレイアウト、適切なフリー画像の選択までおまかせ － Publickey](https://www.publickey1.jp/blog/23/mozillaaiwebsolo.html): 2023/12/19
 - [これは嬉しい　ChatGPTプロンプト書き方のコツ、OpenAIが公開 - 週刊アスキー](https://weekly.ascii.jp/elem/000/004/175/4175960/): 2023/12/19
