@@ -1,3 +1,4 @@
+- [個人開発で即戦力になるツール・サイトまとめ #Web - Qiita](https://qiita.com/tkdayo/items/5701013735c667d4cf03): 2023/12/23
 - [こんなエンジニアリングマネージャだから仕事がしやすいんだなぁと思う10個のこと - Mitsuyuki.Shiiba](https://bufferings.hatenablog.com/entry/2023/12/23/110403): 2023/12/23
 - [What I Wish Someone Had Told Me - Sam Altman](https://blog.samaltman.com/what-i-wish-someone-had-told-me): 2023/12/22
 - [iOSブラウザに対応したエディターを作るの大変すぎ問題](https://zenn.dev/catnose99/articles/03035be9ceea73): 2023/12/21
