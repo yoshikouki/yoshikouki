@@ -1,3 +1,4 @@
+- [年間退職率が 37.0% → 3.5% に！](https://zenn.dev/magicmoment/articles/team-growth-202312): 2023/12/25
 - [個人開発で即戦力になるツール・サイトまとめ #Web - Qiita](https://qiita.com/tkdayo/items/5701013735c667d4cf03): 2023/12/23
 - [こんなエンジニアリングマネージャだから仕事がしやすいんだなぁと思う10個のこと - Mitsuyuki.Shiiba](https://bufferings.hatenablog.com/entry/2023/12/23/110403): 2023/12/23
 - [What I Wish Someone Had Told Me - Sam Altman](https://blog.samaltman.com/what-i-wish-someone-had-told-me): 2023/12/22
