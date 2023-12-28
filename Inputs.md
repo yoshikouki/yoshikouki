@@ -1,3 +1,4 @@
+- [Native mobile apps are optional for B2B startups in 2024](https://world.hey.com/dhh/native-mobile-apps-are-optional-for-b2b-startups-in-2024-4c870d3e): 2023/12/28
 - [【Next.js】新規プロダクトのフロントエンドにおけるディレクトリ構成 - 通信レイヤー編 | Offers Tech Blog](https://zenn.dev/overflow_offers/articles/83030dc3b6d04a): 2023/12/26
 - [じゃあさ、いつメモ化したらいいか具体的に言語化できんの？](https://zenn.dev/shun_kominato/articles/3f0ff878c646a7): 2023/12/26
 - [年間退職率が 37.0% → 3.5% に！](https://zenn.dev/magicmoment/articles/team-growth-202312): 2023/12/25
