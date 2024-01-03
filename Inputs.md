@@ -1,3 +1,4 @@
+- [個人開発のアイデアを大量に出す方法（アイデア生成ツールを開発しました）](https://zenn.dev/keiichiro/articles/b67aff46d7af3a): 2024/1/3
 - [console.logをかわいくしてデバッグタイムを楽しもう🎄 - コドモン Product Team Blog](https://tech.codmon.com/entry/2023/12/03/000000): 2024/1/3
 - [ＳＴＥＭ偏向は「自滅の種」、ノーベル賞経済学者がＡＩ台頭で警告 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2024-01-02/S6N7AKDWLU6800): 2024/1/3
 - [Webサーバーアーキテクチャ進化論2023 | blog.ojisan.io](https://blog.ojisan.io/server-architecture-2023/): 2024/1/3
