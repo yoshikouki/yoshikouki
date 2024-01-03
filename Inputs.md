@@ -1,3 +1,4 @@
+- [ＳＴＥＭ偏向は「自滅の種」、ノーベル賞経済学者がＡＩ台頭で警告 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2024-01-02/S6N7AKDWLU6800): 2024/1/3
 - [Webサーバーアーキテクチャ進化論2023 | blog.ojisan.io](https://blog.ojisan.io/server-architecture-2023/): 2024/1/3
 - [2015年Webサーバアーキテクチャ序論 - ゆううきブログ](https://blog.yuuk.io/entry/2015-webserver-architecture): 2024/1/3
 
