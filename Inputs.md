@@ -1,3 +1,4 @@
+- [Webサーバーアーキテクチャ進化論2023 | blog.ojisan.io](https://blog.ojisan.io/server-architecture-2023/): 2024/1/3
 - [2015年Webサーバアーキテクチャ序論 - ゆううきブログ](https://blog.yuuk.io/entry/2015-webserver-architecture): 2024/1/3
 
 - [Native mobile apps are optional for B2B startups in 2024](https://world.hey.com/dhh/native-mobile-apps-are-optional-for-b2b-startups-in-2024-4c870d3e): 2023/12/28
