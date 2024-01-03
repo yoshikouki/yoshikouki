@@ -1,3 +1,4 @@
+- [2015年Webサーバアーキテクチャ序論 - ゆううきブログ](https://blog.yuuk.io/entry/2015-webserver-architecture): 2024/1/3
 
 - [Native mobile apps are optional for B2B startups in 2024](https://world.hey.com/dhh/native-mobile-apps-are-optional-for-b2b-startups-in-2024-4c870d3e): 2023/12/28
 - [【Next.js】新規プロダクトのフロントエンドにおけるディレクトリ構成 - 通信レイヤー編 | Offers Tech Blog](https://zenn.dev/overflow_offers/articles/83030dc3b6d04a): 2023/12/26
