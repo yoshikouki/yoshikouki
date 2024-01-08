@@ -1,3 +1,4 @@
+- [Bazel とお別れして make を使いはじめた話 | MIXI DEVELOPERS](https://mixi-developers.mixi.co.jp/byebye-bazel-welcome-make-b966bfd37fce): 2024/1/8
 - [LINEはなぜBazelを使わないことにしたのか？](https://engineering.linecorp.com/ja/blog/line-bazel): 2024/1/8
 - [Presence — Phoenix v1.7.10](https://hexdocs.pm/phoenix/presence.html): 2024/1/8
 - [ローカル環境で音声・立ち絵付きのAIと会話できるソフトウェア ez-chat-llm を作りました。](https://zenn.dev/offtoung/articles/034d98bd397527): 2024/1/5
