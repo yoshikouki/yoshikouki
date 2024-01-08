@@ -1,3 +1,4 @@
+- [Presence — Phoenix v1.7.10](https://hexdocs.pm/phoenix/presence.html): 2024/1/8
 - [ローカル環境で音声・立ち絵付きのAIと会話できるソフトウェア ez-chat-llm を作りました。](https://zenn.dev/offtoung/articles/034d98bd397527): 2024/1/5
 - [Vtuberとは違って中の人が本当にいない「デジタルヒューマン」産業がスキャンダルのないインフルエンサーを目指して中国で急成長中 - GIGAZINE](https://gigazine.net/news/20230105-virtual-person/): 2024/1/5
 - [その Nullable で本当にいいの？](https://zenn.dev/suzuki_hoge/articles/2023-12-really-nullable-dd1edd8ecbf8b4): 2024/1/3
