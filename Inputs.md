@@ -1,3 +1,4 @@
+- [アバターのための規格「VRM」の誕生秘話！　概念を規格として定義するために必要なこと | レバテックラボ（レバテックLAB）](https://levtech.jp/media/article/column/detail_80/): 2024/1/11
 - [ねこのみるゆめ | Arquet](https://arquet.official.ec/items/81983113): 2024/1/10
 - [Bazel とお別れして make を使いはじめた話 | MIXI DEVELOPERS](https://mixi-developers.mixi.co.jp/byebye-bazel-welcome-make-b966bfd37fce): 2024/1/8
 - [LINEはなぜBazelを使わないことにしたのか？](https://engineering.linecorp.com/ja/blog/line-bazel): 2024/1/8
