@@ -1,3 +1,4 @@
+- [Next as Frontend + Hono as BFF という組み合わせの提案](https://zenn.dev/sh1n4ps/articles/8cde3be74de0ec): 2024/1/13
 - [VSCode の ruby-lsp 拡張でコードジャンプができるようになるまでにやったこと](https://zenn.dev/chihaso/articles/f1bda1af64324b): 2024/1/13
 - [TypeScriptで学ぶ！SOLID原則](https://zenn.dev/milab/articles/05d800b173bbad): 2024/1/13
 - [グッドパッチ流、PdMの「スキルマップ」を作ってみた｜Goodpatch Blog グッドパッチブログ](https://goodpatch.com/blog/2023-12-pdmskillmap): 2024/1/12
