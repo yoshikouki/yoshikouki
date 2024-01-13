@@ -1,3 +1,4 @@
+- [TypeScriptで学ぶ！SOLID原則](https://zenn.dev/milab/articles/05d800b173bbad): 2024/1/13
 - [グッドパッチ流、PdMの「スキルマップ」を作ってみた｜Goodpatch Blog グッドパッチブログ](https://goodpatch.com/blog/2023-12-pdmskillmap): 2024/1/12
 - [スタートアップの熱狂と急成長を両立させる野望 - 株式会社ヘンリー エンジニアブログ](https://dev.henry.jp/entry/ambition-to-combine-startup-enthusiasm-and-rapid-growth): 2024/1/11
 - [アバターのための規格「VRM」の誕生秘話！　概念を規格として定義するために必要なこと | レバテックラボ（レバテックLAB）](https://levtech.jp/media/article/column/detail_80/): 2024/1/11
