@@ -1,3 +1,4 @@
+- [GitHub - maybe-finance/maybe: Personal finance and wealth management app](https://github.com/maybe-finance/maybe): 2024/1/14
 - [Web — Pepabo Designer’s Meeting #24 - Speaker Deck](https://speakerdeck.com/shikakun/web): 2024/1/14
 - [Next as Frontend + Hono as BFF という組み合わせの提案](https://zenn.dev/sh1n4ps/articles/8cde3be74de0ec): 2024/1/13
 - [VSCode の ruby-lsp 拡張でコードジャンプができるようになるまでにやったこと](https://zenn.dev/chihaso/articles/f1bda1af64324b): 2024/1/13
