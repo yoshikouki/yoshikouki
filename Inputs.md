@@ -1,3 +1,4 @@
+- [累計130万DLの個人開発アプリをcloseするので具体的な数字を公開します｜にっしー](https://note.com/paranishian/n/n12a005d6cacc): 2024/1/18
 - [迎え入れる側のオンボーディング"させる"責任について｜Torajiro Shiihashi](https://note.com/jirosh1998/n/n4b656f5d574d): 2024/1/17
 - [個人開発が失敗に終わった3つの理由](https://zenn.dev/statstat/articles/b617aec7ada4b3): 2024/1/17
 - [自分への Feed forward は待つものではない！ 〜ねだるな、勝ち取れ、さすれば与えられん〜](https://zenn.dev/loglass/articles/5d408b6528204b): 2024/1/17
