@@ -1,3 +1,4 @@
+- [LLMマルチエージェントを俯瞰する - Speaker Deck](https://speakerdeck.com/masatoto/llmmarutiezientowofu-kan-suru?slide=2): 2024/1/19
 - [宣言的と命令的とは「目的の宣言」と「手段の命令」のことである](https://zenn.dev/miyamonz/articles/3318bc87cf14cb): 2024/1/19
 - [もうjsなんていらない！世界で流行っているHTMXについてまとめてみた #JavaScript - Qiita](https://qiita.com/twrcd1227/items/7bce18167fb02ec22729): 2024/1/19
 - [累計130万DLの個人開発アプリをcloseするので具体的な数字を公開します｜にっしー](https://note.com/paranishian/n/n12a005d6cacc): 2024/1/18
