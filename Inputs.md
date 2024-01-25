@@ -1,4 +1,5 @@
 - [Hono + htmx + Cloudflareは新しいスタック](https://zenn.dev/yusukebe/articles/e8ff26c8507799): 2024/1/25
+- [Hono + htmx + Cloudflareは新しいスタック](https://zenn.dev/yusukebe/articles/e8ff26c8507799): 2024/1/25
 
 - [「HTMLはプログラミング言語か」問題に終止符を打つ #JavaScript - Qiita](https://qiita.com/uhyo/items/9b830c93fa4765bdd3e5): 2024/1/21
 - [React Developer Roadmap 2024 を眺める](https://zenn.dev/kazukix/articles/react-developer-roadmap): 2024/1/19
