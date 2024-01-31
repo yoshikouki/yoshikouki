@@ -1,3 +1,4 @@
+- [Honoのv4が2月9日にリリースされます](https://zenn.dev/yusukebe/articles/b20025ebda310a): 2024/1/31
 - [iOS17.4ベータから判明！Apple、Siri進化にChatGPTを活用 - iPhone Mania](https://iphone-mania.jp/news-573975/): 2024/1/28
 - [iPhone 15 Pro系のアクションボタンはショートカットいったくでございますです｜びーと（RAP未経験者）](https://note.com/babibubebito/n/n0ac52dd91e52): 2024/1/26
 - [Hono + htmx + Cloudflareは新しいスタック](https://zenn.dev/yusukebe/articles/e8ff26c8507799): 2024/1/25
