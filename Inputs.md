@@ -1,3 +1,4 @@
+- [駆け出し時代の自分に読ませたかった技術書18選　遠回りをしまくった自分に送りたい](https://zenn.dev/mesi/articles/671a08cabb4dfe): 2024/2/3
 - [ActivityPubについてのメモ](https://zenn.dev/kentarok/scraps/d1406b19f23d21#comment-fd940582f81ac3): 2024/2/2
 - [Googleがスマートフォンを使い0.5秒で画像生成できるアプローチ「MobileDiffusion」を発表 - GIGAZINE](https://gigazine.net/news/20240201-google-mobile-diffusion/): 2024/2/2
 - [GitHub - yusukebe/minidon: Minimal implementation of ActivityPub using Cloudflare Workers and D1](https://github.com/yusukebe/minidon): 2024/1/31
