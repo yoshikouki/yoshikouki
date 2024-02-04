@@ -1,3 +1,4 @@
+- [プログラミングの終焉と生存戦略｜k1ito](https://note.com/k1ito/n/n9f56891bcc61): 2024/2/4
 - [ボルダリングジムを開業したら初年度の利益がマイナス38万円だった話｜けんけん](https://note.com/_kemkem/n/nd3788673b92c): 2024/2/3
 - [駆け出し時代の自分に読ませたかった技術書18選　遠回りをしまくった自分に送りたい](https://zenn.dev/mesi/articles/671a08cabb4dfe): 2024/2/3
 - [駆け出し時代の自分に読ませたかった技術書18選　遠回りをしまくった自分に送りたい](https://zenn.dev/mesi/articles/671a08cabb4dfe): 2024/2/3
