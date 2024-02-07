@@ -1,3 +1,4 @@
+- [わたしの働き方を作ったソフトスキル本３冊](https://zenn.dev/levtech/articles/6ea39803e04dc8): 2024/2/7
 - [WSL 開発環境を設定する | Microsoft Learn](https://learn.microsoft.com/ja-jp/windows/wsl/setup/environment): 2024/2/5
 - [エンジニアは黙ってセルフホスト！（クールポコ風）](https://zenn.dev/ficilcom/articles/self-host-alternative-oss): 2024/2/5
 - [Macの生産性を高めるRaycastの活用法【よく使う機能4つ+小技3つ】](https://zenn.dev/ichigoooo/articles/5111e8a96a4c19): 2024/2/5
