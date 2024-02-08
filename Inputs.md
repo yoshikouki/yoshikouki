@@ -1,3 +1,4 @@
+- [非同期処理でLLMにもっと働いてもらおう - Speaker Deck](https://speakerdeck.com/zerebom/async-call-llm): 2024/2/8
 - [わたしの働き方を作ったソフトスキル本３冊](https://zenn.dev/levtech/articles/6ea39803e04dc8): 2024/2/7
 - [WSL 開発環境を設定する | Microsoft Learn](https://learn.microsoft.com/ja-jp/windows/wsl/setup/environment): 2024/2/5
 - [エンジニアは黙ってセルフホスト！（クールポコ風）](https://zenn.dev/ficilcom/articles/self-host-alternative-oss): 2024/2/5
