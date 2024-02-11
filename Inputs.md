@@ -1,3 +1,4 @@
+- [AIアニメを作った話｜852話](https://note.com/852wa/n/n12187f935c72): 2024/2/11
 - [AppleがiOS 17.4のベータ版でPWAのサポートを削除していることが明らかに - GIGAZINE](https://gigazine.net/news/20240209-apple-pwa-support-remove/): 2024/2/10
 - [非同期処理でLLMにもっと働いてもらおう - Speaker Deck](https://speakerdeck.com/zerebom/async-call-llm): 2024/2/8
 - [わたしの働き方を作ったソフトスキル本３冊](https://zenn.dev/levtech/articles/6ea39803e04dc8): 2024/2/7
