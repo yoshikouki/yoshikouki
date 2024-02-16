@@ -1,3 +1,4 @@
+- [｢俺だけ｣とマッチするデートアプリが作られた理由 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/02/flirt-with-los-mayers-app-developer-dating-art.html): 2024/2/16
 - [【Pythonで高速化】I / Oバウンドとか並列処理とかマルチプロセスとかってなんぞや #Python - Qiita](https://qiita.com/nyax/items/659b07cd755f2ced563f): 2024/2/15
 - [AIアニメを作った話｜852話](https://note.com/852wa/n/n12187f935c72): 2024/2/11
 - [AppleがiOS 17.4のベータ版でPWAのサポートを削除していることが明らかに - GIGAZINE](https://gigazine.net/news/20240209-apple-pwa-support-remove/): 2024/2/10
