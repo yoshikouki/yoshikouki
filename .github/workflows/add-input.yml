@@ -7,19 +7,33 @@ on:
 jobs:
   add-input:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/yoshikouki/add-inputs:main
-      volumes:
-        - .:/app
-
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest
+
+    - uses: actions/cache@v4
+      with:
+        path: apps/add-inputs/node_modules
+        key: ${{ runner.os }}-${{ hashFiles('**/bun.lockb') }}
+        restore-keys: |
+          ${{ runner.os }}-
+
+    - name: Install dependencies
+      run: |
+        bun i --cwd apps/add-inputs
+        bun run --cwd apps/add-inputs install:chrome
+
     - name: Run script and Update file
       id: script
       env:
         URL: ${{ github.event.client_payload.url }}
       run: |
         printf "%s\n%s" \
-          "$(bun index.ts "${{ github.event.client_payload.url }}")" \
+          "$(bun apps/add-inputs/index.ts "${{ github.event.client_payload.url }}")" \
           "$(cat ./Inputs.md)" \
           > temp
         mv -f temp ./Inputs.md
