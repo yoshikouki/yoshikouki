@@ -10,7 +10,7 @@ jobs:
     container:
       image: ghcr.io/yoshikouki/add-inputs:main
       volumes:
-        - ./Inputs.md:./Inputs.md
+        - ./Inputs.md:/app/Inputs.md
 
     steps:
     - name: Run script and Update file
