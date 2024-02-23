@@ -1,3 +1,269 @@
+- [いまGoogleを使ってない人は、何を使っているのか？ (1/4)：MarkeZine（マーケジン）](https://markezine.jp/article/detail/44776): 2024/2/16
+- [｢俺だけ｣とマッチするデートアプリが作られた理由 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/02/flirt-with-los-mayers-app-developer-dating-art.html): 2024/2/16
+- [【Pythonで高速化】I / Oバウンドとか並列処理とかマルチプロセスとかってなんぞや #Python - Qiita](https://qiita.com/nyax/items/659b07cd755f2ced563f): 2024/2/15
+- [AIアニメを作った話｜852話](https://note.com/852wa/n/n12187f935c72): 2024/2/11
+- [AppleがiOS 17.4のベータ版でPWAのサポートを削除していることが明らかに - GIGAZINE](https://gigazine.net/news/20240209-apple-pwa-support-remove/): 2024/2/10
+- [非同期処理でLLMにもっと働いてもらおう - Speaker Deck](https://speakerdeck.com/zerebom/async-call-llm): 2024/2/8
+- [わたしの働き方を作ったソフトスキル本３冊](https://zenn.dev/levtech/articles/6ea39803e04dc8): 2024/2/7
+- [WSL 開発環境を設定する | Microsoft Learn](https://learn.microsoft.com/ja-jp/windows/wsl/setup/environment): 2024/2/5
+- [エンジニアは黙ってセルフホスト！（クールポコ風）](https://zenn.dev/ficilcom/articles/self-host-alternative-oss): 2024/2/5
+- [Macの生産性を高めるRaycastの活用法【よく使う機能4つ+小技3つ】](https://zenn.dev/ichigoooo/articles/5111e8a96a4c19): 2024/2/5
+- [IPAが世界中のビールファンに愛されるようになるまで。IPAの誕生～現在までの変遷と歴史を解説します | よなよなエール公式ウェブサイト「よなよなの里」](https://yonasato.com/column/guide/detail/ipa_rekishi/): 2024/2/4
+- [生産性向上のために身に着けたい10のこと #読書感想文 - Qiita](https://qiita.com/kntr0116/items/302d5e379505089780d2): 2024/2/4
+- [エンジニアはWindowsマシンで最初の1時間で何をする【2023年版】](https://zenn.dev/gahuto/articles/520d9dc6baed09): 2024/2/4
+- [生産性向上のために身に着けたい10のこと #読書感想文 - Qiita](https://qiita.com/kntr0116/items/302d5e379505089780d2): 2024/2/4
+- [プログラミングの終焉と生存戦略｜k1ito](https://note.com/k1ito/n/n9f56891bcc61): 2024/2/4
+- [ボルダリングジムを開業したら初年度の利益がマイナス38万円だった話｜けんけん](https://note.com/_kemkem/n/nd3788673b92c): 2024/2/3
+- [駆け出し時代の自分に読ませたかった技術書18選　遠回りをしまくった自分に送りたい](https://zenn.dev/mesi/articles/671a08cabb4dfe): 2024/2/3
+- [駆け出し時代の自分に読ませたかった技術書18選　遠回りをしまくった自分に送りたい](https://zenn.dev/mesi/articles/671a08cabb4dfe): 2024/2/3
+- [ActivityPubについてのメモ](https://zenn.dev/kentarok/scraps/d1406b19f23d21#comment-fd940582f81ac3): 2024/2/2
+- [Googleがスマートフォンを使い0.5秒で画像生成できるアプローチ「MobileDiffusion」を発表 - GIGAZINE](https://gigazine.net/news/20240201-google-mobile-diffusion/): 2024/2/2
+- [GitHub - yusukebe/minidon: Minimal implementation of ActivityPub using Cloudflare Workers and D1](https://github.com/yusukebe/minidon): 2024/1/31
+- [Honoのv4が2月9日にリリースされます](https://zenn.dev/yusukebe/articles/b20025ebda310a): 2024/1/31
+- [iOS17.4ベータから判明！Apple、Siri進化にChatGPTを活用 - iPhone Mania](https://iphone-mania.jp/news-573975/): 2024/1/28
+- [iPhone 15 Pro系のアクションボタンはショートカットいったくでございますです｜びーと（RAP未経験者）](https://note.com/babibubebito/n/n0ac52dd91e52): 2024/1/26
+- [Hono + htmx + Cloudflareは新しいスタック](https://zenn.dev/yusukebe/articles/e8ff26c8507799): 2024/1/25
+- [Hono + htmx + Cloudflareは新しいスタック](https://zenn.dev/yusukebe/articles/e8ff26c8507799): 2024/1/25
+
+- [「HTMLはプログラミング言語か」問題に終止符を打つ #JavaScript - Qiita](https://qiita.com/uhyo/items/9b830c93fa4765bdd3e5): 2024/1/21
+- [React Developer Roadmap 2024 を眺める](https://zenn.dev/kazukix/articles/react-developer-roadmap): 2024/1/19
+- [Reactにおけるパフォーマンス最適化のTips](https://zenn.dev/y_okt/articles/20230113_day10): 2024/1/19
+- [宣言的と命令的とは「目的の宣言」と「手段の命令」のことである](https://zenn.dev/miyamonz/articles/3318bc87cf14cb): 2024/1/19
+- [LLMマルチエージェントを俯瞰する - Speaker Deck](https://speakerdeck.com/masatoto/llmmarutiezientowofu-kan-suru?slide=2): 2024/1/19
+- [宣言的と命令的とは「目的の宣言」と「手段の命令」のことである](https://zenn.dev/miyamonz/articles/3318bc87cf14cb): 2024/1/19
+- [もうjsなんていらない！世界で流行っているHTMXについてまとめてみた #JavaScript - Qiita](https://qiita.com/twrcd1227/items/7bce18167fb02ec22729): 2024/1/19
+- [累計130万DLの個人開発アプリをcloseするので具体的な数字を公開します｜にっしー](https://note.com/paranishian/n/n12a005d6cacc): 2024/1/18
+- [迎え入れる側のオンボーディング"させる"責任について｜Torajiro Shiihashi](https://note.com/jirosh1998/n/n4b656f5d574d): 2024/1/17
+- [個人開発が失敗に終わった3つの理由](https://zenn.dev/statstat/articles/b617aec7ada4b3): 2024/1/17
+- [自分への Feed forward は待つものではない！ 〜ねだるな、勝ち取れ、さすれば与えられん〜](https://zenn.dev/loglass/articles/5d408b6528204b): 2024/1/17
+- [ひとりで作った「理想のタスク管理ツール」は5年でこうなった（なってない）｜ガッシー｜Repsona](https://note.com/gussietech/n/ndd769923d51a): 2024/1/15
+- [あっ、そうだ！モダンCSSをまとめておこう](https://zenn.dev/hiraoku/articles/926cbb8bc35eaa): 2024/1/15
+- [「アイデアの秘訣？ トイレにこもって“社長”になること」イノベーター・濱口秀司に発想の源を聞いた｜新R25 - シゴトも人生も、もっと楽しもう。](https://r25.jp/article/1046253592606529807): 2024/1/15
+- [「アイデアの秘訣？ トイレにこもって“社長”になること」イノベーター・濱口秀司に発想の源を聞いた｜新R25 - シゴトも人生も、もっと楽しもう。](https://r25.jp/article/1046253592606529807): 2024/1/15
+- [GitHub - maybe-finance/maybe: Personal finance and wealth management app](https://github.com/maybe-finance/maybe): 2024/1/14
+- [Web — Pepabo Designer’s Meeting #24 - Speaker Deck](https://speakerdeck.com/shikakun/web): 2024/1/14
+- [Next as Frontend + Hono as BFF という組み合わせの提案](https://zenn.dev/sh1n4ps/articles/8cde3be74de0ec): 2024/1/13
+- [VSCode の ruby-lsp 拡張でコードジャンプができるようになるまでにやったこと](https://zenn.dev/chihaso/articles/f1bda1af64324b): 2024/1/13
+- [TypeScriptで学ぶ！SOLID原則](https://zenn.dev/milab/articles/05d800b173bbad): 2024/1/13
+- [グッドパッチ流、PdMの「スキルマップ」を作ってみた｜Goodpatch Blog グッドパッチブログ](https://goodpatch.com/blog/2023-12-pdmskillmap): 2024/1/12
+- [スタートアップの熱狂と急成長を両立させる野望 - 株式会社ヘンリー エンジニアブログ](https://dev.henry.jp/entry/ambition-to-combine-startup-enthusiasm-and-rapid-growth): 2024/1/11
+- [アバターのための規格「VRM」の誕生秘話！　概念を規格として定義するために必要なこと | レバテックラボ（レバテックLAB）](https://levtech.jp/media/article/column/detail_80/): 2024/1/11
+- [ねこのみるゆめ | Arquet](https://arquet.official.ec/items/81983113): 2024/1/10
+- [Bazel とお別れして make を使いはじめた話 | MIXI DEVELOPERS](https://mixi-developers.mixi.co.jp/byebye-bazel-welcome-make-b966bfd37fce): 2024/1/8
+- [LINEはなぜBazelを使わないことにしたのか？](https://engineering.linecorp.com/ja/blog/line-bazel): 2024/1/8
+- [Presence — Phoenix v1.7.10](https://hexdocs.pm/phoenix/presence.html): 2024/1/8
+- [ローカル環境で音声・立ち絵付きのAIと会話できるソフトウェア ez-chat-llm を作りました。](https://zenn.dev/offtoung/articles/034d98bd397527): 2024/1/5
+- [Vtuberとは違って中の人が本当にいない「デジタルヒューマン」産業がスキャンダルのないインフルエンサーを目指して中国で急成長中 - GIGAZINE](https://gigazine.net/news/20230105-virtual-person/): 2024/1/5
+- [その Nullable で本当にいいの？](https://zenn.dev/suzuki_hoge/articles/2023-12-really-nullable-dd1edd8ecbf8b4): 2024/1/3
+- [個人開発のアイデアを大量に出す方法（アイデア生成ツールを開発しました）](https://zenn.dev/keiichiro/articles/b67aff46d7af3a): 2024/1/3
+- [console.logをかわいくしてデバッグタイムを楽しもう🎄 - コドモン Product Team Blog](https://tech.codmon.com/entry/2023/12/03/000000): 2024/1/3
+- [ＳＴＥＭ偏向は「自滅の種」、ノーベル賞経済学者がＡＩ台頭で警告 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2024-01-02/S6N7AKDWLU6800): 2024/1/3
+- [Webサーバーアーキテクチャ進化論2023 | blog.ojisan.io](https://blog.ojisan.io/server-architecture-2023/): 2024/1/3
+- [2015年Webサーバアーキテクチャ序論 - ゆううきブログ](https://blog.yuuk.io/entry/2015-webserver-architecture): 2024/1/3
+
+- [Native mobile apps are optional for B2B startups in 2024](https://world.hey.com/dhh/native-mobile-apps-are-optional-for-b2b-startups-in-2024-4c870d3e): 2023/12/28
+- [【Next.js】新規プロダクトのフロントエンドにおけるディレクトリ構成 - 通信レイヤー編 | Offers Tech Blog](https://zenn.dev/overflow_offers/articles/83030dc3b6d04a): 2023/12/26
+- [じゃあさ、いつメモ化したらいいか具体的に言語化できんの？](https://zenn.dev/shun_kominato/articles/3f0ff878c646a7): 2023/12/26
+- [年間退職率が 37.0% → 3.5% に！](https://zenn.dev/magicmoment/articles/team-growth-202312): 2023/12/25
+- [個人開発で即戦力になるツール・サイトまとめ #Web - Qiita](https://qiita.com/tkdayo/items/5701013735c667d4cf03): 2023/12/23
+- [こんなエンジニアリングマネージャだから仕事がしやすいんだなぁと思う10個のこと - Mitsuyuki.Shiiba](https://bufferings.hatenablog.com/entry/2023/12/23/110403): 2023/12/23
+- [What I Wish Someone Had Told Me - Sam Altman](https://blog.samaltman.com/what-i-wish-someone-had-told-me): 2023/12/22
+- [iOSブラウザに対応したエディターを作るの大変すぎ問題](https://zenn.dev/catnose99/articles/03035be9ceea73): 2023/12/21
+- [Google Colab で ComfyUI を試す｜npaka](https://note.com/npaka/n/n0d5f0562903e): 2023/12/20
+- [Webフロントエンドの開発効率を高く保つための考え方](https://zenn.dev/adwd/articles/e173f75c512e10): 2023/12/20
+- [クリーンアーキテクチャの功罪](https://zenn.dev/adwd/articles/5d4a89262f4fc5): 2023/12/20
+- [MozillaがAIでWebサイトを自動制作してくれる「Solo」を公開。基本的な情報を基に、説明文からレイアウト、適切なフリー画像の選択までおまかせ － Publickey](https://www.publickey1.jp/blog/23/mozillaaiwebsolo.html): 2023/12/19
+- [これは嬉しい　ChatGPTプロンプト書き方のコツ、OpenAIが公開 - 週刊アスキー](https://weekly.ascii.jp/elem/000/004/175/4175960/): 2023/12/19
+- [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://efcl.notion.site/Open-Job-Letter-v2-ce8b95c88bb74eff9dc4d0f347fcaf9d): 2023/12/19
+- [Web フロントエンドの推しディレクトリ構成と Next.js App Router なコードベース | Offers Tech Blog](https://zenn.dev/overflow_offers/articles/20231215-directory-structure): 2023/12/19
+- [Web フロントエンドにおけるコロケーション (co-location) という考え方について - mizdra's blog](https://www.mizdra.net/entry/2022/12/11/203940): 2023/12/19
+- [チームで仕事をするなら、リアクションし続けよ｜森 一貴（Mori Kazuki）](https://note.com/dutoit6/n/ned66041f43ff): 2023/12/18
+- [WasmでLLMが動く仕組みの解説](https://zenn.dev/skanehira/articles/2023-12-16-wasm-llm-how-to-work): 2023/12/17
+- [VRMを作成する [VirtualCast]](https://wiki.virtualcast.jp/wiki/vrm/make): 2023/12/17
+- [コードレビューの優先順位を高めたらチームの生産量が上がった話](https://zenn.dev/counterworks/articles/ff83d90fdbe03c): 2023/12/16
+- [一休レストランで Next.js App Router から Remix に乗り換えた話 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/2023/12/15/093427): 2023/12/16
+- [vrma-loader-sample](https://tfuru.github.io/vrma-loader-sample/): 2023/12/15
+- [GLTFやVrmをreact-three-fiberまたはThree.js＋Reactで表示する](https://zenn.dev/yosipy/articles/730c762cb04f83): 2023/12/15
+- [便利すぎて反則級、ずるい無料デザインツール・素材80選【2023年ベスト】 | PhotoshopVIP](https://photoshopvip.net/154352): 2023/12/15
+- [WebVR — ウェブによる仮想現実 - ゲーム開発 | MDN](https://developer.mozilla.org/ja/docs/Games/Techniques/3D_on_the_web/WebXR): 2023/12/14
+- [three.js で VRM を表示する (1) - 事始め｜npaka](https://note.com/npaka/n/n477c15fedaef): 2023/12/14
+- [不動産の人に「今後どの地域に家を買ったら良いか？」と聞いたら「生鮮食品に強いスーパーがある地域」と言われた→その理由とは？ - Togetter](https://togetter.com/li/2275079): 2023/12/14
+- [レガシーフロントエンドをNext.jsにリプレイス　「開発生産性の向上」を感じさせてくれた5つのこと - ログミーTech](https://logmi.jp/tech/articles/329780): 2023/12/13
+- [�u�C�i�Y�}�C���u���v�u�d���E�H�b�\`�v�ŉ摜����AI�����p�@���x���t�@�C�u��AI���p�Ⴊ���J�Ɂi1/2 �y�[�W�j -…](https://www.itmedia.co.jp/news/articles/2312/12/news175.html): 2023/12/13
+- [Arc Browser はいいぞ！ - hacomono TECH BLOG](https://techblog.hacomono.jp/entry/2023/12/13/0700): 2023/12/13
+- [Appleによる大規模言語モデル「FERRET」を調査！他のLLMとの違い、性能を完全解説｜ChatGPT大学](https://note.com/chatgpt_univ/n/nece3f0a13318): 2023/12/10
+- [package by feature のススメ](https://zenn.dev/pandanoir/articles/d74d317f2b3caf): 2023/12/9
+- [package by feature のススメ](https://zenn.dev/pandanoir/articles/d74d317f2b3caf): 2023/12/9
+- [VSCode のおすすめ拡張機能 2023年度版](https://zenn.dev/yumemi_inc/articles/45ffb104c1d0a9): 2023/12/7
+- [3rd Party Cookieのカレンダー | Advent Calendar 2023 - Qiita](https://qiita.com/advent-calendar/2023/3rd-party-cookie): 2023/12/6
+- [3rd Party Cookieのカレンダー | Advent Calendar 2023 - Qiita](https://qiita.com/advent-calendar/2023/3rd-party-cookie): 2023/12/6
+- [「オタク」に関する消費者アンケート調査を実施（2023年） | ニュース・トピックス | 市場調査とマーケティングの矢野経済研究所](https://www.yano.co.jp/press-release/show/press_id/3382): 2023/12/5
+- [中途入社や部署異動で来た新メンバーを活躍しづらくするアンチパターン #新人プログラマ応援 - Qiita](https://qiita.com/kojimadev/items/06506d374f19493d7e72): 2023/12/5
+- [iPhone や iPad Pro で Face ID が無効という警告が表示される場合 - Apple サポート (日本)](https://support.apple.com/ja-jp/105130?cid=iOS_SettingsUI_iphone_article_HT208186?cid=iOS_SettingsUI_iphone_article_HT208186): 2023/12/4
+- [「最も使っている」プログラミング言語で異変、前年首位のJavaが王座陥落 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/02670/112900001/): 2023/12/4
+- [セールスアニマルになろう v2 🦄 - スタートアップの営業活動 (1) 🎰 - Speaker Deck](https://speakerdeck.com/tumada/serusuanimaruninarou-v2-sutatoatupufalseying-ye-huo-dong-1): 2023/12/4
+
+- [OSS 観光名所を貼るスレ - ぽ靴な缶](https://blog.pokutuna.com/entry/oss-sightseeing-spots): 2023/12/3
+- [作業時間を可視化し、生産性を向上させる『Wakatime』を使ってみた。](https://zenn.dev/ackndev/articles/c1308e1dac265b): 2023/12/2
+
+- [なぜ Server Actions を使うのか](https://azukiazusa.dev/blog/why-use-server-actions/): 2023/11/30
+- [3DCGの終焉とAI生成レンダリングという未来｜kogu](https://note.com/kogu_dev/n/ne0f9fbb47b0c): 2023/11/30
+- [AIの民主化が進む時代におけるバクラクのAI-OCR機能の開発戦略 #LayerXテックアドカレ - LayerX エンジニアブログ](https://tech.layerx.co.jp/entry/aiocr-in-llm-2023): 2023/11/30
+- [生成AIでシステム開発はどう変わるか - Speaker Deck](https://speakerdeck.com/etaroid/sheng-cheng-aidesisutemukai-fa-hadoubian-waruka): 2023/11/30
+- [【西川和久の不定期コラム】Stable Diffusion高速化の決定版登場！？品質落とさず制限もほぼなしで2～3倍速に - PC Watch](https://pc.watch.impress.co.jp/docs/column/nishikawa/1547611.html): 2023/11/30
+- [ベルメゾン 伸縮できる腰高本棚 「 ホワイト ライトナチュラル ダークブラウン 」 ◆ B／90～150 ◆ ◇ 家具 収納 リビング 壁 本 棚 ラック 大容量 隙間 すき間 ◇](https://room.rakuten.co.jp/room_0434381144/1700227477555225): 2023/11/29
+- [UI Guideline](https://www.uiguideline.com/components): 2023/11/29
+- [GPTを利用したBotの精度を実用レベルに引き上げる１０個のアプローチ｜maKunugi](https://note.com/makunugi/n/n1661507618d5?sub_rt=share_pb): 2023/11/29
+- [ASCII.jp：コロナ禍の裏で中国で爆発的に増えたRISC-Vコアの出荷数　RISC-Vプロセッサー遍歴 (1/3)](https://ascii.jp/elem/000/004/171/4171502/): 2023/11/29
+- [思ったより全然使えそう。OpenAIが提供する｢有用GPT｣ランキング | ギズモード・ジャパン](https://www.gizmodo.jp/2023/11/useful-gpt-ranking.html): 2023/11/29
+- [507 Mechanical Movements](https://507movements.com/): 2023/11/29
+- [ストーリーポイントではなくアウトカムで開発速度を測る #LayerXテックアドカレ - LayerX エンジニアブログ](https://tech.layerx.co.jp/entry/measure-development-speed-by-outcomes-not-story-points): 2023/11/29
+- [なぜ HTML の form は PUT / DELETE をサポートしないのか? | blog.jxck.io](https://blog.jxck.io/entries/2023-11-27/hixie.html): 2023/11/28
+- [「コテンラジオ」深井氏に聞く、日本人が“パフォーマンス”を上げるカギ | ウェブ電通報](https://dentsu-ho.com/articles/8659): 2023/11/28
+- [ローカルホストを実機でデバッグする(Mac and iPhone)](https://zenn.dev/gmomedia/articles/2adadb54bb5c4c): 2023/11/27
+- [引地耕太 | Creative Director on X: "先日デザイナーを目指すべきか悩んでいる学生から相談を受けた。「AI時代にデザインを勉強することはどう思いますか？」と。結論から言えば「…](https://x.com/kouta_hikichi/status/1728761159392870579?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/11/27
+- [生成AIを導入するなら、最初にCFOと話をしよう｜深津 貴之 (fladdict)](https://note.com/fladdict/n/ndcda55645ede): 2023/11/27
+- [「コテンラジオ」深井氏に聞く、歴史をビジネスの“武器”にする方法 | ウェブ電通報](https://dentsu-ho.com/articles/8658): 2023/11/27
+- [Google Colab で LCM LoRA を試す｜npaka](https://note.com/npaka/n/n940ee84ca5b6): 2023/11/27
+- [「しずかなインターネット」の技術スタックを調べる - laiso](https://laiso.hatenablog.com/entry/2023/11/23/210736): 2023/11/25
+- [「しずかなインターネット」の技術スタックを調べる - laiso](https://laiso.hatenablog.com/entry/2023/11/23/210736): 2023/11/23
+- [「コードがむずかしい」からの脱却 - Speaker Deck](https://speakerdeck.com/jimpei/kodogamuzukasii-karanotuo-que): 2023/11/23
+- [iOS(16.4+)を含むブラウザでWeb Push機能を実装したメモ](https://zenn.dev/neriko/articles/2e0cde5f93ea95): 2023/11/23
+- [iOS16.4からiOSのSafariでもWebプッシュが受け取れる様になったので試してみた！ | ニフティライフスタイル Tech Blog](https://tech.niftylifestyle.co.jp/entry/815): 2023/11/23
+- [【VScode今までありがとう】新時代のコードエディタ、Cursorのメリット・できることを網羅的に解説した](https://zenn.dev/gamuprog/articles/53e7adee04b337): 2023/11/23
+- [デザイナーが30年成長し続けるために知っておくべき罠 - Speaker Deck](https://speakerdeck.com/inoue_tatsunori/dezainaga30nian-cheng-chang-sisok-kerutamenizhi-tuteokubekimin): 2023/11/21
+- [生きのびるための事務 | POPEYE Web | ポパイウェブ](https://popeyemagazine.jp/tag/ikinobirutameno-jimu/): 2023/11/21
+
+- [JavaScript なしで動作するモダンなコードの書き方 - Speaker Deck](https://speakerdeck.com/azukiazusa1/javascript-nasidedong-zuo-surumodannakodonoshu-kifang): 2023/11/21
+- [Font Variant Numeric - Tailwind CSS](https://tailwindcss.com/docs/font-variant-numeric#tabular-figures): 2023/11/21
+- [Intlの今までとこれから - Speaker Deck](https://speakerdeck.com/sajikix/intlnojin-madetokorekara): 2023/11/21
+- [シバタナオキ Naoki Shibata on X: "OpenAI　アルトマンCEO退任の詳細 今日はたまたま生成AIクラスターの人たちとMTGが立て続けにあって、MTG中にニュースが流れてきて、…](https://x.com/shibataism/status/1725739270466621489?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/11/19
+- [しゃべるようになったiPad miniに気持ちを整理してもらってます | ギズモード・ジャパン](https://www.gizmodo.jp/2023/11/how-to-use-chatgpt-voice-conversation-feature.html): 2023/11/17
+- [OpenAI announces leadership transition](https://openai.com/blog/openai-announces-leadership-transition): 2023/11/17
+- [ローコード開発ツール「Copilot Studio」発表。Copilotのカスタマイズ、プラグイン開発、ワークフロー設定などが可能に（Microsoft Ignite 2023） | テクノエッジ …](https://www.techno-edge.net/article/2023/11/17/2273.html): 2023/11/17
+- [エンジニアが給料を12倍にする方法 - k0kubun's blog](https://k0kubun.hatenablog.com/entry/12x-salary): 2023/11/16
+- [「SFプロトタイピング」で描く、“手触り”のある未来の価値と事業 | ウェブ電通報](https://dentsu-ho.com/articles/8567): 2023/11/16
+- [課題解決としての起業の終焉｜きゅーい / koyo](https://note.com/kiwiwi/n/n85123a242c18): 2023/11/16
+- [『スプラトゥーン3』大型アプデ/新シーズン「Chill Season」12月1日開幕へ。新スペシャル・ステージ・ブキ追加、ネギトロ炭鉱も帰ってくる - AUTOMATON](https://automaton-media.com/articles/newsjp/20231116-272340/): 2023/11/16
+- [特に個人開発者向け！CodeRabbit(自動レビューツール)を使えばコードの健康まで得られることに気づいた話](https://zenn.dev/binnmti/articles/7e3690ebe80951): 2023/11/15
+- [Using GitHub Copilot in the CLI - GitHub Docs](https://docs.github.com/en/copilot/github-copilot-in-the-cli/using-github-copilot-in-the-cli): 2023/11/15
+- [GPTsでNotion APIを叩くようにしてみたらやばかった](https://zenn.dev/yutakobayashi/articles/gpts-notion-api): 2023/11/14
+- [The notification prompt can only be triggered by a user gesture on some browsers - Pushpad](https://pushpad.xyz/blog/the-notification-prompt-can-only-be-triggered-by-a-user-gesture-on-some-browsers): 2023/11/14
+- [親の歯周病が子供にうつるというのは本当ですか？ | 月島 勝どきで歯を残すならならユズデンタル｜](https://yuz-dental.com/dentalcolumn/20190924/): 2023/11/14
+- [アップル、iPhoneやMacのソフト刷新開発を一時停止－バグ修正に注力 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2023-11-07/S3RM9CDWRGG001): 2023/11/14
+- [加齢と共に傲慢にならないために](https://www.smokeymonkey.net/2023/11/blog-post.html?m=1): 2023/11/14
+- [Labsから事業部へ、生成AIによるプロセスのリデザイン｜Matsumoto Yuki](https://note.com/y_matsuwitter/n/nf6a1b781d447): 2023/11/14
+- [LLM・生成AIという巨大トレンドにどう挑むか （LayerX創業以来の経験を踏まえて）｜中村 龍矢 | LayerX 事業部執行役員 AI・LLM事業部長](https://note.com/nrryuya/n/nb0cd6e53bdea): 2023/11/14
+- [Explore 3000+ Free UI Elements: CSS &amp; Tailwind](https://uiverse.io/): 2023/11/12
+- [Core Concepts – Turbopack](https://turbo.build/pack/docs/core-concepts): 2023/11/12
+- [Index – Turbopack](https://turbo.build/pack): 2023/11/12
+- [6 Tips to make your iOS PWA feel like a native app](https://www.netguru.com/blog/pwa-ios): 2023/11/12
+- [AGIへの道のり：LLMを活用した自律エージェントの開発とその挑戦｜0xpanda alpha lab](https://note.com/panda_lab/n/nfd2de1d3fa63): 2023/11/11
+- [GPT-4 Turbo、GPTs、Assistants APIはこう使う！GPT4を使いこなす猛者達のOpenAI最新アプデ活用事例10選 | WEEL](https://weel.co.jp/media/gpt-4-turbo-gpts-assistants-api): 2023/11/10
+- [Contextual and Nonstationary Multi-armed Bandits Using the Linear Gaussian State Space Model for th…](https://speakerdeck.com/monochromegane/contextual-and-nonstationary-multi-armed-bandits-using-the-linear-gaussian-state-space-model-for-the-meta-recommender-system): 2023/11/10
+- [GitHub、Copilotの将来像となる「Copilot Workspace」発表。人間がコードを書くことなく、Copilotが仕様作成からコード作成、デバッグまで実行。GitHub Univer…](https://www.publickey1.jp/blog/23/githubcopilotcopilot_workspacecopilotcopilotgithub_universe_2023.html): 2023/11/10
+- [OpenAI DevDay で発表された新モデルと新開発ツール まとめ｜npaka](https://note.com/npaka/n/n9cd206d96f85#713ea787-4527-431c-b590-ed5611310f31): 2023/11/10
+- [「システム設計の面接試験」という本が良かった](https://zenn.dev/taiga533/articles/3e3671d92e6cfe): 2023/11/9
+- [「ソフトウェアアーキテクチャの基礎」を読んだので、その要点 #アーキテクチャ - Qiita](https://qiita.com/e99h2121/items/1844f5ed8da453a6dfb0): 2023/11/9
+- [「イベントで3回連続誰も来なかった」描きたいものとやる気さえあれば一人でも続けることは可能／カレー沢薫の創作相談](https://www.pixivision.net/ja/a/9209): 2023/11/9
+- [「AITuberを作ってみたら生成AIプログラミングがよくわかった件」が発売されました｜Saldra](https://note.com/saldra/n/nc5e09f822f1b?sub_rt=share_pb&s=31): 2023/11/9
+- [Workboxを使うと何ができるのか？Workboxの各packageのまとめ #PWA - Qiita](https://qiita.com/kyntk/items/169ed1c93fc281116c2f): 2023/11/8
+- [Stickify](https://stickify.xyz/): 2023/11/8
+- [オペレーティング・システムから、オペレーティング・エージェントへ｜深津 貴之 (fladdict)](https://note.com/fladdict/n/nf4c104d4ed2b): 2023/11/7
+- [catnose on X: "https://t.co/8uoCkmjAhW 触ってみたんだけど、めちゃくちゃ便利やんけ JPEG、PNGとかのビットマップ画像を数秒でSVGに変換できるやつなんだけ…](https://x.com/catnose99/status/1721717884941185169?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/11/7
+- [Introducing GPTs](https://openai.com/blog/introducing-gpts): 2023/11/6
+- [「生成AIを仕事で使い倒す人たち」に取材して回ったら「自分の10年後の失業」が見えてしまった | Books&amp;Apps](https://blog.tinect.jp/?p=83992): 2023/11/6
+- [xAI��AI�{�b�g�uGrok�v�AX�v���~�A���̃n�C�G���h�v�����Œ񋟂� - ITmedia NEWS](https://www.itmedia.co.jp/news/spv/2311/05/news031.html): 2023/11/5
+- [Be able to create service-worker in typescript · Issue #33863 · vercel/next.js · GitHub](https://github.com/vercel/next.js/issues/33863): 2023/11/5
+- [Vibration API - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/Vibration_API): 2023/11/5
+- [イーロン・マスク「宇宙の本質理解する」人工知能企業xAI、初のAIを公開 | テクノエッジ TechnoEdge](https://www.techno-edge.net/article/2023/11/05/2199.html): 2023/11/5
+- [useReducerの活用方法を広げてみよう](https://zenn.dev/k_log24/articles/289bdb1070f57d): 2023/11/4
+- [Stately | Understand your app logic](https://stately.ai/): 2023/11/3
+- [Service Worker のライフサイクル | Articles | web.dev](https://web.dev/articles/service-worker-lifecycle?hl=ja): 2023/11/3
+- [Service Workerについて調べたのでメモ](https://zenn.dev/s_takashi/articles/b01980461f3b21): 2023/11/3
+- [Service Workerのライフサイクルについて - YouTube](https://youtube.com/live/AIdQkNYsViM?si=MxJubWIILUT6C7XR): 2023/11/3
+- [Workspaces – Package manager | Bun Docs](https://bun.sh/docs/install/workspaces): 2023/11/3
+- [GitHub - shadowwalker/next-pwa: Zero config PWA plugin for Next.js, with workbox 🧰](https://github.com/shadowwalker/next-pwa): 2023/11/2
+- [Rehype Pretty Code](https://rehype-pretty-code.netlify.app/): 2023/11/2
+- [【革命】リアルタイムボイチェンソフト「VC Client」でついに念願のカワボをてにいれたぞ！｜星影](https://note.com/unsoluble_sugar/n/ndd8781101700): 2023/11/2
+- [RailsアプリのCI高速化](https://r7kamura.com/articles/2023-10-31-rails-ci): 2023/11/2
+- [Subsetting – Fonts Knowledge - Google Fonts](https://fonts.google.com/knowledge/glossary/subsetting): 2023/11/2
+- [GitHub - astoilkov/use-local-storage-state: React hook that persists data in localStorage](https://github.com/astoilkov/use-local-storage-state): 2023/11/1
+- [WALL FOR ONE](https://tent1000.com/wallforone/): 2023/11/1
+
+- [RailsアプリのCI高速化](https://r7kamura.com/articles/2023-10-31-rails-ci): 2023/11/1
+- [Lucide React | Lucide](https://lucide.dev/guide/packages/lucide-react): 2023/11/1
+- [Dockhunt](https://www.dockhunt.com/): 2023/11/1
+- [もとやま📚著書『投資としての読書』 on X: "本日のオススメ本は『リーダーシップに出会う瞬間』 「リーダーなんて〇んでもなりたくない」と思っている人ほど刺さる一冊です。 物語形式で書かれていて…](https://x.com/ysk_motoyama/status/1689407726768762885?s=20): 2023/11/1
+- [従来の小さなニューラルネットワークでも「メタ学習」でChatGPTを凌駕するほど高度な生成AIができるとの報告、Nature誌 | AIDB](https://aiboom.net/archives/57838): 2023/11/1
+- [エフェクトは必要ないかもしれない – React](https://ja.react.dev/learn/you-might-not-need-an-effect): 2023/10/31
+- [Daichi Ninomiya on X: "shadcn がお勧めしていた Klack を試してみる。 ◆ キーストロークごとに心地よいサウンドが ◆ 空間オーディオで没入できる ◆ 600円買い…](https://x.com/d151005/status/1719180635661832284?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/31
+
+- [LLMのファインチューニングのためのツール Axolotl｜npaka](https://note.com/npaka/n/ne27e0ceec960): 2023/10/31
+- [Wonder3D: Single Image to 3D using Cross-Domain Diffusion](https://www.xxlong.site/Wonder3D/): 2023/10/31
+- [「作ってから売る」と「売ってから作る」と「売れるようにしてから作る」　～技術の社会実装のための『開発』～ - Speaker Deck](https://speakerdeck.com/tumada/zuo-tutekaramai-ru-to-mai-tutekarazuo-ru-to-mai-reruyounisitekarazuo-ru): 2023/10/31
+- [エフェクトは必要ないかもしれない – React](https://ja.react.dev/learn/you-might-not-need-an-effect): 2023/10/31
+
+- [Vercel PostgresがどうやってEdge RuntimeでORMとコネクションプールを使えるようにしているのか](https://zenn.dev/laiso/articles/542fdfac2acb6b): 2023/10/30
+- [Fat_Modelを解消するためのCQRSアーキテクチャ.pdf - Speaker Deck](https://speakerdeck.com/krpk1900/fat-modelwojie-xiao-surutamenocqrsakitekutiya): 2023/10/28
+- [サーバーサイドの人を React に引き込む作戦――コンポーネントベースの考え方をまとめる](https://zenn.dev/honey32/scraps/1c66725ee2de02): 2023/10/27
+- [XMLHttpRequest とはなんだったのか | blog.jxck.io](https://blog.jxck.io/entries/2022-09-30/XMLHttpRequest.html): 2023/10/27
+- [Astro 3.4: Page Partials | Astro](https://astro.build/blog/astro-340/): 2023/10/27
+- [Standard metadata names - HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name#): 2023/10/27
+- [theme-color - HTML: ハイパーテキストマークアップ言語 | MDN](https://developer.mozilla.org/ja/docs/Web/HTML/Element/meta/name/theme-color): 2023/10/27
+
+- [家の購入を考え始めたら読んでほしい。購入体験を良くするために知りたいことの全て｜Yuko Kawashima](https://note.com/yuko_kawashima/n/ne4ba98448d5a): 2023/10/26
+- [Fanny Kemble | British Actress, Abolitionist, Playwright | Britannica](https://www.britannica.com/biography/Fanny-Kemble): 2023/10/26
+- [Is there a way to enforce strict node ordering (Eg. Ensuring that a document has a title) · faceboo…](https://github.com/facebook/lexical/discussions/2987): 2023/10/26
+
+- [Home | Laws of UX](https://lawsofux.com/): 2023/10/25
+- [ベルの不等式とは何か(CHSH不等式) - YouTube](https://youtube.com/watch?v=O99Zy-6YwoU&si=S7HonF-Dhl1m75gz): 2023/10/25
+
+
+
+- [Daichi Ninomiya on X: "マイベスト ◆ Next.js (app/RCS/Server Actions) ◆ shadcn/ui &amp; Tailwind CSS - UI…](https://x.com/d151005/status/1716618148055826621?s=12&t=euSCvMMuq2M2dWlmbmTgvA): 2023/10/24
+- [Next.js Server Actions の裏側を理解したくて動きとコードを追う](https://zenn.dev/cybozu_frontend/articles/server-actions-deep-dive): 2023/10/24
+
+- [なんとなくでuseStateを使うのをやめたい。](https://zenn.dev/shiro12/articles/e5f2093ac7eea2): 2023/10/24
+
+- [Welcome — Phoenix LiveView v0.20.1](https://hexdocs.pm/phoenix_live_view/welcome.html): 2023/10/24
+- [キャッチアップ速度が速い #とは - Speaker Deck](https://speakerdeck.com/nrryuya/kiyatutiatuhusu-du-kasu-i-number-toha): 2023/10/24
+
+- [VercelへのデプロイをGitHub Actions経由で行うことでVercelチームメンバー以外でも開発に参加できるようにする](https://zenn.dev/ttskch/articles/691fb62fbb6b1b): 2023/10/23
+- [アニメ系イラストに特化した生成AI「にじジャーニー」のスマホアプリ「niji・journey」が正式公開されたので使ってみた - GIGAZINE](https://gigazine.net/news/20231023-niji-journey-mobile-app/): 2023/10/23
+- [【SUUMO】4LDK/4階/129.81m2（アパマンショップ鹿児島南店(有)ビルム提供）／鹿児島県鹿児島市城山町／水族館口駅の賃貸・部屋探し情報（100348161108） | 賃貸マンション・…](https://suumo.jp/chintai/bc_100348161108/): 2023/10/23
+- [Apple Insiders Expose iPhone 16 Pro’s Chaotic AI Plans](https://www.forbes.com/sites/ewanspence/2023/10/22/apple-iphone-16-iphone-16-pro-ios-18-chatgpt-generative-ai-llm-ai/?sh=79cd73431501): 2023/10/23
+- [Ollama](https://ollama.ai/): 2023/10/23
+- [明るさ調整可能、家でも外でも見やすい「XREAL Air 2 Pro」11月17日発売 - Impress Watch](https://www.watch.impress.co.jp/docs/news/1539873.html): 2023/10/23
+- [リッチテキストエディタフレームワークLexicalの実践的な使い方 - バイセル Tech Blog](https://tech.buysell-technologies.com/entry/2023/05/02/083000): 2023/10/22
+- [Meta の新しいリッチテキストエディターフレームワーク Lexical を調べる(実践編)](https://zenn.dev/stin/articles/lexical-rich-editor-trial): 2023/10/22
+- [Meta の新しいリッチテキストエディターフレームワーク Lexical を調べる](https://zenn.dev/stin/articles/getting-started-with-lexical): 2023/10/21
+- [draft-js vs lexical vs medium-editor vs quill vs slate vs tiptap | npm trends](https://npmtrends.com/draft-js-vs-lexical-vs-medium-editor-vs-quill-vs-slate-vs-tiptap): 2023/10/21
+- [不振の「iPad」Appleが狙う逆転の一手 | AppBank](https://www.appbank.net/2023/10/20/technology/2599253.php): 2023/10/20
+- [CTO×PM公開2on1 〜ペパボのプロダクトマネジメントについて〜](https://hr.pepabo.com/interview/2023/10/20/9245): 2023/10/20
+- [Docker on Lima なツールを色々試してみた - freee Developers Hub](https://developers.freee.co.jp/entry/freee-docker-desktop-alternative): 2023/10/20
+- [行動変容 自分と世界を変える技術 / Behavior change techniques - Speaker Deck](https://speakerdeck.com/dmattsun/behavior-change-techniques): 2023/10/20
+- [Overview | Auth.js](https://authjs.dev/reference/adapters): 2023/10/19
+- [オブジェクト指向のその前に-凝集度と結合度/Coheision-Coupling - Speaker Deck](https://speakerdeck.com/sonatard/coheision-coupling?slide=61): 2023/10/19
+- [VRで視力回復するメカニズムを最新の研究事例から解説！ – XR-Hub](https://xr-hub.com/archives/2874): 2023/10/18
+- [世界一わかりやすいClean Architecture | PPT](https://www.slideshare.net/AtsushiNakamura4/clean-architecture-release): 2023/10/18
+- [質とスピード（2020秋100分拡大版） / Quality and Speed 2020 Autumn Edition - Speaker Deck](https://speakerdeck.com/twada/quality-and-speed-2020-autumn-edition): 2023/10/18
+- [良いコードとは何か - エンジニア新卒研修 スライド公開｜CyberZ Developer](https://note.com/cyberz_cto/n/n26f535d6c575): 2023/10/18
+- [イラストで理解するSOLID原則 #初心者 - Qiita](https://qiita.com/baby-degu/items/d058a62f145235a0f007): 2023/10/17
+- [WEB+DB PRESSと私 - Speaker Deck](https://speakerdeck.com/inao/oedo10): 2023/10/17
+- [Whisper、ChatGPTを活用した、テキスト入力不要な新感覚メモ日記アプリの紹介と、開発における学び｜にょす](https://note.com/nyosubro/n/na2b9c6ede8d5): 2023/10/17
+- [GitHub Copilotによる技術革新と未来のエンジニアリング | CyberAgent Way サイバーエージェント公式オウンドメディア](https://www.cyberagent.co.jp/way/list/detail/id=29421): 2023/10/16
+- [Gartner、「生成AIのハイプ・サイクル：2023年」を発表－2026年までに、企業の80%以上は生成AIのAPIを使用して、生成AIに対応したアプリケーションを本番環境に展開するようになる](https://www.gartner.co.jp/ja/newsroom/press-releases/pr-20231012): 2023/10/16
+- [個人開発で参考になるNext.jsリポジトリ10選](https://zenn.dev/ya_s_u/articles/awesome-nextjs-repos): 2023/10/15
+- [DDDを実践するための手引き（リポジトリパターン編）](https://zenn.dev/kohii/articles/e4f325ed011db8): 2023/10/15
+- [DDDを実践するための手引き（概論・導入編）](https://zenn.dev/kohii/articles/b96634b9a14897): 2023/10/15
+- [CQRS 完全に理解した](https://zenn.dev/shmi593/articles/c1baeb2d453929): 2023/10/15
+- [DDD Europe 2016](https://www.zweitag.de/en/blog-article/ddd-europe-2016): 2023/10/15
+- [言語的相対論 - Wikipedia](https://ja.m.wikipedia.org/wiki/%E8%A8%80%E8%AA%9E%E7%9A%84%E7%9B%B8%E5%AF%BE%E8%AB%96): 2023/10/15
+- [言語的相対論 - Wikipedia](https://ja.m.wikipedia.org/wiki/%E8%A8%80%E8%AA%9E%E7%9A%84%E7%9B%B8%E5%AF%BE%E8%AB%96): 2023/10/14
+- [｢AIと共同作業したい｣と本気で思った。アドビの次なる生成AIの凄さ【Adobe Max 2023現地レポート】 | ギズモード・ジャパン](https://www.gizmodo.jp/2023/10/adobe-max-2023-1.html): 2023/10/14
+- [React/Next によるアプリケーション開発のこれから - Speaker Deck](https://speakerdeck.com/koba04/next-niyoruapurikesiyonkai-fa-nokorekara?slide=34): 2023/10/13
+- [AIにニュースの収集を任せている方法。（GPT-4からSlack投稿） - toyoshiの日記](https://toyoshi.hatenablog.com/entry/2023/10/13/103701): 2023/10/13
 - [SOLID - Wikipedia](https://ja.wikipedia.org/wiki/SOLID): 2023/10/13
 - [Docker Compose Watchのすすめ - Hatena Developer Blog](https://developer.hatenastaff.com/entry/2023/10/13/120000): 2023/10/13
 - [Docker Compose Watchのすすめ - Hatena Developer Blog](https://developer.hatenastaff.com/entry/2023/10/13/120000): 2023/10/13
