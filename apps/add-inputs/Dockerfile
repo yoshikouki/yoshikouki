@@ -7,6 +7,8 @@ COPY package.json bun.lockb ./
 RUN bun install --frozen-lockfile --production
 RUN bun run install:chrome
 
+COPY . .
+
 # run the app
 USER bun
 CMD [ "bun", "run", "index.ts" ]
