@@ -9,11 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/yoshikouki/add-inputs:main
+      volumes:
+        - ./Inputs.md:./Inputs.md
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
     - name: Run script and Update file
       id: script
       env:
