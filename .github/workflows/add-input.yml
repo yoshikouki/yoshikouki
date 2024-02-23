@@ -25,6 +25,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        cd apps/add-inputs
         bun install
         bun run install:chrome
 
@@ -34,7 +35,7 @@ jobs:
         URL: ${{ github.event.client_payload.url }}
       run: |
         printf "%s\n%s" \
-          "$(bun scripts/add-input.ts "${{ github.event.client_payload.url }}")" \
+          "$(bun apps/add-input/index.ts "${{ github.event.client_payload.url }}")" \
           "$(cat ./Inputs.md)" \
           > temp
         mv -f temp ./Inputs.md
