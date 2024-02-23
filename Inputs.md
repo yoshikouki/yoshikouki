@@ -1,3 +1,4 @@
+- [Stable Diffusion 3 — Stability AI](https://stability.ai/news/stable-diffusion-3?utm_source=twitter&utm_medium=website&utm_campaign=blog): 2024/2/23
 - [フロントエンドの移り変わりは早すぎるのか](https://zenn.dev/nekoya/articles/12ebf1fd916db2): 2024/2/23
 - [NVIDIA GPUが早速「Gemma」向けに最適化。Chat with RTXでも対応へ - PC Watch](https://pc.watch.impress.co.jp/docs/news/1570813.html): 2024/2/23
 - [いまGoogleを使ってない人は、何を使っているのか？ (1/4)：MarkeZine（マーケジン）](https://markezine.jp/article/detail/44776): 2024/2/16
