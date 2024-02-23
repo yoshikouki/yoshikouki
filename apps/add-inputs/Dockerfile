@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY package.json bun.lockb ./
 RUN bun install --frozen-lockfile --production
-RUN bun --bun x @puppeteer/browsers install chrome
+RUN bun run install:chrome
 
 # run the app
 USER bun
