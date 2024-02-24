@@ -1,3 +1,4 @@
+- [mac で gemma.cpp を試す｜npaka](https://note.com/npaka/n/n74f80ee86ac2): 2024/2/24
 - [aulumu](https://aulumu.com/?ref=IN-z_EJs81VXEd): 2024/2/23
 - [JavaScriptで要素をドラッグして移動する簡単な方法 #JavaScript - Qiita](https://qiita.com/economist/items/d4254209330c11caff04): 2024/2/23
 - [javascript - How to Enable Hot Reloading with Bun in a React Application? - Stack Overflow](https://stackoverflow.com/questions/76427355/how-to-enable-hot-reloading-with-bun-in-a-react-application): 2024/2/23
