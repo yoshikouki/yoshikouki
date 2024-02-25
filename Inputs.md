@@ -1,3 +1,4 @@
+- [TypeScript コーディングテクニック #1 【条件分岐編】](https://zenn.dev/somnicattus/articles/de3c91228529b3): 2024/2/25
 - [mac で gemma.cpp を試す｜npaka](https://note.com/npaka/n/n74f80ee86ac2): 2024/2/24
 - [aulumu](https://aulumu.com/?ref=IN-z_EJs81VXEd): 2024/2/23
 - [JavaScriptで要素をドラッグして移動する簡単な方法 #JavaScript - Qiita](https://qiita.com/economist/items/d4254209330c11caff04): 2024/2/23
