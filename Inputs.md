@@ -1,3 +1,4 @@
+- [G検定とは - 一般社団法人日本ディープラーニング協会【公式】](https://www.jdla.org/certificate/general/): 2024/2/26
 
 - [横井庄一 - Wikipedia](https://ja.wikipedia.org/wiki/%E6%A8%AA%E4%BA%95%E5%BA%84%E4%B8%80): 2024/2/26
 - [キャスト・アウェイ - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%83%BB%E3%82%A2%E3%82%A6%E3%82%A7%E3%82%A4): 2024/2/26
