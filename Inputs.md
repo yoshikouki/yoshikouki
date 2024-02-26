@@ -1,3 +1,4 @@
+- [hakolateというタブレット端末向けのIDEを作りました](https://zenn.dev/sou1118/articles/610797ccc4e70b): 2024/2/26
 - [G検定とは - 一般社団法人日本ディープラーニング協会【公式】](https://www.jdla.org/certificate/general/): 2024/2/26
 
 - [横井庄一 - Wikipedia](https://ja.wikipedia.org/wiki/%E6%A8%AA%E4%BA%95%E5%BA%84%E4%B8%80): 2024/2/26
