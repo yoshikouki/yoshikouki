@@ -1,3 +1,4 @@
+- [安価かつスケーラブルなサーバレスバックエンドプラットフォーム　～KoyebとNeonのススメ～](https://zenn.dev/ficilcom/articles/koyeb-neon-introduction): 2024/2/27
 - [hakolateというタブレット端末向けのIDEを作りました](https://zenn.dev/sou1118/articles/610797ccc4e70b): 2024/2/26
 - [G検定とは - 一般社団法人日本ディープラーニング協会【公式】](https://www.jdla.org/certificate/general/): 2024/2/26
 
