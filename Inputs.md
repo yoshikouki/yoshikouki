@@ -1,3 +1,4 @@
+- [エンジニアとして知っておきたい2024年デスクトップブラウザまとめ](https://zenn.dev/siropaca/articles/2024-browsers): 2024/2/27
 - [ASCII.jp：画像生成AI、安いPCでも高速に　衝撃の「Stable Diffusion WebUI Forge」 (4/4)](https://ascii.jp/elem/000/004/185/4185940/4/): 2024/2/27
 - [安価かつスケーラブルなサーバレスバックエンドプラットフォーム　～KoyebとNeonのススメ～](https://zenn.dev/ficilcom/articles/koyeb-neon-introduction): 2024/2/27
 - [hakolateというタブレット端末向けのIDEを作りました](https://zenn.dev/sou1118/articles/610797ccc4e70b): 2024/2/26
