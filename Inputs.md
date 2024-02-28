@@ -1,3 +1,4 @@
+- [Stable Diffusion XLがプロンプト入力に追従して爆速画像生成してくれる「SDXL Lightning」のデモが公開中 - GIGAZINE](https://gigazine.net/news/20240227-sdxl-lightning/): 2024/2/28
 - [雑にReactアプリを作りたい時に使ってるもの](https://zenn.dev/razokulover/articles/7653ef0336db77): 2024/2/28
 - [HonoでAPI付き雑React SPA最小](https://zenn.dev/yusukebe/articles/06d9cc1714bfb7): 2024/2/28
 - [エンジニアとして知っておきたい2024年デスクトップブラウザまとめ](https://zenn.dev/siropaca/articles/2024-browsers): 2024/2/27
