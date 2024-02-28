@@ -1,3 +1,4 @@
+- [え？まだgit checkoutしてるの？](https://zenn.dev/gmomedia/articles/d9366fa84aadfd): 2024/2/28
 - [デジタル化で職を失うホワイトカラーの労働移動を支援ー政府方針 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2024-02-27/S9HWHZT1UM0W00): 2024/2/28
 - [本に書いてあるスクラムと、お前らのいうスクラム開発は別物だということにいい加減気づいてくれ](https://zenn.dev/shin_semiya/articles/13ecfad2d0f126): 2024/2/28
 - [JavaScriptのvarとletの違いとは？](https://zenn.dev/keiichiro/articles/07450b50e4b808): 2024/2/28
