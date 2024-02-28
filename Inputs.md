@@ -1,3 +1,4 @@
+- [React 19に入る(予定の)新機能のまとめ](https://zenn.dev/terass_dev/articles/3a1d59f4a3421b): 2024/2/28
 - [え？まだgit checkoutしてるの？](https://zenn.dev/gmomedia/articles/d9366fa84aadfd): 2024/2/28
 - [デジタル化で職を失うホワイトカラーの労働移動を支援ー政府方針 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2024-02-27/S9HWHZT1UM0W00): 2024/2/28
 - [本に書いてあるスクラムと、お前らのいうスクラム開発は別物だということにいい加減気づいてくれ](https://zenn.dev/shin_semiya/articles/13ecfad2d0f126): 2024/2/28
