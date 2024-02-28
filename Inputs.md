@@ -1,3 +1,4 @@
+- [画像生成AI・Stable Diffusionのエンコーダーに見つかった致命的な欠陥とは？ - GIGAZINE](https://gigazine.net/news/20240202-stable-diffusion-vae-critical-flaw/): 2024/2/28
 - [Stable Diffusion XLがプロンプト入力に追従して爆速画像生成してくれる「SDXL Lightning」のデモが公開中 - GIGAZINE](https://gigazine.net/news/20240227-sdxl-lightning/): 2024/2/28
 - [雑にReactアプリを作りたい時に使ってるもの](https://zenn.dev/razokulover/articles/7653ef0336db77): 2024/2/28
 - [HonoでAPI付き雑React SPA最小](https://zenn.dev/yusukebe/articles/06d9cc1714bfb7): 2024/2/28
