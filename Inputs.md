@@ -1,3 +1,4 @@
+- [本に書いてあるスクラムと、お前らのいうスクラム開発は別物だということにいい加減気づいてくれ](https://zenn.dev/shin_semiya/articles/13ecfad2d0f126): 2024/2/28
 - [HonoでAPIだけ作って素のReact DOMでSPAを書くアーキテクチャ](https://zenn.dev/laiso/articles/c7eba95ce43feb): 2024/2/28
 - [画像生成AI・Stable Diffusionのエンコーダーに見つかった致命的な欠陥とは？ - GIGAZINE](https://gigazine.net/news/20240202-stable-diffusion-vae-critical-flaw/): 2024/2/28
 - [Stable Diffusion XLがプロンプト入力に追従して爆速画像生成してくれる「SDXL Lightning」のデモが公開中 - GIGAZINE](https://gigazine.net/news/20240227-sdxl-lightning/): 2024/2/28
