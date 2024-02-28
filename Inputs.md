@@ -1,3 +1,4 @@
+- [本に書いてあるスクラムと、お前らのいうスクラム開発は別物だということにいい加減気づいてくれ](https://zenn.dev/shin_semiya/articles/13ecfad2d0f126): 2024/2/28
 - [JavaScriptのvarとletの違いとは？](https://zenn.dev/keiichiro/articles/07450b50e4b808): 2024/2/28
 - [本に書いてあるスクラムと、お前らのいうスクラム開発は別物だということにいい加減気づいてくれ](https://zenn.dev/shin_semiya/articles/13ecfad2d0f126): 2024/2/28
 - [HonoでAPIだけ作って素のReact DOMでSPAを書くアーキテクチャ](https://zenn.dev/laiso/articles/c7eba95ce43feb): 2024/2/28
