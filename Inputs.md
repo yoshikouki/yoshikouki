@@ -1,3 +1,4 @@
+- [驚異の1ビットLLMを試す。果たして本当に学習できるのか?｜shi3z](https://note.com/shi3zblog/n/n58b0a2252727): 2024/2/29
 - [1ビットLLMの衝撃! 70Bで8.9倍高速　全ての推論を加算のみで!GPU不要になる可能性も – WirelessWire News](https://wirelesswire.jp/2024/02/86094/): 2024/2/29
 - [React 19に入る(予定の)新機能のまとめ](https://zenn.dev/terass_dev/articles/3a1d59f4a3421b): 2024/2/28
 - [え？まだgit checkoutしてるの？](https://zenn.dev/gmomedia/articles/d9366fa84aadfd): 2024/2/28
