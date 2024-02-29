@@ -1,3 +1,4 @@
+- [1ビットLLMの衝撃! 70Bで8.9倍高速　全ての推論を加算のみで!GPU不要になる可能性も – WirelessWire News](https://wirelesswire.jp/2024/02/86094/): 2024/2/29
 - [React 19に入る(予定の)新機能のまとめ](https://zenn.dev/terass_dev/articles/3a1d59f4a3421b): 2024/2/28
 - [え？まだgit checkoutしてるの？](https://zenn.dev/gmomedia/articles/d9366fa84aadfd): 2024/2/28
 - [デジタル化で職を失うホワイトカラーの労働移動を支援ー政府方針 - Bloomberg](https://www.bloomberg.co.jp/news/articles/2024-02-27/S9HWHZT1UM0W00): 2024/2/28
