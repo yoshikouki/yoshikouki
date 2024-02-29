@@ -1,3 +1,4 @@
+- [Utils – API | Bun Docs](https://bun.sh/docs/api/utils#bun-gunzipsync): 2024/2/29
 - [WasmLinux: WebブラウザでLinuxカーネルとBusyBoxを動かす(エミュレーションなしで)](https://zenn.dev/okuoku/articles/89a96bcee4cc93): 2024/2/29
 - [色はAIで決める、デザイナーが知っておきたいAI配色ツール10選 | PhotoshopVIP](https://photoshopvip.net/155741): 2024/2/29
 - [「インプットの怪物」あんちぽが語るエンジニア勉強論。終わりなき論争に終止符は打たれるのか | レバテックラボ（レバテックLAB）](https://levtech.jp/media/article/interview/detail_395/): 2024/2/29
