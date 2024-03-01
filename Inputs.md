@@ -1,3 +1,4 @@
+- [AppleがAI開発に多額の投資を行っていることを明かし「2024年後半に詳細を明らかにする」と話す - GIGAZINE](https://gigazine.net/news/20240229-apple-generative-ai-plan/): 2024/3/1
 - [メンバー全員AIな企業「ymmd」 #AICU_ACT2｜AICU media](https://note.com/aicu/n/n4a152cc64793): 2024/3/1
 - [20230227-engineer-type-talk.pdf - Speaker Deck](https://speakerdeck.com/naoya/20230227-engineer-type-talk): 2024/2/29
 - [Utils – API | Bun Docs](https://bun.sh/docs/api/utils#bun-gunzipsync): 2024/2/29
