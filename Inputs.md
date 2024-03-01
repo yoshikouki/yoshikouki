@@ -1,3 +1,4 @@
+- [メンバー全員AIな企業「ymmd」 #AICU_ACT2｜AICU media](https://note.com/aicu/n/n4a152cc64793): 2024/3/1
 - [20230227-engineer-type-talk.pdf - Speaker Deck](https://speakerdeck.com/naoya/20230227-engineer-type-talk): 2024/2/29
 - [Utils – API | Bun Docs](https://bun.sh/docs/api/utils#bun-gunzipsync): 2024/2/29
 - [WasmLinux: WebブラウザでLinuxカーネルとBusyBoxを動かす(エミュレーションなしで)](https://zenn.dev/okuoku/articles/89a96bcee4cc93): 2024/2/29
