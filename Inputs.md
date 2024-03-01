@@ -1,3 +1,4 @@
+- [NixOS と Nix Flakes の紹介](https://zenn.dev/kino_ma/articles/f2a4df384b91a4): 2024/3/1
 - [Cloudflareで動くフレームワークを和田裕介さんがオープンソースで開発する理由 - Findy Engineer Lab](https://findy-code.io/engineer-lab/yusukebe): 2024/3/1
 - [Bun公式ドキュメントをサラッと読んでみる | iret.media](https://iret.media/81821): 2024/3/1
 - [AppleがAI開発に多額の投資を行っていることを明かし「2024年後半に詳細を明らかにする」と話す - GIGAZINE](https://gigazine.net/news/20240229-apple-generative-ai-plan/): 2024/3/1
