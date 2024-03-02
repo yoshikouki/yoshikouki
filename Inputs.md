@@ -1,3 +1,4 @@
+- [新卒エンジニア向け機械学習研修2023を実施しました - ペパボ研究所ブログ](https://rand.pepabo.com/article/2023/06/15/ml-training-report-2023/): 2024/3/2
 - [オープンソースプロジェクトを有料化して月収100万円の事業家に転身したソフトウェア開発者 - GIGAZINE](https://gigazine.net/news/20240229-open-source-project-business/): 2024/3/2
 - [NixOS と Nix Flakes の紹介](https://zenn.dev/kino_ma/articles/f2a4df384b91a4): 2024/3/1
 - [Cloudflareで動くフレームワークを和田裕介さんがオープンソースで開発する理由 - Findy Engineer Lab](https://findy-code.io/engineer-lab/yusukebe): 2024/3/1
