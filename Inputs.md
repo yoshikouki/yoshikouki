@@ -1,3 +1,4 @@
+- [Pusher | Leader In Realtime Technologies](https://pusher.com/): 2024/3/2
 - [WebSocketを用いた一貫性のあるリアルタイム通信](https://zenn.dev/sdb_blog/articles/pusher-websocket): 2024/3/2
 - [新卒エンジニア向け機械学習研修2023を実施しました - ペパボ研究所ブログ](https://rand.pepabo.com/article/2023/06/15/ml-training-report-2023/): 2024/3/2
 - [オープンソースプロジェクトを有料化して月収100万円の事業家に転身したソフトウェア開発者 - GIGAZINE](https://gigazine.net/news/20240229-open-source-project-business/): 2024/3/2
