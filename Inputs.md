@@ -1,3 +1,4 @@
+- [オープンソースプロジェクトを有料化して月収100万円の事業家に転身したソフトウェア開発者 - GIGAZINE](https://gigazine.net/news/20240229-open-source-project-business/): 2024/3/2
 - [NixOS と Nix Flakes の紹介](https://zenn.dev/kino_ma/articles/f2a4df384b91a4): 2024/3/1
 - [Cloudflareで動くフレームワークを和田裕介さんがオープンソースで開発する理由 - Findy Engineer Lab](https://findy-code.io/engineer-lab/yusukebe): 2024/3/1
 - [Bun公式ドキュメントをサラッと読んでみる | iret.media](https://iret.media/81821): 2024/3/1
