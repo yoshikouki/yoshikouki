@@ -1,3 +1,4 @@
+- [HTTPが全てを飲み込む（中編）～HTTPの上にIPやイーサネットが実装されて便利になること － Publickey](https://www.publickey1.jp/blog/24/httphttpip.html): 2024/3/2
 - [WebSocketを用いた一貫性のあるリアルタイム通信](https://zenn.dev/sdb_blog/articles/pusher-websocket): 2024/3/2
 - [Pusher | Leader In Realtime Technologies](https://pusher.com/): 2024/3/2
 - [WebSocketを用いた一貫性のあるリアルタイム通信](https://zenn.dev/sdb_blog/articles/pusher-websocket): 2024/3/2
