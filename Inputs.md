@@ -1,3 +1,4 @@
+- [努力について｜千葉雅也](https://note.com/masayachiba/n/n2ea223a5c533?after_purchase=true&scrollpos=paywall): 2024/3/3
 - [「男の料理」的追求へと向かわないこと｜千葉雅也](https://note.com/masayachiba/n/n73db195d3fcd?after_purchase=true&scrollpos=paywall): 2024/3/3
 - [コードレビューで嫌われる人の特徴7選 #GitHub - Qiita](https://qiita.com/emjo1804/items/48f6e78237a04684ab38): 2024/3/2
 - [HTTPが全てを飲み込む（中編）～HTTPの上にIPやイーサネットが実装されて便利になること － Publickey](https://www.publickey1.jp/blog/24/httphttpip.html): 2024/3/2
