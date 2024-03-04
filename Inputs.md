@@ -1,3 +1,4 @@
+- [iTermをやめてVSCodeのターミナルに寄せる - yasuhisa's blog](https://www.yasuhisay.info/entry/2024/03/02/035317): 2024/3/4
 - [努力について｜千葉雅也](https://note.com/masayachiba/n/n2ea223a5c533?after_purchase=true&scrollpos=paywall): 2024/3/3
 - [「男の料理」的追求へと向かわないこと｜千葉雅也](https://note.com/masayachiba/n/n73db195d3fcd?after_purchase=true&scrollpos=paywall): 2024/3/3
 - [コードレビューで嫌われる人の特徴7選 #GitHub - Qiita](https://qiita.com/emjo1804/items/48f6e78237a04684ab38): 2024/3/2
