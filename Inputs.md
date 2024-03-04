@@ -1,3 +1,4 @@
+- [新NISA、細部は複雑　誤解を解く6つのポイント - 日本経済新聞](https://www.nikkei.com/article/DGXZQOUB299GY0Z20C24A2000000/): 2024/3/4
 - [いつか起業したいエンジニアへ #キャリア - Qiita](https://qiita.com/TakahikoKawasaki/items/629ec8badbf5a1257e5f): 2024/3/4
 - [iTermをやめてVSCodeのターミナルに寄せる - yasuhisa's blog](https://www.yasuhisay.info/entry/2024/03/02/035317): 2024/3/4
 - [努力について｜千葉雅也](https://note.com/masayachiba/n/n2ea223a5c533?after_purchase=true&scrollpos=paywall): 2024/3/3
