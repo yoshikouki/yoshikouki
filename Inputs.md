@@ -1,3 +1,4 @@
+- [いつか起業したいエンジニアへ #キャリア - Qiita](https://qiita.com/TakahikoKawasaki/items/629ec8badbf5a1257e5f): 2024/3/4
 - [iTermをやめてVSCodeのターミナルに寄せる - yasuhisa's blog](https://www.yasuhisay.info/entry/2024/03/02/035317): 2024/3/4
 - [努力について｜千葉雅也](https://note.com/masayachiba/n/n2ea223a5c533?after_purchase=true&scrollpos=paywall): 2024/3/3
 - [「男の料理」的追求へと向かわないこと｜千葉雅也](https://note.com/masayachiba/n/n73db195d3fcd?after_purchase=true&scrollpos=paywall): 2024/3/3
