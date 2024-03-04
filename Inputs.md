@@ -1,3 +1,4 @@
+- [JSRが！公開された！](https://zenn.dev/nakasyou/articles/20230301_jsr): 2024/3/4
 - [Reactはなぜそんなに人気なのか？翳りは訪れるのか？](https://zenn.dev/y_ta/articles/1eb1403af45909): 2024/3/4
 - [新NISA、細部は複雑　誤解を解く6つのポイント - 日本経済新聞](https://www.nikkei.com/article/DGXZQOUB299GY0Z20C24A2000000/): 2024/3/4
 - [いつか起業したいエンジニアへ #キャリア - Qiita](https://qiita.com/TakahikoKawasaki/items/629ec8badbf5a1257e5f): 2024/3/4
