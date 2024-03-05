@@ -1,3 +1,4 @@
+- [React Labs: 私達のこれまでの取り組み - 2024年2月版 – React](https://ja.react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024): 2024/3/5
 - [【最新の音声合成AI】Style-Bert-VITS2公式チュートリアル【TTS】【東北きりたん解説】 - YouTube](https://www.youtube.com/watch?v=aTUSzgDl1iY&t=244s): 2024/3/5
 - [（Style-)Bert-VITS2の仕組み・構造と、バージョンによる違いについて](https://zenn.dev/litagin/articles/8c6edcf6b6fcd6): 2024/3/5
 - [React Forget は何を「忘れ」させてくれるのか](https://zenn.dev/terass_dev/articles/6f49e44d9cfb0d): 2024/3/5
