@@ -1,3 +1,4 @@
+- [（Style-)Bert-VITS2の仕組み・構造と、バージョンによる違いについて](https://zenn.dev/litagin/articles/8c6edcf6b6fcd6): 2024/3/5
 - [React Forget は何を「忘れ」させてくれるのか](https://zenn.dev/terass_dev/articles/6f49e44d9cfb0d): 2024/3/5
 
 - [Streams API - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API): 2024/3/4
