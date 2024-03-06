@@ -1,3 +1,4 @@
+- [WebSocketを用いた一貫性のあるリアルタイム通信](https://zenn.dev/sdb_blog/articles/pusher-websocket): 2024/3/6
 - [Honoハンズオン2024年3月沖縄](https://zenn.dev/yusukebe/articles/e258eb3ce536fc): 2024/3/5
 - [React Labs: 私達のこれまでの取り組み - 2024年2月版 – React](https://ja.react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024): 2024/3/5
 - [【最新の音声合成AI】Style-Bert-VITS2公式チュートリアル【TTS】【東北きりたん解説】 - YouTube](https://www.youtube.com/watch?v=aTUSzgDl1iY&t=244s): 2024/3/5
