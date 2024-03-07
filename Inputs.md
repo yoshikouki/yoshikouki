@@ -1,3 +1,4 @@
+- [ReactでSVGをComponent内で利用する3つの方法とSVGのstyleの変更方法](https://zenn.dev/aiq_dev/articles/c6191746560398): 2024/3/7
 
 - [【便利tips】Figmaでデザインデータを作る時のイロハについてデザイナーに聞いてみた](https://zenn.dev/levtech/articles/a0b8d7261c6372): 2024/3/7
 - [Stability AI、新たな画像生成AIモデル「Stable Cascade」を発表─「Stable Diffusion」より高速高品質 | 知財図鑑](https://chizaizukan.com/news/5W8J3rXLpv0PrgHJSAcmoU/): 2024/3/7
