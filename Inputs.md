@@ -1,3 +1,4 @@
+- [人間不在の「イーサリアム」経済圏　アフリカで急成長 - 日本経済新聞](https://www.nikkei.com/article/DGXZQOUC18AG70Y4A110C2000000/): 2024/3/7
 - [ひたすらAI絵をやってたら絵が描けるようになってた話｜賢木イオ @studiomasakaki](https://note.com/studiomasakaki/n/n1732db6116df): 2024/3/6
 - [“neem（ニーム）”の正式サービスが本日（3/6）より開始。誰でも簡単にメタバースが作れるプラットフォーム | ゲーム・エンタメ最新情報のファミ通.com](https://www.famitsu.com/news/202403/06336668.html): 2024/3/6
 - [WebSocketを用いた一貫性のあるリアルタイム通信](https://zenn.dev/sdb_blog/articles/pusher-websocket): 2024/3/6
