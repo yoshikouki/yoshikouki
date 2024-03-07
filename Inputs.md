@@ -1,3 +1,4 @@
+- [【便利tips】Figmaでデザインデータを作る時のイロハについてデザイナーに聞いてみた](https://zenn.dev/levtech/articles/a0b8d7261c6372): 2024/3/7
 - [Stability AI、新たな画像生成AIモデル「Stable Cascade」を発表─「Stable Diffusion」より高速高品質 | 知財図鑑](https://chizaizukan.com/news/5W8J3rXLpv0PrgHJSAcmoU/): 2024/3/7
 - [人間不在の「イーサリアム」経済圏　アフリカで急成長 - 日本経済新聞](https://www.nikkei.com/article/DGXZQOUC18AG70Y4A110C2000000/): 2024/3/7
 - [ひたすらAI絵をやってたら絵が描けるようになってた話｜賢木イオ @studiomasakaki](https://note.com/studiomasakaki/n/n1732db6116df): 2024/3/6
