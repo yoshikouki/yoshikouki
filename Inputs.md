@@ -1,3 +1,4 @@
+- [そろそろポリモーフィック関連について一言いっとくか #Rails - Qiita](https://qiita.com/joker1007/items/9da1e279424554df7bb8): 2024/3/9
 - [ReactでSVGをComponent内で利用する3つの方法とSVGのstyleの変更方法](https://zenn.dev/aiq_dev/articles/c6191746560398): 2024/3/7
 
 - [【便利tips】Figmaでデザインデータを作る時のイロハについてデザイナーに聞いてみた](https://zenn.dev/levtech/articles/a0b8d7261c6372): 2024/3/7
