@@ -1,3 +1,4 @@
+- [hydrateRoot – React](https://react.dev/reference/react-dom/client/hydrateRoot): 2024/3/9
 - [uilabs](https://www.uilabs.dev/): 2024/3/9
 - [そろそろポリモーフィック関連について一言いっとくか #Rails - Qiita](https://qiita.com/joker1007/items/9da1e279424554df7bb8): 2024/3/9
 - [ReactでSVGをComponent内で利用する3つの方法とSVGのstyleの変更方法](https://zenn.dev/aiq_dev/articles/c6191746560398): 2024/3/7
