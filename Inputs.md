@@ -1,3 +1,4 @@
+- [TiDB + Prisma (Edge Functions Early Access)をCloudflare Workersで動かす](https://zenn.dev/futa/articles/9ed00912a63c9a): 2024/3/9
 - [tailwindcss v4.0-alpha](https://zenn.dev/zksytmkn/articles/dd0670bf5dcc57): 2024/3/9
 - [38歳A.T.カーニー新代表｢関灘茂｣の圧倒的努力 ｢コンサルティングの仕事は一生飽きない｣ | 企業経営･会計･制度 | 東洋経済オンライン](https://toyokeizai.net/articles/-/324087): 2024/3/9
 - [【論文丁寧解説】BitNet b1.58とは一体何者なのか #アルゴリズム - Qiita](https://qiita.com/tech-Mira/items/67dec9c5a5f025d2727a): 2024/3/9
