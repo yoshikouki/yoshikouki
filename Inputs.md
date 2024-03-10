@@ -1,3 +1,4 @@
+- [PlanetScale無料プランが終了するので移行先を考える](https://zenn.dev/futa/scraps/49443a5ac66f1e): 2024/3/10
 - [TiDB + Prisma (Edge Functions Early Access)をCloudflare Workersで動かす](https://zenn.dev/futa/articles/9ed00912a63c9a): 2024/3/9
 - [tailwindcss v4.0-alpha](https://zenn.dev/zksytmkn/articles/dd0670bf5dcc57): 2024/3/9
 - [38歳A.T.カーニー新代表｢関灘茂｣の圧倒的努力 ｢コンサルティングの仕事は一生飽きない｣ | 企業経営･会計･制度 | 東洋経済オンライン](https://toyokeizai.net/articles/-/324087): 2024/3/9
