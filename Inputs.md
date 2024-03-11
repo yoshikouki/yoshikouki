@@ -1,3 +1,4 @@
+- [なぜエンジニアが作る画面はダサいのか…?「理由」と「対策」を徹底解説【エンジニア向け画面デザイン講座】 #UI - Qiita](https://qiita.com/mskmiki/items/544149987475719e417b): 2024/3/11
 - [ChatGPTと、Claude3に仕事を与えて、性能比較をしてみたら、長所と短所がはっきりと分かった。｜安達裕哉](https://note.com/yuyadachi/n/n7d01ead3ec5c?sub_rt=share_pb): 2024/3/11
 - [ASCII.jp：画像生成AIの著作権問題、文化庁議論で争点はっきり (1/4)](https://ascii.jp/elem/000/004/188/4188529/): 2024/3/11
 - [「LLVM lld」「mold」が解決した、リンクが遅い問題　間違った思い込みの解消に必要だったのは“クレイジーな人” - ログミーTech](https://logmi.jp/tech/articles/330213): 2024/3/11
