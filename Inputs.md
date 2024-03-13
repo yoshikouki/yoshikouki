@@ -1,3 +1,4 @@
+- [スタイルコーディングを早くする](https://zenn.dev/lovegraph/articles/97ce5fd9d5781a): 2024/3/13
 - [WebSocketの最適な認証をいろんな手段から考えてみる #websocket - Qiita](https://qiita.com/comware_terashi/items/d9e357b0330bb312a37d): 2024/3/12
 - [なぜエンジニアが作る画面はダサいのか…?「理由」と「対策」を徹底解説【エンジニア向け画面デザイン講座】 #UI - Qiita](https://qiita.com/mskmiki/items/544149987475719e417b): 2024/3/11
 - [ChatGPTと、Claude3に仕事を与えて、性能比較をしてみたら、長所と短所がはっきりと分かった。｜安達裕哉](https://note.com/yuyadachi/n/n7d01ead3ec5c?sub_rt=share_pb): 2024/3/11
