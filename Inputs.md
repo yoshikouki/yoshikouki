@@ -1,3 +1,4 @@
+- [プロダクトエンジニアとは何者か｜Niwa Takeru｜アセンド株式会社CTO](https://note.com/niwa_takeru/n/n0ae4acf2964d): 2024/3/14
 - [Master CSS、一緒に始めてみましょ](https://zenn.dev/y_ta/articles/161d683b223034): 2024/3/13
 - [スタイルコーディングを早くする](https://zenn.dev/lovegraph/articles/97ce5fd9d5781a): 2024/3/13
 - [WebSocketの最適な認証をいろんな手段から考えてみる #websocket - Qiita](https://qiita.com/comware_terashi/items/d9e357b0330bb312a37d): 2024/3/12
