@@ -1,3 +1,4 @@
+- [ASCII.jp：古い言語のプログラムを生成AIで統廃合　住友ゴムが“Gemini”で進める開発効率化](https://ascii.jp/elem/000/004/188/4188729/): 2024/3/15
 - [JSON Web Token (JWT)](https://www.iana.org/assignments/jwt/jwt.xhtml#claims): 2024/3/14
 - [プロダクトエンジニアとは何者か｜Niwa Takeru｜アセンド株式会社CTO](https://note.com/niwa_takeru/n/n0ae4acf2964d): 2024/3/14
 - [Master CSS、一緒に始めてみましょ](https://zenn.dev/y_ta/articles/161d683b223034): 2024/3/13
