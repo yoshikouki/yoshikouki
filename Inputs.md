@@ -1,3 +1,4 @@
+- [Appleがひっそり買収していたAIスタートアップの「DarwinAI」はどんなテクノロジーを有していたのか？ - GIGAZINE](https://gigazine.net/news/20240315-apple-buys-ai-startup-darwinai/): 2024/3/15
 - [WinterJSとは何者か？ベンチマークでの比較検証](https://zenn.dev/yoshii0110/articles/2ccdc64dfb7f91): 2024/3/15
 - [NotionFormulaを使って記念日を自動的に管理することで、もう記念日を忘れることはありません！](https://zenn.dev/ivry/articles/b04745be7a2734): 2024/3/15
 - [Reactで使えそうなグラフ描画ツールってなぁになぁに？](https://zenn.dev/aldagram_tech/articles/5e0d82b965c4be): 2024/3/15
