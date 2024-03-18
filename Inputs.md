@@ -1,3 +1,4 @@
+- [iOS で input の focus 時にズームインしてしまうのを viewport で解決する](https://zenn.dev/rhirayamaaan/articles/f0209ad6574ed4): 2024/3/18
 - [Appleがひっそり買収していたAIスタートアップの「DarwinAI」はどんなテクノロジーを有していたのか？ - GIGAZINE](https://gigazine.net/news/20240315-apple-buys-ai-startup-darwinai/): 2024/3/15
 - [WinterJSとは何者か？ベンチマークでの比較検証](https://zenn.dev/yoshii0110/articles/2ccdc64dfb7f91): 2024/3/15
 - [NotionFormulaを使って記念日を自動的に管理することで、もう記念日を忘れることはありません！](https://zenn.dev/ivry/articles/b04745be7a2734): 2024/3/15
