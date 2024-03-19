@@ -1,3 +1,4 @@
+- [Rails 7.1 + Ruby 3.3 で YJIT を有効化してパフォーマンス改善を行った結果](https://zenn.dev/pharmax/articles/add57693adf021): 2024/3/19
 - [計算機の代表的なレイテンシとスケール感 - ゆううきメモ](https://memo.yuuk.io/entry/2016/01/08/082722): 2024/3/19
 - [MVP の作り方 🔨 とにかく雑に作る「手作業型 MVP」のススメ - Speaker Deck](https://speakerdeck.com/tumada/mvp-falsezuo-rifang-tonikakuza-nizuo-ru-shou-zuo-ye-xing-mvp-falsesusume): 2024/3/19
 - [iOS Safari でキーボード表示時にフッターを固定するもう1つの方法 - *iroi*](https://blog.chairoi.me/entry/safari-virtual-keyboard): 2024/3/19
