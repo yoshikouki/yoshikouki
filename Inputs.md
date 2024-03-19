@@ -1,3 +1,4 @@
+- [iOS Safari でキーボード表示時にフッターを固定するもう1つの方法 - *iroi*](https://blog.chairoi.me/entry/safari-virtual-keyboard): 2024/3/19
 - [Reactは悪い意味でも現在のjQueryだし、それを受け止めないと前に進めないということ](https://zenn.dev/otowa/articles/9b3ce6246d4669): 2024/3/18
 - [100秒で理解する仮想DOM](https://zenn.dev/ak/articles/00616eb99523c2): 2024/3/18
 - [未来予測コミュニティ「サモツヴェティ」はどうやって精度の高い未来予測を発信しているのか？ - GIGAZINE](https://gigazine.net/news/20240317-samotsvety-superforecasters/): 2024/3/18
