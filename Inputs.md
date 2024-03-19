@@ -1,3 +1,4 @@
+- [計算機の代表的なレイテンシとスケール感 - ゆううきメモ](https://memo.yuuk.io/entry/2016/01/08/082722): 2024/3/19
 - [MVP の作り方 🔨 とにかく雑に作る「手作業型 MVP」のススメ - Speaker Deck](https://speakerdeck.com/tumada/mvp-falsezuo-rifang-tonikakuza-nizuo-ru-shou-zuo-ye-xing-mvp-falsesusume): 2024/3/19
 - [iOS Safari でキーボード表示時にフッターを固定するもう1つの方法 - *iroi*](https://blog.chairoi.me/entry/safari-virtual-keyboard): 2024/3/19
 - [Reactは悪い意味でも現在のjQueryだし、それを受け止めないと前に進めないということ](https://zenn.dev/otowa/articles/9b3ce6246d4669): 2024/3/18
