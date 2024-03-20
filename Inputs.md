@@ -1,3 +1,4 @@
+- [AI lain実験レポート Final｜AI lain](https://note.com/ai_lain/n/ncfdcc915581d): 2024/3/20
 - [ポスト資本主義におけるソフトウェアエンジニア](https://zenn.dev/aki202/articles/b5348c134395c9): 2024/3/20
 - [フロントエンドの真実](https://zenn.dev/achamaro/articles/27fe756bd24104): 2024/3/20
 - [Apple、300億パラメータのマルチモーダル大規模言語モデル「MM1」 - PC Watch](https://pc.watch.impress.co.jp/docs/news/1577667.html): 2024/3/20
