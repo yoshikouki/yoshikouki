@@ -1,3 +1,4 @@
+- [フロントエンドの真実](https://zenn.dev/achamaro/articles/27fe756bd24104): 2024/3/20
 - [Apple、300億パラメータのマルチモーダル大規模言語モデル「MM1」 - PC Watch](https://pc.watch.impress.co.jp/docs/news/1577667.html): 2024/3/20
 - [Rails 7.1 + Ruby 3.3 で YJIT を有効化してパフォーマンス改善を行った結果](https://zenn.dev/pharmax/articles/add57693adf021): 2024/3/19
 - [計算機の代表的なレイテンシとスケール感 - ゆううきメモ](https://memo.yuuk.io/entry/2016/01/08/082722): 2024/3/19
