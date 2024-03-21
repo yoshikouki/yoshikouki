@@ -1,3 +1,4 @@
+- [TypeScriptで知ってコードの安全性が上がったtips集](https://zenn.dev/yutake27/articles/f5818b006184bf): 2024/3/21
 - [AI lain実験レポート Final｜AI lain](https://note.com/ai_lain/n/ncfdcc915581d): 2024/3/20
 - [ポスト資本主義におけるソフトウェアエンジニア](https://zenn.dev/aki202/articles/b5348c134395c9): 2024/3/20
 - [フロントエンドの真実](https://zenn.dev/achamaro/articles/27fe756bd24104): 2024/3/20
