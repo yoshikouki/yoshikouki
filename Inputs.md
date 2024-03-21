@@ -1,3 +1,4 @@
+- [ゴールデンボンバーと生成画像 - junebox](https://scrapbox.io/june29/%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%90%E3%83%BC%E3%81%A8%E7%94%9F%E6%88%90%E7%94%BB%E5%83%8F): 2024/3/21
 - [TypeScriptで知ってコードの安全性が上がったtips集](https://zenn.dev/yutake27/articles/f5818b006184bf): 2024/3/21
 - [AI lain実験レポート Final｜AI lain](https://note.com/ai_lain/n/ncfdcc915581d): 2024/3/20
 - [ポスト資本主義におけるソフトウェアエンジニア](https://zenn.dev/aki202/articles/b5348c134395c9): 2024/3/20
