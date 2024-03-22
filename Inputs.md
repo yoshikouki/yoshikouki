@@ -1,3 +1,4 @@
+- [個人開発7年目、現在までの失敗を振り返ってみる。](https://zenn.dev/nir_nmttg/articles/9d7ce20ef5971b): 2024/3/22
 - [日本発のReact UIコンポーネントライブラリ 『Yamada UI』](https://zenn.dev/hirotomoyamada/articles/15b6f46d12841b): 2024/3/22
 - [Sakana AI、世界初の基盤モデル開発自動化　訓練不要で低コスト - Impress Watch](https://www.watch.impress.co.jp/docs/news/1577712.html): 2024/3/21
 - [ゴールデンボンバーと生成画像 - junebox](https://scrapbox.io/june29/%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%90%E3%83%BC%E3%81%A8%E7%94%9F%E6%88%90%E7%94%BB%E5%83%8F): 2024/3/21
