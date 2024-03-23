@@ -1,3 +1,4 @@
+- [CSSの進化がすごい！モダンCSS8選](https://zenn.dev/coconala/articles/bc7c54dedb89a5): 2024/3/23
 - [個人開発7年目、現在までの失敗を振り返ってみる。](https://zenn.dev/nir_nmttg/articles/9d7ce20ef5971b): 2024/3/22
 - [日本発のReact UIコンポーネントライブラリ 『Yamada UI』](https://zenn.dev/hirotomoyamada/articles/15b6f46d12841b): 2024/3/22
 - [Sakana AI、世界初の基盤モデル開発自動化　訓練不要で低コスト - Impress Watch](https://www.watch.impress.co.jp/docs/news/1577712.html): 2024/3/21
