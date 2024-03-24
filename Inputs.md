@@ -1,3 +1,4 @@
+- [SEO（検索エンジン最適化）に対する理解を深めたいプロダクト開発に携わるあなたへ](https://zenn.dev/tacoms/articles/09ff8e5481480f): 2024/3/24
 - [JavaScriptの値はオブジェクトかオブジェクト以外かの２つ](https://zenn.dev/ryoooosk/articles/874652aee71db3): 2024/3/24
 - [CSSの進化がすごい！モダンCSS8選](https://zenn.dev/coconala/articles/bc7c54dedb89a5): 2024/3/23
 - [個人開発7年目、現在までの失敗を振り返ってみる。](https://zenn.dev/nir_nmttg/articles/9d7ce20ef5971b): 2024/3/22
