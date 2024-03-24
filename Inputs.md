@@ -1,3 +1,4 @@
+- [MS、小規模言語モデル「Phi-2」をリリース--最大25倍サイズのモデルの性能に匹敵 - ZDNET Japan](https://japan.zdnet.com/article/35212844/): 2024/3/24
 - [やはりAIを知らなすぎることと、自分の著作物への権利意識が間違っているのだと思う](https://anond.hatelabo.jp/20240324083306): 2024/3/24
 - [SEO（検索エンジン最適化）に対する理解を深めたいプロダクト開発に携わるあなたへ](https://zenn.dev/tacoms/articles/09ff8e5481480f): 2024/3/24
 - [JavaScriptの値はオブジェクトかオブジェクト以外かの２つ](https://zenn.dev/ryoooosk/articles/874652aee71db3): 2024/3/24
