@@ -1,3 +1,4 @@
+- [philips hue wiz - Google ����](https://www.google.com/search?q=philips+hue+wiz&client=safari&sca_esv=2e0a38931ff166af&hl=ja-jp&sxsrf=ACQVn08H6ejA7ssLe0662_Yrj4Z8ShO-lQ%3A1711286056369&ei=KCcAZqSIFuXf2roPwNu84Ak&udm=&oq=philips+hue+wi&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIg5waGlsaXBzIGh1ZSB3aSoCCAMyBRAAGIAEMgUQABiABDIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMggQABiABBjLAUj7PVCmEFiOL3ABeACQAQCYAYEEoAH2BqoBBzAuMy41LTG4AQHIAQD4AQGYAgSgAq4DwgIHECMYsAMYJ8ICChAAGEcY1gQYsAPCAgQQIxgnwgIKEAAYgAQYigUYQ5gDAIgGAZAGC5IHAzEuM6AH8hY&sclient=mobile-gws-wiz-serp#ip=1): 2024/3/25
 - [GitHub - serwist/serwist: A Swiss Army knife for service workers.](https://github.com/serwist/serwist): 2024/3/25
 - [MetaGPTを動かしてみた](https://zenn.dev/karaage0703/articles/5917040338efa6): 2024/3/25
 - [Open Interpreter搭載のオープンソース「01」を試す｜ニケちゃん](https://note.com/nike_cha_n/n/n521a403bb5de): 2024/3/24
