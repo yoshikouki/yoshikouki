@@ -1,3 +1,4 @@
+- [MetaGPTを動かしてみた](https://zenn.dev/karaage0703/articles/5917040338efa6): 2024/3/25
 - [Open Interpreter搭載のオープンソース「01」を試す｜ニケちゃん](https://note.com/nike_cha_n/n/n521a403bb5de): 2024/3/24
 - [PhilipsのHueを日常生活で使いこなす｜渡辺歩_ケンブリッジ・テクノロジー・パートナーズ株式会社](https://note.com/ayumu_watanabe/n/n3da709beebae): 2024/3/24
 - [MS、小規模言語モデル「Phi-2」をリリース--最大25倍サイズのモデルの性能に匹敵 - ZDNET Japan](https://japan.zdnet.com/article/35212844/): 2024/3/24
