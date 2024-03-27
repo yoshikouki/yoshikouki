@@ -1,3 +1,4 @@
+- [有名な海外個人開発者まとめ！年5億以上稼ぐ人も！](https://zenn.dev/statstat/articles/28d5b4f53a56ce): 2024/3/27
 - [個人開発者が会社作るならアメリカより日本の方が結局よさげ. 情報が少なくて調べるのに時間がかかりすぎるから | by TAKUYA | 週休７日で働きたい](https://medium.com/odoruinu/japan-is-better-to-establish-your-company-than-us-d71e5aaee797): 2024/3/27
 - [re-exportを使うべきなのかを考えてみた](https://zenn.dev/gonta_ganbareyo/articles/458bdc0d6f58da): 2024/3/26
 - [業務で使えるかもしれない…！？GitHub Actions の Tips 集 / CI/CD Test Night #7 - Speaker Deck](https://speakerdeck.com/ponkio_o/cd-test-night-number-7): 2024/3/26
