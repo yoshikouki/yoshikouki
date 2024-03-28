@@ -1,3 +1,4 @@
+- [Generative UI and Outcome-Oriented Design](https://www.nngroup.com/articles/generative-ui/): 2024/3/28
 - [Sora: first impressions](https://openai.com/blog/sora-first-impressions): 2024/3/28
 - [有名な海外個人開発者まとめ！年5億以上稼ぐ人も！](https://zenn.dev/statstat/articles/28d5b4f53a56ce): 2024/3/27
 
