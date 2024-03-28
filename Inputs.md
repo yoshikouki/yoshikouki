@@ -1,3 +1,4 @@
+- [ローカルでLLMの推論を実行するのにOllamaがかわいい](https://zenn.dev/seya/articles/03399b9e3d465e): 2024/3/28
 - [イスラエル当局が「Googleフォト」等を利用してパレスチナ人の大規模監視を行っていたことが明らかに - GIGAZINE](https://gigazine.net/news/20240328-israel-facial-recognition-program-in-gaza/): 2024/3/28
 - [TheBloke (Tom Jobbins)](https://huggingface.co/TheBloke): 2024/3/28
 - [GGML/GGUF/GPTQの違い](https://zenn.dev/kun432/scraps/6fc012752afa62): 2024/3/28
