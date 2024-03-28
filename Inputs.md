@@ -1,3 +1,4 @@
+- [TheBloke (Tom Jobbins)](https://huggingface.co/TheBloke): 2024/3/28
 - [GGML/GGUF/GPTQの違い](https://zenn.dev/kun432/scraps/6fc012752afa62): 2024/3/28
 - [単一命令列・複数データ(SIMD: シムディー)の並列 #Elixir - Qiita](https://qiita.com/zacky1972/items/ce663750cb7bdc2b12b3): 2024/3/28
 - [単一命令列・複数データ(SIMD: シムディー)の並列 #Elixir - Qiita](https://qiita.com/zacky1972/items/ce663750cb7bdc2b12b3): 2024/3/28
