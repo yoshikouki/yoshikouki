@@ -1,3 +1,4 @@
+- [LangChain State of AI 2023](https://blog.langchain.dev/langchain-state-of-ai-2023/): 2024/3/29
 
 - [ローカルでLLMの推論を実行するのにOllamaがかわいい](https://zenn.dev/seya/articles/03399b9e3d465e): 2024/3/28
 - [イスラエル当局が「Googleフォト」等を利用してパレスチナ人の大規模監視を行っていたことが明らかに - GIGAZINE](https://gigazine.net/news/20240328-israel-facial-recognition-program-in-gaza/): 2024/3/28
