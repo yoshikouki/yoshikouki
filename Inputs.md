@@ -1,3 +1,4 @@
+- [外出先から家のファイルに安全にアクセスするシステムを作る｜wag](https://note.com/wag2021/n/nf1bb4f272626): 2024/3/30
 - [ZennとQiitaの2重管理を解消してみた](https://zenn.dev/pullriku/articles/article-batch-management): 2024/3/30
 - [私的Arch Linuxインストール講座](https://zenn.dev/ytjvdcm/articles/0efb9112468de3): 2024/3/30
 - [fish shellが結構良かった話 #fish - Qiita](https://qiita.com/hennin/items/33758226a0de8c963ddf): 2024/3/30
