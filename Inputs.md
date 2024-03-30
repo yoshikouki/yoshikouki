@@ -1,3 +1,4 @@
+- [fish shellが結構良かった話 #fish - Qiita](https://qiita.com/hennin/items/33758226a0de8c963ddf): 2024/3/30
 - [Linux���قڂ��̂܂ܓ����悤�ɂȂB��uWSL2�v�̃l�b�g���[�N�@�\�FWindows 10 The Latest - ��IT](https://atmarkit.itmedia.co.jp/ait/spv/1909/09/news020.html): 2024/3/29
 
 - [LangChain State of AI 2023](https://blog.langchain.dev/langchain-state-of-ai-2023/): 2024/3/29
