@@ -1,3 +1,4 @@
+- [ZennとQiitaの2重管理を解消してみた](https://zenn.dev/pullriku/articles/article-batch-management): 2024/3/30
 - [私的Arch Linuxインストール講座](https://zenn.dev/ytjvdcm/articles/0efb9112468de3): 2024/3/30
 - [fish shellが結構良かった話 #fish - Qiita](https://qiita.com/hennin/items/33758226a0de8c963ddf): 2024/3/30
 - [Linux���قڂ��̂܂ܓ����悤�ɂȂB��uWSL2�v�̃l�b�g���[�N�@�\�FWindows 10 The Latest - ��IT](https://atmarkit.itmedia.co.jp/ait/spv/1909/09/news020.html): 2024/3/29
