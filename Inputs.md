@@ -1,3 +1,4 @@
+- [『ビビデバ』MVが本当に気持ち悪くてすごいという話｜yunumata](https://note.com/yunumata/n/n32397f17481a): 2024/4/1
 - [ニコニコで収入を得るには 〜「好き」の向くまま、遊ぼう！〜](https://site.nicovideo.jp/creator_platform/monetize/): 2024/4/1
 - [dockerイメージをマルチアーキテクチャイメージとしてプッシュする](https://zenn.dev/ncdc/articles/25d03e908ce38e): 2024/4/1
 - [Linux向け有名パッケージxzにsshバックドアできる脆弱性が埋め込まれた問題について調べる](https://zenn.dev/levtech/articles/1dda57cac26d78): 2024/3/31
