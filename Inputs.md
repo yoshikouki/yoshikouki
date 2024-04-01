@@ -1,3 +1,4 @@
+- [100秒で理解するPromise](https://zenn.dev/ak/articles/dc23436b241a84): 2024/4/1
 - [設定が簡単なVPNサービス「Tailscale」でクローズドな環境を構築する | 名古屋のシステム・ウェブ開発・株式会社ウェブネーション](https://webnation.co.jp/%E8%A8%AD%E5%AE%9A%E3%81%8C%E7%B0%A1%E5%8D%98%E3%81%AAvpn%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9tailscale%E3%81%A7%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%BA%E3%83%89%E3%81%AA%E7%92%B0%E5%A2%83%E3%82%92/): 2024/4/1
 - [『ビビデバ』MVが本当に気持ち悪くてすごいという話｜yunumata](https://note.com/yunumata/n/n32397f17481a): 2024/4/1
 - [ニコニコで収入を得るには 〜「好き」の向くまま、遊ぼう！〜](https://site.nicovideo.jp/creator_platform/monetize/): 2024/4/1
