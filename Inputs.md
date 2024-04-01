@@ -1,3 +1,4 @@
+- [Python: PyTorch で Apple Silicon GPU を使ってみる - CUBE SUGAR CONTAINER](https://blog.amedama.jp/entry/pytorch-apple-silicon-gpu): 2024/4/1
 - [Claude3を使った架空AI掲示板アプリ「ねらーAI」を開発しました！｜にょす](https://note.com/nyosubro/n/n373ca33eb7fe): 2024/4/1
 - [フロントエンド界隈のビルドツール用語の違いを分かりやすく！](https://zenn.dev/praha/articles/ca9c6bd66cbf41): 2024/4/1
 - [100秒で理解するPromise](https://zenn.dev/ak/articles/dc23436b241a84): 2024/4/1
