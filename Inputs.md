@@ -1,3 +1,4 @@
+- [見積もりをしないスクラムを実践して失敗した話](https://zenn.dev/levtech/articles/d36431c3d3de82): 2024/4/2
 - [リバ邸総合サイト – 現代の駆け込み寺シェアハウス](https://liverty-house.com/): 2024/4/2
 - [正直､AIは実用に耐えるレベルではない…企業が｢結局は人間がやらざるを得ない｣と導入をためらうワケ メタのエンジニアは｢ネコにも劣る｣と発言 | PRESIDENT Online（プレジデントオンラ…](https://president.jp/articles/-/80037?page=1): 2024/4/2
 - [SQLite – API | Bun Docs](https://bun.sh/docs/api/sqlite): 2024/4/2
