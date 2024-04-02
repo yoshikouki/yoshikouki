@@ -1,3 +1,4 @@
+- [SQLite – API | Bun Docs](https://bun.sh/docs/api/sqlite): 2024/4/2
 - [【Stable Code Instruct 3B】プログラミング言語を完全網羅したコーディングAI | WEEL](https://weel.co.jp/media/stable-code-instruct-3b/): 2024/4/2
 - [ある男はChatGPTに100ドルをできるだけ増やす方法を聞き、実行した。その結果は… | Business Insider Japan](https://www.businessinsider.jp/post-284663): 2024/4/2
 - [ある男はChatGPTに100ドルをできるだけ増やす方法を聞き、実行した。その結果は… | Business Insider Japan](https://www.businessinsider.jp/post-284663): 2024/4/2
