@@ -1,4 +1,5 @@
 - [ある男はChatGPTに100ドルをできるだけ増やす方法を聞き、実行した。その結果は… | Business Insider Japan](https://www.businessinsider.jp/post-284663): 2024/4/2
+- [ある男はChatGPTに100ドルをできるだけ増やす方法を聞き、実行した。その結果は… | Business Insider Japan](https://www.businessinsider.jp/post-284663): 2024/4/2
 - [AIを前提とした体験の実現に向けての勉強会を開催しました - ペパボ研究所ブログ](https://rand.pepabo.com/article/2024/03/28/ai/): 2024/4/2
 
 - [Qwikの基本概念である Resumable を理解する](https://zenn.dev/aiji42/articles/fafa354f79660d): 2024/4/2
