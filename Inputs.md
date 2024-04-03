@@ -1,3 +1,4 @@
+- [【研修資料公開】24新卒エンジニア研修「エンジニア基礎」を実施しました！ - WILLGATE TECH BLOG](https://tech.willgate.co.jp/entry/2024/04/01/184252): 2024/4/3
 - [Prisma ORM vs Drizzle](https://www.prisma.io/docs/orm/more/comparisons/prisma-and-drizzle): 2024/4/3
 - [Cloudflare D1 で ORM を使う (drizzle-orm)](https://zenn.dev/mizchi/articles/d1-drizzle-orm): 2024/4/3
 - [UIデザイン用に、AIで色彩理論に基づいたカラーパレットを生成してくれる無料オンラインツール -AI Color Combination Generator | コリス](https://coliss.com/articles/build-websites/operation/design/ai-color-combination-generator.html): 2024/4/3
