@@ -1,3 +1,4 @@
+- [コードフォーマッターとしてBiomeを使う](https://zenn.dev/lincwell_inc/articles/format-by-biome): 2024/4/4
 - [Apple開発のAI「ReALM」、ChatGPT 4.0を凌駕。研究論文を発表 | ゴリミー](https://gori.me/apple/apple-news/152497): 2024/4/4
 - [【研修資料公開】24新卒エンジニア研修「エンジニア基礎」を実施しました！ - WILLGATE TECH BLOG](https://tech.willgate.co.jp/entry/2024/04/01/184252): 2024/4/3
 - [Prisma ORM vs Drizzle](https://www.prisma.io/docs/orm/more/comparisons/prisma-and-drizzle): 2024/4/3
