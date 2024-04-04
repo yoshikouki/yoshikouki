@@ -1,3 +1,4 @@
+- [エンジニアの英語学習｜koba04](https://note.com/koba04/n/n0b6fa35088e6): 2024/4/4
 - [Python普及しろ協会に入会したい](https://zenn.dev/nagataaaas/articles/b75f685ab30de6): 2024/4/4
 - [Python滅ぼす協会に入会したい](https://dev.thanaism.com/2023/05/python-sucks/): 2024/4/4
 - [お気に入りのコマンドラインツールを淡々と紹介する](https://zenn.dev/kou_pg_0131/articles/favorite-cli-tools): 2024/4/4
