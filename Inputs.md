@@ -1,3 +1,4 @@
+- [お気に入りのコマンドラインツールを淡々と紹介する](https://zenn.dev/kou_pg_0131/articles/favorite-cli-tools): 2024/4/4
 - [You don't need Node.js](https://zenn.dev/nakasyou/articles/you_dont_need_node): 2024/4/4
 - [コードフォーマッターとしてBiomeを使う](https://zenn.dev/lincwell_inc/articles/format-by-biome): 2024/4/4
 - [Apple開発のAI「ReALM」、ChatGPT 4.0を凌駕。研究論文を発表 | ゴリミー](https://gori.me/apple/apple-news/152497): 2024/4/4
