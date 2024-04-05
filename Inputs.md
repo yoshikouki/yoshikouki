@@ -1,3 +1,4 @@
+- [Nushell が Elixir っぽくってワクワクした #Elixir - Qiita](https://qiita.com/RyoWakabayashi/items/ed2677f5e761120e7367): 2024/4/5
 - [最近話題の Nushell の Quick Tour やってみた](https://zenn.dev/yukionodera/articles/nushell-getting-started): 2024/4/5
 - [Defensive CSSを書こう](https://zenn.dev/teamlab_fe/articles/f9a17d5a132316): 2024/4/5
 - [Rust製のシェルNushellを使ってみる #Rust - Qiita](https://qiita.com/sl2/items/f923ed0768475b0a40c8): 2024/4/5
