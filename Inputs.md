@@ -1,3 +1,4 @@
+- [LocalStorageはパフォーマンスにどれほど悪影響か？実測して確かめる](https://zenn.dev/nakaakist/articles/6ce6bd23777aeb): 2024/4/5
 - [絵文字だけのアプリまで誕生、7万人が殺到　日本のガラケーから世界「文字」へと発展：朝日新聞GLOBE＋](https://globe.asahi.com/article/14783923): 2024/4/5
 - [Nushell が Elixir っぽくってワクワクした #Elixir - Qiita](https://qiita.com/RyoWakabayashi/items/ed2677f5e761120e7367): 2024/4/5
 - [最近話題の Nushell の Quick Tour やってみた](https://zenn.dev/yukionodera/articles/nushell-getting-started): 2024/4/5
