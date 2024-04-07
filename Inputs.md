@@ -1,3 +1,4 @@
+- [自宅のネットワーク環境を改善してみた](https://zenn.dev/uniformnext/articles/1320d5ed3ef0fa): 2024/4/7
 - [【賃貸】部屋の雰囲気は照明で決まる。ダクトレールでスポットライトを設置 - TAKUTAKUKUN](https://takutakukun.com/ductrail_lighting/): 2024/4/7
 - ['use client' ディレクティブ – React](https://ja.react.dev/reference/react/use-client): 2024/4/5
 - [Nushell が Elixir っぽくってワクワクした #Elixir - Qiita](https://qiita.com/RyoWakabayashi/items/ed2677f5e761120e7367): 2024/4/5
