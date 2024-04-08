@@ -1,3 +1,4 @@
+- [「理論上は最強」の Qwik/QwikCity を、フロントエンドの共通基盤にできないか](https://zenn.dev/mizchi/articles/micro-frontend-qwik): 2024/4/8
 - [深層学習教科書 ディープラーニング G検定（ジェネラリスト）公式テキスト 第3版（一般社団法人日本ディープラーニング協会 猪狩 宇司 今井 翔太 巣籠 悠輔 瀬谷 啓介 徳田 有美子 中澤 敏明 藤…](https://www.shoeisha.co.jp/book/detail/9784798184814): 2024/4/8
 - [AI界隈で「オープンソース」が最新のバズワードになっている……って何をいまさら - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20240408/open-source-ai): 2024/4/8
 - [Command-R+の衝撃! 100Bモデルで本当にこんなことできんの!?ダウンロードしてローカルで実行可能｜shi3z](https://note.com/shi3zblog/n/nd2c5ae1374ca): 2024/4/8
