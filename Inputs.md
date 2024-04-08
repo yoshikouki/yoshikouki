@@ -1,3 +1,4 @@
+- [AI界隈で「オープンソース」が最新のバズワードになっている……って何をいまさら - YAMDAS現更新履歴](https://yamdas.hatenablog.com/entry/20240408/open-source-ai): 2024/4/8
 - [Command-R+の衝撃! 100Bモデルで本当にこんなことできんの!?ダウンロードしてローカルで実行可能｜shi3z](https://note.com/shi3zblog/n/nd2c5ae1374ca): 2024/4/8
 - [SSHサーバをMacにマウントする](https://zenn.dev/as_pml/articles/324fc50eab73fd): 2024/4/7
 - [自宅のネットワーク環境を改善してみた](https://zenn.dev/uniformnext/articles/1320d5ed3ef0fa): 2024/4/7
