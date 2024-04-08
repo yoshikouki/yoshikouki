@@ -1,3 +1,4 @@
+- [GPT-4レベルの衝撃 PC内で使えるオープンLLM「Command R+」（アスキー） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/bf5462fc135d92ace5bbc953a25983ca2b4cf535): 2024/4/8
 - [数年間継続している「作業メモ」の話](https://zenn.dev/akase244/articles/e448e7562ec190): 2024/4/8
 - [ティンバーゲンの4つのなぜ - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%A3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B2%E3%83%B3%E3%81%AE4%E3%81%A4%E3%81%AE%E3%81%AA%E3%81%9C): 2024/4/8
 - [「理論上は最強」の Qwik/QwikCity を、フロントエンドの共通基盤にできないか](https://zenn.dev/mizchi/articles/micro-frontend-qwik): 2024/4/8
