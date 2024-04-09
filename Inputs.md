@@ -1,3 +1,4 @@
+- [Cloudflare WorkersとKVを使ってパフォーマンスを上げる話](https://zenn.dev/yusukebe/articles/9aa33087265fab): 2024/4/9
 - [ずぼらな私の2023年のファビコン事情（SVGでダークモード対応）](https://zenn.dev/bissy/articles/27c5c09a83b27dce11ff): 2024/4/9
 - [OpenAIのライバル:Cohereが最高にイケている件 #LLM - Qiita](https://qiita.com/sergicalsix/items/d5c7a0a420a213309bfc): 2024/4/9
 - [GPT-4レベルの衝撃 PC内で使えるオープンLLM「Command R+」（アスキー） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/bf5462fc135d92ace5bbc953a25983ca2b4cf535): 2024/4/8
