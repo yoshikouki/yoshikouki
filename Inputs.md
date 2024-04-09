@@ -1,3 +1,4 @@
+- [ずぼらな私の2023年のファビコン事情（SVGでダークモード対応）](https://zenn.dev/bissy/articles/27c5c09a83b27dce11ff): 2024/4/9
 - [OpenAIのライバル:Cohereが最高にイケている件 #LLM - Qiita](https://qiita.com/sergicalsix/items/d5c7a0a420a213309bfc): 2024/4/9
 - [GPT-4レベルの衝撃 PC内で使えるオープンLLM「Command R+」（アスキー） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/bf5462fc135d92ace5bbc953a25983ca2b4cf535): 2024/4/8
 - [数年間継続している「作業メモ」の話](https://zenn.dev/akase244/articles/e448e7562ec190): 2024/4/8
