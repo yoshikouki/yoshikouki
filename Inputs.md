@@ -1,3 +1,4 @@
+- [AI時代に起業するということ｜shi3z](https://note.com/shi3zblog/n/n22dfac67f756): 2024/4/11
 - [Life is beautiful: 日本語とオブジェクト指向](https://satoshi.blogs.com/life/2004/09/post.html): 2024/4/11
 
 - [Life is beautiful: Windows95と地上の星](https://satoshi.blogs.com/life/2006/04/windows95.html): 2024/4/11
