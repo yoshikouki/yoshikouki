@@ -1,3 +1,4 @@
+- [JavaScriptパッケージシステム「npm」は巨大なバグを抱えていると指摘し、新たなパッケージシステムを開発する「vlt」。npm作者らの参加を発表 － Publickey](https://www.publickey1.jp/blog/24/javascriptnpmvltnpmisaac_z_schlueter.html): 2024/4/11
 - [AI時代に起業するということ｜shi3z](https://note.com/shi3zblog/n/n22dfac67f756): 2024/4/11
 - [Life is beautiful: 日本語とオブジェクト指向](https://satoshi.blogs.com/life/2004/09/post.html): 2024/4/11
 
