@@ -1,3 +1,4 @@
+- [����AI�Ō�10�����Ԃ�n�o�@GMO���Ɩ��Ŋ��p���Ă���AI�c�[��TOP10�Ƃ́H - ITmedia NEWS](https://www.itmedia.co.jp/news/spv/2404/10/news130.html): 2024/4/11
 - [【Bun】Bun公式の超絶高速バンドラBun Bundlerが登場 #JavaScript - Qiita](https://qiita.com/rana_kualu/items/f9527125fbc08a52c409): 2024/4/11
 - [AI時代に起業するということ｜shi3z](https://note.com/shi3zblog/n/n22dfac67f756): 2024/4/10
 - [Cloudflare WorkersとKVを使ってパフォーマンスを上げる話](https://zenn.dev/yusukebe/articles/9aa33087265fab): 2024/4/9
