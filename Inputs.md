@@ -1,3 +1,4 @@
+- [Life is beautiful: 日本語とオブジェクト指向](https://satoshi.blogs.com/life/2004/09/post.html): 2024/4/11
 
 - [Life is beautiful: Windows95と地上の星](https://satoshi.blogs.com/life/2006/04/windows95.html): 2024/4/11
 - [����AI�Ō�10�����Ԃ�n�o�@GMO���Ɩ��Ŋ��p���Ă���AI�c�[��TOP10�Ƃ́H - ITmedia NEWS](https://www.itmedia.co.jp/news/spv/2404/10/news130.html): 2024/4/11
