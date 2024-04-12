@@ -1,3 +1,4 @@
+- [LLVM - Wikipedia](https://ja.m.wikipedia.org/wiki/LLVM): 2024/4/12
 - [JavaScriptランタイム「Bun 1.1」正式リリース。Windows版登場、Node.jsとの互換性向上、前バージョンより高速化など － Publickey](https://www.publickey1.jp/blog/24/javascriptbun_11windowsnodejs.html): 2024/4/11
 - [新たなサーバサイドJavaScriptランタイム「WinterJS 1.0」正式リリース、WebAssemblyへのコンパイルも可能。Wasmerが開発 － Publickey](https://www.publickey1.jp/blog/24/javascriptwinterjs_10wintercgwasixwasmer.html): 2024/4/11
 - [JavaScriptパッケージシステム「npm」は巨大なバグを抱えていると指摘し、新たなパッケージシステムを開発する「vlt」。npm作者らの参加を発表 － Publickey](https://www.publickey1.jp/blog/24/javascriptnpmvltnpmisaac_z_schlueter.html): 2024/4/11
