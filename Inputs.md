@@ -1,3 +1,4 @@
+- [Build your own React](https://pomb.us/build-your-own-react/): 2024/4/13
 - [WebP画像を生成したいときには @squoosh/cli が便利](https://zenn.dev/catnose99/scraps/2647fa64b1fe27): 2024/4/13
 - [フロントエンドタスクをBunで実行してみた](https://zenn.dev/edash_tech_blog/articles/9b20228de60b43): 2024/4/13
 - [なぜBunは速いのか](https://zenn.dev/kenjimorita/scraps/c066ca54e4aeea): 2024/4/12
