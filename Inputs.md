@@ -1,3 +1,4 @@
+- [You Don't Need AWS ~お前にAWSは必要ない~](https://zenn.dev/ficilcom/articles/not-need-aws): 2024/4/16
 - [コスパ最強アーキテクチャT3-Turboを紹介する](https://zenn.dev/ficilcom/articles/t3-turbo-architecture): 2024/4/16
 - [Cloudflare PagesがMonorepoに対応した](https://zenn.dev/ficilcom/articles/cloudflare-pages-monorepo): 2024/4/16
 - [You Don't Need Next.js | ドクセル](https://www.docswell.com/s/ashphy/KM1NQ6-you-dont-need-nextjs#p1): 2024/4/16
