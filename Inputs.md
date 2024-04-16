@@ -1,3 +1,4 @@
+- [未ログインでも叩けるAPIエンドポイントにレートリミットを導入する](https://zenn.dev/catnose99/articles/9183c86d3558e5): 2024/4/16
 - [アクセシブルでdisabledなButtonコンポーネントを作成](https://zenn.dev/tor_inc/articles/aae4a896bbab9e): 2024/4/16
 - [これは「知の治外法権」だ…グーグルが日本マスコミに突きつけた「生成AI条項」の衝撃と、「取材するほど損をする」ネットニュース業界の末路（週刊現代） | マネー現代 | 講談社](https://gendai.media/articles/-/127741?imp=0): 2024/4/16
 - [You Don't Need AWS ~お前にAWSは必要ない~](https://zenn.dev/ficilcom/articles/not-need-aws): 2024/4/16
