@@ -1,3 +1,4 @@
+- [You Don't Need Next.js | ドクセル](https://www.docswell.com/s/ashphy/KM1NQ6-you-dont-need-nextjs#p1): 2024/4/16
 - [**強い**エンジニアのなり方 - フィードバックサイクルを勝ち取る / grow one day each day - Speaker Deck](https://speakerdeck.com/soudai/grow-one-day-each-day): 2024/4/15
 - [WebP画像を生成したいときには @squoosh/cli が便利](https://zenn.dev/catnose99/scraps/2647fa64b1fe27): 2024/4/14
 - [小さく始めるパフォーマンス改善](https://zenn.dev/qubena/articles/47f5397655ad58): 2024/4/14
