@@ -1,3 +1,4 @@
+- [雑に思考を整理する技術と効能 - Speaker Deck](https://speakerdeck.com/konifar/za-nisi-kao-wozheng-li-suruji-shu-toxiao-neng): 2024/4/17
 - [Cloudflareに入社して1年が経ちました - ゆーすけべー日記](https://yusukebe.com/posts/2024/cloudflare-first-anniv/): 2024/4/17
 - [未ログインでも叩けるAPIエンドポイントにレートリミットを導入する](https://zenn.dev/catnose99/articles/9183c86d3558e5): 2024/4/16
 - [アクセシブルでdisabledなButtonコンポーネントを作成](https://zenn.dev/tor_inc/articles/aae4a896bbab9e): 2024/4/16
