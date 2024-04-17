@@ -1,3 +1,4 @@
+- [カスタム指標 | Articles | web.dev](https://web.dev/articles/custom-metrics?hl=ja): 2024/4/17
 - [Web サイトのパフォーマンスを計測するためのタイミング関係の API について | blog.bokken.io](https://blog.bokken.io/articles/2023-04-30/timing-related-apis.html): 2024/4/17
 - [PerformanceNavigationTiming - Web API | MDN](https://developer.mozilla.org/ja/docs/Web/API/PerformanceNavigationTiming): 2024/4/17
 - [Release v0.1.32 · ollama/ollama · GitHub](https://github.com/ollama/ollama/releases/tag/v0.1.32): 2024/4/17
