@@ -1,3 +1,4 @@
+- [計算機の代表的なレイテンシとスケール感 - ゆううきメモ](https://memo.yuuk.io/entry/2016/01/08/082722): 2024/4/18
 - [僕の考えた最強の Python 開発環境 (2024)](https://zenn.dev/koki_algebra/articles/cd3341bcba9272): 2024/4/18
 - [キーボード沼へ沈むための第一歩](https://zenn.dev/levtech/articles/93c1d46fefd3d9): 2024/4/18
 - [GitHub Copilot Tips and Tricks - Speaker Deck](https://speakerdeck.com/yuichielectric/github-copilot-tips-and-tricks): 2024/4/18
