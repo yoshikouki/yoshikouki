@@ -1,3 +1,4 @@
+- [アイシア・ソリッドさんの動画を見続けたらG検定に受かった話　ディープラーニングを学ぶのにオススメYouTube３選｜松xRのnote](https://note.com/eurekachan/n/n7c47b1e37fb2): 2024/4/19
 - [LLMで専門家を束ねるMoE / Mixture of Experts超入門 by Yuichiro Minato | blueqat](https://blueqat.com/yuichiro_minato2/97201bc7-73db-4edb-8c03-0481085367e0): 2024/4/19
 - [24年4月の量子コンピュータ業界の動向がよくわからんというので書いてみました。 by Yuichiro Minato | blueqat](https://blueqat.com/yuichiro_minato2/1d0d49e0-1b08-40b6-b861-cd22fbee36dd): 2024/4/19
 - [Rust GUI の決定版！ Tauri を使ってクロスプラットフォームなデスクトップアプリを作ろう](https://zenn.dev/kumassy/books/6e518fe09a86b2): 2024/4/19
