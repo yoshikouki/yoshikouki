@@ -1,3 +1,4 @@
+- [Typescript で型をいじろう](https://zenn.dev/rryyoooo/books/5e730fdbe42173): 2024/4/19
 - [Stable Diffusion 3.0 性能検証](https://zenn.dev/mattyamonaca/articles/e3fe4cbe99bb2c): 2024/4/19
 - [アイシア・ソリッドさんの動画を見続けたらG検定に受かった話　ディープラーニングを学ぶのにオススメYouTube３選｜松xRのnote](https://note.com/eurekachan/n/n7c47b1e37fb2): 2024/4/19
 - [LLMで専門家を束ねるMoE / Mixture of Experts超入門 by Yuichiro Minato | blueqat](https://blueqat.com/yuichiro_minato2/97201bc7-73db-4edb-8c03-0481085367e0): 2024/4/19
