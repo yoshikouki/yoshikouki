@@ -1,3 +1,4 @@
+- [Rust GUI の決定版！ Tauri を使ってクロスプラットフォームなデスクトップアプリを作ろう](https://zenn.dev/kumassy/books/6e518fe09a86b2): 2024/4/19
 - [計算機の代表的なレイテンシとスケール感 - ゆううきメモ](https://memo.yuuk.io/entry/2016/01/08/082722): 2024/4/18
 - [僕の考えた最強の Python 開発環境 (2024)](https://zenn.dev/koki_algebra/articles/cd3341bcba9272): 2024/4/18
 - [キーボード沼へ沈むための第一歩](https://zenn.dev/levtech/articles/93c1d46fefd3d9): 2024/4/18
