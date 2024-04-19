@@ -1,3 +1,4 @@
+- [Deno first でやっていく](https://zenn.dev/mizchi/articles/deno-first-choice): 2024/4/19
 - [現代CSSフレームワークの内部実装とその仕組み - Speaker Deck](https://speakerdeck.com/poteboy/xian-dai-csshuremuwakunonei-bu-shi-zhuang-tosonoshi-zu-mi): 2024/4/19
 - [Typescript で型をいじろう](https://zenn.dev/rryyoooo/books/5e730fdbe42173): 2024/4/19
 - [Stable Diffusion 3.0 性能検証](https://zenn.dev/mattyamonaca/articles/e3fe4cbe99bb2c): 2024/4/19
