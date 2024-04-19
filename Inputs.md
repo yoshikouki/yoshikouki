@@ -1,3 +1,4 @@
+- [現代CSSフレームワークの内部実装とその仕組み - Speaker Deck](https://speakerdeck.com/poteboy/xian-dai-csshuremuwakunonei-bu-shi-zhuang-tosonoshi-zu-mi): 2024/4/19
 - [Typescript で型をいじろう](https://zenn.dev/rryyoooo/books/5e730fdbe42173): 2024/4/19
 - [Stable Diffusion 3.0 性能検証](https://zenn.dev/mattyamonaca/articles/e3fe4cbe99bb2c): 2024/4/19
 - [アイシア・ソリッドさんの動画を見続けたらG検定に受かった話　ディープラーニングを学ぶのにオススメYouTube３選｜松xRのnote](https://note.com/eurekachan/n/n7c47b1e37fb2): 2024/4/19
