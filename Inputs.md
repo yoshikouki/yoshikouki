@@ -1,3 +1,4 @@
+- [JMOOC -無料で学べる日本最大のオンライン大学講座（MOOC）](https://www.jmooc.jp/): 2024/4/22
 - [ワクワクするアプリの宝庫、Setapp の紹介](https://zenn.dev/yamatatsu10969/articles/22f4fe592bc084): 2024/4/22
 - [いちばんやさしいローカル LLM｜ぬこぬこ](https://note.com/schroneko/n/n8b1a5bbc740b): 2024/4/22
 - [Microsoft、生成AIのプロンプト解釈を最適化するフレームワーク「SAMMO」を発表 | gihyo.jp](https://gihyo.jp/article/2024/04/sammo): 2024/4/22
