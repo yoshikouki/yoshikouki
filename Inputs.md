@@ -1,3 +1,4 @@
+- [いちばんやさしいローカル LLM｜ぬこぬこ](https://note.com/schroneko/n/n8b1a5bbc740b): 2024/4/22
 - [Microsoft、生成AIのプロンプト解釈を最適化するフレームワーク「SAMMO」を発表 | gihyo.jp](https://gihyo.jp/article/2024/04/sammo): 2024/4/22
 - [ローカルやOpenAIのモデルを使ってAIの力を借りながらメモを作成できるアプリ「Reor」を使ってみた - GIGAZINE](https://gigazine.net/news/20240421-reor/): 2024/4/22
 - [安く早く開発するための個人開発アーキテクチャ](https://zenn.dev/kazu777/articles/7b01cb8cec08fb): 2024/4/22
