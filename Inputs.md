@@ -1,3 +1,4 @@
+- [ローカルやOpenAIのモデルを使ってAIの力を借りながらメモを作成できるアプリ「Reor」を使ってみた - GIGAZINE](https://gigazine.net/news/20240421-reor/): 2024/4/22
 - [安く早く開発するための個人開発アーキテクチャ](https://zenn.dev/kazu777/articles/7b01cb8cec08fb): 2024/4/22
 - [初心者大学生が作った機械学習ライブラリがGitHubでスター数300を超えた話 #Python - Qiita](https://qiita.com/Koukyosyumei/items/8f8b06a97bf8e17098aa): 2024/4/21
 - [見た目から始める生産性向上 - Speaker Deck](https://speakerdeck.com/ikumatadokoro/jian-tamu-karashi-merusheng-chan-xing-xiang-shang?slide=59): 2024/4/20
