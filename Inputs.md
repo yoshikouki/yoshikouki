@@ -1,3 +1,4 @@
+- [GitHub - googleapis/release-please: generate release PRs based on the conventionalcommits.org spec](https://github.com/googleapis/release-please): 2024/4/22
 - [JMOOC -無料で学べる日本最大のオンライン大学講座（MOOC）](https://www.jmooc.jp/): 2024/4/22
 - [ワクワクするアプリの宝庫、Setapp の紹介](https://zenn.dev/yamatatsu10969/articles/22f4fe592bc084): 2024/4/22
 - [いちばんやさしいローカル LLM｜ぬこぬこ](https://note.com/schroneko/n/n8b1a5bbc740b): 2024/4/22
