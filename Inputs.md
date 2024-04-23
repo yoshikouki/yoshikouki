@@ -1,3 +1,4 @@
+- [「AI事業者ガイドライン（第1.0版）」を取りまとめました （METI/経済産業省）](https://www.meti.go.jp/press/2024/04/20240419004/20240419004.html): 2024/4/23
 - [GitHub - googleapis/release-please: generate release PRs based on the conventionalcommits.org spec](https://github.com/googleapis/release-please): 2024/4/22
 - [JMOOC -無料で学べる日本最大のオンライン大学講座（MOOC）](https://www.jmooc.jp/): 2024/4/22
 - [ワクワクするアプリの宝庫、Setapp の紹介](https://zenn.dev/yamatatsu10969/articles/22f4fe592bc084): 2024/4/22
