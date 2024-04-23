@@ -1,3 +1,4 @@
+- [最近出社して対面で会話することが多くなった結果、生産性を上げるための土壌づくりに繋がりそうな会話があった話3選](https://zenn.dev/tomo_saku/articles/dae86edd62e7ec): 2024/4/23
 - [「AI事業者ガイドライン（第1.0版）」を取りまとめました （METI/経済産業省）](https://www.meti.go.jp/press/2024/04/20240419004/20240419004.html): 2024/4/23
 - [GitHub - googleapis/release-please: generate release PRs based on the conventionalcommits.org spec](https://github.com/googleapis/release-please): 2024/4/22
 - [JMOOC -無料で学べる日本最大のオンライン大学講座（MOOC）](https://www.jmooc.jp/): 2024/4/22
