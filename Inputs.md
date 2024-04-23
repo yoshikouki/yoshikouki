@@ -1,3 +1,4 @@
+- [今ホットなHonoを使ってNext.jsのRoute Handlersをハイジャックする](https://zenn.dev/chot/articles/e109287414eb8c): 2024/4/23
 - [100秒で理解するBun](https://zenn.dev/ak/articles/c21609fd3b0fdc): 2024/4/23
 - [Financial Market Applications of LLMs](https://thegradient.pub/financial-market-applications-of-llms/): 2024/4/23
 - [最近出社して対面で会話することが多くなった結果、生産性を上げるための土壌づくりに繋がりそうな会話があった話3選](https://zenn.dev/tomo_saku/articles/dae86edd62e7ec): 2024/4/23
