@@ -1,3 +1,4 @@
+- [ReactのSuspense対応非同期処理を手書きするハンズオン](https://zenn.dev/uhyo/books/react-concurrent-handson): 2024/4/23
 - [今ホットなHonoを使ってNext.jsのRoute Handlersをハイジャックする](https://zenn.dev/chot/articles/e109287414eb8c): 2024/4/23
 - [100秒で理解するBun](https://zenn.dev/ak/articles/c21609fd3b0fdc): 2024/4/23
 - [Financial Market Applications of LLMs](https://thegradient.pub/financial-market-applications-of-llms/): 2024/4/23
