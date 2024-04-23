@@ -1,3 +1,4 @@
+- [100秒で理解するBun](https://zenn.dev/ak/articles/c21609fd3b0fdc): 2024/4/23
 - [Financial Market Applications of LLMs](https://thegradient.pub/financial-market-applications-of-llms/): 2024/4/23
 - [最近出社して対面で会話することが多くなった結果、生産性を上げるための土壌づくりに繋がりそうな会話があった話3選](https://zenn.dev/tomo_saku/articles/dae86edd62e7ec): 2024/4/23
 - [「AI事業者ガイドライン（第1.0版）」を取りまとめました （METI/経済産業省）](https://www.meti.go.jp/press/2024/04/20240419004/20240419004.html): 2024/4/23
