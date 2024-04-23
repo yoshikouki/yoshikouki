@@ -1,3 +1,4 @@
+- [体制を考えるときに意識していること - id:onk のはてなブログ](https://onk.hatenablog.jp/entry/2021/08/07/133352): 2024/4/23
 - [フロントエンドのデザインパターン](https://zenn.dev/morinokami/books/learning-patterns-1): 2024/4/23
 - [ReactのSuspense対応非同期処理を手書きするハンズオン](https://zenn.dev/uhyo/books/react-concurrent-handson): 2024/4/23
 - [今ホットなHonoを使ってNext.jsのRoute Handlersをハイジャックする](https://zenn.dev/chot/articles/e109287414eb8c): 2024/4/23
