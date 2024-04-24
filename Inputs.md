@@ -1,3 +1,4 @@
+- [Frontendエンジニアが”融けるデザイン”を読んで変化した価値観](https://zenn.dev/taisei_13046/articles/ef89d3c1505a39): 2024/4/24
 - [O'Reilly Japan - レボリューション・イン・ザ・バレー](https://www.oreilly.co.jp/books/4873112451/): 2024/4/24
 - [【Nextjs】Cloudflare Pagesにデプロイしようとしたら超苦労したので解決策を記録する](https://zenn.dev/arafipro/articles/2024-01-03-prisma-supabase-sample): 2024/4/23
 - [体制を考えるときに意識していること - id:onk のはてなブログ](https://onk.hatenablog.jp/entry/2021/08/07/133352): 2024/4/23
