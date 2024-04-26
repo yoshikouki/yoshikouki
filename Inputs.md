@@ -1,3 +1,4 @@
+- [ローカルLLM on iOS の現状まとめ](https://zenn.dev/shu223/articles/localllm-ios): 2024/4/26
 - [LLMプロダクト開発者がMac Studioを買ってローカルLLMを触るべき理由｜erukiti](https://note.com/erukiti/n/n58a8180ea9fb): 2024/4/25
 - [ハンネローレの貴族院五年生 - ヴィルフリートの返答](https://ncode.syosetu.com/n4750dy/12/): 2024/4/25
 - [【独占取材】AI業界を騒がせる、話題の半導体ベンチャー](https://newspicks.com/news/9881554/body/): 2024/4/24
