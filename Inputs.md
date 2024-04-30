@@ -1,3 +1,4 @@
+- [小さくても強力: 小規模言語モデル Phi-3 の大きな可能性 - News Center Japan](https://news.microsoft.com/ja-jp/2024/04/24/240424-the-phi-3-small-language-models-with-big-potential/): 2024/4/30
 - [ローカルLLM on iOS の現状まとめ](https://zenn.dev/shu223/articles/localllm-ios): 2024/4/26
 - [LLMプロダクト開発者がMac Studioを買ってローカルLLMを触るべき理由｜erukiti](https://note.com/erukiti/n/n58a8180ea9fb): 2024/4/25
 - [ハンネローレの貴族院五年生 - ヴィルフリートの返答](https://ncode.syosetu.com/n4750dy/12/): 2024/4/25
