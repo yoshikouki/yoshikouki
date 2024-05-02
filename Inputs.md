@@ -1,3 +1,4 @@
+- [自炊するな。ガチでやめろ。人生終わる。](https://not-miso-inside.net/blog/do-not-scan-books/): 2024/5/2
 - [Next.js の Middleware で Hono を使う](https://zenn.dev/coefont/articles/using-hono-in-next-middleware): 2024/5/2
 - [Stop Using Find Method in JavaScript | by Enes Talay | Medium | CodeX](https://medium.com/codex/stop-using-find-method-in-javascript-dfdb40b10821): 2024/5/1
 - [このReactライブラリは面白い！ パート 2](https://zenn.dev/tellernovel_inc/articles/e62e5d33fef6bf): 2024/5/1
