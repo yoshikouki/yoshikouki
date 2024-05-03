@@ -1,3 +1,4 @@
+- [AITuber成功戦略：バーチャル世界で輝くための完全ガイド｜ろてじん](https://note.com/gpt_x/n/nc061f50a86a8): 2024/5/3
 - [自炊するな。ガチでやめろ。人生終わる。](https://not-miso-inside.net/blog/do-not-scan-books/): 2024/5/2
 - [Next.js の Middleware で Hono を使う](https://zenn.dev/coefont/articles/using-hono-in-next-middleware): 2024/5/2
 - [Stop Using Find Method in JavaScript | by Enes Talay | Medium | CodeX](https://medium.com/codex/stop-using-find-method-in-javascript-dfdb40b10821): 2024/5/1
