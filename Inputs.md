@@ -1,3 +1,4 @@
+- [すがやみつる先生が生成AIを使ったことでAIを憂う人たちから大量の質問が殺到する→質問に丁寧に返答、ベテラン漫画家が話す「模倣について」の考え方がためになる - Togetter](https://togetter.com/li/2360940): 2024/5/5
 - [AITuber成功戦略：バーチャル世界で輝くための完全ガイド｜ろてじん](https://note.com/gpt_x/n/nc061f50a86a8): 2024/5/3
 - [自炊するな。ガチでやめろ。人生終わる。](https://not-miso-inside.net/blog/do-not-scan-books/): 2024/5/2
 - [Next.js の Middleware で Hono を使う](https://zenn.dev/coefont/articles/using-hono-in-next-middleware): 2024/5/2
