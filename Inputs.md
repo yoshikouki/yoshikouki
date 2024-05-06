@@ -1,3 +1,4 @@
+- [｢目標達成できる人｣がChatGPTでしていること 多忙でも学び続けられる｢魔法の地図｣の作り方 | リーダーシップ・教養・資格・スキル | 東洋経済オンライン](https://toyokeizai.net/articles/-/750797?page=4): 2024/5/6
 - [Node.js の進化に伴い不要となったかもしれないパッケージたち](https://zenn.dev/morinokami/articles/npm-uninstall): 2024/5/6
 - [すがやみつる先生が生成AIを使ったことでAIを憂う人たちから大量の質問が殺到する→質問に丁寧に返答、ベテラン漫画家が話す「模倣について」の考え方がためになる - Togetter](https://togetter.com/li/2360940): 2024/5/5
 - [AITuber成功戦略：バーチャル世界で輝くための完全ガイド｜ろてじん](https://note.com/gpt_x/n/nc061f50a86a8): 2024/5/3
