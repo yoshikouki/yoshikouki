@@ -1,3 +1,4 @@
+- [GitHub Actionsと仲良くなったよ | IIJ Engineers Blog](https://eng-blog.iij.ad.jp/archives/18963): 2024/5/10
 - [運用自動化、不都合な真実 /20171212-automation - Speaker Deck](https://speakerdeck.com/opelab/20171212-automation): 2024/5/10
 - [Mozart: Piano Sonata No. 8, 10, 11, 12, 13 and 15 - Album by Wolfgang Amadeus Mozart | Spotify](https://open.spotify.com/intl-ja/album/1otqDUzQZtaIMNvmBPn6oH): 2024/5/9
 - [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://torpid-stem-c48.notion.site/GPU-5b48caa32dff4231ac8d90de7fcada04): 2024/5/9
