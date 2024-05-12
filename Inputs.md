@@ -1,3 +1,4 @@
+- [中島聡氏も興味津々。ChatGPTに研究論文を添削・執筆させた結果、世界の「暗部」が炙り出されたかもしれない話 - まぐまぐニュース！](https://www.mag2.com/p/news/598584): 2024/5/12
 - [GitHub Actionsと仲良くなったよ | IIJ Engineers Blog](https://eng-blog.iij.ad.jp/archives/18963): 2024/5/10
 - [運用自動化、不都合な真実 /20171212-automation - Speaker Deck](https://speakerdeck.com/opelab/20171212-automation): 2024/5/10
 - [Mozart: Piano Sonata No. 8, 10, 11, 12, 13 and 15 - Album by Wolfgang Amadeus Mozart | Spotify](https://open.spotify.com/intl-ja/album/1otqDUzQZtaIMNvmBPn6oH): 2024/5/9
