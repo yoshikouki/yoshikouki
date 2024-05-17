@@ -1,3 +1,4 @@
+- [YouTuber or VTuber�@�ǂ���Ŕz�M��������x�������H�@������Ȃǂ̌����҂炪��r�����F����BƐ̂�Innovative Tech - I…](https://www.itmedia.co.jp/news/articles/2405/17/news055.html): 2024/5/17
 - [1on1ミーティングガイド (1on1ガイド)](https://guide.1on1guide.org/): 2024/5/16
 - [iOSアプリがバズって6位まで昇ったので数値を共有します。](https://zenn.dev/ataka/articles/6e3625802aeac7): 2024/5/13
 - [中島聡氏も興味津々。ChatGPTに研究論文を添削・執筆させた結果、世界の「暗部」が炙り出されたかもしれない話 - まぐまぐニュース！](https://www.mag2.com/p/news/598584): 2024/5/12
