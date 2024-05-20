@@ -1,3 +1,4 @@
+- [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://humble-dirigible-66c.notion.site/5243fc875e3f4727a061303f42056918): 2024/5/20
 - [Slackがユーザーの明示的な許可なくメッセージなどをAIトレーニングに利用していることが判明 - GIGAZINE](https://gigazine.net/news/20240520-slack-use-messages-to-train-ai/): 2024/5/20
 - [YouTuber or VTuber�@�ǂ���Ŕz�M��������x�������H�@������Ȃǂ̌����҂炪��r�����F����BƐ̂�Innovative Tech - I…](https://www.itmedia.co.jp/news/articles/2405/17/news055.html): 2024/5/17
 - [1on1ミーティングガイド (1on1ガイド)](https://guide.1on1guide.org/): 2024/5/16
