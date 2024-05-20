@@ -1,3 +1,4 @@
+- [Slackがユーザーの明示的な許可なくメッセージなどをAIトレーニングに利用していることが判明 - GIGAZINE](https://gigazine.net/news/20240520-slack-use-messages-to-train-ai/): 2024/5/20
 - [YouTuber or VTuber�@�ǂ���Ŕz�M��������x�������H�@������Ȃǂ̌����҂炪��r�����F����BƐ̂�Innovative Tech - I…](https://www.itmedia.co.jp/news/articles/2405/17/news055.html): 2024/5/17
 - [1on1ミーティングガイド (1on1ガイド)](https://guide.1on1guide.org/): 2024/5/16
 - [iOSアプリがバズって6位まで昇ったので数値を共有します。](https://zenn.dev/ataka/articles/6e3625802aeac7): 2024/5/13
