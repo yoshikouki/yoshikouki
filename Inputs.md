@@ -1,3 +1,4 @@
+- [React 19 Beta – React](https://ja.react.dev/blog/2024/04/25/react-19): 2024/5/21
 - [マイクロソフト、ARM版の新型Surfaceと『Copilot+ PC』発表。全部覚えるRecallなどWindows 11のローカルAI強化（テクノエッジ） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/febe7900aecfd4c9fc71fbe08d75c727e2a38a41): 2024/5/21
 - [Google Meet: Online Web and Video Conferencing Calls | Google Workspace](https://meet.google.com/?authuser=yoshikouki%40pepabo.com): 2024/5/21
 - [システムの複雑さはどこから来るのか – Out of the tar pitを読む - Uzabase for Engineers](https://tech.uzabase.com/entry/2021/05/20/141950): 2024/5/21
