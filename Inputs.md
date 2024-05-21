@@ -1,3 +1,4 @@
+- [マイクロソフト、ARM版の新型Surfaceと『Copilot+ PC』発表。全部覚えるRecallなどWindows 11のローカルAI強化（テクノエッジ） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/febe7900aecfd4c9fc71fbe08d75c727e2a38a41): 2024/5/21
 - [Google Meet: Online Web and Video Conferencing Calls | Google Workspace](https://meet.google.com/?authuser=yoshikouki%40pepabo.com): 2024/5/21
 - [システムの複雑さはどこから来るのか – Out of the tar pitを読む - Uzabase for Engineers](https://tech.uzabase.com/entry/2021/05/20/141950): 2024/5/21
 - [React19のBetaが公開されたので、公式ブログの概要+気になって調べてみたことをまとめてみた #JavaScript - Qiita](https://qiita.com/ljourm/items/370f013597a6de4957e7): 2024/5/21
