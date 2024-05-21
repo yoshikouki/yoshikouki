@@ -1,3 +1,4 @@
+- [React 日本語ドキュメントが実はわりと ChatGPT で翻訳されている件](https://zenn.dev/smikitky/articles/chatgpt-md-translator): 2024/5/21
 - [React Compiler – React](https://react.dev/learn/react-compiler): 2024/5/20
 - [React Compiler を試す](https://zenn.dev/kazukix/articles/react-compiler): 2024/5/20
 - [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://humble-dirigible-66c.notion.site/5243fc875e3f4727a061303f42056918): 2024/5/20
