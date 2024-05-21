@@ -1,3 +1,4 @@
+- [React19のBetaが公開されたので、公式ブログの概要+気になって調べてみたことをまとめてみた #JavaScript - Qiita](https://qiita.com/ljourm/items/370f013597a6de4957e7): 2024/5/21
 - [React 日本語ドキュメントが実はわりと ChatGPT で翻訳されている件](https://zenn.dev/smikitky/articles/chatgpt-md-translator): 2024/5/21
 - [React Compiler – React](https://react.dev/learn/react-compiler): 2024/5/20
 - [React Compiler を試す](https://zenn.dev/kazukix/articles/react-compiler): 2024/5/20
