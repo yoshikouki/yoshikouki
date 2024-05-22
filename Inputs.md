@@ -1,3 +1,4 @@
+- [RDBの主キー、UUID使った方がいいの？(DDD, CleanArchitecture対応)](https://zenn.dev/s3i7h/articles/12f25ca61fe02a): 2024/5/22
 - [「情熱を探そう」というアドバイスはもうやめよう by Taka Umada - junebox](https://scrapbox.io/june29/%E3%80%8C%E6%83%85%E7%86%B1%E3%82%92%E6%8E%A2%E3%81%9D%E3%81%86%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E3%82%A2%E3%83%89%E3%83%90%E3%82%A4%E3%82%B9%E3%81%AF%E3%82%82%E3%81%86%E3%82%84%E3%82%81%E3%82%88%E3%81%86_by_Taka_Umada): 2024/5/22
 - [GitHub Appを使ってDependabotが作るpull requestを自動マージさせる - inSmartBank](https://blog.smartbank.co.jp/entry/2023/02/16/dependabot-auto-merge-with-github-app): 2024/5/22
 - [DependabotのPRを条件付きで自動マージする](https://zenn.dev/nemuki/articles/dependabot-auto-merge): 2024/5/22
