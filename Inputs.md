@@ -1,3 +1,4 @@
+- [「情熱を探そう」というアドバイスはもうやめよう. 2005年のスタンフォード大学の卒業スピーチで、スティーブ・ジョブスは仕事につい… | by Taka Umada | Medium](https://tumada.medium.com/do-not-find-your-passion-a7b2f290b5a): 2024/5/22
 
 - [RDBの主キー、UUID使った方がいいの？(DDD, CleanArchitecture対応)](https://zenn.dev/s3i7h/articles/12f25ca61fe02a): 2024/5/22
 - [MySQLでプライマリキーをUUIDにする前に知っておいて欲しいこと | Raccoon Tech Blog [株式会社ラクーンホールディングス 技術戦略部ブログ]](https://techblog.raccoon.ne.jp/archives/1627262796.html): 2024/5/22
