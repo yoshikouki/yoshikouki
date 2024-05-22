@@ -1,3 +1,4 @@
+- [GitHub Appを使ってDependabotが作るpull requestを自動マージさせる - inSmartBank](https://blog.smartbank.co.jp/entry/2023/02/16/dependabot-auto-merge-with-github-app): 2024/5/22
 - [DependabotのPRを条件付きで自動マージする](https://zenn.dev/nemuki/articles/dependabot-auto-merge): 2024/5/22
 - [React 19 Beta – React](https://ja.react.dev/blog/2024/04/25/react-19): 2024/5/21
 - [マイクロソフト、ARM版の新型Surfaceと『Copilot+ PC』発表。全部覚えるRecallなどWindows 11のローカルAI強化（テクノエッジ） - Yahoo!ニュース](https://news.yahoo.co.jp/articles/febe7900aecfd4c9fc71fbe08d75c727e2a38a41): 2024/5/21
