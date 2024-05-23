@@ -1,3 +1,4 @@
+- [SEO（検索エンジン最適化）に対する理解を深めたいプロダクト開発に携わるあなたへ](https://zenn.dev/gonta_ganbareyo/articles/09ff8e5481480f): 2024/5/23
 - [自分最適化したメンタルマネジメント手法｜やおっち | newmo](https://note.com/yaotti/n/nb908a3da2bd1): 2024/5/23
 - [「情熱を育む」ための環境を自らデザインしよう. 植物が育つためには、光や水、二酸化炭素といった環境が必要です。植物は大地に根を張… | by Taka Umada | Medium](https://tumada.medium.com/design-environment-for-your-passion-4aaff4e7f4e5): 2024/5/23
 
