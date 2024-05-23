@@ -1,3 +1,4 @@
+- [自分最適化したメンタルマネジメント手法｜やおっち | newmo](https://note.com/yaotti/n/nb908a3da2bd1): 2024/5/23
 - [「情熱を育む」ための環境を自らデザインしよう. 植物が育つためには、光や水、二酸化炭素といった環境が必要です。植物は大地に根を張… | by Taka Umada | Medium](https://tumada.medium.com/design-environment-for-your-passion-4aaff4e7f4e5): 2024/5/23
 
 - [「情熱を探そう」というアドバイスはもうやめよう. 2005年のスタンフォード大学の卒業スピーチで、スティーブ・ジョブスは仕事につい… | by Taka Umada | Medium](https://tumada.medium.com/do-not-find-your-passion-a7b2f290b5a): 2024/5/22
