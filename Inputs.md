@@ -1,3 +1,4 @@
+- [RubyKaigi 2024 に初登壇 &amp;&amp; 初参加した｜めもりー](https://note.com/m3m0r7/n/n2565ca3617ad): 2024/5/24
 - [台湾 オードリー・タン前デジタル担当相　単独インタビュー「誰ひとり取り残さない」](https://news.tv-asahi.co.jp/news_international/articles/900003343.html?page1): 2024/5/24
 - [SEO（検索エンジン最適化）に対する理解を深めたいプロダクト開発に携わるあなたへ](https://zenn.dev/gonta_ganbareyo/articles/09ff8e5481480f): 2024/5/23
 - [自分最適化したメンタルマネジメント手法｜やおっち | newmo](https://note.com/yaotti/n/nb908a3da2bd1): 2024/5/23
