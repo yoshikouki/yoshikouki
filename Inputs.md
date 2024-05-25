@@ -1,3 +1,4 @@
+- [フロントエンド技術選定のヒント 【令和五年度版】 - KAKEHASHI Tech Blog](https://kakehashi-dev.hatenablog.com/entry/2023/12/04/140000): 2024/5/25
 - [Bun 付属の Jest 互換テストランナーを使ってみる ++ Gaji-Laboブログ](https://www.gaji.jp/blog/2023/11/08/17598/): 2024/5/25
 - [Next.js で React Compiler を試しつつ出力コードを見てみる](https://zenn.dev/cybozu_frontend/articles/next-react-compiler): 2024/5/25
 - [Next.js 15 RC 和訳](https://zenn.dev/praha/articles/1d4e8c256324e4): 2024/5/25
