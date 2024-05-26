@@ -1,3 +1,4 @@
+- [英語が話せるようになったターニングポイント｜tsuemura](https://note.com/tsuemura/n/n33c1db98a59f): 2024/5/26
 - [【CSS】gridでできるこんなレイアウト10選（grid関連プロパティ総ざらい）](https://zenn.dev/kagan/articles/4f96a97aadfcb8): 2024/5/25
 - [testing-libraryの入力イベントが遅い #React - Qiita](https://qiita.com/yassii_dev/items/dd83b9fb7230b4e7b9b9): 2024/5/25
 - [フロントエンド技術選定のヒント 【令和五年度版】 - KAKEHASHI Tech Blog](https://kakehashi-dev.hatenablog.com/entry/2023/12/04/140000): 2024/5/25
