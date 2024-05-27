@@ -1,3 +1,4 @@
+- [個人開発OSSが世界に勝てなかった話](https://zenn.dev/yukinarit/articles/7177ba04453e02): 2024/5/27
 - [OSSで世界と戦うために - ゆーすけべー日記](https://yusukebe.com/posts/2023/oss-against-the-world/): 2024/5/27
 - [OSSで世界と戦うために - ゆーすけべー日記](https://yusukebe.com/posts/2023/oss-against-the-world/): 2024/5/27
 - [論文を要約して自動でNotionに追加するアプリ #Python - Qiita](https://qiita.com/Sweet/items/c677043f97b508f1294f): 2024/5/27
