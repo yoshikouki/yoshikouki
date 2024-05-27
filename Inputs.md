@@ -1,3 +1,4 @@
+- [React v17 からイベントリスナーの張り方変わるけど、breaking changes は抑え気味だよ - Panda Noir](https://www.pandanoir.info/entry/2021/04/26/223038): 2024/5/27
 - [個人開発OSSが世界に勝てなかった話](https://zenn.dev/yukinarit/articles/7177ba04453e02): 2024/5/27
 - [OSSで世界と戦うために - ゆーすけべー日記](https://yusukebe.com/posts/2023/oss-against-the-world/): 2024/5/27
 - [OSSで世界と戦うために - ゆーすけべー日記](https://yusukebe.com/posts/2023/oss-against-the-world/): 2024/5/27
