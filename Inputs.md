@@ -1,3 +1,4 @@
+- [HuggingFace Diffusers v0.28.0の新機能｜npaka](https://note.com/npaka/n/n5d07b35a546e): 2024/5/28
 - [同期的カウンタコンポーネントのテスト｜React テスト応用、テストに悩む人へ](https://zenn.dev/tkdn/books/react-testing-patterns/viewer/simple-sync-testing): 2024/5/28
 - [カスタム Hooks のテスト、テストにおけるスパイ｜React テスト応用、テストに悩む人へ](https://zenn.dev/tkdn/books/react-testing-patterns/viewer/testing-with-spy): 2024/5/27
 - [React v17 からイベントリスナーの張り方変わるけど、breaking changes は抑え気味だよ - Panda Noir](https://www.pandanoir.info/entry/2021/04/26/223038): 2024/5/27
