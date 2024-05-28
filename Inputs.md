@@ -1,3 +1,4 @@
+- [同期的カウンタコンポーネントのテスト｜React テスト応用、テストに悩む人へ](https://zenn.dev/tkdn/books/react-testing-patterns/viewer/simple-sync-testing): 2024/5/28
 - [カスタム Hooks のテスト、テストにおけるスパイ｜React テスト応用、テストに悩む人へ](https://zenn.dev/tkdn/books/react-testing-patterns/viewer/testing-with-spy): 2024/5/27
 - [React v17 からイベントリスナーの張り方変わるけど、breaking changes は抑え気味だよ - Panda Noir](https://www.pandanoir.info/entry/2021/04/26/223038): 2024/5/27
 - [個人開発OSSが世界に勝てなかった話](https://zenn.dev/yukinarit/articles/7177ba04453e02): 2024/5/27
