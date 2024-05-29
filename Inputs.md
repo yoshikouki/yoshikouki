@@ -1,3 +1,4 @@
+- [トップページ ｜ ポケモンプログラミングスタートキット](https://startkit.pokemon-foundation.or.jp/): 2024/5/29
 
 - [HuggingFace Diffusers v0.28.0の新機能｜npaka](https://note.com/npaka/n/n5d07b35a546e): 2024/5/28
 - [同期的カウンタコンポーネントのテスト｜React テスト応用、テストに悩む人へ](https://zenn.dev/tkdn/books/react-testing-patterns/viewer/simple-sync-testing): 2024/5/28
