@@ -1,3 +1,4 @@
+- [攻殻機動隊 - Wikipedia](https://ja.m.wikipedia.org/wiki/%E6%94%BB%E6%AE%BB%E6%A9%9F%E5%8B%95%E9%9A%8A): 2024/6/1
 - [プログラマ視点での生成AIとの付き合い方](https://zenn.dev/mizchi/articles/ai-team-mate): 2024/6/1
 - [Next.js Conf 2022で最も感動したライブラリ、vercel/satoriについて紹介させてください。 - Commune Engineer Blog](https://tech.commune.co.jp/entry/2023/01/24/113000): 2024/5/31
 - [Zig探訪 - comptime編](https://zenn.dev/smallkirby/articles/54882aee98e2c9): 2024/5/29
