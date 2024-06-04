@@ -1,3 +1,4 @@
+- [React Hooksもりもり構成のチャット機能を考える[React 19 / Next.js 15]](https://zenn.dev/chot/articles/3d9fb562a2fe95): 2024/6/4
 - [相手への気遣いの考え方は人によって違う - Konifar's ZATSU](https://konifar-zatsu.hatenadiary.jp/entry/2024/06/01/200143): 2024/6/3
 - [河野大臣「自治体ネットワークの三層分離やめる」、ゼロトラストアーキテクチャー導入 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/news/24/00905/): 2024/6/3
 - [「ChatGPT」の次にOpenAIが仕掛ける「世界革命」...アルトマンCEOが主導する「UBI」とは（井手 壮平） | ＋αオンライン | 講談社（1/3）](https://gendai.media/articles/-/128688?imp=0): 2024/6/3
