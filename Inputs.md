@@ -1,3 +1,4 @@
+- [System tests have failed](https://world.hey.com/dhh/system-tests-have-failed-d90af718): 2024/6/6
 - [tailwind.config.js のよく使う設定 #tailwindcss - Qiita](https://qiita.com/99no_exit/items/809fd7c3cbc2ffcaf7df): 2024/6/6
 - [Release CLI v1.8.0 · biomejs/biome · GitHub](https://github.com/biomejs/biome/releases/tag/cli%2Fv1.8.0): 2024/6/5
 - [React Hooksもりもり構成のチャット機能を考える[React 19 / Next.js 15]](https://zenn.dev/chot/articles/3d9fb562a2fe95): 2024/6/4
