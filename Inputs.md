@@ -1,3 +1,4 @@
+- [Chrome内蔵LLM Gemini Nanoを使ってみた](https://zenn.dev/the_exile/articles/chrome-gemini-nano): 2024/6/9
 - [PPR - pre-rendering新時代の到来とSSR/SSG論争の終焉](https://zenn.dev/akfm/articles/nextjs-partial-pre-rendering): 2024/6/9
 - [ChatGPTの「メモリ（Memory）」機能の活用法 - Taste of Tech Topics](https://acro-engineer.hatenablog.com/entry/2024/06/07/123640): 2024/6/7
 - [GitHub Actionsにおける脅威と対策まとめ](https://zenn.dev/cybozu_ept/articles/573c706ec08b48): 2024/6/7
