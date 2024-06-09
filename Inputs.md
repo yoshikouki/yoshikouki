@@ -1,3 +1,4 @@
+- [PPR - pre-rendering新時代の到来とSSR/SSG論争の終焉](https://zenn.dev/akfm/articles/nextjs-partial-pre-rendering): 2024/6/9
 - [ChatGPTの「メモリ（Memory）」機能の活用法 - Taste of Tech Topics](https://acro-engineer.hatenablog.com/entry/2024/06/07/123640): 2024/6/7
 - [GitHub Actionsにおける脅威と対策まとめ](https://zenn.dev/cybozu_ept/articles/573c706ec08b48): 2024/6/7
 - [自分は「メタ認知」をどのようなものだと捉えているか - junebox](https://scrapbox.io/june29/%E8%87%AA%E5%88%86%E3%81%AF%E3%80%8C%E3%83%A1%E3%82%BF%E8%AA%8D%E7%9F%A5%E3%80%8D%E3%82%92%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%82%82%E3%81%AE%E3%81%A0%E3%81%A8%E6%8D%89%E3%81%88%E3%81%A6%E3%81%84%E3%82%8B%E3%81%8B): 2024/6/7
