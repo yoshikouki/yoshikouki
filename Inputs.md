@@ -1,3 +1,4 @@
+- [Google NotebookLMを使ってみた - もしかしたらかなり使えるかも！ - クリエーションライン株式会社](https://www.creationline.com/tech-blog/70892): 2024/6/10
 - [WWDC24予言 - cockscomblog?](https://cockscomb.hatenablog.com/entry/wwdc24-gossip-talk): 2024/6/10
 - [2024年度 サイバーエージェント新卒社内研修の「データモデリング」の資料公開 | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/48338/): 2024/6/10
 - [[JSなし] パワーアップしたView Transitions APIでMPAをSPAみたいにする #JavaScript - Qiita](https://qiita.com/access3151fq/items/a057c9b6398afae43670): 2024/6/10
