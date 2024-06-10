@@ -1,3 +1,4 @@
+- [WWDC24予言 - cockscomblog?](https://cockscomb.hatenablog.com/entry/wwdc24-gossip-talk): 2024/6/10
 - [2024年度 サイバーエージェント新卒社内研修の「データモデリング」の資料公開 | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/48338/): 2024/6/10
 - [[JSなし] パワーアップしたView Transitions APIでMPAをSPAみたいにする #JavaScript - Qiita](https://qiita.com/access3151fq/items/a057c9b6398afae43670): 2024/6/10
 - [Linux リテラシ - 第4回 デーモン](https://rat.cis.k.hosei.ac.jp/article/rat/linuxliteracy/2005/daemon.html): 2024/6/10
