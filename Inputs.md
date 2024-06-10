@@ -1,3 +1,4 @@
+- [PPR - pre-rendering新時代の到来とSSR/SSG論争の終焉](https://zenn.dev/akfm/articles/nextjs-partial-pre-rendering): 2024/6/10
 - [Google NotebookLMを使ってみた - もしかしたらかなり使えるかも！ - クリエーションライン株式会社](https://www.creationline.com/tech-blog/70892): 2024/6/10
 - [WWDC24予言 - cockscomblog?](https://cockscomb.hatenablog.com/entry/wwdc24-gossip-talk): 2024/6/10
 - [2024年度 サイバーエージェント新卒社内研修の「データモデリング」の資料公開 | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/48338/): 2024/6/10
