@@ -1,3 +1,4 @@
+- [[JSなし] パワーアップしたView Transitions APIでMPAをSPAみたいにする #JavaScript - Qiita](https://qiita.com/access3151fq/items/a057c9b6398afae43670): 2024/6/10
 - [Linux リテラシ - 第4回 デーモン](https://rat.cis.k.hosei.ac.jp/article/rat/linuxliteracy/2005/daemon.html): 2024/6/10
 - [Chrome内蔵LLM Gemini Nanoを使ってみた](https://zenn.dev/the_exile/articles/chrome-gemini-nano): 2024/6/9
 - [PPR - pre-rendering新時代の到来とSSR/SSG論争の終焉](https://zenn.dev/akfm/articles/nextjs-partial-pre-rendering): 2024/6/9
