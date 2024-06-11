@@ -1,3 +1,4 @@
+- [Apple�V���R���ŉғ�����Apple�����N���E�h�uPrivate Cloud Compute�v�o��@�Ǝ�AI�uApple Intelligence�v�̕��…](https://www.itmedia.co.jp/aiplus/spv/2406/11/news105.html): 2024/6/11
 - [Rust製JavaScriptエンジン『Boa JS』を試してみた](https://zenn.dev/itte/articles/5c8e5c191e386b): 2024/6/11
 - [Appleの人工知能｢Apple Intelligence｣できることまとめ #WWDC24 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/06/wwdc-apple-intelligence-matome.html): 2024/6/11
 - [PPR - pre-rendering新時代の到来とSSR/SSG論争の終焉](https://zenn.dev/akfm/articles/nextjs-partial-pre-rendering): 2024/6/10
