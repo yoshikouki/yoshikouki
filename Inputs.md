@@ -1,3 +1,4 @@
+- [Appleの人工知能｢Apple Intelligence｣できることまとめ #WWDC24 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/06/wwdc-apple-intelligence-matome.html): 2024/6/11
 - [PPR - pre-rendering新時代の到来とSSR/SSG論争の終焉](https://zenn.dev/akfm/articles/nextjs-partial-pre-rendering): 2024/6/10
 - [Google NotebookLMを使ってみた - もしかしたらかなり使えるかも！ - クリエーションライン株式会社](https://www.creationline.com/tech-blog/70892): 2024/6/10
 - [WWDC24予言 - cockscomblog?](https://cockscomb.hatenablog.com/entry/wwdc24-gossip-talk): 2024/6/10
