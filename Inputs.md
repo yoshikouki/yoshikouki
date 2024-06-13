@@ -1,3 +1,4 @@
+- [Apple Intelligence の機能｜npaka](https://note.com/npaka/n/n658a9e0089c7): 2024/6/13
 - [Microsoftが開始からわずか3カ月でCopilot Proの「GPT Builder」の一般提供の廃止を発表 - GIGAZINE](https://gigazine.net/news/20240612-microsoft-killing-copilot-gpt-builder/): 2024/6/12
 - [Apple�V���R���ŉғ�����Apple�����N���E�h�uPrivate Cloud Compute�v�o��@�Ǝ�AI�uApple Intelligence�v�̕��…](https://www.itmedia.co.jp/aiplus/spv/2406/11/news105.html): 2024/6/11
 - [Rust製JavaScriptエンジン『Boa JS』を試してみた](https://zenn.dev/itte/articles/5c8e5c191e386b): 2024/6/11
