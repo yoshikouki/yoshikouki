@@ -1,3 +1,4 @@
+- [アフォーダンスからシグニファイアへ - A Successful Failure](http://blog.livedoor.jp/lunarmodule7/archives/3283889.html): 2024/6/13
 - [Node-Based UIs in React – React Flow](https://reactflow.dev/): 2024/6/13
 - [Apple Intelligence の機能｜npaka](https://note.com/npaka/n/n658a9e0089c7): 2024/6/13
 - [Microsoftが開始からわずか3カ月でCopilot Proの「GPT Builder」の一般提供の廃止を発表 - GIGAZINE](https://gigazine.net/news/20240612-microsoft-killing-copilot-gpt-builder/): 2024/6/12
