@@ -1,3 +1,4 @@
+- [モノレポの開発環境でDocker ComposeをやめてTaskfileを導入した話](https://zenn.dev/uzu_tech/articles/e0f0af5945033b): 2024/6/14
 - [アフォーダンスからシグニファイアへ - A Successful Failure](http://blog.livedoor.jp/lunarmodule7/archives/3283889.html): 2024/6/13
 - [Node-Based UIs in React – React Flow](https://reactflow.dev/): 2024/6/13
 - [Apple Intelligence の機能｜npaka](https://note.com/npaka/n/n658a9e0089c7): 2024/6/13
