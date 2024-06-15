@@ -1,3 +1,4 @@
+- [｢アップルの生成AI｣がほかとは違う理由 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/06/a-non-competitive-llm-with-rivals-apple-intelligence.html): 2024/6/15
 - [【TS】そんなのあったの？PropertyKey型](https://zenn.dev/gemcook/articles/6b8fd769cd708a): 2024/6/15
 - [「孫正義にハシゴを外されて大損失」それでも尊敬できてしまうワケ | ビジネス教養としての孫正義 | ダイヤモンド・オンライン](https://diamond.jp/articles/-/345324): 2024/6/15
 - [今話題となっているReact 19のSuspenseの変更内容を詳しく見てみました。](https://zenn.dev/mylifeasjosh/articles/d12e231adbde15): 2024/6/15
