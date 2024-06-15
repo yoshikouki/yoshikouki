@@ -1,3 +1,4 @@
+- [ASCII.jp：情報整理の決定版「NotebookLM」が最高すぎる。こういうのがほしかったのよ！！ (1/7)](https://ascii.jp/elem/000/004/203/4203197/): 2024/6/15
 - [｢アップルの生成AI｣がほかとは違う理由 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/06/a-non-competitive-llm-with-rivals-apple-intelligence.html): 2024/6/15
 - [【TS】そんなのあったの？PropertyKey型](https://zenn.dev/gemcook/articles/6b8fd769cd708a): 2024/6/15
 - [「孫正義にハシゴを外されて大損失」それでも尊敬できてしまうワケ | ビジネス教養としての孫正義 | ダイヤモンド・オンライン](https://diamond.jp/articles/-/345324): 2024/6/15
