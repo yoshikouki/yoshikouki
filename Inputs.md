@@ -1,3 +1,4 @@
+- [OpenAI　GPT-4の内部理解のための新たなアプローチを発表　1600万の解釈可能な特徴の分解に成功 | Ledge.ai](https://ledge.ai/articles/openai_sparse_autoencoders): 2024/6/16
 - [ASCII.jp：情報整理の決定版「NotebookLM」が最高すぎる。こういうのがほしかったのよ！！ (1/7)](https://ascii.jp/elem/000/004/203/4203197/): 2024/6/15
 - [｢アップルの生成AI｣がほかとは違う理由 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/06/a-non-competitive-llm-with-rivals-apple-intelligence.html): 2024/6/15
 - [【TS】そんなのあったの？PropertyKey型](https://zenn.dev/gemcook/articles/6b8fd769cd708a): 2024/6/15
