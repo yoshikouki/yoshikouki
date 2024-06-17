@@ -1,3 +1,4 @@
+- [２時間で絵が上達したのはAIのおかげ。その方法と描いた絵の紹介｜rimi](https://note.com/rimi_ai/n/n83a1485dd0bd): 2024/6/17
 - [GitHub - kentaro/ahk_scripts](https://github.com/kentaro/ahk_scripts): 2024/6/17
 - [Earn rewards for your open-source software contributions](https://tea.xyz/): 2024/6/17
 - [OpenAI　GPT-4の内部理解のための新たなアプローチを発表　1600万の解釈可能な特徴の分解に成功 | Ledge.ai](https://ledge.ai/articles/openai_sparse_autoencoders): 2024/6/16
