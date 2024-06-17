@@ -1,3 +1,4 @@
+- [GitHub - kentaro/ahk_scripts](https://github.com/kentaro/ahk_scripts): 2024/6/17
 - [Earn rewards for your open-source software contributions](https://tea.xyz/): 2024/6/17
 - [OpenAI　GPT-4の内部理解のための新たなアプローチを発表　1600万の解釈可能な特徴の分解に成功 | Ledge.ai](https://ledge.ai/articles/openai_sparse_autoencoders): 2024/6/16
 - [ASCII.jp：情報整理の決定版「NotebookLM」が最高すぎる。こういうのがほしかったのよ！！ (1/7)](https://ascii.jp/elem/000/004/203/4203197/): 2024/6/15
