@@ -1,3 +1,4 @@
+- [Spectre の脅威とウェブサイトが設定すべきヘッダーについてSpectre の脅威とウェブサイトが設定すべきヘッダーについて](https://blog.agektmr.com/2021/11/browser-security): 2024/6/18
 - [メール送信サービスのResendが日本でもまともに使えるようになったので紹介したい](https://zenn.dev/trusthub/articles/92a202d9061d2e): 2024/6/18
 - [pnpm の node_modules を探検して理解しよう - ドワンゴ教育サービス開発者ブログ](https://blog.nnn.dev/entry/2024/05/10/110000): 2024/6/17
 - [２時間で絵が上達したのはAIのおかげ。その方法と描いた絵の紹介｜rimi](https://note.com/rimi_ai/n/n83a1485dd0bd): 2024/6/17
