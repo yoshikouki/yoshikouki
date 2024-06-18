@@ -1,3 +1,4 @@
+- [モンスターストライクの開発には GitHub Enterprise Cloud を活用しています](https://zenn.dev/mixi/articles/27d6afd454f569): 2024/6/18
 - [サイバーエージェントは技術者の質重視へ、生成AI台頭で採用方針転換 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/02127/00123/): 2024/6/18
 - [web-platform-tests dashboard](https://wpt.fyi/results/?label=master&label=experimental&aligned): 2024/6/18
 - [Spectre の脅威とウェブサイトが設定すべきヘッダーについてSpectre の脅威とウェブサイトが設定すべきヘッダーについて](https://blog.agektmr.com/2021/11/browser-security): 2024/6/18
