@@ -1,3 +1,4 @@
+- [Server-Sent Events を複数パターンで実装して理解を試みる](https://zenn.dev/cybozu_frontend/articles/try-server-sent-events): 2024/6/19
 - [React 19 RCのSuspenseに関する問題と現状のまとめ](https://zenn.dev/ossamoon/articles/db883b3e22ff62): 2024/6/18
 - [モンスターストライクの開発には GitHub Enterprise Cloud を活用しています](https://zenn.dev/mixi/articles/27d6afd454f569): 2024/6/18
 - [サイバーエージェントは技術者の質重視へ、生成AI台頭で採用方針転換 | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/02127/00123/): 2024/6/18
