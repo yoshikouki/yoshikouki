@@ -1,3 +1,4 @@
+- [pnpm の node_modules を探検して理解しよう - ドワンゴ教育サービス開発者ブログ](https://blog.nnn.dev/entry/2024/05/10/110000): 2024/6/19
 - [VercelがPPRをNodeランタイムにした件からWebフロントエンドとエッジの動向に迫る](https://zenn.dev/sumiren/articles/7886f5079cced0): 2024/6/19
 - [フルリモートで相手に気持ちよく仕事をしてもらうためのコツあれこれ](https://zenn.dev/praha/articles/897f354bb76b98): 2024/6/19
 - [Server-Sent Events を複数パターンで実装して理解を試みる](https://zenn.dev/cybozu_frontend/articles/try-server-sent-events): 2024/6/19
