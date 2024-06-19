@@ -1,3 +1,4 @@
+- [VercelがPPRをNodeランタイムにした件からWebフロントエンドとエッジの動向に迫る](https://zenn.dev/sumiren/articles/7886f5079cced0): 2024/6/19
 - [フルリモートで相手に気持ちよく仕事をしてもらうためのコツあれこれ](https://zenn.dev/praha/articles/897f354bb76b98): 2024/6/19
 - [Server-Sent Events を複数パターンで実装して理解を試みる](https://zenn.dev/cybozu_frontend/articles/try-server-sent-events): 2024/6/19
 - [React 19 RCのSuspenseに関する問題と現状のまとめ](https://zenn.dev/ossamoon/articles/db883b3e22ff62): 2024/6/18
