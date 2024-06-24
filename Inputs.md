@@ -1,3 +1,4 @@
+- [macOS のファイルを断捨離して 60 GB 空ける](https://zenn.dev/inaniwaudon/articles/5e56e701fc7a41): 2024/6/24
 
 - [pnpm の node_modules を探検して理解しよう - ドワンゴ教育サービス開発者ブログ](https://blog.nnn.dev/entry/2024/05/10/110000): 2024/6/19
 - [VercelがPPRをNodeランタイムにした件からWebフロントエンドとエッジの動向に迫る](https://zenn.dev/sumiren/articles/7886f5079cced0): 2024/6/19
