@@ -1,3 +1,4 @@
+- [104 Live Streaming Statistics, Facts and Trends for 2024](https://www.uscreen.tv/blog/live-streaming-statistics/): 2024/6/25
 - [HTMX入門【はじめからそうやって教えてくれればいいのに！】](https://zenn.dev/ak/articles/735e05d2ba8da0): 2024/6/24
 - [macOS のファイルを断捨離して 60 GB 空ける](https://zenn.dev/inaniwaudon/articles/5e56e701fc7a41): 2024/6/24
 
