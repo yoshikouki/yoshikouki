@@ -1,3 +1,4 @@
+- [Mac向け「ChatGPT」アプリ、全ユーザーに提供開始 - CNET Japan](https://japan.cnet.com/article/35220633/): 2024/6/27
 - [Node パッケージ を npmjs に公開するうえで知っておくべきこと](https://zenn.dev/wakamsha/articles/about-publishing-node-packages): 2024/6/27
 - [【保存版】知らないと画質が落ちるWebP変換おすすめパラメーター設定例 JPEG/PNG編 - アイデアマンズブログ](https://blog.ideamans.com/2020/08/webp-params-2020.html): 2024/6/26
 - [104 Live Streaming Statistics, Facts and Trends for 2024](https://www.uscreen.tv/blog/live-streaming-statistics/): 2024/6/25
