@@ -1,3 +1,4 @@
+- [全社的な生成AI活用プラットフォームとしての Difyの導入事例紹介 - Speaker Deck](https://speakerdeck.com/tokita_kakaku/quan-she-de-nasheng-cheng-aihuo-yong-puratutohuomutositeno-difynodao-ru-shi-li-shao-jie): 2024/6/28
 - [Mac向け「ChatGPT」アプリ、全ユーザーに提供開始 - CNET Japan](https://japan.cnet.com/article/35220633/): 2024/6/27
 - [Node パッケージ を npmjs に公開するうえで知っておくべきこと](https://zenn.dev/wakamsha/articles/about-publishing-node-packages): 2024/6/27
 - [【保存版】知らないと画質が落ちるWebP変換おすすめパラメーター設定例 JPEG/PNG編 - アイデアマンズブログ](https://blog.ideamans.com/2020/08/webp-params-2020.html): 2024/6/26
