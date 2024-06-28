@@ -1,3 +1,4 @@
+- [画像最適化の舞台裏をのぞき見👀してnext/imageを使いこなす](https://zenn.dev/reiwatravel/articles/fb1586ea9463a1): 2024/6/28
 - [全社的な生成AI活用プラットフォームとしての Difyの導入事例紹介 - Speaker Deck](https://speakerdeck.com/tokita_kakaku/quan-she-de-nasheng-cheng-aihuo-yong-puratutohuomutositeno-difynodao-ru-shi-li-shao-jie): 2024/6/28
 - [Mac向け「ChatGPT」アプリ、全ユーザーに提供開始 - CNET Japan](https://japan.cnet.com/article/35220633/): 2024/6/27
 - [Node パッケージ を npmjs に公開するうえで知っておくべきこと](https://zenn.dev/wakamsha/articles/about-publishing-node-packages): 2024/6/27
