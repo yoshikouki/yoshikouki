@@ -1,3 +1,4 @@
+- [【2024Q2】Bun専用(?)TypeScriptそのままnpmパッケージの作成に関する覚え書き #TypeScript - Qiita](https://qiita.com/macropygia/items/b321e9e5515de02f4dfd): 2024/6/30
 
 - [知らないとあぶない、Next.js セキュリティばなし](https://zenn.dev/moozaru/articles/d270bbc476758e): 2024/6/29
 - [Optimizing: Images | Next.js](https://nextjs.org/docs/pages/building-your-application/optimizing/images#loaders): 2024/6/28
