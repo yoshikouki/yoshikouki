@@ -1,3 +1,4 @@
+- [しかのこのこのここしたんたん耐久オートマトン](https://zenn.dev/ikawaha/articles/20240629-d52f7a78075457): 2024/6/30
 - [【2024Q2】Bun専用(?)TypeScriptそのままnpmパッケージの作成に関する覚え書き #TypeScript - Qiita](https://qiita.com/macropygia/items/b321e9e5515de02f4dfd): 2024/6/30
 
 - [知らないとあぶない、Next.js セキュリティばなし](https://zenn.dev/moozaru/articles/d270bbc476758e): 2024/6/29
