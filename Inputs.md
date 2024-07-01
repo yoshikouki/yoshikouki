@@ -1,3 +1,4 @@
+- [Metaのマーク・ザッカーバーグCEOがクローズドソースでAIを開発する競合他社を「神を創っているとでも思っているのでは」と批判 - GIGAZINE](https://gigazine.net/news/20240628-meta-zuckerberg-closed-ai-competitors/): 2024/7/1
 - [Next.jsで不要なファイルを一掃する](https://zenn.dev/kwst/articles/c163b7773b3912): 2024/7/1
 - [StoryTribe: Effortless Storyboarding for Everyone](https://storytribeapp.com/): 2024/6/30
 - [しかのこのこのここしたんたん耐久オートマトン](https://zenn.dev/ikawaha/articles/20240629-d52f7a78075457): 2024/6/30
