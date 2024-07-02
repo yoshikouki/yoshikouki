@@ -1,3 +1,4 @@
+- [少しの記述でユーザビリティやアクセシビリティを向上させるHTML/CSSテクニック集 – TAKLOG](https://www.tak-dcxi.com/article/html-css-techniques-to-improve-usability-and-accessibility-with-minimal-code#%E5%85%A5%E5%8A%9B%E6%AC%84%E3%81%AE-font-size-%E3%81%AF%E8%A8%88%E7%AE%97%E4%B8%8A-16px-%E4%BB%A5%E4%B8%8A%E3%81%A8%E3%81%99%E3%82%8B): 2024/7/2
 - [Metaのマーク・ザッカーバーグCEOがクローズドソースでAIを開発する競合他社を「神を創っているとでも思っているのでは」と批判 - GIGAZINE](https://gigazine.net/news/20240628-meta-zuckerberg-closed-ai-competitors/): 2024/7/1
 - [Next.jsで不要なファイルを一掃する](https://zenn.dev/kwst/articles/c163b7773b3912): 2024/7/1
 - [StoryTribe: Effortless Storyboarding for Everyone](https://storytribeapp.com/): 2024/6/30
