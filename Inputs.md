@@ -1,3 +1,4 @@
+- [最近見つけた面白くて楽しいChrome拡張機能](https://zenn.dev/tellernovel_inc/articles/5798126be3c541): 2024/7/4
 - [【React】useMediaQuery は最終手段にしよう](https://zenn.dev/chot/articles/do-not-use-use-media-query): 2024/7/4
 - [SOZAI](https://soz-ai.com/): 2024/7/3
 - [Meta、LLMコンパイラを公開——AIがプログラミングの常識を変えるかも - BRIDGE（ブリッジ）テクノロジー＆スタートアップ情報](https://thebridge.jp/2024/07/metas-llm-compiler-is-the-latest-ai-breakthrough-to-change-the-way-we-code): 2024/7/2
