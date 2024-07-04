@@ -1,3 +1,4 @@
+- [【React】useMediaQuery は最終手段にしよう](https://zenn.dev/chot/articles/do-not-use-use-media-query): 2024/7/4
 - [SOZAI](https://soz-ai.com/): 2024/7/3
 - [Meta、LLMコンパイラを公開——AIがプログラミングの常識を変えるかも - BRIDGE（ブリッジ）テクノロジー＆スタートアップ情報](https://thebridge.jp/2024/07/metas-llm-compiler-is-the-latest-ai-breakthrough-to-change-the-way-we-code): 2024/7/2
 - [少しの記述でユーザビリティやアクセシビリティを向上させるHTML/CSSテクニック集 – TAKLOG](https://www.tak-dcxi.com/article/html-css-techniques-to-improve-usability-and-accessibility-with-minimal-code#%E5%85%A5%E5%8A%9B%E6%AC%84%E3%81%AE-font-size-%E3%81%AF%E8%A8%88%E7%AE%97%E4%B8%8A-16px-%E4%BB%A5%E4%B8%8A%E3%81%A8%E3%81%99%E3%82%8B): 2024/7/2
