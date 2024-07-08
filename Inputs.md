@@ -1,3 +1,4 @@
+- ["use server"; でexportした関数が意図せず？公開される](https://zenn.dev/moozaru/articles/b0ef001e20baaf): 2024/7/8
 - [GitHub - shouldbee/reserved-usernames: 590+ usernames in this dictionary! A list of reserved userna…](https://github.com/shouldbee/reserved-usernames): 2024/7/4
 - [Webサービス公開前のチェックリスト](https://zenn.dev/catnose99/articles/547cbf57e5ad28): 2024/7/4
 - [最近見つけた面白くて楽しいChrome拡張機能](https://zenn.dev/tellernovel_inc/articles/5798126be3c541): 2024/7/4
