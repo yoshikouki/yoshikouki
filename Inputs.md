@@ -1,3 +1,4 @@
+- [OrbStackを使ってみた](https://zenn.dev/joo_hashi/articles/51e583b65b4b12): 2024/7/9
 - [Next.jsを使い続けたい好きなトコロ](https://zenn.dev/moozaru/articles/e101286259a878): 2024/7/9
 - ["use server"; でexportした関数が意図せず？公開される](https://zenn.dev/moozaru/articles/b0ef001e20baaf): 2024/7/8
 - [GitHub - shouldbee/reserved-usernames: 590+ usernames in this dictionary! A list of reserved userna…](https://github.com/shouldbee/reserved-usernames): 2024/7/4
