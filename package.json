@@ -1,0 +1,24 @@
+{
+  "name": "yoshikouki",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "format:unsafe": "biome check --write --unsafe .",
+    "update:all": "bun update --latest",
+    "zenn:new": "zenn new:article",
+    "zenn:preview": "zenn preview",
+    "zenn:list": "zenn list"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "zenn-cli": "^0.1.154"
+  }
+}

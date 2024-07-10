@@ -12,7 +12,7 @@ const getUrl = (): string => {
     return url;
   } catch (error) {
     throw new Error(
-      `URL Error: ${error instanceof Error ? error.message : error}`
+      `URL Error: ${error instanceof Error ? error.message : error}`,
     );
   }
 };
@@ -24,7 +24,7 @@ const fetchTitleByPuppeteer = async (url: string): Promise<string> => {
   const page = await browser.newPage();
   try {
     await page.setUserAgent(
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
     );
     await page.goto(url, { waitUntil: "networkidle0", timeout: 3000 });
     const title = await page.title();
@@ -50,7 +50,7 @@ const fetchTitle = async (url: string): Promise<string> => {
   const response = await fetch(url);
   if (response.status !== 200) {
     throw new Error(
-      `Failed to retrieve the content. HTTP status: ${response.status}`
+      `Failed to retrieve the content. HTTP status: ${response.status}`,
     );
   }
   const html = await response.text();
@@ -114,7 +114,6 @@ const getTodayString = (): string => {
   const formattedDate = `${currentDate.getFullYear()}/${currentDate.getMonth() + 1}/${currentDate.getDate()}`;
   return formattedDate;
 };
-
 
 const run = async () => {
   const url = getUrl();
