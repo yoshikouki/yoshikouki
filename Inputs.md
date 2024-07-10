@@ -1,3 +1,4 @@
+- [【個人開発】稼げる技術情報共有プラットフォーム Overridon を作ってみたので使って欲しい](https://zenn.dev/ymdkysk/articles/82cb33d493109a): 2024/7/10
 
 - [一休CTOが語るエンジニアの事業貢献とユーザーエクスペリエンスへのコミット 伊藤直也さんインタビュー - Findy Engineer Lab](https://findy-code.io/engineer-lab/naoya_ito): 2024/7/10
 - [OrbStackを使ってみた](https://zenn.dev/joo_hashi/articles/51e583b65b4b12): 2024/7/9
