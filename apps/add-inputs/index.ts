@@ -32,9 +32,8 @@ const fetchTitleByPuppeteer = async (url: string): Promise<string> => {
   } catch (error) {
     if (error instanceof Error) {
       throw new Error(`Failed to retrieve the content. ${error.message}`);
-    } else {
-      throw new Error(`Failed to retrieve the content. ${error}`);
     }
+    throw new Error(`Failed to retrieve the content. ${error}`);
   } finally {
     await browser.close();
   }
@@ -61,10 +60,9 @@ const fetchTitle = async (url: string): Promise<string> => {
 const truncate = (text: string, length: number): string => {
   if (text.length <= length) {
     return text;
-  } else {
-    const truncatedText = text.substring(0, length - 1);
-    return truncatedText + "…";
   }
+  const truncatedText = text.substring(0, length - 1);
+  return `${truncatedText}…`;
 };
 
 const formatContent = (content: string): string => {
