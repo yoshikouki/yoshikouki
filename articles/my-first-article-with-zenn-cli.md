@@ -12,4 +12,4 @@ GitHub 連携をしてみました
 
 以下の画像は見えていますか？
 
-![](/images/test/2024-07-10-21-29-00.webp)
+![](/images/my-first-article-with-zenn-cli/2024-07-10-21-29-00.webp)
