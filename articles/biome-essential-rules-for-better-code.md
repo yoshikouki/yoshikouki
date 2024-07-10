@@ -3,7 +3,7 @@ title: "Biome を使うときに最低限入れておきたい設定集"
 emoji: "☣️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Biome", "JavaScript", "TypeScript", "linter"]
-published: false
+published: true
 ---
 
 # はじめに
