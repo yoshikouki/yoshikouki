@@ -175,6 +175,35 @@ dist/
 
 https://biomejs.dev/guides/integrate-in-vcs/
 
+### 6. VSCode の設定
+
+Biome のルールではありませんが、VSCode でこれまでのルールを常に動かす設定を入れるようにしています
+
+```json:.vscode/settings.json
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
+}
+```
+
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=biomejs.biome) で Biome の拡張機能をインストールするか、`.vscode/extensions.json` に以下を設定します
+
+
+```json:.vscode/extensions.json
+{
+  "recommendations": ["biomejs.biome"]
+}
+```
+
+https://biomejs.dev/reference/vscode/
+
 ## まとめ
 
 最後に、[私が普段使用している biome.json](https://github.com/yoshikouki/honon/blob/main/biome.json) を掲載します。
