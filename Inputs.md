@@ -1,3 +1,4 @@
+- [子どもを「いじめっ子」にしてしまう親の教育が明らかに (2/2) - ナゾロジー](https://nazology.net/archives/86422/2): 2024/7/13
 - [Hono Conference 2024 - Our first step](https://zenn.dev/yusukebe/articles/17346321e44f76): 2024/7/12
 - [ゆーすけべー日記](https://yusukebe.com/): 2024/7/12
 - [小さく始めるView Transitions API](https://zenn.dev/timetree/articles/6a3ba5ceba51d8): 2024/7/12
