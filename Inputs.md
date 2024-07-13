@@ -1,3 +1,4 @@
+- [ZennのGoogle Analytics(GA4)トラッキングID設定方法](https://zenn.dev/easy_easy/articles/c784905997dde2ffce68): 2024/7/13
 - [NPMパッケージ開発者のためのtsconfig | TypeScript入門『サバイバルTypeScript』](https://typescriptbook.jp/reference/advanced-topics/tsconfig-for-npm-package-developers): 2024/7/13
 - [子どもを「いじめっ子」にしてしまう親の教育が明らかに (2/2) - ナゾロジー](https://nazology.net/archives/86422/2): 2024/7/13
 - [Hono Conference 2024 - Our first step](https://zenn.dev/yusukebe/articles/17346321e44f76): 2024/7/12
