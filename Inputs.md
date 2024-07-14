@@ -1,3 +1,4 @@
+- [シングルプロセス・シングルスレッドとコールバック | TypeScript入門『サバイバルTypeScript』](https://typescriptbook.jp/reference/single-process-and-callback): 2024/7/14
 - [TypeScriptでnpm packageを公開する場合に実装コードを参照できるようにする](https://zenn.dev/hokaccha/articles/feb4b4eaa0f3d5): 2024/7/14
 - [ZennのGoogle Analytics(GA4)トラッキングID設定方法](https://zenn.dev/easy_easy/articles/c784905997dde2ffce68): 2024/7/13
 - [NPMパッケージ開発者のためのtsconfig | TypeScript入門『サバイバルTypeScript』](https://typescriptbook.jp/reference/advanced-topics/tsconfig-for-npm-package-developers): 2024/7/13
