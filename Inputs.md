@@ -1,3 +1,4 @@
+- [ELYZA-tasks-100を人間が解くと何点取れるのか？](https://zenn.dev/yuki127/articles/2496cd8383c84c): 2024/7/16
 - [結局ユーザーパスワードはどう保存すればいいんだ？](https://zenn.dev/the_exile/articles/user-password): 2024/7/16
 - [LLMに面倒なことをやらせるソフト「Code Cooker」の紹介](https://zenn.dev/karaage0703/articles/8996f211fc38cd): 2024/7/15
 - [真にチラつかないダークモードをついに実現したぞ。実現方法と気付きを書く | stin's Blog](https://blog.stin.ink/articles/how-to-implement-a-perfect-dark-mode): 2024/7/15
