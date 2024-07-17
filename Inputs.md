@@ -1,3 +1,4 @@
+- [次世代Web BandlerのFarmが熱そう](https://zenn.dev/gemcook/articles/480de0e144d5d2): 2024/7/17
 - [ELYZA-tasks-100を人間が解くと何点取れるのか？](https://zenn.dev/yuki127/articles/2496cd8383c84c): 2024/7/16
 - [結局ユーザーパスワードはどう保存すればいいんだ？](https://zenn.dev/the_exile/articles/user-password): 2024/7/16
 - [LLMに面倒なことをやらせるソフト「Code Cooker」の紹介](https://zenn.dev/karaage0703/articles/8996f211fc38cd): 2024/7/15
