@@ -1,3 +1,4 @@
+- [ミーティング・ファシリテーション入門 / Introduction To Meeting And Facilitation - Speaker Deck](https://speakerdeck.com/iwashi86/introduction-to-meeting-and-facilitation): 2024/7/19
 - [エンジニアを始めてから便利だったツールまとめ](https://zenn.dev/nakaatsu/articles/7133e16a0f787c): 2024/7/18
 - [Vitest Browser Modeがアツい](https://zenn.dev/apple_yagi/articles/b2b96af1fd355c): 2024/7/18
 - [次世代Web BandlerのFarmが熱そう](https://zenn.dev/gemcook/articles/480de0e144d5d2): 2024/7/17
