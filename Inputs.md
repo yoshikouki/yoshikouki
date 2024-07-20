@@ -1,3 +1,4 @@
+- [NeverThrow入門 | TypeScriptでResult型を使いたいんじゃ＾〜](https://zenn.dev/praha/articles/863e16e2e1feec): 2024/7/20
 - [【図解】OrbitControlsで操作するカメラ制御定番パターン｜Three.js : すきま研究所日誌](https://www.sukimalog.com/archives/36168168-OrbitControls.html): 2024/7/19
 - [ミーティング・ファシリテーション入門 / Introduction To Meeting And Facilitation - Speaker Deck](https://speakerdeck.com/iwashi86/introduction-to-meeting-and-facilitation): 2024/7/19
 - [エンジニアを始めてから便利だったツールまとめ](https://zenn.dev/nakaatsu/articles/7133e16a0f787c): 2024/7/18
