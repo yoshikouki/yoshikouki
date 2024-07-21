@@ -1,3 +1,4 @@
+- [孫正義はなぜアイデアが無限にわいてくるのか…本当に頭のいい人ほど｢チャットGPT｣を堂々と使うワケ ｢AIへの質問｣次第でいくらでも視点を変えられる | PRESIDENT Online（プレジデン…](https://president.jp/articles/-/83613?page=1): 2024/7/21
 - [孫正義はなぜアイデアが無限にわいてくるのか…本当に頭のいい人ほど｢チャットGPT｣を堂々と使うワケ ｢AIへの質問｣次第でいくらでも視点を変えられる (3ページ目) | PRESIDENT Onli…](https://president.jp/articles/-/83613?page=3): 2024/7/20
 - [NeverThrow入門 | TypeScriptでResult型を使いたいんじゃ＾〜](https://zenn.dev/praha/articles/863e16e2e1feec): 2024/7/20
 - [【図解】OrbitControlsで操作するカメラ制御定番パターン｜Three.js : すきま研究所日誌](https://www.sukimalog.com/archives/36168168-OrbitControls.html): 2024/7/19
