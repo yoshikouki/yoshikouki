@@ -1,3 +1,4 @@
+- [ブロックチェーン上でWEBアプリをホストする　その１（事前準備編）　Internet Computer Protocol(ICP)](https://zenn.dev/plum_tt/articles/b14250bdc1c2e3): 2024/7/21
 - [孫正義はなぜアイデアが無限にわいてくるのか…本当に頭のいい人ほど｢チャットGPT｣を堂々と使うワケ ｢AIへの質問｣次第でいくらでも視点を変えられる | PRESIDENT Online（プレジデン…](https://president.jp/articles/-/83613?page=1): 2024/7/21
 - [孫正義はなぜアイデアが無限にわいてくるのか…本当に頭のいい人ほど｢チャットGPT｣を堂々と使うワケ ｢AIへの質問｣次第でいくらでも視点を変えられる (3ページ目) | PRESIDENT Onli…](https://president.jp/articles/-/83613?page=3): 2024/7/20
 - [NeverThrow入門 | TypeScriptでResult型を使いたいんじゃ＾〜](https://zenn.dev/praha/articles/863e16e2e1feec): 2024/7/20
