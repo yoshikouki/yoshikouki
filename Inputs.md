@@ -1,3 +1,4 @@
+- [キーボードの正しい掃除方法とは？必要なツールや注意点もご紹介 | PFU](https://happyhackingkb.com/jp/life/hhkb_life71.html?utm_source=twitter&utm_medium=social&utm_campaign=HHKB): 2024/7/24
 - [Llama-3.1 の概要 ｜npaka](https://note.com/npaka/n/n6385188898f0): 2024/7/24
 - [Llama-3.1 の概要 ｜npaka](https://note.com/npaka/n/n6385188898f0): 2024/7/24
 - [3分で理解する心理的安全性](https://zenn.dev/irsc/articles/9c1eacc7d46a28): 2024/7/24
