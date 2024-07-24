@@ -1,3 +1,4 @@
+- [Llama-3.1 の概要 ｜npaka](https://note.com/npaka/n/n6385188898f0): 2024/7/24
 - [3分で理解する心理的安全性](https://zenn.dev/irsc/articles/9c1eacc7d46a28): 2024/7/24
 - [VRMモデルのファイルサイズ | VRM](https://vrm.dev/univrm/export/vrm_size/): 2024/7/22
 - [GitHub Copilot Workspace ファーストインプレッション - laiso](https://laiso.hatenablog.com/entry/2024/07/19/213949): 2024/7/21
