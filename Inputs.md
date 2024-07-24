@@ -1,3 +1,4 @@
+- [3分で理解する心理的安全性](https://zenn.dev/irsc/articles/9c1eacc7d46a28): 2024/7/24
 - [VRMモデルのファイルサイズ | VRM](https://vrm.dev/univrm/export/vrm_size/): 2024/7/22
 - [GitHub Copilot Workspace ファーストインプレッション - laiso](https://laiso.hatenablog.com/entry/2024/07/19/213949): 2024/7/21
 - [ブロックチェーン上でWEBアプリをホストする　その１（事前準備編）　Internet Computer Protocol(ICP)](https://zenn.dev/plum_tt/articles/b14250bdc1c2e3): 2024/7/21
