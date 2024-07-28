@@ -1,3 +1,4 @@
+- [【index.ts】そのVSCodeタブ名、わかりづらくない？【page.tsx】](https://zenn.dev/bmth/articles/vscode-tab-display-name-alias): 2024/7/28
 - [VSCode から他の人に爆速でコードを共有しよう](https://zenn.dev/uzu_tech/articles/da2bc60697870a): 2024/7/28
 
 - [OpenAI、AI検索サービスに参入「SearchGPT」 - Impress Watch](https://www.watch.impress.co.jp/docs/news/1611393.html): 2024/7/26
