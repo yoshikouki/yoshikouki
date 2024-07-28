@@ -1,3 +1,4 @@
+- [VSCode から他の人に爆速でコードを共有しよう](https://zenn.dev/uzu_tech/articles/da2bc60697870a): 2024/7/28
 
 - [OpenAI、AI検索サービスに参入「SearchGPT」 - Impress Watch](https://www.watch.impress.co.jp/docs/news/1611393.html): 2024/7/26
 - [Cyber Robot - Game UX/UI by Dima Tischenko on Dribbble](https://dribbble.com/shots/6013675-Cyber-Robot-Game-UX-UI?utm_source=Pinterest_Shot&utm_campaign=dimatis&utm_content=Cyber+Robot+-+Game+UX%2FUI&utm_medium=Social_Share): 2024/7/25
