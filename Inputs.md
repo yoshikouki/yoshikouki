@@ -1,3 +1,4 @@
+- [WebGL開発に役立つ重要な三角関数の数式・概念まとめ （Three.js編） - ICS MEDIA](https://ics.media/entry/10657/): 2024/7/30
 - [App Router時代のZero-Runtimeの理解を深める](https://zenn.dev/blueish/articles/e8bc1a5caf139f?redirected=1): 2024/7/30
 - [Good Managers Write Good | Stay SaaSy](https://staysaasy.com/management/2022/07/10/Writing-Management.html): 2024/7/29
 - [【index.ts】そのVSCodeタブ名、わかりづらくない？【page.tsx】](https://zenn.dev/bmth/articles/vscode-tab-display-name-alias): 2024/7/28
