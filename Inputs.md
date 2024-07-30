@@ -1,3 +1,4 @@
+- [three.js manual](https://threejs.org/manual/#en/fundamentals): 2024/7/30
 - [Three.jsの勉強の仕方 #three.js - Qiita](https://qiita.com/nemutas/items/d2d738749184a7a42f1d): 2024/7/30
 - [WebGL開発に役立つ重要な三角関数の数式・概念まとめ （Three.js編） - ICS MEDIA](https://ics.media/entry/10657/): 2024/7/30
 - [App Router時代のZero-Runtimeの理解を深める](https://zenn.dev/blueish/articles/e8bc1a5caf139f?redirected=1): 2024/7/30
