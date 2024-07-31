@@ -1,3 +1,4 @@
+- [【StableDiffusion】VRoidからつくる衣装LoRA制作メモ【データセット付き】｜カズヤ弟＠ゲーム実況＆生成AI](https://note.com/kazuya_bros/n/ne82cc4ab25cd): 2024/7/31
 - [TOP | イチサンフォーム](https://ichisan.jp/form/): 2024/7/30
 - [【ソリューションプロダクトフィットとプロダクトマーケットフィット#01】ソリューションプロダクトフィットとMVP](https://www.ily.today/post/spf-pmf_1): 2024/7/30
 - [three.js manual](https://threejs.org/manual/#en/fundamentals): 2024/7/30
