@@ -1,3 +1,4 @@
+- [Introducing Stable Fast 3D: Rapid 3D Asset Generation From Single Images — Stability AI](https://stability.ai/news/introducing-stable-fast-3d): 2024/8/1
 - [身近な人やパートナーにアプリを作るすゝめ](https://zenn.dev/tattu/articles/app-for-wife34ixb5s): 2024/8/1
 - [Next.js（App Router）で個人ブログ集約プラットフォーム『Gatherly』を開発した話](https://zenn.dev/mytty/articles/b3e40612d8dabe): 2024/7/31
 - [【StableDiffusion】VRoidからつくる衣装LoRA制作メモ【データセット付き】｜カズヤ弟＠ゲーム実況＆生成AI](https://note.com/kazuya_bros/n/ne82cc4ab25cd): 2024/7/31
