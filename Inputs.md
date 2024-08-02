@@ -1,3 +1,4 @@
+- [Difyの基礎知識](https://zenn.dev/satto_sann/articles/e94e49f590f4b6): 2024/8/2
 - [Introducing Stable Fast 3D: Rapid 3D Asset Generation From Single Images — Stability AI](https://stability.ai/news/introducing-stable-fast-3d): 2024/8/1
 - [身近な人やパートナーにアプリを作るすゝめ](https://zenn.dev/tattu/articles/app-for-wife34ixb5s): 2024/8/1
 - [Next.js（App Router）で個人ブログ集約プラットフォーム『Gatherly』を開発した話](https://zenn.dev/mytty/articles/b3e40612d8dabe): 2024/7/31
