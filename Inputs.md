@@ -1,3 +1,4 @@
+- [TypeScriptの標準ライブラリで使われているdeclaration mergingのテクニック](https://zenn.dev/uhyo/articles/typescript-lib-declaration-merging): 2024/8/2
 
 - [Difyの基礎知識](https://zenn.dev/satto_sann/articles/e94e49f590f4b6): 2024/8/2
 - [Introducing Stable Fast 3D: Rapid 3D Asset Generation From Single Images — Stability AI](https://stability.ai/news/introducing-stable-fast-3d): 2024/8/1
