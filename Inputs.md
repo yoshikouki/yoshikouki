@@ -1,3 +1,4 @@
+- [Node.jsの真の姿：サーバーサイドだけじゃない、現代の開発環境の要](https://zenn.dev/crebo/articles/article-0003-20240802): 2024/8/3
 - [エフェクト作成入門講座 Three.js編 RPGのセーブポイント風の魔法陣 - ICS MEDIA](https://ics.media/entry/11401/): 2024/8/2
 - [TypeScriptの標準ライブラリで使われているdeclaration mergingのテクニック](https://zenn.dev/uhyo/articles/typescript-lib-declaration-merging): 2024/8/2
 
