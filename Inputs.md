@@ -1,3 +1,4 @@
+- [スタートアップの熱狂と急成長を両立させる野望 - 株式会社ヘンリー エンジニアブログ](https://dev.henry.jp/entry/ambition-to-combine-startup-enthusiasm-and-rapid-growth): 2024/8/5
 - [生成AIを活用した機能を爆速でリリースしてみてわかった、エンジニアが将来の技術革新に備えるべきこと (1/3)|CodeZine（コードジン）](https://codezine.jp/article/detail/19782): 2024/8/5
 - [AIが人間に代わってがっつり検索。｢SearchGPT｣がくるらしいのですが | ギズモード・ジャパン](https://www.gizmodo.jp/2024/08/openai-hopes-to-take-on-google-with-searchgpt.html): 2024/8/5
 - [生成AIを活用した機能を爆速でリリースしてみてわかった、エンジニアが将来の技術革新に備えるべきこと (1/3)|CodeZine（コードジン）](https://codezine.jp/article/detail/19782): 2024/8/5
