@@ -1,3 +1,4 @@
+- [生成AIを活用した機能を爆速でリリースしてみてわかった、エンジニアが将来の技術革新に備えるべきこと (1/3)|CodeZine（コードジン）](https://codezine.jp/article/detail/19782): 2024/8/5
 - [AIが人間に代わってがっつり検索。｢SearchGPT｣がくるらしいのですが | ギズモード・ジャパン](https://www.gizmodo.jp/2024/08/openai-hopes-to-take-on-google-with-searchgpt.html): 2024/8/5
 - [生成AIを活用した機能を爆速でリリースしてみてわかった、エンジニアが将来の技術革新に備えるべきこと (1/3)|CodeZine（コードジン）](https://codezine.jp/article/detail/19782): 2024/8/5
 - [Node.jsの真の姿：サーバーサイドだけじゃない、現代の開発環境の要](https://zenn.dev/crebo/articles/article-0003-20240802): 2024/8/3
