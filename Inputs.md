@@ -1,3 +1,4 @@
+- [【2024年夏】ブラウザ拡張機能開発を加速するフレームワーク・ツール3選をコードベース付きで紹介！](https://zenn.dev/cybozu_frontend/articles/introduction-browser-extensions-tools): 2024/8/6
 
 - [React / Remix への依存を最小にするフロントエンド設計 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/2024/08/05/142626): 2024/8/5
 - [スタートアップの熱狂と急成長を両立させる野望 - 株式会社ヘンリー エンジニアブログ](https://dev.henry.jp/entry/ambition-to-combine-startup-enthusiasm-and-rapid-growth): 2024/8/5
