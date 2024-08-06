@@ -1,3 +1,4 @@
+- [App Router で1年間開発した知見と後悔](https://zenn.dev/ficilcom/articles/091abe948f44fb): 2024/8/6
 - [【2024年夏】ブラウザ拡張機能開発を加速するフレームワーク・ツール3選をコードベース付きで紹介！](https://zenn.dev/cybozu_frontend/articles/introduction-browser-extensions-tools): 2024/8/6
 
 - [React / Remix への依存を最小にするフロントエンド設計 - 一休.com Developers Blog](https://user-first.ikyu.co.jp/entry/2024/08/05/142626): 2024/8/5
