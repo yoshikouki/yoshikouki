@@ -1,3 +1,4 @@
+- [狩野モデル - Wikipedia](https://ja.m.wikipedia.org/wiki/%E7%8B%A9%E9%87%8E%E3%83%A2%E3%83%87%E3%83%AB): 2024/8/8
 - [「fix_pitch_00」　Style-Bert-VITS2無料モデル　（支援版あり） - 852話 - BOOTH](https://meola.booth.pm/items/5986908): 2024/8/8
 - [Marp のマイナー機能いろいろ](https://zenn.dev/yhatt/scraps/d6004a2455e573): 2024/8/8
 - [App Router で1年間開発した知見と後悔](https://zenn.dev/ficilcom/articles/091abe948f44fb): 2024/8/6
