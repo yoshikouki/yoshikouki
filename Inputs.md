@@ -1,3 +1,4 @@
+- [「fix_pitch_00」　Style-Bert-VITS2無料モデル　（支援版あり） - 852話 - BOOTH](https://meola.booth.pm/items/5986908): 2024/8/8
 - [Marp のマイナー機能いろいろ](https://zenn.dev/yhatt/scraps/d6004a2455e573): 2024/8/8
 - [App Router で1年間開発した知見と後悔](https://zenn.dev/ficilcom/articles/091abe948f44fb): 2024/8/6
 - [【2024年夏】ブラウザ拡張機能開発を加速するフレームワーク・ツール3選をコードベース付きで紹介！](https://zenn.dev/cybozu_frontend/articles/introduction-browser-extensions-tools): 2024/8/6
