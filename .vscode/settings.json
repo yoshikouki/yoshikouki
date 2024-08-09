@@ -19,6 +19,9 @@
     "Yoshimoto",
     "Zenn"
   ],
+  "workbench.editor.customLabels.patterns": {
+    "**/{index,page,actions,hooks,components,utils,types,functions}.{js,ts,jsx,tsx,mjs,mts,md}": "${dirname}/${filename}"
+  },
   "pasteImage.insertPattern": "${imageSyntaxPrefix}/images/${currentFileNameWithoutExt}/${imageFileName}${imageSyntaxSuffix}",
   "pasteImage.path": "${projectRoot}/images/${currentFileNameWithoutExt}"
 }
