@@ -1,3 +1,4 @@
+- [AI Shift フロントエンドトーク 2024-07](https://zenn.dev/aishift/articles/81ca0d89486ba3): 2024/8/9
 - [狩野モデル - Wikipedia](https://ja.m.wikipedia.org/wiki/%E7%8B%A9%E9%87%8E%E3%83%A2%E3%83%87%E3%83%AB): 2024/8/8
 - [「fix_pitch_00」　Style-Bert-VITS2無料モデル　（支援版あり） - 852話 - BOOTH](https://meola.booth.pm/items/5986908): 2024/8/8
 - [Marp のマイナー機能いろいろ](https://zenn.dev/yhatt/scraps/d6004a2455e573): 2024/8/8
