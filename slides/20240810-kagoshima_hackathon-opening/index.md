@@ -101,7 +101,7 @@ footer: "お産ハッカソン"
 # 審査員: 村上 将太郎
 
 monoDuki 合同会社 CEO
-1997年、鹿児島県生まれ。鹿児島高専を経て鹿児島大学大学院に在学中。幼少期から地元で挑��のロールモデルになりたいと起業家を志し、高専在学時に2次流通とweb開発の事業を興す。2020年から、挑戦者を増やすことを目的に、鹿児島市と協力しスタートアップのインキュベーション・支援を開始。2023年、ARやVRなどのXRクリエイティブやDXを手がけるmonoDuki合同会社を設立。
+1997年、鹿児島県生まれ。鹿児島高専を経て鹿児島大学大学院に在学中。幼少期から地元で挑戦のロールモデルになりたいと起業家を志し、高専在学時に2次流通とweb開発の事業を興す。2020年から、挑戦者を増やすことを目的に、鹿児島市と協力しスタートアップのインキュベーション・支援を開始。2023年、ARやVRなどのXRクリエイティブやDXを手がけるmonoDuki合同会社を設立。
 
 ![bg right](./profile-sho.jpg)
 
@@ -164,23 +164,23 @@ GMOペパボでは複数の新規サービス立ち上げに携わっている�
 
 ---
 
-<div class="flex flex-col items-center">
-  <div class="w-full max-w-xl bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
-    <div class="bg-white bg-opacity-10 p-8">
-      <h2 class="text-4xl font-extrabold text-white text-center mb-6 animate-pulse">🏆 賞金 🏆</h2>
-      <div class="space-y-6">
-        <div class="flex justify-between items-center bg-white bg-opacity-30 p-4 rounded-lg transform hover:scale-102 transition-transform duration-200">
-          <span class="text-2xl font-bold text-white">1位</span>
-          <span class="text-3xl font-extrabold text-yellow-300 animate-bounce">50,000円</span>
-        </div>
-        <div class="flex justify-between items-center bg-white bg-opacity-20 p-4 rounded-lg transform hover:scale-102 transition-transform duration-200">
-          <span class="text-2xl font-bold text-white">2位</span>
-          <span class="text-3xl font-extrabold text-gray-200">20,000円</span>
-        </div>
-        <div class="flex justify-between items-center bg-white bg-opacity-10 p-4 rounded-lg transform hover:scale-102 transition-transform duration-200">
-          <span class="text-2xl font-bold text-white">3位</span>
-          <span class="text-3xl font-extrabold text-gray-300">10,000円</span>
-        </div>
+<div class="absolute inset-0 flex flex-col items-center">
+  <div class="w-full h-full bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg shadow-2xl overflow-hidden transform transition-transform duration-300">
+    <div class="flex flex-col gap-6 justify-center items-center h-full bg-white bg-opacity-10">
+      <h2 class="flex gap-4 text-4xl font-black text-white text-center">
+        <div class="animate-pulse">🏆</div>賞金<div class="animate-pulse">🏆</div>
+      </h2>
+      <div class="flex items-center justify-center bg-white bg-opacity-30 p-10 w-1/2 rounded-lg transform transition-transform duration-200">
+        <div class="py-3 px-10 text-2xl font-bold text-white">1位</div>
+        <div class="py-3 px-10 text-4xl font-extrabold text-yellow-300 animate-bounce">50,000円</div>
+      </div>
+      <div class="flex items-center justify-center bg-white bg-opacity-20 p-10 w-1/2 rounded-lg transform transition-transform duration-200">
+        <div class="py-3 px-10 text-2xl font-bold text-white">2位</div>
+        <div class="py-3 px-10 text-3xl font-extrabold text-gray-200">20,000円</div>
+      </div>
+      <div class="flex items-center justify-center bg-white bg-opacity-10 p-10 w-1/2 rounded-lg transform transition-transform duration-200">
+        <div class="py-3 px-10 text-2xl font-bold text-white">3位</div>
+        <div class="py-3 px-10 text-3xl font-extrabold text-gray-300">10,000円</div>
       </div>
     </div>
   </div>
