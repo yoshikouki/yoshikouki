@@ -53,9 +53,11 @@ footer: "お産ハッカソン"
 <script src="https://cdn.tailwindcss.com"></script>
 <script>tailwind.config = { corePlugins: { preflight: false } }</script>
 
+<!-- _footer: "" -->
+<style scoped>section { justify-content: center; }</style>
+
 # <!--fit--> お産ハッカソン
 
-オープニング
 ![bg blur brightness:.6](image.png)
 
 ---
@@ -73,59 +75,148 @@ footer: "お産ハッカソン"
 
 # 運営挨拶
 
-
 ---
 
 # 審査員紹介
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="image-2.png" alt="image-2" style="width: 50%;">
-  <img src="image-3.png" alt="image-3" style="width: 25%;">
-  <img src="image-4.png" alt="image-4" style="width: 25%;">
+- 湯舟 武龍 (株式会社ハックツ CEO)
+- 村上 将太郎 (monoDuki 合同会社 CEO)
+- 吉本 康貴 (GMOペパボ株式会社 事業開発部)
+
+---
+
+# 審査員: 湯舟 武龍
+
+株式会社ハックツ CEO
+熊本県出身。九州で数多くのハッカソンを開催している。
+学生エンジニアに特化したサービスを展開する株式会社ハックツを2018年に設立。地方で眠る学生を「ハックツ」するために、イベント事業、開発事業など行なっている。
+2021年に福岡市が開催する「エンジニアフレンドリーシティ福岡アワード」を受賞。
+
+![bg right](./profile-どりー.png)
+
+<style scoped>section { border-right: none; padding: 4rem 1rem; }</style>
+
+---
+
+# 審査員: 村上 将太郎
+
+monoDuki 合同会社 CEO
+1997年、鹿児島県生まれ。鹿児島高専を経て鹿児島大学大学院に在学中。幼少期から地元で挑��のロールモデルになりたいと起業家を志し、高専在学時に2次流通とweb開発の事業を興す。2020年から、挑戦者を増やすことを目的に、鹿児島市と協力しスタートアップのインキュベーション・支援を開始。2023年、ARやVRなどのXRクリエイティブやDXを手がけるmonoDuki合同会社を設立。
+
+![bg right](./profile-sho.jpg)
+
+<style scoped>section { border-right: none; padding: 4rem 1rem; }</style>
+
+---
+
+# 審査員: 吉本 康貴
+
+鹿児島大学を卒業後、地元で理学療法士として働いた後、独学でITエンジニアリングを学び、2020年にGMOペパボにエンジニアとして入社。
+
+GMOペパボでは複数の新規サービス立ち上げに携わっている。
+
+![bg right](./profile-yoshikouki.png)
+
+<style scoped>section { border-right: none; padding: 4rem 1rem; }</style>
+
+---
+
+# ルール説明
+
+1. 開発に入る前の事前準備
+2. 開発ルール
+3. 成果発表
+4. 賞金
+
+---
+
+# 開発に入る前の事前準備
+
+- Discord チャンネルへご参加ください
+- GitHub アカウントを作成してください
+
+![bg right](./QR_discord_trans.png)
+
+<style scoped>section { border-right: none; padding: 4rem 1rem; }</style>
+
+---
+
+# 開発ルール
+
+- 制作物のテーマ・制約はありません
+  - プログラミングを用いたプロダクトであればOK
+- 開発時間
+  - 自由に休憩を取りつつ、楽しく開発を行いましょう！
+  - DAY1 は、22時が完全退出時間です
+- エンジニアのサポートメンバーがいますので、
+  困ったことがあれば何でも相談してください！
+
+---
+
+# 成果発表
+
+- 発表形式
+  - **動作デモ・公開URLの提示** を推奨します
+  - プレゼン資料に指定はありません
+- 発表時間: **5 分**
+  - 公平を期すため、発表途中でも5分経過したら終了します
+  - 質疑応答を含めて合計10分です
+
+---
+
+<div class="flex flex-col items-center">
+  <div class="w-full max-w-xl bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-300">
+    <div class="bg-white bg-opacity-10 p-8">
+      <h2 class="text-4xl font-extrabold text-white text-center mb-6 animate-pulse">🏆 賞金 🏆</h2>
+      <div class="space-y-6">
+        <div class="flex justify-between items-center bg-white bg-opacity-30 p-4 rounded-lg transform hover:scale-102 transition-transform duration-200">
+          <span class="text-2xl font-bold text-white">1位</span>
+          <span class="text-3xl font-extrabold text-yellow-300 animate-bounce">50,000円</span>
+        </div>
+        <div class="flex justify-between items-center bg-white bg-opacity-20 p-4 rounded-lg transform hover:scale-102 transition-transform duration-200">
+          <span class="text-2xl font-bold text-white">2位</span>
+          <span class="text-3xl font-extrabold text-gray-200">20,000円</span>
+        </div>
+        <div class="flex justify-between items-center bg-white bg-opacity-10 p-4 rounded-lg transform hover:scale-102 transition-transform duration-200">
+          <span class="text-2xl font-bold text-white">3位</span>
+          <span class="text-3xl font-extrabold text-gray-300">10,000円</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 ---
 
-# ルール
-### 1. 開発入る前の事前準備
-
-- Discord チャンネルへのご参加をお願いします。
-- GitHub アカウントの作成お願いします
-
-### 2. **開発ルール**
-
-- **制作物のテーマ・制約**：制作物のテーマ、制約はありません。プログラミングを用いた作品であればOK。
-- **開発時間**：DAY1・DAY2ともに自由に休憩を取りつつ、開発を行いましょう！
-- **メンタリング**：エンジニアのサポートメンバーがいますので困ったことがあれば相談してください！
-
----
-
-# ルール
-### 3. **成果発表**
-
-- **発表形式**：プレゼン資料、動作デモ
-- **発表時間**：1チーム5分。質疑応答合わせて10分です。
-
-### 4. **賞金**
-
-- **最優秀賞**：50,000円
-- **優秀賞**：20,000円
-- **入選**：10,000円
-
----
-
 # 審査基準
+
 ### サービスとしての「おもしろさ」
-  - 独創性・有用性などの観点でおもしろいものになっているか
+- 独創性・有用性などの観点でおもしろいものになっているか
 ### サービスの「完成度」
-  - サービスとしての完成度、機能の実装度、UI/UXのデザイン
+- サービスとしての完成度、機能の実装具合、UI/UXのデザイン
 ### 技術的チャレンジ
-  - 新しい技術や難しい技術にチャレンジしているか
+- 新しい技術や難しい技術にチャレンジしているか
+
 ---
 
 # 会場説明
-- トイレ
-- ゴミ箱
+
+- 飲食はご自由に
+  - 会場後方に設置している飲み物・お菓子はご自由に召し上がってください
+  - エナジードリンクは株式会社ハックツ CEO **湯舟武龍** さんからのご厚意です
+- 昼食は運営で用意しています
+- トイレ: 後方を向かって右側にあります
+- ゴミ箱: 会場後方に設置されています
+- 2階の会議スペースを貸し出すことも可能です。ご相談ください
+
+<style scoped>section { padding-right: 1rem; }</style>
 
 ---
-# 「ハッカソン手引き」へ
+
+# お気軽にご相談ください
+
+困りごとからご相談まで、何でも運営メンバーへご相談ください
+
+---
+
+# ハッカソン手引き
