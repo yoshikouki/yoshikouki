@@ -39,6 +39,9 @@ footer: "お産ハッカソン"
   footer {
     bottom: 1rem;
   }
+  header, footer, blockquote {
+    color: #bcc;
+  }
 
   /* Styling page number */
   section::after {
