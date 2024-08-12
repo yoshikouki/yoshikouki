@@ -1,3 +1,4 @@
+- [誰が作成しても1つの構造になるモデリング作成技術、Theory of Models⁠ に夢を見る - Speaker Deck](https://speakerdeck.com/mokuo/shui-gazuo-cheng-sitemo1tunogou-zao-ninarumoderinguzuo-cheng-ji-shu-theory-of-models-nimeng-wojian-ru): 2024/8/12
 
 - [AIギャル個人開発VTuberとしてデビューしたので応援してほしい](https://zenn.dev/yasuna/articles/b1b1f2b0563f78): 2024/8/10
 - [AI Shift フロントエンドトーク 2024-07](https://zenn.dev/aishift/articles/81ca0d89486ba3): 2024/8/9
