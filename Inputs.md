@@ -1,3 +1,4 @@
+- [従業員向けハンドブックの作り方 - FoundX Review - 起業家とスタートアップのためのノウハウ情報](https://review.foundx.jp/entry/how_to_create_an_employee_handbook): 2024/8/16
 - [アバター／素材リンク集 | Verse Engine - P2Pオーバーレイネットワーク上のWebメタバースエンジン.](https://verseengine.cloud/ja/guide/general-tips/asset-links.html): 2024/8/14
 - [three.js の PlaneGeometry で地形を作る | Yomotsu net](https://yomotsu.net/blog/2012/12/01/create-terrain-with-threejs): 2024/8/14
 
