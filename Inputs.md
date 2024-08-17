@@ -1,3 +1,4 @@
+- [キーバインド問題を克服して Warp への移行を試みる｜yoshikouki](https://note.com/yoshikouki/n/n2ab761320162): 2024/8/17
 - [The magical world of Particles with React Three Fiber and Shaders - Maxime Heckel's Blog](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/): 2024/8/17
 - [【React Three Fiber】GPGPUを使用したParticlesの実装 #TypeScript - Qiita](https://qiita.com/nemutas/items/b40baa2a1f33fae6b20d): 2024/8/16
 - [従業員向けハンドブックの作り方 - FoundX Review - 起業家とスタートアップのためのノウハウ情報](https://review.foundx.jp/entry/how_to_create_an_employee_handbook): 2024/8/16
