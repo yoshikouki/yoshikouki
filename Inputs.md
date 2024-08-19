@@ -1,3 +1,4 @@
+- [【Vercel / Next.js】環境変数設定の注意点アレコレ](https://zenn.dev/no215/articles/d0585982ba1116): 2024/8/19
 - [リッチテキストエディター（RTE）のJSライブラリ色々試してみた](https://zenn.dev/cybozu_frontend/articles/7733bf0560829e): 2024/8/19
 - [キーバインド問題を克服して Warp への移行を試みる｜yoshikouki](https://note.com/yoshikouki/n/n2ab761320162): 2024/8/17
 - [The magical world of Particles with React Three Fiber and Shaders - Maxime Heckel's Blog](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/): 2024/8/17
