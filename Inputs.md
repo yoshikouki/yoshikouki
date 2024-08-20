@@ -1,3 +1,4 @@
+- [ITをクソつまらなくしているマネージャーです。ごめんね。](https://anond.hatelabo.jp/20240820200550): 2024/8/20
 - [VRM](https://vrm.dev/showcase/): 2024/8/20
 - [Kioku](https://kiok.jp/): 2024/8/20
 - [Attentionと類似度は異なるという話](https://zenn.dev/bilzard/articles/dot-product-attention-vs-similarity): 2024/8/20
