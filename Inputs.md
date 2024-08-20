@@ -1,3 +1,4 @@
+- [Kioku](https://kiok.jp/): 2024/8/20
 - [Attentionと類似度は異なるという話](https://zenn.dev/bilzard/articles/dot-product-attention-vs-similarity): 2024/8/20
 - [VSCodeのGitHub Copilotが色々便利になっていた件](https://zenn.dev/patt/articles/aea894b6e41386): 2024/8/20
 - [【Vercel / Next.js】環境変数設定の注意点アレコレ](https://zenn.dev/no215/articles/d0585982ba1116): 2024/8/19
