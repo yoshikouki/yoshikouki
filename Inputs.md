@@ -1,3 +1,4 @@
+- [j-platpat](https://www.j-platpat.inpit.go.jp/s0100): 2024/8/22
 - [デザイナーが30年成長し続けるために知っておくべき罠 - Speaker Deck](https://speakerdeck.com/inoue_tatsunori/dezainaga30nian-cheng-chang-sisok-kerutamenizhi-tuteokubekimin?slide=32): 2024/8/21
 - [ITをクソつまらなくしているマネージャーです。ごめんね。](https://anond.hatelabo.jp/20240820200550): 2024/8/20
 - [VRM](https://vrm.dev/showcase/): 2024/8/20
