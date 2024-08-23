@@ -1,3 +1,4 @@
+- [Rust製ブラウザエンジン「Servo」搭載、新たなWebブラウザ「Verso」の開発プロジェクトが立ち上がる － Publickey](https://www.publickey1.jp/blog/24/rustservowebverso.html): 2024/8/23
 - [fladdict.net blog: 情報を隠すことはリスク　メモ](http://www.fladdict.net/blog-jp/archives/2005/11/post_150.php): 2024/8/23
 - [新たなWebブラウザ「Verso」など: Cybozu Frontend Weekly (2024-08-20号)](https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20240820): 2024/8/23
 - [j-platpat](https://www.j-platpat.inpit.go.jp/s0100): 2024/8/22
