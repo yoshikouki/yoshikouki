@@ -1,3 +1,4 @@
+- [fladdict.net blog: 情報を隠すことはリスク　メモ](http://www.fladdict.net/blog-jp/archives/2005/11/post_150.php): 2024/8/23
 - [新たなWebブラウザ「Verso」など: Cybozu Frontend Weekly (2024-08-20号)](https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20240820): 2024/8/23
 - [j-platpat](https://www.j-platpat.inpit.go.jp/s0100): 2024/8/22
 - [デザイナーが30年成長し続けるために知っておくべき罠 - Speaker Deck](https://speakerdeck.com/inoue_tatsunori/dezainaga30nian-cheng-chang-sisok-kerutamenizhi-tuteokubekimin?slide=32): 2024/8/21
