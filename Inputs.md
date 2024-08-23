@@ -1,3 +1,4 @@
+- [新たなWebブラウザ「Verso」など: Cybozu Frontend Weekly (2024-08-20号)](https://zenn.dev/cybozu_frontend/articles/frontend_weekly_20240820): 2024/8/23
 - [j-platpat](https://www.j-platpat.inpit.go.jp/s0100): 2024/8/22
 - [デザイナーが30年成長し続けるために知っておくべき罠 - Speaker Deck](https://speakerdeck.com/inoue_tatsunori/dezainaga30nian-cheng-chang-sisok-kerutamenizhi-tuteokubekimin?slide=32): 2024/8/21
 - [ITをクソつまらなくしているマネージャーです。ごめんね。](https://anond.hatelabo.jp/20240820200550): 2024/8/20
