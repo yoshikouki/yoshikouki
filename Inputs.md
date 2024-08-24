@@ -1,3 +1,4 @@
+- [Cloudflare Workers 入門【はじめからそうやって教えてくれればいいのに！】](https://zenn.dev/ak/articles/a2bd28a258b615): 2024/8/24
 - [Rune 導入 (Introducing runes)](https://svelte.jp/blog/runes): 2024/8/24
 - [Web Animations APIのcompositeが凄過ぎてすごいからみんな見てくれ #JavaScript - Qiita](https://qiita.com/yuneco/items/8be607b9bfe8e609a658): 2024/8/24
 - [Google広告費の影響を受けない新たなWebブラウザが必要だと、スクラッチからWebブラウザを開発する「Ladybird Browser Initiative」、元GitHub創業者らが立ち上げ …](https://www.publickey1.jp/blog/24/googlewebwebladybird_browser_initiativegithub.html): 2024/8/24
