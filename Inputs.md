@@ -1,3 +1,4 @@
+- [Web Animations APIのcompositeが凄過ぎてすごいからみんな見てくれ #JavaScript - Qiita](https://qiita.com/yuneco/items/8be607b9bfe8e609a658): 2024/8/24
 - [Google広告費の影響を受けない新たなWebブラウザが必要だと、スクラッチからWebブラウザを開発する「Ladybird Browser Initiative」、元GitHub創業者らが立ち上げ …](https://www.publickey1.jp/blog/24/googlewebwebladybird_browser_initiativegithub.html): 2024/8/24
 - [Rust製ブラウザエンジン「Servo」搭載、新たなWebブラウザ「Verso」の開発プロジェクトが立ち上がる － Publickey](https://www.publickey1.jp/blog/24/rustservowebverso.html): 2024/8/23
 - [fladdict.net blog: 情報を隠すことはリスク　メモ](http://www.fladdict.net/blog-jp/archives/2005/11/post_150.php): 2024/8/23
