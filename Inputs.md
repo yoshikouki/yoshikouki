@@ -1,3 +1,4 @@
+- [普段ロックフェスしか行かないおやびんが技術のフェスに行ってみたから比較したるわなぁ〜（フロントエンドカンファレンス北海道2024）](https://zenn.dev/yumemi_inc/articles/c0023a4df9df86): 2024/8/25
 - [iOS Safari でキーボード表示時にフッターを固定するもう1つの方法 - *iroi*](https://blog.chairoi.me/entry/safari-virtual-keyboard): 2024/8/24
 - [Cloudflare Workers 入門【はじめからそうやって教えてくれればいいのに！】](https://zenn.dev/ak/articles/a2bd28a258b615): 2024/8/24
 - [Rune 導入 (Introducing runes)](https://svelte.jp/blog/runes): 2024/8/24
