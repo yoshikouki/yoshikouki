@@ -1,3 +1,4 @@
+- [食玩問題について](https://zenn.dev/firedial/articles/04b5c2103a44cf): 2024/8/26
 - [【AWS】 代表的なクラウドデザインパターン紹介](https://zenn.dev/moko_poi/articles/8a2dece3a7b9c9): 2024/8/25
 - [普段ロックフェスしか行かないおやびんが技術のフェスに行ってみたから比較したるわなぁ〜（フロントエンドカンファレンス北海道2024）](https://zenn.dev/yumemi_inc/articles/c0023a4df9df86): 2024/8/25
 - [iOS Safari でキーボード表示時にフッターを固定するもう1つの方法 - *iroi*](https://blog.chairoi.me/entry/safari-virtual-keyboard): 2024/8/24
