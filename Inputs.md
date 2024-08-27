@@ -1,3 +1,4 @@
+- [技術選定の審美眼（2023年版） / Understanding the Spiral of Technologies 2023 edition - Speaker Deck](https://speakerdeck.com/twada/understanding-the-spiral-of-technologies-2023-edition): 2024/8/27
 - [autoなheightでもアニメーションができるようになる！calc-size() について](https://zenn.dev/knowledgework/articles/84f6412ca11dcd): 2024/8/27
 - [Rails/LaravelエンジニアのためのフルスタックTypeScriptフレームワーク「AdonisJS」](https://zenn.dev/fusic/articles/90fe58c4eaa28e): 2024/8/27
 - [package.jsonでのバージョン指定は完全固定にしよう](https://zenn.dev/nekoya/articles/c6057fbb896391): 2024/8/27
