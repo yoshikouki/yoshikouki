@@ -1,3 +1,4 @@
+- [Rails/LaravelエンジニアのためのフルスタックTypeScriptフレームワーク「AdonisJS」](https://zenn.dev/fusic/articles/90fe58c4eaa28e): 2024/8/27
 - [package.jsonでのバージョン指定は完全固定にしよう](https://zenn.dev/nekoya/articles/c6057fbb896391): 2024/8/27
 - [食玩問題について](https://zenn.dev/firedial/articles/04b5c2103a44cf): 2024/8/26
 - [【AWS】 代表的なクラウドデザインパターン紹介](https://zenn.dev/moko_poi/articles/8a2dece3a7b9c9): 2024/8/25
