@@ -1,3 +1,4 @@
+- [ハイクオリティなWebサイトを探すなら Webデザインギャラリー | S5-Style](https://bm.s5-style.com/): 2024/8/29
 - [美しいUIを作るために デザイナーが意識している ちょっとした考え方 - Speaker Deck](https://speakerdeck.com/yuichi_hara7/mei-siiuiwozuo-rutameni-dezainagayi-shi-siteiru-tiyotutositakao-efang?slide=29): 2024/8/28
 - [Keita Yamada](https://p5aholic.me/faq/): 2024/8/28
 - [技術選定の審美眼（2023年版） / Understanding the Spiral of Technologies 2023 edition - Speaker Deck](https://speakerdeck.com/twada/understanding-the-spiral-of-technologies-2023-edition): 2024/8/27
