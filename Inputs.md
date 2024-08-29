@@ -1,3 +1,4 @@
+- [GitHub - sorrycc/awesome-javascript: 🐢 A collection of awesome browser-side JavaScript libraries, …](https://github.com/sorrycc/awesome-javascript?tab=readme-ov-file#node-powered-cms-frameworks): 2024/8/29
 - [ハイクオリティなWebサイトを探すなら Webデザインギャラリー | S5-Style](https://bm.s5-style.com/): 2024/8/29
 - [美しいUIを作るために デザイナーが意識している ちょっとした考え方 - Speaker Deck](https://speakerdeck.com/yuichi_hara7/mei-siiuiwozuo-rutameni-dezainagayi-shi-siteiru-tiyotutositakao-efang?slide=29): 2024/8/28
 - [Keita Yamada](https://p5aholic.me/faq/): 2024/8/28
