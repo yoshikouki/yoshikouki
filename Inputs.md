@@ -1,3 +1,4 @@
+- [ソースコードをリポジトリ丸ごとLLMに読んでもらう方法](https://zenn.dev/karaage0703/articles/0a546df8941057): 2024/8/31
 - [The magical world of Particles with React Three Fiber and Shaders - Maxime Heckel's Blog](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/): 2024/8/30
 - [View Transitions APIによるスムーズなページ遷移をNext.jsで簡単に試す](https://zenn.dev/iz_pixel/articles/77dce550a7694e): 2024/8/30
 - [GitHub - bowser-js/bowser: a browser detector](https://github.com/bowser-js/bowser): 2024/8/29
