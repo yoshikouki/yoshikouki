@@ -1,3 +1,4 @@
+- [Web 標準と、その限界](https://zenn.dev/nakasyou/articles/webstandard_and_runtimes): 2024/9/1
 - [FFmpegで動画をGIFに変換 #入門 - Qiita](https://qiita.com/wMETAw/items/fdb754022aec1da88e6e): 2024/9/1
 - [技術選定の成功 2年間を振り返る TypeScript,Hono,Nest.js,React,GraphQL](https://zenn.dev/uncode_jp/articles/4d2bd36aa03fc8): 2024/9/1
 - [ソースコードをリポジトリ丸ごとLLMに読んでもらう方法](https://zenn.dev/karaage0703/articles/0a546df8941057): 2024/8/31
