@@ -1,3 +1,4 @@
+- [零細企業を買収した後に行ったDXとは呼べないDX｜reisaikigyou_ma](https://note.com/reisaikigyou_ma/n/n052860974e26?sub_rt=share_b): 2024/9/2
 - [知られざるCPaaSの世界へようこそ | gihyo.jp](https://gihyo.jp/article/2024/08/cpaas-01): 2024/9/2
 - [Web 標準と、その限界](https://zenn.dev/nakasyou/articles/webstandard_and_runtimes): 2024/9/1
 - [FFmpegで動画をGIFに変換 #入門 - Qiita](https://qiita.com/wMETAw/items/fdb754022aec1da88e6e): 2024/9/1
