@@ -1,3 +1,4 @@
+- [Founder Mode](https://paulgraham.com/foundermode.html): 2024/9/3
 - [パッケージマネージャとしてのBun 入門](https://zenn.dev/gatsby/books/0622aa61e0a3e8): 2024/9/3
 - [零細企業買収して売却した話｜reisaikigyou_ma](https://note.com/reisaikigyou_ma/n/ne8f3effb313c): 2024/9/2
 - [零細企業を買収した後に行ったDXとは呼べないDX｜reisaikigyou_ma](https://note.com/reisaikigyou_ma/n/n052860974e26?sub_rt=share_b): 2024/9/2
