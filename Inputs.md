@@ -1,3 +1,4 @@
+- [THA LTD.](https://tha.jp/): 2024/9/4
 
 - [Re: フロントエンドのポエム](https://zenn.dev/uhyo/articles/frontend-poem-re): 2024/9/3
 - [Founder Mode](https://paulgraham.com/foundermode.html): 2024/9/3
