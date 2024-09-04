@@ -1,3 +1,4 @@
+- [あなたのパフォーマンスを倍にする Frontend Ops の傭兵はいかがですか · GitHub](https://gist.github.com/mizchi/b803f6872035248f86309057d6c97ee9): 2024/9/4
 - [THA LTD.](https://tha.jp/): 2024/9/4
 
 - [Re: フロントエンドのポエム](https://zenn.dev/uhyo/articles/frontend-poem-re): 2024/9/3
