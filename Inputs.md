@@ -1,3 +1,4 @@
+
 - [Re: フロントエンドのポエム](https://zenn.dev/uhyo/articles/frontend-poem-re): 2024/9/3
 - [Founder Mode](https://paulgraham.com/foundermode.html): 2024/9/3
 - [パッケージマネージャとしてのBun 入門](https://zenn.dev/gatsby/books/0622aa61e0a3e8): 2024/9/3
