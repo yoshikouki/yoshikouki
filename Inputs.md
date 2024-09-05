@@ -1,3 +1,4 @@
+- [深津氏に学ぶChatGPTプロンプトの極意、まずはサンプルを示して考えさせる | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/02906/080200001/): 2024/9/5
 - [Zag.js が良いかもしれない](https://zenn.dev/dozo13189/articles/e1a6566a153e2d): 2024/9/5
 - [LLMエージェントのインタラクションによるweb開発](https://zenn.dev/yuyamada/articles/05ef226a95f91c): 2024/9/5
 
