@@ -1,3 +1,4 @@
+- [非同期 API と環境｜イベントループとプロミスチェーンで学ぶJavaScriptの非同期処理](https://zenn.dev/estra/books/js-async-promise-chain-event-loop/viewer/f-epasync-asynchronous-apis): 2024/9/8
 
 - [Chrome DevToolsを使いこなしてフロントエンド開発を加速させる](https://zenn.dev/praha/articles/1b5097407ee6b4): 2024/9/5
 - [深津氏に学ぶChatGPTプロンプトの極意、まずはサンプルを示して考えさせる | 日経クロステック（xTECH）](https://xtech.nikkei.com/atcl/nxt/column/18/02906/080200001/): 2024/9/5
