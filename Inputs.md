@@ -1,3 +1,4 @@
+- [JavaScriptの非同期処理をじっくり理解する (1) 実行モデルとタスクキュー](https://zenn.dev/qnighy/articles/345aa9cae02d9d): 2024/9/9
 - [非同期 API と環境｜イベントループとプロミスチェーンで学ぶJavaScriptの非同期処理](https://zenn.dev/estra/books/js-async-promise-chain-event-loop/viewer/f-epasync-asynchronous-apis): 2024/9/8
 
 - [Chrome DevToolsを使いこなしてフロントエンド開発を加速させる](https://zenn.dev/praha/articles/1b5097407ee6b4): 2024/9/5
