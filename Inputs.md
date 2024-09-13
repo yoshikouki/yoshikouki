@@ -1,3 +1,4 @@
+- [RenderingNG | Chromium | Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng?hl=ja): 2024/9/13
 - [最後の夜、渋谷から北条坂](https://akhtikd.com/posts/2020-01-13/): 2024/9/12
 - [言語環境の管理は *env や *vm を超えて、 mise へ](https://zenn.dev/euxn23/articles/b12f1f9b495d47): 2024/9/11
 - [JavaScriptの非同期処理をじっくり理解する (1) 実行モデルとタスクキュー](https://zenn.dev/qnighy/articles/345aa9cae02d9d): 2024/9/9
