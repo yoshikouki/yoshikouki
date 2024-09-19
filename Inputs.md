@@ -1,3 +1,4 @@
+- [Pebble | Where Home Meets the Road](https://pebblelife.com/): 2024/9/19
 - [Should I use Framer Motion or Motion One? - Motion One Blog](https://motion.dev/blog/should-i-use-framer-motion-or-motion-one): 2024/9/19
 - [ターミナルフレンドリーなAIコマンド、afaを作った · THINKING MEGANE](https://blog.monochromegane.com/blog/2024/09/16/afa/): 2024/9/18
 - [こういうデザイン (Augmented UI? 拡張 UI？) を CSS で実装する方法](https://zenn.dev/ixkaito/articles/augmented-ui): 2024/9/17
