@@ -1,3 +1,4 @@
+- [GSAPの基本的な記述をまとめる](https://zenn.dev/frontendflat/articles/94c403e9af89ab): 2024/9/20
 - [PIXIV TECH FES.のLPを支えるCSSアニメーションテクニック - pixiv inside](https://inside.pixiv.blog/2020/01/21/180000): 2024/9/19
 - [Pebble | Where Home Meets the Road](https://pebblelife.com/): 2024/9/19
 - [Should I use Framer Motion or Motion One? - Motion One Blog](https://motion.dev/blog/should-i-use-framer-motion-or-motion-one): 2024/9/19
