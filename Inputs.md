@@ -1,3 +1,4 @@
+- [サクサク感をデザインする - Yahoo! JAPAN Tech Blog](https://techblog.yahoo.co.jp/advent-calendar-2017/designing-sakusaku/): 2024/9/22
 - [頑張らないProductHuntをやってみた](https://zenn.dev/ktmouk/articles/0be490eab52dbc): 2024/9/22
 - [アニメーション: CSS のアニメーション効果を調査して変更する | Chrome DevTools | Chrome for Developers](https://developer.chrome.com/docs/devtools/css/animations?hl=ja): 2024/9/22
 - [世界一わかりやすい「イージング」と、その応用｜ritar](https://note.com/ritar/n/n5e8ed0e07917): 2024/9/21
