@@ -1,3 +1,4 @@
+- [アニメーション: CSS のアニメーション効果を調査して変更する | Chrome DevTools | Chrome for Developers](https://developer.chrome.com/docs/devtools/css/animations?hl=ja): 2024/9/22
 - [世界一わかりやすい「イージング」と、その応用｜ritar](https://note.com/ritar/n/n5e8ed0e07917): 2024/9/21
 - [イージングでスムーズなアニメーションを作ろう - Wiz テックブログ](https://tech.012grp.co.jp/entry/easing): 2024/9/21
 - [CSSのclip-pathプロパティでいろいろ簡単に実装できる、便利な使い方と実装のポイント | コリス](https://coliss.com/articles/build-websites/operation/css/how-to-use-css-clip-path.html): 2024/9/21
