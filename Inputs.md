@@ -1,3 +1,4 @@
+- [モテるターミナルにカスタマイズしよう（wezterm）](https://zenn.dev/mozumasu/articles/mozumasu-wezterm-customization): 2024/9/24
 - [SVG女子を90%軽くしたSVG軽量化テク+α #svggirl | KAYAC DESIGNER'S BLOG - デザインやマークアップの話](http://design.kayac.com/topics/2011/04/svggirl.php): 2024/9/24
 - [mix-blend-modeを適用した要素周りをGSAPで動かすと表示がおかしくなった #CSS - Qiita](https://qiita.com/heeroo_ymsw/items/a597684c765177254ef1): 2024/9/24
 - [Chrome DevTools の Rendering タブを使ってみよう](https://zenn.dev/lollipop_onl/articles/eoz-devtools-rendering-panel): 2024/9/24
