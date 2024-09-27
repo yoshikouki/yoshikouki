@@ -1,3 +1,4 @@
+- [開発持続性（Development Sustainability）という概念を提唱したい~開発者体験だけでは足りない~](https://zenn.dev/ficilcom/articles/development-sustainability): 2024/9/27
 
 - [ClerkのReact Componentが便利すぎるので覗いてみる](https://zenn.dev/aishift/articles/58d5958c97ab51): 2024/9/26
 - [Tailwind CSS の一歩進んだ書き方](https://zenn.dev/ixkaito/articles/advanced-tailwindcss): 2024/9/25
