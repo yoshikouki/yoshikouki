@@ -1,3 +1,4 @@
+- [Cursorを1年弱触っているエンジニアの最近の使い方｜ニケちゃん](https://note.com/nike_cha_n/n/ndf25541beba2): 2024/9/28
 - [開発持続性（Development Sustainability）という概念を提唱したい~開発者体験だけでは足りない~](https://zenn.dev/ficilcom/articles/development-sustainability): 2024/9/27
 
 - [ClerkのReact Componentが便利すぎるので覗いてみる](https://zenn.dev/aishift/articles/58d5958c97ab51): 2024/9/26
