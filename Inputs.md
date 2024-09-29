@@ -1,3 +1,4 @@
+- [最近のlitestreamと安DB界隈](https://zenn.dev/laiso/articles/70f58fa1ac7d0e): 2024/9/29
 - [Linuxコンテナの「次」としてのWebAssembly、の解説](https://zenn.dev/koduki/articles/9f86d03cd703c4): 2024/9/29
 - [Cursorを1年弱触っているエンジニアの最近の使い方｜ニケちゃん](https://note.com/nike_cha_n/n/ndf25541beba2): 2024/9/28
 - [開発持続性（Development Sustainability）という概念を提唱したい~開発者体験だけでは足りない~](https://zenn.dev/ficilcom/articles/development-sustainability): 2024/9/27
