@@ -1,3 +1,4 @@
+- [アメリカのシアトルでエンジニアになる方法｜牛尾　剛](https://note.com/simplearchitect/n/nc12a4eb31df7): 2024/10/2
 - [Genspark](https://www.genspark.ai/): 2024/10/2
 - [端っこまでスクロールしたら端末が震えるようになる iOS Safari 拡張機能を作りました｜Yasuhiro Yamada](https://note.com/yasusun/n/n5a5d58480237): 2024/10/2
 - [OpenAI の Realtime API の概要｜npaka](https://note.com/npaka/n/n7317484e15e1): 2024/10/1
