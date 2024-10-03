@@ -1,3 +1,4 @@
+- [今どきの入力フォームはこう書く！ HTMLコーダーがおさえるべきinputタグの書き方まとめ - ICS MEDIA](https://ics.media/entry/11221/): 2024/10/3
 - [すぐ消えてしまう要素をDevToolsで確認するTips集](https://zenn.dev/gemcook/articles/3e90d883100140): 2024/10/3
 
 - [アメリカのシアトルでエンジニアになる方法｜牛尾　剛](https://note.com/simplearchitect/n/nc12a4eb31df7): 2024/10/2
