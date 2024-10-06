@@ -1,3 +1,4 @@
+- [令和のHTML / CSS / JavaScriptの書き方50選](https://zenn.dev/necscat/articles/bc9bba54babaf5): 2024/10/6
 - [Google Developers Japan: MediaPipe と TensorFlow.js を使ってブラウザで顔と手をトラッキングする](https://developers-jp.googleblog.com/2020/04/mediapipe-tensorflowjs.html): 2024/10/4
 - [2024年版 HTMLで作るフォームバリデーション - ICS MEDIA](https://ics.media/entry/240418/): 2024/10/4
 - [ChatGPT の Canvas の概要｜npaka](https://note.com/npaka/n/n8bdf1c87c265): 2024/10/4
