@@ -1,3 +1,4 @@
+- [完全未経験からゲームを作り始めて1年半くらいでSteamで販売した話｜T.Mochibe](https://note.com/good_hyssop858/n/nd69c4c52250a?sub_rt=share_pw): 2024/10/8
 
 - [VSCodeのCodeHelperのCPU使用率が異様に高いときの対処法 #VisualStudioCode - Qiita](https://qiita.com/ragi_chanchan/items/07945231274c505285b3): 2024/10/6
 - [令和のHTML / CSS / JavaScriptの書き方50選](https://zenn.dev/necscat/articles/bc9bba54babaf5): 2024/10/6
