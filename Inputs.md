@@ -1,3 +1,4 @@
+- [Web features explorer - Web platform release notes](https://web-platform-dx.github.io/web-features-explorer/release-notes/): 2024/10/8
 - [Webブラウザ、レンダリングエンジン、JavaScriptエンジンの整理&amp;図視化 #フロントエンド - Qiita](https://qiita.com/umashiba/items/8cb47825624c5cb043d6): 2024/10/8
 - [完全未経験からゲームを作り始めて1年半くらいでSteamで販売した話｜T.Mochibe](https://note.com/good_hyssop858/n/nd69c4c52250a?sub_rt=share_pw): 2024/10/8
 
