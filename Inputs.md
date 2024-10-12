@@ -1,3 +1,4 @@
+- [ぼくがかんがえた最強の Visual Studio Code カスタマイズ 2024](https://zenn.dev/udonj/articles/ultimate-vscode-customization-2024): 2024/10/12
 - [Tailwindでなめらかなレスポンシブを実現できる「Fluid for Tailwind CSS」を試してみた](https://zenn.dev/chot/articles/01e615b50bc62a): 2024/10/12
 - [計算機の代表的なレイテンシとスケール感 - ゆううきメモ](https://memo.yuuk.io/entry/2016/01/08/082722): 2024/10/9
 - [Web features explorer - Web platform release notes](https://web-platform-dx.github.io/web-features-explorer/release-notes/): 2024/10/8
