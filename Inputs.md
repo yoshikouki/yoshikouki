@@ -1,3 +1,4 @@
+- [Tailwindでなめらかなレスポンシブを実現できる「Fluid for Tailwind CSS」を試してみた](https://zenn.dev/chot/articles/01e615b50bc62a): 2024/10/12
 - [計算機の代表的なレイテンシとスケール感 - ゆううきメモ](https://memo.yuuk.io/entry/2016/01/08/082722): 2024/10/9
 - [Web features explorer - Web platform release notes](https://web-platform-dx.github.io/web-features-explorer/release-notes/): 2024/10/8
 - [Webブラウザ、レンダリングエンジン、JavaScriptエンジンの整理&amp;図視化 #フロントエンド - Qiita](https://qiita.com/umashiba/items/8cb47825624c5cb043d6): 2024/10/8
