@@ -1,3 +1,4 @@
+- [Auth0の衝撃的なアップグレードについて](https://zenn.dev/maronn/articles/auth0-upgrade): 2024/10/14
 - [WebKit - Wikipedia](https://ja.wikipedia.org/wiki/WebKit): 2024/10/14
 - [BlinkとWebKitの違い（大雑把） - saneyuki_s log](https://saneyukis.hatenablog.com/entry/2020/02/05/002818): 2024/10/14
 - [Fluent UI が 2 種類あってややこしいので整理してみる](https://zenn.dev/karamem0/articles/2020_12_14_120000): 2024/10/13
