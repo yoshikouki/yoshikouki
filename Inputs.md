@@ -1,3 +1,4 @@
+- [誰でもカンタンに作曲できる。無料で使える音楽生成AIツール6選 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/06/free-music-generation-ai.html): 2024/10/15
 - [ソフトウェアエンジニアと技術力 / developer-lifework - Speaker Deck](https://speakerdeck.com/soudai/developer-lifework): 2024/10/14
 - [Auth0の衝撃的なアップグレードについて](https://zenn.dev/maronn/articles/auth0-upgrade): 2024/10/14
 - [WebKit - Wikipedia](https://ja.wikipedia.org/wiki/WebKit): 2024/10/14
