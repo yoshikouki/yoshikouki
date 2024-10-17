@@ -1,3 +1,4 @@
+- [生活者の創造性を引き出す、なめらかなシステムとHuman-Centered AI | “生活者データ・ドリブン”マーケティング通信](https://seikatsusha-ddm.com/article/15054/): 2024/10/17
 - [誰でもカンタンに作曲できる。無料で使える音楽生成AIツール6選 | ギズモード・ジャパン](https://www.gizmodo.jp/2024/06/free-music-generation-ai.html): 2024/10/15
 - [ソフトウェアエンジニアと技術力 / developer-lifework - Speaker Deck](https://speakerdeck.com/soudai/developer-lifework): 2024/10/14
 - [Auth0の衝撃的なアップグレードについて](https://zenn.dev/maronn/articles/auth0-upgrade): 2024/10/14
