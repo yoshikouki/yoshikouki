@@ -1,3 +1,4 @@
+- [今週のグッドデザインを紹介します（10/15 〜10/18）｜グッドデザイン賞事務局](https://note.com/gooddesignaward/n/n42e0d1a33347): 2024/10/18
 - [3�N�Ԃ�uiPad mini�iA17 Pro�j�v�͉����i�������H�@�uiPad mini�i��6����j�v����̕ύX�_�܂Ƃ� - ITmedia Mobile](https://www.itmedia.co.jp/mobile/spv/2410/17/news112.html): 2024/10/18
 - [NumberFlow - Transition and format numbers](https://number-flow.barvian.me/): 2024/10/17
 - [生活者の創造性を引き出す、なめらかなシステムとHuman-Centered AI | “生活者データ・ドリブン”マーケティング通信](https://seikatsusha-ddm.com/article/15054/): 2024/10/17
