@@ -6,6 +6,8 @@ topics: ["Biome", "JavaScript", "TypeScript", "linter"]
 published: true
 ---
 
+※ 更新: 2024/10/20
+
 # はじめに
 
 Biome は JavaScript や JSON 向けの強力なコード品質管理ツールですが、数多くのルールの中から適切なものを選ぶのは難しい場合があります。この記事では、私が Biome を使う際に最低限入れておくルールを紹介し、それぞれの具体的な使用例を解説します。
@@ -18,16 +20,20 @@ https://biomejs.dev/
 
 ```json
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
-  "organizeImports": {
-    "enabled": false
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
   },
+  "files": { "ignoreUnknown": false, "ignore": [] },
+  "formatter": { "enabled": true, "indentStyle": "tab" },
+  "organizeImports": { "enabled": true },
   "linter": {
     "enabled": true,
-    "rules": {
-      "recommended": true
-    }
-  }
+    "rules": { "recommended": true }
+  },
+  "javascript": { "formatter": { "quoteStyle": "double" } }
 }
 ```
 
@@ -124,7 +130,7 @@ const getAllUsers = (_unused: string) => {
 https://biomejs.dev/linter/rules/no-unused-variables/
 
 
-### 4. CSSクラスのソート ※注意事項あり
+### 4. クラス属性のソート ※注意事項あり
 
 ```json
 "linter": {
@@ -134,7 +140,7 @@ https://biomejs.dev/linter/rules/no-unused-variables/
 }
 ```
 
-**目的**: CSSクラスを一貫した順序で並べることで、コードの可読性を向上させ、クラスの重複や欠落を防ぎます。TailwindCSS を使うときに活躍しています
+**目的**: クラス属性を一貫した順序で並べることで、コードの可読性を向上させ、セレクターの重複や欠落を防ぎます。TailwindCSS を使うときに重宝します
 
 **例**:
 ```jsx
@@ -210,7 +216,7 @@ https://biomejs.dev/reference/vscode/
 
 ```json
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "organizeImports": {
     "enabled": true
   },
@@ -229,6 +235,19 @@ https://biomejs.dev/reference/vscode/
       }
     }
   },
+  "css": {
+    "formatter": {
+      "enabled": true,
+      "indentStyle": "space",
+      "indentWidth": 2
+    },
+    "linter": {
+      "enabled": true
+    },
+    "parser": {
+      "cssModules": true
+    }
+  },
   "vcs": {
     "enabled": true,
     "clientKind": "git",
@@ -236,6 +255,8 @@ https://biomejs.dev/reference/vscode/
   }
 }
 ```
+
+※ [Biome v1.9 から CSS がデフォルトで有効](https://biomejs.dev/blog/biome-v1-9/)になりました。そのため、上記の CSS の設定は不要です。
 
 上記の他にも便利なルールがありましたら、是非コメントなどで教えてください！
 
