@@ -14,7 +14,7 @@ LT資料: https://speakerdeck.com/yoshikouki/rendaringuwotan-fang-suru
 
 この記事では、多くのブラウザで採用されている Chromium を題材に、ブラウザのレンダリングについて掘り下げていきます。
 
-![ブラウザ一覧](/images/explore-rendering/browser-list.png)
+![ブラウザ一覧](/images/explore-rendering/browser-list.webp)
 *※ シェア列は、資料作成時点 2024/10/13 頃の [Mobile Browser Market Share Worldwide | Statcounter Global Stats](https://gs.statcounter.com/browser-market-share/mobile/worldwide) を記載*
 *※ 「iOS 系ブラウザ」のシェアは、資料作成時点の [Operating System Market Share Worldwide | Statcounter Global Stats](https://gs.statcounter.com/os-market-share) のシェアを記載*
 
@@ -30,23 +30,23 @@ LT資料: https://speakerdeck.com/yoshikouki/rendaringuwotan-fang-suru
 
 [ブラウザの仕組み  |  Articles  |  web.dev](https://web.dev/articles/howbrowserswork?hl=ja) では、以下のように WebKit と Gecko のメインフローを紹介しています。
 
-![WebKit のレンダリングメインフロー](/images/explore-rendering/rendering-main-flow-webkit.png)
+![WebKit のレンダリングメインフロー](/images/explore-rendering/rendering-main-flow-webkit.webp)
 *WebKit のメインフロー*
 
-![Gecko のレンダリングメインフロー](/images/explore-rendering/rendering-main-flow-gecko.png)
+![Gecko のレンダリングメインフロー](/images/explore-rendering/rendering-main-flow-gecko.webp)
 *Mozilla の Gecko レンダリング エンジンのメインフロー*
 *https://web.dev/articles/howbrowserswork?hl=ja#main_flow_examples*
 
 Chromium の場合はどうでしょうか？
 [RenderingNG  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng) では、Chromium のレンダリングメインフローを紹介しています。
 
-![Chromium のレンダリングメインフロー](/images/explore-rendering/rendering-main-flow-chromium.png)
+![Chromium のレンダリングメインフロー](/images/explore-rendering/rendering-main-flow-chromium.webp)
 *Chromium のレンダリング*
 *https://developer.chrome.com/docs/chromium/renderingng*
 
 Chromium の図において WebKit と Gecko のメインフローに対応するのは、Main Thread のフロー (script -> style -> layout -> paint) と捉えることもできそうですが、Chromium には Rendering pipeline structure というフローが存在し、Main Thread 以外のフローも重要な役割を担っています。
 
-![Chromium のレンダリングパイプライン](/images/explore-rendering/rendering-pipeline-chromium.png)
+![Chromium のレンダリングパイプライン](/images/explore-rendering/rendering-pipeline-chromium.webp)
 *Chromium のレンダリングパイプライン*
 *https://developer.chrome.com/docs/chromium/renderingng*
 
@@ -54,7 +54,7 @@ Chromium の図において WebKit と Gecko のメインフローに対応す�
 
 メインフローについては、[aki さん @_akimuu_](https://x.com/_akimuu_) の記事「[ブラウザレンダリングの仕組み](https://zenn.dev/ak/articles/c28fa3a9ba7edb)」の図がとてもわかりやすいです。メインフローの詳細についても記事内で紹介されていますので、是非ご一読ください。
 
-![ブラウザレンダリングの仕組み](/images/explore-rendering/rendering-main-flow-zenn.png)
+![ブラウザレンダリングの仕組み](/images/explore-rendering/rendering-main-flow-zenn.webp)
 *https://zenn.dev/ak/articles/c28fa3a9ba7edb*
 
 
@@ -65,10 +65,14 @@ Chromium のレンダリングパイプラインについて見ていきまし�
 
 レンダリングパイプラインは、いくつかのステージと途中で作成される成果物 Artifact で構成されます。
 
-![Chromium のレンダリングパイプラインの名称](/images/explore-rendering/rendering-pipeline-chromium-stage-and-artifact.png)
-
 - Stage: レンダリング内で明確に定義された1つのタスクを実行するコード
 - Artifact: ステージの入力・出力であるデータ構造
+
+![レンダリングパイプラインの名称](/images/explore-rendering/rendering-pipeline-chromium-stage-and-artifact.webp)
+
+各ステージを実行するのは、Main Thread, Compositors Thread, Viz Process の3つに別れます
+
+![レンダリングパイプラインの実行場所](/images/explore-rendering/rendering-pipeline-chromium-execution-location.webp)
 
 No | Stage | Description
 --- | --- | ---
