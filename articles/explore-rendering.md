@@ -13,9 +13,9 @@ https://speakerdeck.com/yoshikouki/rendaringuwotan-fang-suru
 
 ## はじめに
 
-この記事では、ブラウザのレンダリングについて掘り下げていきます。
+この記事では、ブラウザのレンダリングについて掘り下げていきます。Web アプリケーション開発において、パフォーマンスの最適化や複雑なバグの解決は日常的な課題です。ブラウザのレンダリングフローを理解することで、それらの原因をより深く突き止めることができるようになります。
 
-ブラウザと一口に言っても数多く存在しますが、今回は多くのブラウザで採用されている Chromium を題材にします。Chromiumは、Google Chromeをはじめ、Microsoft EdgeやOperaなど、多くの主要なブラウザに採用されており、そのレンダリングの仕組みを知っておくことは Web 開発における一つのヒントになるでしょう。
+ブラウザと一口に言っても数多く存在しますが、今回は多くのブラウザで採用されている Chromium を題材に、そのレンダリングの仕組みを詳しく見ていきます。Chromium は Google Chrome、Microsoft Edge、Opera などで採用されているため、その仕組みを理解することは Web アプリケーション開発者にとって大きなヒントとなるでしょう。
 
 ![ブラウザ一覧](/images/explore-rendering/browser-list.webp)
 *※ シェア列は、資料作成時点 2024/10/13 頃の [Mobile Browser Market Share Worldwide | Statcounter Global Stats](https://gs.statcounter.com/browser-market-share/mobile/worldwide) を記載*
