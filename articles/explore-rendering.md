@@ -1,6 +1,6 @@
 ---
 title: "レンダリングを探訪する"
-emoji: "⏬"
+emoji: "🖼️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Chrome", "Chromium", "Rendering", "Web"]
 published: false
