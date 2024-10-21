@@ -45,7 +45,7 @@ https://speakerdeck.com/yoshikouki/rendaringuwotan-fang-suru
 Chromium の場合はどうでしょうか？
 [Chromium のプロジェクト RenderingNG のドキュメント](https://developer.chrome.com/docs/chromium/renderingng) では、Chromium のレンダリングフローを紹介しています。
 
-![Chromium のレンダリングメインフロー](/images/explore-rendering/rendering-main-flow-chromium.webp)
+![Chromium のレンダリングフロー](/images/explore-rendering/rendering-main-flow-chromium.webp)
 *Chromium のレンダリング*
 *https://developer.chrome.com/docs/chromium/renderingng*
 
@@ -227,9 +227,9 @@ autonumber
 
 その後、工程 6 で "Document lifecycle" とありますが、ここでフロントエンドエンジニアにとって馴染みある MutationObserver などのイベントリスナーが発火されます。
 
-そしてまた Compositor Thread や Viz Process に処理が波及し、最終的にDOM更新がスクリーンに描画されます。
+そしてまた Compositor Thread や Viz Process に処理が進行し、最終的にDOM更新がスクリーンに描画されます。
 
-ここで注目したいのは、処理の流れは必ずしも Main Thread -> Compositor Thread -> Viz Process -> Main Thread という一方通行の流れではないということです。大きく見たらその順番にはなっているのですが、適宜 Compositor Thread や Viz Process に処理が波及したり、その逆の流れが発生します。
+ここで注目したいのは、処理の流れは必ずしも Main Thread -> Compositor Thread -> Viz Process -> Main Thread という一方通行の流れではないということです。大きく見たらその順番にはなっているのですが、適宜 Compositor Thread や Viz Process に処理が移ったり、その逆の流れが発生します。
 
 ### スクロール
 
