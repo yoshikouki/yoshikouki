@@ -98,12 +98,12 @@ Draw | Viz Process | execute the aggregated compositor frame on the GPU to creat
 
 *[RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture) より筆者が作表。和訳は ChatGPT O1-preview によるもの*
 
-この節では Chromium におけるレンダリングの流れを見てきましたが、WebKit や Gecko と似たフローとはいえ、それらにおける "Painting" から "Display" までの処理が分厚いことがわかります。また、それらがマルチプロセスや GPU を利用することで、処理を分散させていることもわかりました。
+この節では Chromium におけるレンダリングの流れを見てきましたが、WebKit や Gecko と似たフローとはいえ、WebKit や Gecko における "Painting" から "Display" までの処理が分厚いことがわかります。また、Chromium がマルチプロセスや GPU を利用することで、処理を分散させていることもわかりました。
 
 ここからは、説明もなく登場した Main Thread, Compositor Thread, Viz Process の役割を見ていきましょう。
 
-## プロセスとスレッド
 
+## プロセスとスレッド
 
 Chromium はマルチプロセス・マルチスレッドで動作します。そのプロセスのうち、Render Process, Browser Process, Viz Process が [RenderingNG architecture](https://developer.chrome.com/docs/chromium/renderingng-architecture) で紹介されています。
 
@@ -229,7 +229,9 @@ autonumber
 
 そしてまた Compositor Thread や Viz Process に処理が進行し、最終的にDOM更新がスクリーンに描画されます。
 
-ここで注目したいのは、処理の流れは必ずしも Main Thread -> Compositor Thread -> Viz Process -> Main Thread という一方通行の流れではないということです。大きく見たらその順番にはなっているのですが、適宜 Compositor Thread や Viz Process に処理が移ったり、その逆の流れが発生します。
+ここで注目したいのは、処理の流れは必ずしも Main Thread -> Compositor Thread -> Viz Process と一方通行の流れではないところです。大きく見たらその順番にはなっているのですが、適宜 Compositor Thread や Viz Process に処理が移ったり、その逆の流れが発生します。
+
+また、DOM 更新の処理に GPU (Viz Process GPU Main thread) が関わっている点も注目したいところです。
 
 ### スクロール
 
@@ -280,11 +282,11 @@ sequenceDiagram
 
 DOM 更新とは打って変わり、まずタッチやキーボードのイベントを Browser Process で受け取っています。そのイベントを適切な Render Process の Compositor Thread に繋げます (Render Process は複数立ち上がっています)。
 
-その後、イベントの必要に応じて Main Thread に処理が移り、登録されたイベントリスナーが発火します。このイベントリスナーで `event.preventDefault()` が実行された場合、処理はここで終わります (正確には `preventDefault` の実行有無を Compositor Thread に渡して終了です)。
+その後、イベントの必要に応じて Main Thread に処理が移り、登録されたイベントリスナーが発火します。このイベントリスナーで `event.preventDefault()` が実行された場合、処理はここで終わります (正確には `preventDefault` が実行されたことを Compositor Thread に渡して終了です)。
 
 `preventDefault` が実行されない場合、Compositor Thread, Browser Process, Viz Process で後続処理が走ります。
 
-注目したいのは、イベントは最初に Browser Process で受け取るということです。たしかに、Render Process はタブ毎に複数立ち上がっている場合もあるので、ブラウザというソフトウェアへの入力を Browser Process で受け取るのは自然なように思えます。
+注目したいのは、Browser Process で最初にイベントを受け取るということです。たしかに、Render Process はタブ毎に複数立ち上がっている場合もあるので、ブラウザというソフトウェアへの入力を Browser Process で受け取るのは自然なように思えます。
 
 
 ## おわりに
