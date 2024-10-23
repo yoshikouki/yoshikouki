@@ -1,3 +1,4 @@
+- [WebKitのコミッターになった](https://sosukesuzuki.dev/posts/become-webkit-committer/): 2024/10/23
 - [ウェブ上のハードウェア デバイスへのアクセス | Articles | web.dev](https://web.dev/articles/devices-introduction?hl=ja): 2024/10/20
 - [数百円のサブスクは売れないのに、数千円のアプリ記事は売れていく](https://zenn.dev/sho555/articles/dbf5a9a94994ef): 2024/10/20
 - [今週のグッドデザインを紹介します（10/15 〜10/18）｜グッドデザイン賞事務局](https://note.com/gooddesignaward/n/n42e0d1a33347): 2024/10/18
