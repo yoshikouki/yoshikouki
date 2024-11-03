@@ -1,3 +1,4 @@
+- [金が掛からないRailsの本番環境を求めて、](https://zenn.dev/botofune/articles/a2ee605f701970): 2024/11/3
 
 - [[@hono/react-renderer] \`renderToReadableStream\` is not a function · Issue #627 · honojs/middlewar…](https://github.com/honojs/middleware/issues/627): 2024/10/24
 - [NUIO | Keyboard](https://hellonuio.com/pages/keyboard/): 2024/10/23
