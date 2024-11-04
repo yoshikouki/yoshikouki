@@ -1,3 +1,4 @@
+- [Whisperverse構想｜耳元でささやくAIアシスタント、2030年代の人間拡張技術の未来図 - イノベトピア](https://innovatopia.jp/ai/ai-news/44488/): 2024/11/4
 - [Webアプリを作って収益化する、僕の個人開発ルーティン](https://zenn.dev/uzuprg/articles/8b83ee58fc45bd): 2024/11/4
 
 - [Webアプリを作って収益化する、僕の個人開発ルーティン](https://zenn.dev/uzuprg/articles/8b83ee58fc45bd): 2024/11/4
