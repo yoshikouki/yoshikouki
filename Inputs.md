@@ -1,3 +1,4 @@
+- [自分のプロジェクトが炎上しない理由について整理する - HIRAエンジニアブログ](https://hira-k.hatenablog.com/entry/2022/06/19/133727): 2024/11/4
 - ["use server";を勘違いして使うと危ない](https://zenn.dev/moozaru/articles/c7335f66dfb8df): 2024/11/4
 - [Metaに転職して感じたPFNとの違い - joeの日記](https://xuzijian629.hatenablog.com/entry/2024/11/01/114829): 2024/11/4
 - [本屋さんを開催する技術](https://zenn.dev/ko1/articles/bf47077f40d793): 2024/11/4
