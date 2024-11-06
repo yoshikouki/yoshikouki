@@ -1,3 +1,4 @@
+- [40歳になるので30代でやってよかったことをまとめた - そーだいなるらくがき帳](https://soudai.hatenablog.com/entry/2024/10/19/153628): 2024/11/6
 - [「下書き」「一時保存」という要件を甘く見積もってはいけない](https://zenn.dev/ncdc/articles/c62ca70b791e10): 2024/11/6
 - [Ahrefs—Marketing Intelligence Tools Powered by Big Data.](https://ahrefs.com/): 2024/11/5
 - [「視座」の上げ方が成人発達理論にわかりやすくまとまってた｜中村修三(ShuzoN)](https://note.com/shuzon__/n/nb68c32753952): 2024/11/5
