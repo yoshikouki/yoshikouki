@@ -1,3 +1,4 @@
+- [その変数名だけはやめろ：頼むから analysis を anal と略さないでください](https://zenn.dev/wsuzume/articles/bb2bdca52206ab): 2024/11/6
 - [40歳になるので30代でやってよかったことをまとめた - そーだいなるらくがき帳](https://soudai.hatenablog.com/entry/2024/10/19/153628): 2024/11/6
 - [「下書き」「一時保存」という要件を甘く見積もってはいけない](https://zenn.dev/ncdc/articles/c62ca70b791e10): 2024/11/6
 - [Ahrefs—Marketing Intelligence Tools Powered by Big Data.](https://ahrefs.com/): 2024/11/5
