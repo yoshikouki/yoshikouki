@@ -1,3 +1,4 @@
+- [Next.js App Router セキュリティ - Speaker Deck](https://speakerdeck.com/zaru_sakuraba/nextjssekiyuritei?slide=3): 2024/11/8
 - [CSSで文節の折り返しを！ br・wbrとauto-phraseの活用術 - ICS MEDIA](https://ics.media/entry/241105/): 2024/11/7
 - [実務で使えるTypescriptの型8選](https://zenn.dev/ficilcom/articles/940ecce71e45a6): 2024/11/6
 - [その変数名だけはやめろ：頼むから analysis を anal と略さないでください](https://zenn.dev/wsuzume/articles/bb2bdca52206ab): 2024/11/6
