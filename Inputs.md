@@ -1,3 +1,4 @@
+- [対象範囲: 使用していない JavaScript と CSS を見つける | Chrome DevTools | Chrome for Developers](https://developer.chrome.com/docs/devtools/coverage?hl=ja): 2024/11/8
 - [Next.js App Router セキュリティ - Speaker Deck](https://speakerdeck.com/zaru_sakuraba/nextjssekiyuritei?slide=3): 2024/11/8
 - [CSSで文節の折り返しを！ br・wbrとauto-phraseの活用術 - ICS MEDIA](https://ics.media/entry/241105/): 2024/11/7
 - [実務で使えるTypescriptの型8選](https://zenn.dev/ficilcom/articles/940ecce71e45a6): 2024/11/6
