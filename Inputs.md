@@ -1,3 +1,4 @@
+- [今Reactを使うならピュアなCSSをサポートするUIフレームワークやライブラリを選定するのがマルそうと思った話](https://zenn.dev/moepyxxx/articles/b9b685c4cf2f4c): 2024/11/9
 - [対象範囲: 使用していない JavaScript と CSS を見つける | Chrome DevTools | Chrome for Developers](https://developer.chrome.com/docs/devtools/coverage?hl=ja): 2024/11/8
 - [Next.js App Router セキュリティ - Speaker Deck](https://speakerdeck.com/zaru_sakuraba/nextjssekiyuritei?slide=3): 2024/11/8
 - [CSSで文節の折り返しを！ br・wbrとauto-phraseの活用術 - ICS MEDIA](https://ics.media/entry/241105/): 2024/11/7
