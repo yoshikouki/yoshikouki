@@ -1,3 +1,4 @@
+- [（改訂版）三項演算子は本当に読みにくいのか。TypeScript で分かった 後置 else if メソッド の効果](https://zenn.dev/takakiriy/articles/edba260bda5aa3): 2024/11/11
 - [象は名前で呼び合う　AIが解く動物の対話、研究者に聞く - 日本経済新聞](https://www.nikkei.com/article/DGXZQOGN17C210X10C24A9000000/): 2024/11/10
 - [TypeScriptにおける日付フォーマットの個人的ベストプラクティス](https://zenn.dev/voiceapplab/articles/10dfe2c892614f): 2024/11/10
 - [今Reactを使うならピュアなCSSをサポートするUIフレームワークやライブラリを選定するのがマルそうと思った話](https://zenn.dev/moepyxxx/articles/b9b685c4cf2f4c): 2024/11/9
