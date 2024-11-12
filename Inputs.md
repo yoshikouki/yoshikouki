@@ -1,3 +1,4 @@
+- [新刊『Tidy First?: 個人で実践する経験主義的ソフトウェア設計』発売のお知らせ | Ryuzee.com](https://www.ryuzee.com/contents/blog/14595): 2024/11/12
 
 - [（改訂版）三項演算子は本当に読みにくいのか。TypeScript で分かった 後置 else if メソッド の効果](https://zenn.dev/takakiriy/articles/edba260bda5aa3): 2024/11/11
 - [象は名前で呼び合う　AIが解く動物の対話、研究者に聞く - 日本経済新聞](https://www.nikkei.com/article/DGXZQOGN17C210X10C24A9000000/): 2024/11/10
