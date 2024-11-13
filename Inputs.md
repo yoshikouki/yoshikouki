@@ -1,3 +1,4 @@
+- [毎回自分の意見が通ってしまう不安を"受容"する - Konifar's ZATSU](https://konifar-zatsu.hatenadiary.jp/entry/2024/11/07/200137): 2024/11/13
 - [新刊『Tidy First?: 個人で実践する経験主義的ソフトウェア設計』発売のお知らせ | Ryuzee.com](https://www.ryuzee.com/contents/blog/14595): 2024/11/12
 
 - [（改訂版）三項演算子は本当に読みにくいのか。TypeScript で分かった 後置 else if メソッド の効果](https://zenn.dev/takakiriy/articles/edba260bda5aa3): 2024/11/11
