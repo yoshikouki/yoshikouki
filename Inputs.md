@@ -1,3 +1,4 @@
+- [「毎回自分の意見が通ってしまう不安」に対する若手の反論](https://zenn.dev/ittetsu51/articles/fdd080dbd1e06c): 2024/11/13
 - [毎回自分の意見が通ってしまう不安を"受容"する - Konifar's ZATSU](https://konifar-zatsu.hatenadiary.jp/entry/2024/11/07/200137): 2024/11/13
 - [新刊『Tidy First?: 個人で実践する経験主義的ソフトウェア設計』発売のお知らせ | Ryuzee.com](https://www.ryuzee.com/contents/blog/14595): 2024/11/12
 
