@@ -1,3 +1,4 @@
+- [学校の課題をNotionとGoogleカレンダーで管理したら絶対に忘れなくなった](https://zenn.dev/yukikamome316/articles/81f2485f646ae4): 2024/11/16
 - [CSS Spring Easing Generator](https://www.kvin.me/css-springs): 2024/11/16
 - [Animation Studio London | The Line Studio](https://thelinestudio.com/): 2024/11/14
 
