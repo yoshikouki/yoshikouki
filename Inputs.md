@@ -1,3 +1,4 @@
+- [CSS Spring Easing Generator](https://www.kvin.me/css-springs): 2024/11/16
 - [Animation Studio London | The Line Studio](https://thelinestudio.com/): 2024/11/14
 
 - [「毎回自分の意見が通ってしまう不安」に対する若手の反論](https://zenn.dev/ittetsu51/articles/fdd080dbd1e06c): 2024/11/13
