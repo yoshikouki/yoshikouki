@@ -1,3 +1,4 @@
+- [CSS Spring Easing Generator](https://www.kvin.me/css-springs): 2024/11/20
 - [Server-Sent Events を複数パターンで実装して理解を試みる](https://zenn.dev/cybozu_frontend/articles/try-server-sent-events): 2024/11/20
 - [俺のフロントエンド依存管理ポリシー20241120](https://zenn.dev/mizchi/articles/frontend-version-policies): 2024/11/20
 - [マネージャーは『桜井政博のゲーム作るには』を見た方が良い](https://zenn.dev/trustdock/articles/5e63e890ede7c5): 2024/11/17
