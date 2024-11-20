@@ -1,3 +1,4 @@
+- [俺のフロントエンド依存管理ポリシー20241120](https://zenn.dev/mizchi/articles/frontend-version-policies): 2024/11/20
 - [マネージャーは『桜井政博のゲーム作るには』を見た方が良い](https://zenn.dev/trustdock/articles/5e63e890ede7c5): 2024/11/17
 - [学校の課題をNotionとGoogleカレンダーで管理したら絶対に忘れなくなった](https://zenn.dev/yukikamome316/articles/81f2485f646ae4): 2024/11/16
 - [CSS Spring Easing Generator](https://www.kvin.me/css-springs): 2024/11/16
