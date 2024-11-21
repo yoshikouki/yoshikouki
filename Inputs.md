@@ -1,4 +1,5 @@
 - [日本発の自己啓発書が世界で売れている意外な理由｜フォレスト出版](https://note.com/forestpub/n/nb1e1b63efea5): 2024/11/21
+- [日本発の自己啓発書が世界で売れている意外な理由｜フォレスト出版](https://note.com/forestpub/n/nb1e1b63efea5): 2024/11/21
 - [CSS Spring Easing Generator](https://www.kvin.me/css-springs): 2024/11/20
 - [Server-Sent Events を複数パターンで実装して理解を試みる](https://zenn.dev/cybozu_frontend/articles/try-server-sent-events): 2024/11/20
 - [俺のフロントエンド依存管理ポリシー20241120](https://zenn.dev/mizchi/articles/frontend-version-policies): 2024/11/20
