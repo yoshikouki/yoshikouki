@@ -1,3 +1,4 @@
+- [メタ認知 - junebox](https://scrapbox.io/juneboku/%E3%83%A1%E3%82%BF%E8%AA%8D%E7%9F%A5): 2024/11/21
 - [日本発の自己啓発書が世界で売れている意外な理由｜フォレスト出版](https://note.com/forestpub/n/nb1e1b63efea5): 2024/11/21
 - [日本発の自己啓発書が世界で売れている意外な理由｜フォレスト出版](https://note.com/forestpub/n/nb1e1b63efea5): 2024/11/21
 - [CSS Spring Easing Generator](https://www.kvin.me/css-springs): 2024/11/20
