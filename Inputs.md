@@ -1,3 +1,4 @@
+- [TypeScriptで関数を書くときに気をつけている事](https://zenn.dev/chot/articles/05413b79cc0398): 2024/11/23
 - [Ubieが2024年にReact Nativeを選ぶ理由](https://zenn.dev/ubie_dev/articles/46cf443d5dd25b): 2024/11/22
 - [docker buildのsecretオプションでハマった話（てかこのオプション知ってた？？）](https://zenn.dev/tksx1227/articles/4af1ce9b9e475a): 2024/11/21
 - [メタ認知 - junebox](https://scrapbox.io/juneboku/%E3%83%A1%E3%82%BF%E8%AA%8D%E7%9F%A5): 2024/11/21
