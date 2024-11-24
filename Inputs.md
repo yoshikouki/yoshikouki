@@ -1,3 +1,4 @@
+- [VimConf 2024へ参加して体感したお気持ち](https://zenn.dev/gmomedia/articles/vimconf2024_kansou): 2024/11/24
 
 - [年金制度と老後のお金について知っておくべき話](https://anond.hatelabo.jp/20241122045531): 2024/11/23
 - [TypeScriptで関数を書くときに気をつけている事](https://zenn.dev/chot/articles/05413b79cc0398): 2024/11/23
