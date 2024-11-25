@@ -1,3 +1,4 @@
+- [Minimum Common Web Platform API](https://min-common-api.proposal.wintercg.org/): 2024/11/25
 - [38歳、リクルートを辞めて、Yardを起業しました](https://zenn.dev/toitech/articles/19087df4a76d49): 2024/11/25
 - [VimConf 2024へ参加して体感したお気持ち](https://zenn.dev/gmomedia/articles/vimconf2024_kansou): 2024/11/24
 
