@@ -19,6 +19,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "zenn-cli": "^0.1.157"
+    "zenn-cli": "^0.1.158"
   }
 }
