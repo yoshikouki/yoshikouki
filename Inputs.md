@@ -1,3 +1,4 @@
+- [38歳、リクルートを辞めて、Yardを起業しました](https://zenn.dev/toitech/articles/19087df4a76d49): 2024/11/25
 - [VimConf 2024へ参加して体感したお気持ち](https://zenn.dev/gmomedia/articles/vimconf2024_kansou): 2024/11/24
 
 - [年金制度と老後のお金について知っておくべき話](https://anond.hatelabo.jp/20241122045531): 2024/11/23
