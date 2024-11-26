@@ -6,6 +6,10 @@ topics: ["Hono", "JavaScript", "TypeScript"]
 published: false
 ---
 
+この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2024](https://adventar.org/calendars/10036)」の2日目の記事です。
+
+昨日は、[@n01e0](https://feneshi.co/) さんの「なんかします」でした。
+
 # はじめに
 
 最近注目を集めている Web アプリケーションフレームワーク **Hono**。そのシンプルさと高速性、そして Web Standards に準拠した設計が多くの開発者から支持を得ています。
@@ -60,7 +64,7 @@ export default app
 このサンプルコードを `$ bun src/index.ts` で起動した状態でリクエストすると、
 
 ```bash
-❯ curl -i localhost:3000/
+$ curl -i localhost:3000/
 HTTP/1.1 200 OK
 content-type: text/plain;charset=utf-8
 Date: Mon, 25 Nov 2024 13:55:23 GMT
@@ -199,7 +203,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 ここまででサンプルコードの Hono インスタンスを生成してエンドポイントとそのハンドラーを追加する処理を見てきました。具体的には、Hono インスタンスの this.router (SmartRouter など) に登録する処理であることがわかります。
 
 
-## サンプルコード `export default app` で起こる事
+## `export default app` を紐解く
 
 サンプルコードの最後の一行である `export default app` について見ていきましょう。この部分は、[公式ドキュメント Getting Started](https://hono.dev/docs/getting-started/basic#hello-world) でランタイムに依って異なる可能性が示されています。
 
@@ -311,6 +315,82 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 > ```
 
 
+各ランタイムに依る違いを見ていく中で、`export default app` としない場合は Hono インスタンスの `app.fetch()` が重要な役割を担っていることが見えてきました。
+
 ## `class HonoBase fetch()`
 
-各ランタイムの違いを見る中で、`export default app` としない場合は、`app.fetch()` がリクエストを処理するために重要な役割を担っていることが見えてきました。
+`app.fetch()` は、HonoBase のインスタンスメソッドとして定義されています。
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L453-L470
+
+コメントに「`.fetch()` will be entry point of your app」と書かれていること、そして引数に Request を取り Response を返すことで、このメソッドが [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) に近い実装になっていることがわかります。
+
+これについて、[公式ドキュメント Web Standards](https://hono.dev/docs/concepts/web-standard) には以下のように書かれています。
+
+> Hono uses only Web Standards like Fetch. They were originally used in the fetch function and consist of basic objects that handle HTTP requests and responses. In addition to Requests and Responses, there are URL, URLSearchParam, Headers and others.
+> (中略)
+> Hono uses only Web Standards, which means that Hono can run on any runtime that supports them. In addition, we have a Node.js adapter. Hono runs on these runtimes:
+
+Hono の謳い文句である「Support for any JavaScript runtime」は、この実装によって裏付けられているようにも思えます。
+
+さて、改めて整理すると、ここまで見てきたのは、サンプルコードで Hono アプリケーションが起動するところまでです。
+すでに肉厚な内容になってしまっていますが、サンプルコードで起動したサーバーがリクエストを受け取り処理する部分がまだ残っています。これから `$ curl localhost:3000/` などでアクセスした際のサーバーの処理を見ていきましょう。
+
+
+# リクエスト処理の内側
+
+リクエストを処理する HonoBase のインスタンスメソッド `fetch()` の処理内容ですが、プライベートメソッド `#dispatch()` を呼び出すだけのシンプルな実装になっています。
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L464-L470
+
+対して、`#dispatch()` は60行あるメソッドであり、HonoBase の中でもっとも長い実装になっています。
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L391-L451
+
+
+しかし矛盾するようですが、このメソッドだけで見るとそれほど複雑な処理ではありません。複雑な処理はカプセル化されおり、見通し良くなっています。設計が見事です。
+
+`#dispatch()` の流れは大きく次の通りです。
+
+1. HTTP メソッドが "HEAD" の場合は、空 body のレスポンスを返す
+  - このレスポンスの `ResponseInit` (headers, status など) は、GET リクエストだった場合の値を設定する (`#dispatch()` の再帰的実行)
+2. `this.router.match()` で、HTTP メソッドとパスが合致したハンドラー (ミドルウェアのハンドラーも含む) を取得する
+3. [Context インスタンス](https://hono.dev/docs/api/context#context)を生成する
+4. 工程 2 で取得したハンドラーの数で分岐
+   - 1つの場合は、そのハンドラーを実行してレスポンスを返す
+   - 複数の場合は、ハンドラーを順番に実行できるようにまとめて、その実行結果のレスポンスを返す
+
+この流れを経て、リクエスト `$ curl localhost:3000/` のレスポンス `"Hono!"` が返されます。
+
+個人的にもっとも注目したいのは `this.router.match()` の処理です。繰り返しになりますが、[Hono のルーターには 5 つの種類](https://hono.dev/docs/concepts/routers#routers)があります。当然、それぞれのルーターで `match()` の実装は異なります。
+
+初期値となっている `SimpleRouter` は、初期化で渡された他 4 種のルーターの `match()` を「最適に実行」している——私の理解できた範囲ではとてもワイルドに感じました——ので、コアとなる処理は 4 種類と考える事ができそうです。
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono.ts#L28-L32
+
+とても面白そうなので是非深掘りしてみたいところなのですが、誌面の都合上、`this.router.match()` の処理はここでは割愛します。
+
+さて、Hono のサンプルコードでは複数のハンドラー (ミドルウェアなど) を登録していないため、工程 4 は以下の部分が実行されます。
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L414-L433
+
+例外処理を挟みつつ、取得したハンドラーを実行してレスポンスを返しています。
+
+それほど複雑な処理ではなさそうに見えますが、私には Context インスタンス `c` が上手いことかみ合っているため、そのように見えるように感じました。この記事では追いませんが、[複数ハンドラーが存在した場合の compose とその実行の定義](https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/compose.ts#L20-L95)を見ていくと、同じように感じるかもしれません。
+
+この Context インスタンス `c` は[サンプルコード中の `app.get('/', (c) => c.text('Hono!'))` の `c` と同じもの](https://hono.dev/docs/api/context#context)です。利用者視点としても Context は重要な存在ですが、開発においても重要な存在でありそうなことがわかりました。
+
+(コードの理解を助けるための補足: `this.router.match()` の返値 `matchResult` は以下のようなハンドラーとパラメーターの多次元配列となっています)
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/router.ts#L66-L98
+
+
+# おわりに
+
+「サーバーってどうやって実装するんや？」という好奇心から始まった今回の記事ですが、コードリーディングを通じて内部実装や設計思想をより深く理解することができました。
+しかし、今回は多くのコードを割愛してしまったので、ぜひ、ご自分でコードを読んでいただければと思います。
+
+少し肉厚な記事になってしまいましたが、Hono の魅力は伝わったでしょうか。フレームワークの内部を理解することで、より効果的に活用できるだけでなく、コントリビュートのハードルも下がったのなら幸いです。
+最後までお読みいただき、ありがとうございました。
+
+明日の記事は、[あいうち](https://x.com/hkt100rtkn) さんの「なにかかきます」です。お楽しみに！
