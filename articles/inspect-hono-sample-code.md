@@ -125,7 +125,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 (長いため序盤のみをリンク)
 
 103 行目にインスタンスメソッドとして `get!: HandlerInterface<E, 'get', S, BasePath>` が定義されています。
-`get!` の `!` は、definite assignment assertion というもので、メソッド `get` が constructor で必ず初期化されることを示しています。
+`get!` の `!` は、definite assignment assertion というもので、メソッド `get()` が constructor で必ず初期化されることを示しています。
 
 https://typescriptbook.jp/reference/values-types-variables/definite-assignment-assertion
 
@@ -135,7 +135,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 123 行目で `routes: RouterRoute[] = []` として、ルート (エンドポイント) が空の配列として初期化されていることにも注目してください。後ほど出てきます。
 
-`HonoBase` の constructor の中身を見ると、次の箇所で `app.get` のような HTTP メソッドに対応するインスタンスメソッドが定義されています。
+`HonoBase` の constructor の中身を見ると、次の箇所で `app.get()` のような HTTP メソッドに対応するインスタンスメソッドが定義されています。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L125-L140
 
@@ -156,7 +156,7 @@ class Hono<E extends Env = Env, S extends Schema = {}, BasePath extends string =
   all!: HandlerInterface<E, 'all', S, BasePath>
 ```
 
-## `new HonoBase().get`
+## `class HonoBase get()`
 
 各 HTTP メソッドのインスタンスメソッド (e.g. `app.get(path, ...handlers[])`) は、以下のように定義されていました。
 
@@ -174,16 +174,132 @@ app.get('/', (c) => c.text('Hono!'))
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L121
 
-2. 第二引数以降のハンドラー毎に、プライベートメソッド `#addRoute` が呼び出される
+2. 第二引数以降のハンドラー毎に、プライベートメソッド `#addRoute()` が呼び出される
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L376-L382
 
-3. `#addRoute` 内で、プロパティ `router` (SmartRouter など) と `routes` (配列) にハンドラー等が追加される
+3. `#addRoute()` 内で、プロパティ `router` (SmartRouter など) と `routes` (配列) にハンドラー等が追加される
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L123
 
-1. `this.router` = SmartRouter の例: SmartRouter インスタンスのプライベートプロパティ `#routes` にハンドラー等が追加される
+4. `this.router` = SmartRouter の例: SmartRouter インスタンスのプライベートプロパティ `#routes` にハンドラー等が追加される
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/router/smart-router/router.ts#L4-L19
 
 
+ここまでで、サンプルコードが Hono インスタンスを生成して、エンドポイントとそのハンドラーを追加する処理を見てきました。具体的には、Hono インスタンスの this.router (SmartRouter など) に登録する処理であることがわかります。
+
+
+## サンプルコード `export default app` で起こる事
+
+サンプルコードの最後の一行である `export default app` について見ていきましょう。
+
+> The import and the final export default parts may vary from runtime to runtime, but all of the application code will run the same code everywhere.
+
+この部分は、[公式ドキュメント Getting Started](https://hono.dev/docs/getting-started/basic#hello-world) でランタイムに依って異なる可能性が示されています。
+実際に `export default app` 以外のパターンをいくつか見ていきましょう
+
+
+### [Cloudflare Workers](https://hono.dev/docs/getting-started/cloudflare-workers#using-hono-with-other-event-handlers)
+
+> ```typescript:src/index.ts
+> const app = new Hono()
+>
+> export default {
+>   fetch: app.fetch,
+>   scheduled: async (batch, env) => {},
+> }
+> ```
+
+Cloudflare Workers では `export default app` でも動くのですが、Module Worker 形式で他のイベントを見たい場合などには、このサンプルコードのようにハンドラーを定義します
+
+Cloudflare Workers Module Worker について: [Migrate from Service Workers to ES Modules | Cloudflare Workers docs](https://developers.cloudflare.com/workers/reference/migrate-to-module-workers/)
+
+### [Bun](https://hono.dev/docs/getting-started/bun#change-port-number)
+
+> ```diff typescript:src/index.ts
+> - export default app
+> + export default {
+> +   port: 3000,
+> +   fetch: app.fetch,
+> + }
+> ```
+
+Bun では fetch ハンドラーを含む `default` が export されているとそれを Bun.serve に渡す挙動を取るため、上のサンプルコードを `bun src/index.ts` するとサーバーが立ち上がります。
+
+> Thus far, the examples on this page have used the explicit Bun.serve API. Bun also supports an alternate syntax.
+
+[HTTP server – API | Bun Docs](https://bun.sh/docs/api/http#export-default-syntax)
+
+
+### [Node.js](https://hono.dev/docs/getting-started/nodejs)
+
+> ```typescript:src/index.ts
+> import { serve } from '@hono/node-server'
+> // (中略)
+> serve(app)
+> ```
+
+> ```diff typescript:src/index.ts
+> - serve(app)
+> + serve({
+> +   fetch: app.fetch,
+> +   port: 8787,
+> + })
+> ```
+
+Node.js 用のアダプターを実行しています
+
+[honojs/node-server: Node.js Server for Hono](https://github.com/honojs/node-server)
+
+
+### [Deno](https://hono.dev/docs/getting-started/deno)
+
+> ```typescript:src/index.ts
+> Deno.serve(app.fetch)
+> ```
+
+> ```diff typescript:src/index.ts
+> - Deno.serve(app.fetch)
+> + Deno.serve({ port: 8787 }, app.fetch)
+> ```
+
+Bun と同じく Deno 由来のサーバーを立ち上げていますが、インターフェイスが異なるため明示的に渡しています
+
+[Deno.serve - Deno - Deno Docs](https://docs.deno.com/api/deno/~/Deno.serve)
+
+
+### [Fastly Compute](https://hono.dev/docs/getting-started/fastly)
+
+> ```typescript:src/index.ts
+> app.fire()
+> ```
+
+`fire()` はグローバルに対する `fetch` イベントを監視して Hono で処理します
+
+[App - Hono - Hono](https://hono.dev/docs/api/hono#fire)
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L504-L517
+
+
+### [Vercel](https://hono.dev/docs/getting-started/vercel)
+
+> ```typescript:src/index.ts
+> import { handle } from 'hono/vercel'
+> // (中略)
+> export default handle(app)
+> ```
+
+
+### [AWS Lambda](https://hono.dev/docs/getting-started/aws-lambda)
+
+> ```typescript:src/index.ts
+> import { handle } from 'hono/aws-lambda'
+> // (中略)
+> export const handler = handle(app)
+> ```
+
+
+## `class HonoBase fetch()`
+
+各ランタイムの違いを見る中で、何となく `app.fetch()` がHTTP重要な役割を担っていることが見えてきました。
