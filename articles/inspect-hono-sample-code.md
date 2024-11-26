@@ -78,12 +78,12 @@ $
 
 ## `class Hono`
 
-まず `class Hono` のインスタンスを生成している部分。
-
 ```typescript:src/index.ts
 import { Hono } from 'hono'
 const app = new Hono()
 ```
+
+まず `class Hono` のインスタンスを生成している部分。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/index.ts#L48-L51
 
@@ -91,7 +91,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono.ts#L8-L34
 
-`class Hono<中略> extends HonoBase<中略>` と、`HonoBase` というクラスを継承しています。また、型情報もそのまま引き継いでいることがわかります。
+`class Hono<中略> extends HonoBase<中略>` と、`HonoBase` というクラスを継承しています。また、型情報も引き継いでいることがわかります。
 
 ```typescript:src/hono.ts
 export class Hono<
@@ -108,7 +108,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 ルーターの初期値は `SmartRouter` です。[公式ドキュメント Routers](https://hono.dev/docs/concepts/routers) では、SmartRouter を含め合計5つのルーターが紹介されています。
 
-なお、このルーターに関しては、[先に紹介した @yusukebe さんのスライド](https://speakerdeck.com/yusukebe/hononolai-tadao-tokorekara?slide=29)にも出てくる熱い話題の一つです。Hono 誕生のきっかけともなった部分みたいなので、是非ドキュメントと一緒にスライドもご覧ください。
+なお、このルーターに関しては、[先に紹介した @yusukebe さんのスライド](https://speakerdeck.com/yusukebe/hononolai-tadao-tokorekara?slide=29)にも出てくる熱い話題の一つです。Hono の早さを実現している一つであり、その誕生のきっかけともなった部分でもあるみたいなので、是非ドキュメントと一緒にスライドもご覧ください。
 
 ![image](/images/inspect-hono-sample-code/hononolai-tadao-tokorekara-slide-29.png)
 *[Honoの来た道とこれから - Speaker Deck](https://speakerdeck.com/yusukebe/hononolai-tadao-tokorekara?slide=29)*
@@ -117,6 +117,8 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 ## `class HonoBase`
 
 次に `super(options)` で呼び出されている `HonoBase` クラスの中身を見ていきましょう。
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono.ts#L1
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L520
 
@@ -129,13 +131,16 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 https://typescriptbook.jp/reference/values-types-variables/definite-assignment-assertion
 
-プロパティ `router` も definite assignment assertion で `router!: Router<[H, RouterRoute]>` と宣言されています。コメントで、HonoBase が抽象されたクラスであること、継承先で必ず router を初期化することが示されていますね。
-型 `H` は Handler か MiddlewareHandler です。
+プロパティ `router` も definite assignment assertion で宣言されています。コメントで HonoBase が抽象されたクラスであること、継承先で必ず router を初期化することが示されていますね。
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L113-L117
+
+型 `H` は Handler または MiddlewareHandler です。
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/types.ts#L85-L90
 
-123 行目で `routes: RouterRoute[] = []` として、ルート (エンドポイント) が空の配列として初期化されていることにも注目してください。後ほど出てきます。
+123 行目で `routes: RouterRoute[] = []` として、ルート (エンドポイント) が空の配列として初期化されていることにも注目してください。後ほど登場します。
 
-`HonoBase` の constructor の中身を見ると、次の箇所で `app.get()` のような HTTP メソッドに対応するインスタンスメソッドが定義されています。
+`HonoBase` の constructor を見ると、次の箇所で `app.get()` のような HTTP メソッドに対応するインスタンスメソッドが定義されています。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L125-L140
 
@@ -172,31 +177,35 @@ app.get('/', (c) => c.text('Hono!'))
 
 1. Hono インスタンスのプライベートプロパティ `#path` へ第一引数 `path` が代入される
 
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L130-L131
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L121
+(`#` はプライベートプロパティを表すシンタックスです)
+[Private properties - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties)
 
 2. 第二引数以降のハンドラー毎に、プライベートメソッド `#addRoute()` が呼び出される
 
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L135-L137
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L376-L382
 
-3. `#addRoute()` 内で、プロパティ `router` (SmartRouter など) と `routes` (配列) にハンドラー等が追加される
+3. `#addRoute()` 内で、Hono インスタンスのプロパティ `router` (SmartRouter など) と `routes` (配列) にハンドラー等が追加される
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L123
 
-4. `this.router` = SmartRouter の例: SmartRouter インスタンスのプライベートプロパティ `#routes` にハンドラー等が追加される
+4. `this.router` が SmartRouter の場合: SmartRouter インスタンスのプライベートプロパティ `#routes` にハンドラー等が追加される
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/router/smart-router/router.ts#L4-L19
 
 
-ここまでで、サンプルコードが Hono インスタンスを生成して、エンドポイントとそのハンドラーを追加する処理を見てきました。具体的には、Hono インスタンスの this.router (SmartRouter など) に登録する処理であることがわかります。
+ここまででサンプルコードの Hono インスタンスを生成してエンドポイントとそのハンドラーを追加する処理を見てきました。具体的には、Hono インスタンスの this.router (SmartRouter など) に登録する処理であることがわかります。
 
 
 ## サンプルコード `export default app` で起こる事
 
-サンプルコードの最後の一行である `export default app` について見ていきましょう。
+サンプルコードの最後の一行である `export default app` について見ていきましょう。この部分は、[公式ドキュメント Getting Started](https://hono.dev/docs/getting-started/basic#hello-world) でランタイムに依って異なる可能性が示されています。
 
 > The import and the final export default parts may vary from runtime to runtime, but all of the application code will run the same code everywhere.
 
-この部分は、[公式ドキュメント Getting Started](https://hono.dev/docs/getting-started/basic#hello-world) でランタイムに依って異なる可能性が示されています。
+
 実際に `export default app` 以外のパターンをいくつか見ていきましょう
 
 
@@ -211,7 +220,8 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 > }
 > ```
 
-Cloudflare Workers では `export default app` でも動くのですが、Module Worker 形式で他のイベントを見たい場合などには、このサンプルコードのようにハンドラーを定義します
+Cloudflare Workers では `export default app` でも動くのですが、Module Worker 形式で他のイベントを見たい場合などには、上のサンプルコードのようにハンドラーを定義します。
+Hono からは `app.fetch()` を export していることがわかります。
 
 Cloudflare Workers Module Worker について: [Migrate from Service Workers to ES Modules | Cloudflare Workers docs](https://developers.cloudflare.com/workers/reference/migrate-to-module-workers/)
 
@@ -226,6 +236,7 @@ Cloudflare Workers Module Worker について: [Migrate from Service Workers to 
 > ```
 
 Bun では fetch ハンドラーを含む `default` が export されているとそれを Bun.serve に渡す挙動を取るため、上のサンプルコードを `bun src/index.ts` するとサーバーが立ち上がります。
+ここでも `app.fetch()` を export しています。
 
 > Thus far, the examples on this page have used the explicit Bun.serve API. Bun also supports an alternate syntax.
 
@@ -248,7 +259,7 @@ Bun では fetch ハンドラーを含む `default` が export されている�
 > + })
 > ```
 
-Node.js 用のアダプターを実行しています
+Node.js 用のアダプターを実行しています。やはり `app.fetch()` をアダプターに渡しています。
 
 [honojs/node-server: Node.js Server for Hono](https://github.com/honojs/node-server)
 
@@ -302,4 +313,4 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 ## `class HonoBase fetch()`
 
-各ランタイムの違いを見る中で、何となく `app.fetch()` がHTTP重要な役割を担っていることが見えてきました。
+各ランタイムの違いを見る中で、`export default app` としない場合は、`app.fetch()` がリクエストを処理するために重要な役割を担っていることが見えてきました。
