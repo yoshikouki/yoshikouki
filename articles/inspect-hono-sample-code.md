@@ -177,14 +177,13 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 app.get('/', (c) => c.text('Hono!'))
 ```
 
-このサンプルコードを実行すると次の処理を行います。
+このコードを実行すると次の処理を行います。
 
 1. Hono インスタンスのプライベートプロパティ `#path` へ第一引数 `path` が代入される
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L130-L131
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L121
-(`#` はプライベートプロパティを表すシンタックスです)
-[Private properties - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties)
+(`#` はプライベートプロパティを表すシンタックスです [Private properties - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties))
 
 2. 第二引数以降のハンドラー毎に、プライベートメソッド `#addRoute()` が呼び出される
 
@@ -224,7 +223,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 > }
 > ```
 
-Cloudflare Workers では `export default app` でも動くのですが、Module Worker 形式で他のイベントを見たい場合などには、上のサンプルコードのようにハンドラーを定義します。
+Cloudflare Workers では `export default app` でも動くのですが、Module Worker 形式で他のイベントを見たい場合などには、上のコードのようにハンドラーを定義します。
 Hono からは `app.fetch()` を export していることがわかります。
 
 Cloudflare Workers Module Worker について: [Migrate from Service Workers to ES Modules | Cloudflare Workers docs](https://developers.cloudflare.com/workers/reference/migrate-to-module-workers/)
@@ -239,7 +238,7 @@ Cloudflare Workers Module Worker について: [Migrate from Service Workers to 
 > + }
 > ```
 
-Bun では fetch ハンドラーを含む `default` が export されているとそれを Bun.serve に渡す挙動を取るため、上のサンプルコードを `bun src/index.ts` するとサーバーが立ち上がります。
+Bun では fetch ハンドラーを含む `default` が export されているとそれを Bun.serve に渡す挙動を取るため、上のコードを `bun src/index.ts` するとサーバーが立ち上がります。
 ここでも `app.fetch()` を export しています。
 
 > Thus far, the examples on this page have used the explicit Bun.serve API. Bun also supports an alternate syntax.
@@ -314,8 +313,9 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 > export const handler = handle(app)
 > ```
 
+Vercel と AWS Lambda でも、Node.js と同じくアダプターを使っています。
 
-各ランタイムに依る違いを見ていく中で、`export default app` としない場合は Hono インスタンスの `app.fetch()` が重要な役割を担っていることが見えてきました。
+各ランタイムに依る違いを見ていく中で、`export default app` としないケースでは Hono インスタンスの `app.fetch()` が重要な役割を担っていることが見えてきました。
 
 ## `class HonoBase fetch()`
 
@@ -331,66 +331,88 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 > (中略)
 > Hono uses only Web Standards, which means that Hono can run on any runtime that supports them. In addition, we have a Node.js adapter. Hono runs on these runtimes:
 
-Hono の謳い文句である「Support for any JavaScript runtime」は、この実装によって裏付けられているようにも思えます。
+> Hono は Fetch のような Web 標準 のみを使用しています。これらはもともと fetch 関数で使用されており、HTTP リクエストとレスポンスを処理する基本的なオブジェクトで構成されています。リクエストとレスポンスに加えて、URL、URLSearchParams、Headers などがあります。
+> （中略）
+> Hono は Web 標準のみを使用しているため、それらをサポートするあらゆるランタイムで動作できます。さらに、Node.js 用のアダプターも用意しています。Hono は以下のランタイムで動作します：
 
-さて、改めて整理すると、ここまで見てきたのは、サンプルコードで Hono アプリケーションが起動するところまでです。
-すでに肉厚な内容になってしまっていますが、サンプルコードで起動したサーバーがリクエストを受け取り処理する部分がまだ残っています。これから `$ curl localhost:3000/` などでアクセスした際のサーバーの処理を見ていきましょう。
+Hono の謳い文句である「Support for any JavaScript runtime」は、`fetch()` の実装によって裏付けられているようにも思えます。
+
+さて、改めて整理すると、ここまで見てきたのはサンプルコードによって Hono アプリケーションが起動するところまでです。すでに肉厚な内容になっているようにも思えますが、まだ起動したサーバーがリクエストを処理する部分が残っています。
+
+ここからは `$ curl localhost:3000/` などでアクセスした際のサーバーの処理を見ていきましょう。
 
 
 # リクエスト処理の内側
 
-リクエストを処理する HonoBase のインスタンスメソッド `fetch()` の処理内容ですが、プライベートメソッド `#dispatch()` を呼び出すだけのシンプルな実装になっています。
+リクエストを処理する HonoBase のインスタンスメソッド `fetch()` は、プライベートメソッド `#dispatch()` を呼び出すだけのシンプルな実装になっています。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L464-L470
+(余談ですが、 `#dispatch()` は Fastly Compute のサンプルコードで登場した `app.fire()` の内部でも使用されています)
 
-対して、`#dispatch()` は60行あるメソッドであり、HonoBase の中でもっとも長い実装になっています。
+## `class HonoBase #dispatch()`
+
+`fetch()` に対して `#dispatch()` は60行あるメソッドであり、HonoBase の中でもっとも行数が多い実装になっています。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L391-L451
 
 
-しかし矛盾するようですが、このメソッドだけで見るとそれほど複雑な処理ではありません。複雑な処理はカプセル化されおり、見通し良くなっています。設計が見事です。
+しかし矛盾するようですが、このメソッドだけで見るとそれほど複雑ではありません。複雑な処理はカプセル化されおり、見通し良くなっています。設計が見事です。
 
 `#dispatch()` の流れは大きく次の通りです。
 
 1. HTTP メソッドが "HEAD" の場合は、空 body のレスポンスを返す
-  - このレスポンスの `ResponseInit` (headers, status など) は、GET リクエストだった場合の値を設定する (`#dispatch()` の再帰的実行)
+     - このレスポンスの `ResponseInit` (headers, status など) は、GET リクエストだった場合の値を設定する (`#dispatch()` の再帰的実行)
 2. `this.router.match()` で、HTTP メソッドとパスが合致したハンドラー (ミドルウェアのハンドラーも含む) を取得する
 3. [Context インスタンス](https://hono.dev/docs/api/context#context)を生成する
-4. 工程 2 で取得したハンドラーの数で分岐
-   - 1つの場合は、そのハンドラーを実行してレスポンスを返す
-   - 複数の場合は、ハンドラーを順番に実行できるようにまとめて、その実行結果のレスポンスを返す
+4. 段階 2 で取得したハンドラーの数で分岐
+   1. 1つの場合は、そのハンドラーを実行してレスポンスを返す
+   2. 複数の場合は、ハンドラーを順番に実行できるようにまとめて、その実行結果のレスポンスを返す
 
-この流れを経て、リクエスト `$ curl localhost:3000/` のレスポンス `"Hono!"` が返されます。
+この4つの段階を経て、リクエスト `$ curl localhost:3000/` のレスポンス `"Hono!"` が返されます。
 
-個人的にもっとも注目したいのは `this.router.match()` の処理です。繰り返しになりますが、[Hono のルーターには 5 つの種類](https://hono.dev/docs/concepts/routers#routers)があります。当然、それぞれのルーターで `match()` の実装は異なります。
+個人的に注目したいのは、段階 2 の `this.router.match()` です。
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L402-L405
+
+繰り返しになりますが、[Hono のルーターには 5 つの種類](https://hono.dev/docs/concepts/routers#routers)があります。当然、それぞれのルーターで `match()` の実装は異なります。
 
 初期値となっている `SimpleRouter` は、初期化で渡された他 4 種のルーターの `match()` を「最適に実行」している——私の理解できた範囲ではとてもワイルドに感じました——ので、コアとなる処理は 4 種類と考える事ができそうです。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono.ts#L28-L32
 
-とても面白そうなので是非深掘りしてみたいところなのですが、誌面の都合上、`this.router.match()` の処理はここでは割愛します。
+とても面白そうなのでそれぞれを深掘りしてみたいところなのですが、ここでは割愛します。
 
-さて、Hono のサンプルコードでは複数のハンドラー (ミドルウェアなど) を登録していないため、工程 4 は以下の部分が実行されます。
+さて、サンプルコードで登録している `GET "/"` に合致するハンドラーは一つだけなので、処理は段階 4.1 に進みます。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L414-L433
 
 例外処理を挟みつつ、取得したハンドラーを実行してレスポンスを返しています。
 
-それほど複雑な処理ではなさそうに見えますが、私には Context インスタンス `c` が上手いことかみ合っているため、そのように見えるように感じました。この記事では追いませんが、[複数ハンドラーが存在した場合の compose とその実行の定義](https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/compose.ts#L20-L95)を見ていくと、同じように感じるかもしれません。
+それほど複雑な処理ではなさそうに見えますが、私には Context インスタンス `c` が上手に緩衝しているおかげのように感じました。この記事では追いませんが、
+`resolved || (c.finalized ? c.res : this.#notFoundHandler(c))
+` という処理や[段階4.2 (複数ハンドラーが存在した場合) のハンドラーの compose とその実行の処理](https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/compose.ts#L20-L95)を見ていただけると、同じように感じるかもしれません。
 
-この Context インスタンス `c` は[サンプルコード中の `app.get('/', (c) => c.text('Hono!'))` の `c` と同じもの](https://hono.dev/docs/api/context#context)です。利用者視点としても Context は重要な存在ですが、開発においても重要な存在でありそうなことがわかりました。
+この Context インスタンス `c` は、[サンプルコード中の `app.get('/', (c) => c.text('Hono!'))` の `c` と同じもの](https://hono.dev/docs/api/context#context)です。Hono の利用者視点としても Context は重要な存在ですが、開発においても同様でありそうなことがわかりました。
 
-(コードの理解を助けるための補足: `this.router.match()` の返値 `matchResult` は以下のようなハンドラーとパラメーターの多次元配列となっています)
+(段階 4.1 のコードの理解を助けるための補足: `this.router.match()` の返値 `matchResult` は以下のようなハンドラーとパラメーターの多次元配列となっています)
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/router.ts#L66-L98
 
 
 # おわりに
 
-「サーバーってどうやって実装するんや？」という好奇心から始まった今回の記事ですが、コードリーディングを通じて内部実装や設計思想をより深く理解することができました。
-しかし、今回は多くのコードを割愛してしまったので、ぜひ、ご自分でコードを読んでいただければと思います。
+最近話題のサーバーはどのように実装されているのか、という好奇心を出発点とした内容にしましたがいかがでしたか？
+個人的には、コードリーディングを通じて、フレームワークをより深く理解するだけでなく、「そんな実装ありなの！？」という発見がいくつもあってとても楽しかったです。
 
-少し肉厚な記事になってしまいましたが、Hono の魅力は伝わったでしょうか。フレームワークの内部を理解することで、より効果的に活用できるだけでなく、コントリビュートのハードルも下がったのなら幸いです。
+今回紹介できた Hono のコードは限られた箇所になりましたが、Hono の魅力は伝わったでしょうか。少しでも興味が沸いたのであれば、ご自身でもコードを読んでいただければ嬉しいです。
+また、この記事が少しでもコントリビュートのハードルを下げるきっかけになればと思います。
+
 最後までお読みいただき、ありがとうございました。
 
-明日の記事は、[あいうち](https://x.com/hkt100rtkn) さんの「なにかかきます」です。お楽しみに！
+明日の [🎅 GMOペパボ エンジニア Advent Calendar 2024](https://adventar.org/calendars/10036) の記事は、[あいうち](https://x.com/hkt100rtkn) さんによる「なにかかきます」です。お楽しみに！
+
+# おまけ: 個人的に驚いた実装
+
+`match()` メソッドを実行すると、matchers をビルドしてから自身のメソッド `match()` に新しいメソッドを上書き代入することで、matchers をキャッシュするような実装になっていました (と理解しました)。
+
+https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/router/reg-exp-router/router.ts#L208-L231
