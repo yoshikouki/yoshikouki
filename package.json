@@ -12,14 +12,14 @@
     "zenn:list": "zenn list"
   },
   "workspaces": ["apps/*"],
+  "dependencies": {
+    "zenn-cli": "^0.1.158"
+  },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^1.9.4",
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "dependencies": {
-    "zenn-cli": "^0.1.158"
+    "typescript": "^5.7.2"
   }
 }
