@@ -6,6 +6,7 @@ const INPUTS_STORE_FILE_PATH = `${process.cwd()}/${INPUTS_STORE_FILE_NAME}`;
 type Input = {
   url: string;
   date: string;
+  id: string;
 };
 type Inputs = Input[];
 
@@ -35,5 +36,5 @@ export const storeUrl = async (url: string) => {
   const jstDate = new Date().toLocaleString("ja-JP", {
     timeZone: "Asia/Tokyo",
   });
-  return await save({ url, date: jstDate });
+  return await save({ url, date: jstDate, id: crypto.randomUUID() });
 };
