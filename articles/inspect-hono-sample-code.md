@@ -14,7 +14,7 @@ published: false
 
 最近注目を集めている Web アプリケーションフレームワーク **Hono**。そのシンプルさと高速性、そして Web Standards に準拠した設計が多くの開発者から支持を得ています。
 
-本記事では、[Hono 公式ドキュメント](https://hono.dev/docs/) に記載されている以下のサンプルコードを題材に、リクエストしたときに内部で何が起こっているのか、リポジトリ [`honojs/hono`](https://github.com/honojs/hono) のコードを読み解いていきます。
+本記事では、[Hono 公式ドキュメント](https://hono.dev/docs/) に記載されている以下のサンプルコードを題材に、アプリケーション実行とリクエスト時に内部で何が起こっているのか、リポジトリ [`honojs/hono`](https://github.com/honojs/hono) のコードを読み解いていきます。
 
 ```typescript
 import { Hono } from 'hono'
@@ -29,7 +29,10 @@ export default app
 
 # Hono とは
 
-Hono について、公式ドキュメントでは以下のように説明されています。
+Hono は JavaScript の Web アプリケーションフレームワークです。APIサーバーだけでなく、Web ページや Web アプリケーションも開発・組み込みができます。
+組み込みとは、例えば [Next.js App Router の Route Handlers のリクエストを Hono で捌く](https://hono.dev/docs/getting-started/vercel#_2-hello-world)ようにすることも可能です。
+
+公式ドキュメントでは以下のように説明されています。
 
 > Hono
 > Web application framework
@@ -48,9 +51,8 @@ Hono について、公式ドキュメントでは以下のように説明され
 
 @[speakerdeck](ba737f6fa2a44036875b3d96078fac67)
 
-# サンプルコードの挙動
 
-では、サンプルコードの挙動を見ていきましょう。
+# サンプルコードの挙動
 
 ```typescript:src/index.ts
 import { Hono } from 'hono'
@@ -74,11 +76,12 @@ Hono!
 $
 ```
 
-レスポンスが返ってきましたね。
+レスポンスが返ってきましたね。たった4行のコードでAPIサーバーを作ることができました。
+
 
 # サンプルコードの内側
 
-早速コードの中身を見ていきましょう。
+早速内側を見ていきましょう。
 
 ## `class Hono`
 
@@ -106,11 +109,11 @@ export class Hono<
 ```
 
 
-この constructor では、`HonoBase` の constructor の呼び出しの他に、`this.router` を初期化しています。
+この constructor では、`HonoBase` の constructor の呼び出しの他にも、プロパティ `router` を初期化しています。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono.ts#L21-L33
 
-ルーターの初期値は `SmartRouter` です。[公式ドキュメント Routers](https://hono.dev/docs/concepts/routers) では、SmartRouter を含め合計5つのルーターが紹介されています。
+ルーターのデフォルト値は `SmartRouter` です。[公式ドキュメント Routers](https://hono.dev/docs/concepts/routers) では、SmartRouter を含め合計5つのルーターが紹介されています。
 
 なお、このルーターに関しては、[先に紹介した @yusukebe さんのスライド](https://speakerdeck.com/yusukebe/hononolai-tadao-tokorekara?slide=29)にも出てくる熱い話題の一つです。Hono の早さを実現している一つであり、その誕生のきっかけともなった部分でもあるみたいなので、是非ドキュメントと一緒にスライドもご覧ください。
 
@@ -120,7 +123,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 ## `class HonoBase`
 
-次に `super(options)` で呼び出されている `HonoBase` クラスの中身を見ていきましょう。
+次に `super(options)` で呼び出されているクラス `HonoBase` を見ていきましょう。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono.ts#L1
 
@@ -130,8 +133,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L102-L123
 (長いため序盤のみをリンク)
 
-103 行目にインスタンスメソッドとして `get!: HandlerInterface<E, 'get', S, BasePath>` が定義されています。
-`get!` の `!` は、definite assignment assertion というもので、メソッド `get()` が constructor で必ず初期化されることを示しています。
+103 行目にインスタンスメソッドとして `get!: HandlerInterface<E, 'get', S, BasePath>` が宣言されています。`get!` の `!` は、definite assignment assertion というもので、メソッド `get()` が constructor で必ず初期化されることを示しています。
 
 https://typescriptbook.jp/reference/values-types-variables/definite-assignment-assertion
 
@@ -139,10 +141,10 @@ https://typescriptbook.jp/reference/values-types-variables/definite-assignment-a
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L113-L117
 
-型 `H` は Handler または MiddlewareHandler です。
+型 `H` は Handler または MiddlewareHandler です。サンプルコード `app.get('/', (c) => c.text('Hono!'))` の `(c) => c.text('Hono!')` の箇所がハンドラーです。
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/types.ts#L85-L90
 
-123 行目で `routes: RouterRoute[] = []` として、ルート (エンドポイント) が空の配列として初期化されていることにも注目してください。後ほど登場します。
+123 行目で `routes: RouterRoute[] = []` と、ルート (エンドポイント) が空の配列として初期化されています。後ほど登場します。
 
 `HonoBase` の constructor を見ると、次の箇所で `app.get()` のような HTTP メソッドに対応するインスタンスメソッドが定義されています。
 
@@ -167,7 +169,7 @@ class Hono<E extends Env = Env, S extends Schema = {}, BasePath extends string =
 
 ## `class HonoBase get()`
 
-各 HTTP メソッドのインスタンスメソッド (e.g. `app.get(path, ...handlers[])`) は、以下のように定義されていました。
+各 HTTP メソッドに対応するインスタンスメソッド (e.g. `app.get(path, ...handlers[])`) は、以下のように定義されていました。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L129-L139
 
@@ -183,7 +185,6 @@ app.get('/', (c) => c.text('Hono!'))
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L130-L131
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L121
-(`#` はプライベートプロパティを表すシンタックスです [Private properties - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties))
 
 2. 第二引数以降のハンドラー毎に、プライベートメソッド `#addRoute()` が呼び出される
 
@@ -325,7 +326,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 コメントに「`.fetch()` will be entry point of your app」と書かれていること、そして引数に Request を取り Response を返すことで、このメソッドが [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) に近い実装になっていることがわかります。
 
-これについて、[公式ドキュメント Web Standards](https://hono.dev/docs/concepts/web-standard) には以下のように書かれています。
+[公式ドキュメント Web Standards](https://hono.dev/docs/concepts/web-standard) には以下のように書かれています。
 
 > Hono uses only Web Standards like Fetch. They were originally used in the fetch function and consist of basic objects that handle HTTP requests and responses. In addition to Requests and Responses, there are URL, URLSearchParam, Headers and others.
 > (中略)
@@ -335,9 +336,9 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 > （中略）
 > Hono は Web 標準のみを使用しているため、それらをサポートするあらゆるランタイムで動作できます。さらに、Node.js 用のアダプターも用意しています。Hono は以下のランタイムで動作します：
 
-Hono の謳い文句である「Support for any JavaScript runtime」は、`fetch()` の実装によって裏付けられているようにも思えます。
+Hono の謳い文句である「Support for any JavaScript runtime」は、HonoBase の`fetch()` の実装によって裏付けられているようにも思えます。
 
-さて、改めて整理すると、ここまで見てきたのはサンプルコードによって Hono アプリケーションが起動するところまでです。すでに肉厚な内容になっているようにも思えますが、まだ起動したサーバーがリクエストを処理する部分が残っています。
+さて、ここまでを改めて整理すると、見てきたのはサンプルコードによって Hono アプリケーションが起動するところまでです。すでに肉厚な内容になっているようにも思えますが、まだ起動したサーバーがリクエストを処理する部分が残っています。
 
 ここからは `$ curl localhost:3000/` などでアクセスした際のサーバーの処理を見ていきましょう。
 
@@ -370,6 +371,8 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 この4つの段階を経て、リクエスト `$ curl localhost:3000/` のレスポンス `"Hono!"` が返されます。
 
+### `this.router.match()`
+
 個人的に注目したいのは、段階 2 の `this.router.match()` です。
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L402-L405
@@ -382,7 +385,13 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 とても面白そうなのでそれぞれを深掘りしてみたいところなのですが、ここでは割愛します。
 
+### ハンドラーの実行
+
 さて、サンプルコードで登録している `GET "/"` に合致するハンドラーは一つだけなので、処理は段階 4.1 に進みます。
+
+> 4. 段階 2 で取得したハンドラーの数で分岐
+>    1. 1つの場合は、そのハンドラーを実行してレスポンスを返す
+>    2. 複数の場合は、ハンドラーを順番に実行できるようにまとめて、その実行結果のレスポンスを返す
 
 https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/hono-base.ts#L414-L433
 
@@ -392,7 +401,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 `resolved || (c.finalized ? c.res : this.#notFoundHandler(c))
 ` という処理や[段階4.2 (複数ハンドラーが存在した場合) のハンドラーの compose とその実行の処理](https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src/compose.ts#L20-L95)を見ていただけると、同じように感じるかもしれません。
 
-この Context インスタンス `c` は、[サンプルコード中の `app.get('/', (c) => c.text('Hono!'))` の `c` と同じもの](https://hono.dev/docs/api/context#context)です。Hono の利用者視点としても Context は重要な存在ですが、開発においても同様でありそうなことがわかりました。
+この Context インスタンス `c` は、[サンプルコード中の `app.get('/', (c) => c.text('Hono!'))` の `c` と同じもの](https://hono.dev/docs/api/context#context)です。Hono の利用者視点として Context は重要な存在ですが、開発においても同様でありそうなことがわかりました。
 
 (段階 4.1 のコードの理解を助けるための補足: `this.router.match()` の返値 `matchResult` は以下のようなハンドラーとパラメーターの多次元配列となっています)
 
