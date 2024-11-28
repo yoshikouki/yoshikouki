@@ -19,7 +19,7 @@ const getUrl = (): string => {
 
 const fetchTitleByPuppeteer = async (url: string): Promise<string> => {
   const browser = await puppeteer.launch({
-    headless: "new",
+    headless: true,
   });
   const page = await browser.newPage();
   try {

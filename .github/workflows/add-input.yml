@@ -31,7 +31,7 @@ jobs:
         URL: ${{ github.event.client_payload.url }}
       run: |
         printf "%s\n%s" \
-          "$(bun apps/add-inputs/index.ts "${{ github.event.client_payload.url }}")" \
+          "$(bun apps/add-inputs/src/index.ts "${{ github.event.client_payload.url }}")" \
           "$(cat ./Inputs.md)" \
           > temp
         mv -f temp ./Inputs.md
