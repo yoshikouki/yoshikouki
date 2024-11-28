@@ -1,6 +1,6 @@
 import { $ } from "bun";
 
-const INPUTS_STORE_FILE_NAME = "Inputs.json";
+const INPUTS_STORE_FILE_NAME = "inputs.json";
 const INPUTS_STORE_FILE_PATH = `${process.cwd()}/${INPUTS_STORE_FILE_NAME}`;
 
 type Input = {
