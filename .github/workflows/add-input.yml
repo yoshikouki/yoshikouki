@@ -26,20 +26,5 @@ jobs:
         bun --filter=add-inputs install:chrome
 
     - name: Run script and Update file
-      id: script
-      env:
-        URL: ${{ github.event.client_payload.url }}
       run: |
-        printf "%s\n%s" \
-          "$(bun apps/add-inputs/src/index.ts "${{ github.event.client_payload.url }}")" \
-          "$(cat ./Inputs.md)" \
-          > temp
-        mv -f temp ./Inputs.md
-
-    - name: Commit and push changes
-      run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email 'actions@github.com'
-        git add ./Inputs.md
-        git commit -m "Add Input by GitHub Actions"
-        git push
+        bun apps/add-inputs/src/index.ts "${{ github.event.client_payload.url }}"
