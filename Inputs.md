@@ -1,3 +1,4 @@
+
 - [忙しい人向けのRust](https://zenn.dev/k_azuma/articles/c43044820017e4): 2024/11/28
 - [Minimum Common Web Platform API](https://min-common-api.proposal.wintercg.org/): 2024/11/25
 - [38歳、リクルートを辞めて、Yardを起業しました](https://zenn.dev/toitech/articles/19087df4a76d49): 2024/11/25
