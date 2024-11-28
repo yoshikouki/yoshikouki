@@ -1,5 +1,5 @@
 {
-  "name": "yoshikouki",
+  "name": "add-inputs",
   "type": "module",
   "scripts": {
     "install:chrome": "bun --bun x @puppeteer/browsers install chrome --path $(pwd)/node_modules/@puppeteer"
