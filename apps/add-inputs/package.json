@@ -9,5 +9,8 @@
     "puppeteer": "^22.2.0",
     "sanitize-html": "^2.11.0",
     "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/sanitize-html": "^2.13.0"
   }
 }
