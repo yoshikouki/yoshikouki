@@ -1,4 +1,4 @@
-import { load } from "cheerio";
+import iconv from "iconv-lite";
 import puppeteer from "puppeteer";
 import sanitizeHtml from "sanitize-html";
 
@@ -25,19 +25,24 @@ const fetchTitleByPuppeteer = async (url: string): Promise<string> => {
 };
 
 const extractTitle = (html: string): string => {
-  const $ = load(html);
-  const title = $("head title").text();
+  const title = html.match(/<title>(.*?)<\/title>/)?.[1] || "";
   return title;
 };
 
 const fetchTitle = async (url: string): Promise<string> => {
   const response = await fetch(url);
-  if (response.status !== 200) {
-    throw new Error(
-      `Failed to retrieve the content. HTTP status: ${response.status}`,
-    );
-  }
-  const html = await response.text();
+  const buffer = await response.arrayBuffer();
+
+  // まずUTF-8でデコードしてメタタグを確認
+  const utf8Html = new TextDecoder("utf-8").decode(buffer);
+  const metaCharset = utf8Html
+    .match(/<meta[^>]*charset=["']?([^"'>;]*)/i)?.[1]
+    ?.toLowerCase();
+
+  const html = metaCharset?.includes("shift")
+    ? iconv.decode(Buffer.from(buffer), "shift-jis")
+    : utf8Html;
+
   const title = extractTitle(html);
   return title;
 };
