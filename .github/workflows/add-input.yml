@@ -11,21 +11,19 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - uses: oven-sh/setup-bun@v1
+    - uses: oven-sh/setup-bun@v2
       with:
         bun-version: latest
 
     - uses: actions/cache@v4
       with:
-        path: apps/add-inputs/node_modules
+        path: node_modules
         key: ${{ runner.os }}-${{ hashFiles('**/bun.lockb') }}
-        restore-keys: |
-          ${{ runner.os }}-
 
     - name: Install dependencies
       run: |
-        bun i --cwd apps/add-inputs
-        bun run --cwd apps/add-inputs install:chrome
+        bun --filter add-inputs install
+        bun --filter add-inputs install:chrome
 
     - name: Run script and Update file
       id: script
