@@ -22,8 +22,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        bun --filter add-inputs install
-        bun --filter add-inputs install:chrome
+        bun --filter=add-inputs install
+        bun --filter=add-inputs install:chrome
 
     - name: Run script and Update file
       id: script
