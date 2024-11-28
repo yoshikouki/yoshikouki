@@ -11,6 +11,7 @@
     "zenn:preview": "zenn preview",
     "zenn:list": "zenn list"
   },
+  "workspaces": ["apps/*"],
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
     "@types/bun": "latest"
