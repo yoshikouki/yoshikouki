@@ -13,11 +13,14 @@ const read = async (): Promise<Inputs> => {
   return await Bun.file(INPUTS_STORE_FILE_PATH).json();
 };
 
-const commit = async () => {
+const commit = async (input?: Input) => {
+  const commitMessage = input
+    ? `Added input ${input.url.replace(/^https?:\/\//, "")}`
+    : "Added input";
   await $`git config --global user.name 'Input Bot'`;
   await $`git config --global user.email 'actions@github.com'`;
   await $`git add ${INPUTS_STORE_FILE_PATH}`;
-  await $`git commit -m 'Add input by Input Bot'`;
+  await $`git commit -m '${commitMessage}'`;
   await $`git push`;
 };
 
