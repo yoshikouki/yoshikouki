@@ -22,7 +22,13 @@ const commit = async (input?: Input) => {
   await $`git config --global user.email 'actions@github.com'`;
   await $`git add ${INPUTS_STORE_FILE_PATH}`;
   await $`git commit -m '${commitMessage}'`;
-  await $`git push`;
+  try {
+    await $`git push`;
+  } catch (error) {
+    console.error(error);
+    await $`git pull --rebase`;
+    await $`git push`;
+  }
 };
 
 const save = async (input: Input): Promise<Inputs> => {
