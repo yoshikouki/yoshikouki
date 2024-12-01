@@ -8,7 +8,7 @@ published: false
 
 この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2024](https://adventar.org/calendars/10036)」の2日目の記事です。
 
-昨日は、[@n01e0](https://feneshi.co/) さんの「なんかします」でした。
+昨日の記事は、[@n01e0](https://feneshi.co/) さんの「[proc_macroによる錆びつかない実装とGitHub Actionsにおけるsecret](https://feneshi.co/robust_implementation_with_proc_macro/)」でした。OpenAI のモデルアップデートを自動化する手法に留まらず、GitHub Actions の secret が漏洩する危険性を指摘した記事でした。怖い。
 
 # はじめに
 
@@ -36,13 +36,13 @@ Hono は JavaScript の Web アプリケーションフレームワークです�
 
 > Hono
 > Web application framework
-> 
+>
 > Fast, lightweight, built on Web Standards. Support for any JavaScript runtime.
 
 [Hono - Web framework built on Web Standards](https://hono.dev/)
 
 > Hono - means flame 🔥 in Japanese - is a small, simple, and ultrafast web framework built on Web Standards. It works on any JavaScript runtime: Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, Netlify, AWS Lambda, Lambda@Edge, and Node.js.
-> 
+>
 > Hono（日本語で「炎🔥」を意味します）は、Web 標準に基づいて構築された、小さく、シンプルで、超高速なウェブフレームワークです。Cloudflare Workers、Fastly Compute、Deno、Bun、Vercel、Netlify、AWS Lambda、Lambda@Edge、Node.js など、あらゆる JavaScript ランタイムで動作します。
 
 [Hono - Web framework built on Web Standards](https://hono.dev/docs/)
@@ -418,7 +418,7 @@ https://github.com/honojs/hono/blob/76b7109d0c15dc85a947741593630460224f7b81/src
 
 最後までお読みいただき、ありがとうございました。
 
-明日の [🎅 GMOペパボ エンジニア Advent Calendar 2024](https://adventar.org/calendars/10036) の記事は、[あいうち](https://x.com/hkt100rtkn) さんによる「なにかかきます」です。お楽しみに！
+明日の [🎅 GMOペパボ エンジニア Advent Calendar 2024](https://adventar.org/calendars/10036) の担当は[あいうち](https://x.com/hkt100rtkn) さんです。お楽しみに！
 
 # おまけ: 個人的に驚いた実装
 
