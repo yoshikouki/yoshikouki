@@ -3,7 +3,7 @@ title: "Hono のサンプルコードの内側を覗く"
 emoji: "🔥"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Hono", "JavaScript", "TypeScript"]
-published: false
+published: true
 ---
 
 この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2024](https://adventar.org/calendars/10036)」の2日目の記事です。
