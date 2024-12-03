@@ -1,8 +1,11 @@
 name: Add input
 
 on:
-  repository_dispatch:
-    types: [add-input]
+  push:
+    branches:
+      - main
+    paths:
+      - inputs.json
 
 jobs:
   add-input:
@@ -23,7 +26,8 @@ jobs:
     - name: Install dependencies
       run: |
         bun --filter=add-inputs install
+        bun --filter=add-inputs install:chrome
 
     - name: Run script and Update file
       run: |
-        bun apps/add-inputs/src/index.ts "${{ github.event.client_payload.url }}"
+        bun apps/add-inputs/src/json-to-md.ts

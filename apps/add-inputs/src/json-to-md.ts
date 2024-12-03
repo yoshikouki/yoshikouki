@@ -43,6 +43,7 @@ export const convertJsonToMd = async (
 if (import.meta.main) {
   const json = await Bun.file("inputs.json").json();
   const { md, json: newJson } = await convertJsonToMd(json);
+  if (!md) process.exit(0);
   await addMdTableRows(md);
   await writeInputsJson(newJson);
 }
