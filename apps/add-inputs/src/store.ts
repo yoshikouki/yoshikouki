@@ -2,13 +2,14 @@ import { $ } from "bun";
 
 const INPUTS_STORE_FILE_NAME = "inputs.json";
 const INPUTS_STORE_FILE_PATH = `${process.cwd()}/${INPUTS_STORE_FILE_NAME}`;
+const INPUTS_MARKDOWN_FILE_PATH = `${process.cwd()}/inputs.md`;
 
-type Input = {
+export type Input = {
   url: string;
   date: string;
   id: string;
 };
-type Inputs = Input[];
+export type Inputs = Input[];
 
 const read = async (): Promise<Inputs> => {
   return await Bun.file(INPUTS_STORE_FILE_PATH).json();
@@ -31,9 +32,19 @@ const commit = async (input?: Input) => {
   }
 };
 
+export const writeInputsJson = async (inputs: Inputs) => {
+  await Bun.write(INPUTS_STORE_FILE_PATH, JSON.stringify(inputs, null, 2));
+};
+
+export const addMdTableRows = async (md: string) => {
+  const lines = (await Bun.file(INPUTS_MARKDOWN_FILE_PATH).text()).split("\n");
+  const newLines = [...lines.slice(0, 2), md, ...lines.slice(2)];
+  await Bun.write(INPUTS_MARKDOWN_FILE_PATH, newLines.join("\n"));
+};
+
 const save = async (input: Input): Promise<Inputs> => {
   const newJson = [input, ...(await read())];
-  await Bun.write(INPUTS_STORE_FILE_PATH, JSON.stringify(newJson, null, 2));
+  await writeInputsJson(newJson);
   await commit();
   return newJson;
 };

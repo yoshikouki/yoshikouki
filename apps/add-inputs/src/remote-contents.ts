@@ -63,6 +63,8 @@ const formatContent = (content: string): string => {
     .replace(/\s{2,}/g, " ")
     // Escape backticks
     .replace(/`/g, "\\`")
+    // Escape pipe
+    .replace(/\|/g, "\\|")
     .trim();
   const truncatedContent = truncate(formattedContent, 100);
   return truncatedContent;
@@ -75,19 +77,19 @@ const sanitize = (input: string): string => {
   });
 };
 
-const isTwitterUrl = (url: string): boolean => {
+export const isTwitterUrl = (url: string): boolean => {
   return /(twitter|x)\.com/.test(url);
 };
 
-export const getContent = async (url: string): Promise<string> => {
-  let rawContent: string;
+const fetchContent = async (url: string): Promise<string> => {
   if (isTwitterUrl(url)) {
-    // For Twitter, return the tweet text
-    rawContent = await fetchTitleByPuppeteer(url);
-  } else {
-    // For other sites, return the page title
-    rawContent = await fetchTitle(url);
+    return await fetchTitleByPuppeteer(url);
   }
+  return await fetchTitle(url);
+};
+
+export const getContent = async (url: string): Promise<string> => {
+  const rawContent = await fetchContent(url);
   if (!rawContent) {
     throw new Error("Failed to retrieve the content. No title found");
   }
