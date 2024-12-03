@@ -1,8 +1,8 @@
 import { $ } from "bun";
 
 const INPUTS_STORE_FILE_NAME = "inputs.json";
-const INPUTS_STORE_FILE_PATH = `${process.cwd()}/${INPUTS_STORE_FILE_NAME}`;
-const INPUTS_MARKDOWN_FILE_PATH = `${process.cwd()}/inputs.md`;
+export const INPUTS_STORE_FILE_PATH = `${process.cwd()}/${INPUTS_STORE_FILE_NAME}`;
+export const INPUTS_MARKDOWN_FILE_PATH = `${process.cwd()}/inputs.md`;
 
 export type Input = {
   url: string;
@@ -15,14 +15,17 @@ const read = async (): Promise<Inputs> => {
   return await Bun.file(INPUTS_STORE_FILE_PATH).json();
 };
 
-const commit = async (input?: Input) => {
-  const commitMessage = input
-    ? `Added input ${input.url.replace(/^https?:\/\//, "")}`
-    : "Added input";
+export const commit = async ({
+  files,
+  message,
+}: {
+  files: string[];
+  message: string;
+}) => {
   await $`git config --global user.name 'Input Bot'`;
   await $`git config --global user.email 'actions@github.com'`;
-  await $`git add ${INPUTS_STORE_FILE_PATH}`;
-  await $`git commit -m '${commitMessage}'`;
+  await $`git add ${files.join(" ")}`;
+  await $`git commit -m '${message}'`;
   try {
     await $`git push`;
   } catch (error) {
@@ -45,7 +48,12 @@ export const addMdTableRows = async (md: string) => {
 const save = async (input: Input): Promise<Inputs> => {
   const newJson = [input, ...(await read())];
   await writeInputsJson(newJson);
-  await commit();
+  await commit({
+    files: [INPUTS_STORE_FILE_PATH],
+    message: input
+      ? `Added input ${input.url.replace(/^https?:\/\//, "")}`
+      : "Added input",
+  });
   return newJson;
 };
 

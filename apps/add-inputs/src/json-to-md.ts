@@ -1,8 +1,11 @@
 import { getContent } from "./remote-contents";
 import {
+  INPUTS_MARKDOWN_FILE_PATH,
+  INPUTS_STORE_FILE_PATH,
   type Input,
   type Inputs,
   addMdTableRows,
+  commit,
   writeInputsJson,
 } from "./store";
 
@@ -46,4 +49,8 @@ if (import.meta.main) {
   if (!md) process.exit(0);
   await addMdTableRows(md);
   await writeInputsJson(newJson);
+  await commit({
+    files: [INPUTS_STORE_FILE_PATH, INPUTS_MARKDOWN_FILE_PATH],
+    message: "Convert inputs.json to inputs.md",
+  });
 }
