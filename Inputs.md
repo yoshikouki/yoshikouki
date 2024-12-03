@@ -1,5 +1,27 @@
 | Date | Title |
 | ---- | ----- |
+| 2024/12/3 | [DevTools の使い方を可能な限りスクショ付きで解説してみる](https://zenn.dev/mizchi/scraps/c72e6a55deca18) |
+| 2024/12/3 | [仮想通貨Botterに贈るRust×bot開発 あるある21連発](https://zenn.dev/harui/articles/246013c5de1f72) |
+| 2024/12/3 | [GitHub - ysk8hori/typescript-graph: A CLI to visualize the dependencies between files in the TypeSc…](https://github.com/ysk8hori/typescript-graph) |
+| 2024/12/2 | [GitHub - ysk8hori/typescript-graph: A CLI to visualize the dependencies between files in the TypeSc…](https://github.com/ysk8hori/typescript-graph) |
+| 2024/12/2 | [Honoの来た道とこれから 文字版！](https://zenn.dev/yusukebe/articles/1abed4d99e8893) |
+| 2024/12/2 | [Honoマイベストプラクティス](https://zenn.dev/yodaka/articles/ad49f29a54ceba) |
+| 2024/12/2 | [2024年始めたこと - kurehajime.com](https://kurehajime.com/79215d87-3b54-4460-84b0-19f02d68494e/) |
+| 2024/12/2 | [【最強】Honoフル活用事例2024年](https://zenn.dev/oliver/articles/hono-advent-calendar-2024) |
+| 2024/12/1 | [nuxt generateの際に「[BABEL] Note: The code generator has deoptimised the styling of」のメッセージ #Nuxt - Qii…](https://qiita.com/someone7140/items/5acfc94c63f16115ac99) |
+| 2024/12/1 | [Xユーザーのおたけさん: 「飲み会不要論が出ると思い出すリクルート新卒同期の話。彼は飲み会得意じゃなくて全然来なかったけど、将棋好きな当時の役員に社内メールで対局申し込んで完封。それが気に入られてよ…](https://x.com/otakeeeeeee/status/1862809325313626460?s=12&t=euSCvMMuq2M2dWlmbmTgvA) |
+| 2024/12/1 | [proc_macroによる錆びつかない実装とGitHub Actionsにおけるsecret](https://feneshi.co/robust_implementation_with_proc_macro/) |
+| 2024/11/30 | [読書習慣をサポートするWebサービス「Tsundoku」をリリースしました！！](https://zenn.dev/recky/articles/tsundoku_release_notes) |
+| 2024/11/30 | [Zennでバッジを贈りまくっていたらZenn User Groupクローズドイベントに招待された件](https://zenn.dev/unsoluble_sugar/articles/ab48d7ad8c6f38) |
+| 2024/11/29 | [年会費5万円ラグジュアリーカードを選ぶ20代　ポイント経済圏に疲れ　YOUTH FINANCE⑫ - 日本経済新聞](https://www.nikkei.com/article/DGXZQOUB240OP0U4A121C2000000/) |
+| 2024/11/29 | [目指せグローバルエンジニア！今日から使えるシーン別英語表現20選](https://zenn.dev/loglass/articles/e5138fb0a7c9e7) |
+| 2024/11/28 | [GitHub - bnoordhuis/node-iconv: node.js iconv bindings - text recoding for fun and profit!](https://github.com/bnoordhuis/node-iconv) |
+| 2024/11/28 | [How to use CSS variables with React • Josh W. Comeau](https://www.joshwcomeau.com/css/css-variables-for-react-devs/#dark-mode-flash-fix-7) |
+| 2024/11/28 | [3分で完全理解する「ガード節」](https://zenn.dev/satoshiakatsuka/articles/55e59ffeb854f7) |
+| 2024/11/28 | [yoshikouki/inputs.json at main · yoshikouki/yoshikouki · GitHub](https://github.com/yoshikouki/yoshikouki/blob/main/inputs.json) |
+| 2024/11/28 | [UUIDとULIDを理解していない方は見た方がいい記事](https://zenn.dev/kazu1/articles/e8a668d1d27d6b) |
+| 2024/11/28 | [GitHub - steveukx/git-js: A light weight interface for running git commands in any node.js applicat…](https://github.com/steveukx/git-js?tab=readme-ov-file#how-to-specify-options) |
+| 2024/11/28 | [yoshikouki/inputs.json at main · yoshikouki/yoshikouki · GitHub](https://github.com/yoshikouki/yoshikouki/blob/main/inputs.json) |
 | 2024/11/28 | [忙しい人向けのRust](https://zenn.dev/k_azuma/articles/c43044820017e4) |
 | 2024/11/25 | [Minimum Common Web Platform API](https://min-common-api.proposal.wintercg.org/) |
 | 2024/11/25 | [38歳、リクルートを辞めて、Yardを起業しました](https://zenn.dev/toitech/articles/19087df4a76d49) |
