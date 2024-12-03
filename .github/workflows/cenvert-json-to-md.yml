@@ -1,4 +1,4 @@
-name: Add input
+name: Convert inputs.json to inputs.md
 
 on:
   push:
@@ -6,9 +6,10 @@ on:
       - main
     paths:
       - inputs.json
+  workflow_dispatch:
 
 jobs:
-  add-input:
+  convert-json-to-md:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
