@@ -26,7 +26,7 @@ export const convertJsonToMd = async (
   const mdRows = [];
   const newInputs = [];
   const inputs = _inputs.sort(
-    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime(),
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
   );
   for (let i = 0; i < inputs.length; i++) {
     const input = inputs[i];
