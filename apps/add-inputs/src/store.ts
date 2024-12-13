@@ -24,7 +24,9 @@ export const commit = async ({
 }) => {
   await $`git config --global user.name 'Input Bot'`;
   await $`git config --global user.email 'actions@github.com'`;
-  await Promise.all(files.map((file) => $`git add ${file}`));
+  for (const file of files) {
+    await $`git add ${file}`;
+  }
   await $`git commit -m '${message}'`;
   try {
     await $`git push`;
