@@ -1,5 +1,7 @@
 | Date | Title |
 | ---- | ----- |
+| 2024/12/13 | [年収550～800万円台の「転職上手」なエンジニアほど危うい時代に？【久松剛解説】 - エンジニアtype \| 転職type](https://type.jp/et/feature/25248/) |
+| 2024/12/14 | [TechFeed - エンジニアのための技術情報収集＆共有プラットフォーム](https://techfeed.io/entries/675a01f52f9b0d14a315ac7d) |
 | 2024/12/3 | [DevTools の使い方を可能な限りスクショ付きで解説してみる](https://zenn.dev/mizchi/scraps/c72e6a55deca18) |
 | 2024/12/3 | [仮想通貨Botterに贈るRust×bot開発 あるある21連発](https://zenn.dev/harui/articles/246013c5de1f72) |
 | 2024/12/3 | [GitHub - ysk8hori/typescript-graph: A CLI to visualize the dependencies between files in the TypeSc…](https://github.com/ysk8hori/typescript-graph) |
