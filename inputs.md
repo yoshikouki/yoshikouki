@@ -1,5 +1,7 @@
 | Date | Title |
 | ---- | ----- |
+| 2024/12/14 | [TechFeed - エンジニアのための技術情報収集＆共有プラットフォーム](https://techfeed.io/entries/675a01f52f9b0d14a315ac7d) |
+| 2024/12/13 | [年収550～800万円台の「転職上手」なエンジニアほど危うい時代に？【久松剛解説】 - エンジニアtype \| 転職type](https://type.jp/et/feature/25248/) |
 | 2024/12/13 | [日本のエンジニアは甘すぎ？ 「初学者への育成論」が米国からみると超不毛な理由 - エンジニアtype \| 転職type](https://type.jp/et/feature/27363/) |
 | 2024/12/13 | [無自覚にメンバーの心理的安全性を奪っていた経験から得た学び - Speaker Deck](https://speakerdeck.com/lighttiger2505/wu-zi-jue-nimenbanoxin-li-de-an-quan-xing-woduo-tuteitajing-yan-karade-taxue-bi) |
 | 2024/12/12 | [githubで人生を管理する](https://zenn.dev/hand_dot/articles/85c9640b7dcc66) |
@@ -39,8 +41,6 @@
 | 2024/12/5 | [モテるGit管理 (gh, ghq, git-cz, lazygit)](https://zenn.dev/mozumasu/articles/mozumasu-lazy-git) |
 | 2024/12/4 | [なぜ僕はデザイナーの作ったデザインを「見づらい」と感じてしまうのか](https://yuheiy.com/2024-12-01-i-am-not-a-visual-thinker) |
 | 2024/12/4 | [GitHub - ysk8hori/typescript-graph: A CLI to visualize the dependencies between files in the TypeSc…](https://github.com/ysk8hori/typescript-graph) |
-| 2024/12/13 | [年収550～800万円台の「転職上手」なエンジニアほど危うい時代に？【久松剛解説】 - エンジニアtype \| 転職type](https://type.jp/et/feature/25248/) |
-| 2024/12/14 | [TechFeed - エンジニアのための技術情報収集＆共有プラットフォーム](https://techfeed.io/entries/675a01f52f9b0d14a315ac7d) |
 | 2024/12/3 | [DevTools の使い方を可能な限りスクショ付きで解説してみる](https://zenn.dev/mizchi/scraps/c72e6a55deca18) |
 | 2024/12/3 | [仮想通貨Botterに贈るRust×bot開発 あるある21連発](https://zenn.dev/harui/articles/246013c5de1f72) |
 | 2024/12/3 | [GitHub - ysk8hori/typescript-graph: A CLI to visualize the dependencies between files in the TypeSc…](https://github.com/ysk8hori/typescript-graph) |
