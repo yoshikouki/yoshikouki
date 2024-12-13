@@ -1,5 +1,44 @@
 | Date | Title |
 | ---- | ----- |
+| 2024/12/13 | [日本のエンジニアは甘すぎ？ 「初学者への育成論」が米国からみると超不毛な理由 - エンジニアtype \| 転職type](https://type.jp/et/feature/27363/) |
+| 2024/12/13 | [無自覚にメンバーの心理的安全性を奪っていた経験から得た学び - Speaker Deck](https://speakerdeck.com/lighttiger2505/wu-zi-jue-nimenbanoxin-li-de-an-quan-xing-woduo-tuteitajing-yan-karade-taxue-bi) |
+| 2024/12/12 | [githubで人生を管理する](https://zenn.dev/hand_dot/articles/85c9640b7dcc66) |
+| 2024/12/12 | [身の丈を超える挑戦をおもしろがれるか｜jay⚡️](https://note.com/jayzon/n/n350467d640e0) |
+| 2024/12/12 | [CSSかTailwind CSSでhoverを「PCにだけ」適用したい - RevisNote Stories](https://revisnote.com/stories/blog/hoverable-media-query/) |
+| 2024/12/12 | [CSS何で書いてますか？忙しいですか?Tailwind CSS使ってもらっていいですか？ #tailwindcss - Qiita](https://qiita.com/nf-tmatsumura/items/697b9df6a6c7a8281836) |
+| 2024/12/12 | [How do I disable hover styles on mobile? · tailwindlabs/tailwindcss · Discussion #1739 · GitHub](https://github.com/tailwindlabs/tailwindcss/discussions/1739) |
+| 2024/12/12 | [【CSS】まだホバー時のスタイルを :hover だけで指定してるの？](https://zenn.dev/kagan/articles/css-hover-style) |
+| 2024/12/12 | [Pythonコードも直接実行 ～「ChatGPT」の新UI「Canvas」が無償ユーザーにも開放 - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1646519.html) |
+| 2024/12/11 | [nizima ACTION!! by Live2D](https://nizimaaction.live2d.com/) |
+| 2024/12/11 | [良いコードレビューとは](https://zenn.dev/danimal141/articles/a907e3d35561a0) |
+| 2024/12/11 | [react (next.js)の節々がなぜ歪んでいるように思えるのか考察してみた - Togetter [トゥギャッター]](https://togetter.com/li/2290055) |
+| 2024/12/10 | [iPadでもバリバリプログラミングできる。そう、VSCodeならね。 #VSCode - Qiita](https://qiita.com/pyayy/items/d1509b64e1c13024f33e) |
+| 2024/12/10 | [メンバーの成長速度にバフをかける1on1ミーティング / 2024-12-06 - Speaker Deck](https://speakerdeck.com/yug1224/2024-12-06) |
+| 2024/12/10 | [OpenAI o1とGPT-4oとの違い](https://zenn.dev/acntechjp/articles/49b19f40df52d8) |
+| 2024/12/10 | [プレビューUIの使い勝手を改善した「OBS Studio 31」が正式版に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1645821.html) |
+| 2024/12/10 | [より良いユーザー体験を求めて "Haptics(触覚フィードバック)" を深掘りする](https://zenn.dev/team_soda/articles/9f46f212ec3d56) |
+| 2024/12/9 | [コンポーネント図鑑 ｜ 視覚伝達情報研究室](https://shidenken-component.studio.site/) |
+| 2024/12/9 | [React Scanをさわってみた](https://zenn.dev/tomoaki16/articles/3b1de92cae4a1d) |
+| 2024/12/9 | [改めて学ぶ satisfies 演算子](https://zenn.dev/okkun/articles/ed6f146e03c60a) |
+| 2024/12/9 | [イケてる起業の進め方 \| ドクセル](https://www.docswell.com/s/6649915/5R2EJ2-2024-12-08-172152#p1) |
+| 2024/12/9 | [TJのセッションだけはVimmer以外も聞いてくれ](https://zenn.dev/gmomedia/articles/tj_dev_ries_session_was_truly_inspiring) |
+| 2024/12/8 | [西芳寺｜苔寺　Saihoji \| Kokedera](https://saihoji-kokedera.com/) |
+| 2024/12/8 | [OpenAI 推論モデルの正式版「o1 pro mode」がリリース！ 早速、人類の未来について話し合ってみた｜遠藤太一郎](https://note.com/taichiro_endo/n/nf5a0bc59cb04) |
+| 2024/12/7 | [時計の商品画像が必ず「10時10分」付近を指す“3つの理由” セイコー広報「きっかけはステーキでした」 \| ラジトピ ラジオ関西トピックス](https://jocr.jp/raditopi/2022/05/23/428594/) |
+| 2024/12/7 | [月額3万円のチャットAI「o1 Pro mode」に引っ掛け問題を出しまくってみた（1/2 ページ） - ITmedia AI＋](https://www.itmedia.co.jp/aiplus/spv/2412/06/news174.html) |
+| 2024/12/7 | [Full-Stack TypeScriptの最終到達点、T3-Turboで新規開発した話](https://zenn.dev/ficilcom/articles/t3-turbo-domain-cqrs) |
+| 2024/12/7 | [ついに正式版になったOpenAI o1の画像理解の実力を試す｜shi3z](https://note.com/shi3zblog/n/n5f448f672bef) |
+| 2024/12/7 | [「来月からエンジニアリングマネージャーやってね」と言われたら](https://aloerina01.github.io/blog/2022-12-16-1) |
+| 2024/12/6 | [Just a moment...](https://codepen.io/2020/popular/pens/1) |
+| 2024/12/6 | [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://arutega.notion.site/0d8b3b5cfb6c48b2b907e9dd1216dd47?v=ca9f4f9604e44aadb9ee3e50eb2f1d9f) |
+| 2024/12/6 | [ChatGPT Pro ・ o1 の概要｜npaka](https://note.com/npaka/n/nfac19a9e7a04) |
+| 2024/12/6 | [Chrome 111 の View Transitions API でリッチなページ間トランジションを実現する](https://zenn.dev/yhatt/articles/cfa6c78fabc8fa) |
+| 2024/12/6 | [Slidy](https://slidy.app/) |
+| 2024/12/6 | [アニメーション探求を100日間やってみた【Notion公開】 \| 株式会社ARUTEGA｜アルテガ](https://arutega.jp/animation_quest/) |
+| 2024/12/6 | [EGG '24 \| ゲーム業界ホワイト化の光と影 \| ドクセル](https://www.docswell.com/s/EGG/ZYDV8N-KazuhisaMinato#p1) |
+| 2024/12/5 | [モテるGit管理 (gh, ghq, git-cz, lazygit)](https://zenn.dev/mozumasu/articles/mozumasu-lazy-git) |
+| 2024/12/4 | [なぜ僕はデザイナーの作ったデザインを「見づらい」と感じてしまうのか](https://yuheiy.com/2024-12-01-i-am-not-a-visual-thinker) |
+| 2024/12/4 | [GitHub - ysk8hori/typescript-graph: A CLI to visualize the dependencies between files in the TypeSc…](https://github.com/ysk8hori/typescript-graph) |
 | 2024/12/13 | [年収550～800万円台の「転職上手」なエンジニアほど危うい時代に？【久松剛解説】 - エンジニアtype \| 転職type](https://type.jp/et/feature/25248/) |
 | 2024/12/14 | [TechFeed - エンジニアのための技術情報収集＆共有プラットフォーム](https://techfeed.io/entries/675a01f52f9b0d14a315ac7d) |
 | 2024/12/3 | [DevTools の使い方を可能な限りスクショ付きで解説してみる](https://zenn.dev/mizchi/scraps/c72e6a55deca18) |
