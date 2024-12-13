@@ -21,10 +21,13 @@ const inputToMd = async (input: Input) => {
 };
 
 export const convertJsonToMd = async (
-  inputs: Inputs,
+  _inputs: Inputs,
 ): Promise<{ md: string; json: Inputs }> => {
   const mdRows = [];
   const newInputs = [];
+  const inputs = _inputs.sort(
+    (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime(),
+  );
   for (let i = 0; i < inputs.length; i++) {
     const input = inputs[i];
     try {
