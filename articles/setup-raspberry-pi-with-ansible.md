@@ -1,8 +1,8 @@
 ---
 title: "Raspberry Pi の初期構築を Ansible で行う (リモートSSH / Prometheus / Grafana)"
-emoji: "💽"
+emoji: "🍓"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
+topics: ["RaspberryPi", "Ansible", "Prometheus", "Grafana", "CloudflareTunnel"]
 published: false
 ---
 
@@ -46,13 +46,13 @@ Cloudflare Access などを使った保護などは必ず入れましょう。
 
 ## OS, パッケージのアップデート
 
-以下のコマンドと同じことを Ansible で行います。また、必要なら再起動を挟みます。
+以下のコマンドと同等の処理を Ansible で行います。また、必要なら再起動を挟みます。
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
 ```
 
-```main.yml
+```yaml:roles/system/tasks/main.yml
 ---
 - name: Update and upgrade system
   block:
@@ -101,14 +101,15 @@ sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt a
 
 ## 基本的なセキュリティ設定
 
-- 既存ユーザーの設定 (作成、sudo 設定など)
-- デフォルトユーザー pi の削除 (現在の Raspberry Pi OS では作られないらしいが念のため)
+- Linux ユーザーの設定 (今回の Raspberry Pi Imager 経由でのセットアップでは不要そうですが念のため)
+  - 既存ユーザーの設定 (作成、sudo 設定など)
+  - デフォルトユーザー pi の削除
 - SSH の設定 (ポート変更、root ログイン禁止、パスワードログイン禁止)
 - devsec.hardening.ssh_hardening を適用して SSH の設定を強化
-- ファイアウォールの設定 (SSH ポートを許可。今回はグローバルに公開する必要がないため不要だったかも)
+- ファイアウォールの設定 (SSH ポートを許可。今回はグローバルに公開する必要がないため過剰)
 - fail2ban はインストールだけしてまだ設定していない
 
-```main.yml
+```yaml:roles/security/tasks/main.yml
 ---
 - name: Check if admin user exists
   getent:
@@ -154,7 +155,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt a
 
 - name: Remove default pi user
   user:
-    name: "{{ default_user }}"
+    name: pi
     state: absent
     remove: true
     force: true
@@ -208,7 +209,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt a
 
 docker のインストールは geerlingguy.docker を使います。一緒に docker compose プラグインもセットアップ。
 
-```playbook.yml
+```yaml:playbook.yml
     - role: geerlingguy.docker
       become: true
       vars:
@@ -216,10 +217,30 @@ docker のインストールは geerlingguy.docker を使います。一緒に d
         docker_install_compose_plugin: true
 ```
 
+この処理には geerlingguy.docker の事前インストールが必要です。以下のようなファイルを用意しておき、適用前に `ansible-galaxy install -r requirements.yml` を実行します。
+(このファイルはセキュリティ設定のロールで必要な devsec.hardening もインストールしています)
+
+```yaml:requirements.yml
+---
+collections:
+  # Ref: https://galaxy.ansible.com/ui/repo/published/devsec/hardening/
+  - name: devsec.hardening
+    version: 10.2.0
+roles:
+  # Ref: https://galaxy.ansible.com/ui/standalone/roles/geerlingguy/docker/
+  - name: geerlingguy.docker
+    version: 7.4.5
+```
+
+
 
 ## Prometheus / Grafana のセットアップ
 
-```roles/monitoring/tasks/main.yml
+Raspberry Pi のメトリクスを収集・可視化・アラート通知するために、Prometheus そのプラグイン、Grafana をセットアップします。
+
+アップデートを簡単にしたかったので、コンテナにて管理しています。
+
+```yaml:roles/monitoring/tasks/main.yml
 - name: Create /opt/monitoring directory
   become: true
   file:
@@ -255,9 +276,9 @@ docker のインストールは geerlingguy.docker を使います。一緒に d
     chdir: /opt/monitoring
 ```
 
-以下は monitoring ディレクトリのテンプレートファイルです。ライブラリのアップデートを簡単にしたかったので、コンテナにて管理しています。
+Prometheus 他を起動するための docker-compose.yml です。restart: always にしているので、再起動時に自動で起動します。
 
-```roles/monitoring/templates/docker-compose.prometheus.yml.j2
+```yaml:roles/monitoring/templates/docker-compose.prometheus.yml.j2
 services:
   prometheus:
     image: prom/prometheus:latest
@@ -307,9 +328,10 @@ volumes:
   grafana_data:
 ```
 
-Prometheus と alertmanager の設定ファイルは特段変わったことはしていません。
+Prometheus と alertmanager の設定ファイルは特段変わったことはしていませんが、Prometheus 本体 (と node_exporter) は `network_mode: host` を設定しているため、この設定ファイルはコンテナホストのネットワークが基準になります。
+可能なら `network_mode: host` は避けたいので、今後の改善ポイントです。
 
-```roles/monitoring/templates/prometheus.yml.j2
+```yaml:roles/monitoring/templates/prometheus.yml.j2
 global:
   scrape_interval: 15s
 
@@ -328,9 +350,9 @@ alerting:
         - targets: ['alertmanager:9093']
 ```
 
-今回は Discord に通知したいので、通知先を追加しています。ネット記事には discord_configs ではなく webhook_configs での記載が多いですが、discord_configs で動作します。
+アラート通知は Discord に通知します。ネット記事には discord_configs ではなく別プロセスを立ち上げた上での webhook_configs の記載が多いですが、それら不要で単純に discord_configs で動作します。
 
-```roles/monitoring/templates/alertmanager.yml.j2
+```yaml:roles/monitoring/templates/alertmanager.yml.j2
 global:
   resolve_timeout: 5m
 
@@ -346,13 +368,22 @@ receivers:
       - webhook_url: {{ lookup("env", "DISCORD_MONITORING_WEBHOOK_URL") }}
 ```
 
+http://raspi.local:9999 にアクセスすると Grafana にアクセスできます。(ダッシュボードは適宜インポートしました)
+デフォルトのアカウント認証は username: admin / password: admin で入れるので、すぐに username と password を変更しましょう。
+
+![Grafana の画面](/images/setup-raspberry-pi-with-ansible/grafana.png)
+
+アラート時には以下のような例で通知されます
+
+![alertmanager の通知が Discord に通知されている](/images/setup-raspberry-pi-with-ansible/alertmanager-discord.png)
+
 
 ## Cloudflare Tunnel の設定
 
 最新版の `cloudflared` をインストールして Tunnel を設定します。
-今回は設定を簡略化するために refresh_token を使って設定しました。
+設定を簡略化するために refresh_token を使って設定しているため、事前に Cloudflare Tunnel の設定が必要です。
 
-```main.yml
+```yaml:roles/cloudflared/tasks/main.yml
 ---
 - name: Get latest Cloudflared version
   ansible.builtin.uri:
@@ -401,34 +432,45 @@ receivers:
   tags: ["cloudflared"]
 ```
 
+```yaml:roles/cloudflared/defaults/main.yml
+---
+cloudflared_arch: arm64
+cloudflared_deb_url: "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-{{ cloudflared_arch }}.deb"
+cloudflared_token: "{{ lookup('env', 'CLOUDFLARED_TOKEN') }}"
+```
+
+この構成を適用した上で Cloudflare Tunnel にパブリックホスト名を設定した場合、外部ネットワークにそのポートを公開することになります。重ねてになりますが、公開を意図していない場合は Cloudflare Access などを使った保護を必ず入れましょう。
+(個人的な展望では、いずれここら辺も Terraform で管理したい)
+
+Cloudflare Tunnel を以下のように設定すると、外部ネットワークから SSH / Grafana にアクセスできるようになります。
+
+![Cloudflare Tunnel の設定](/images/setup-raspberry-pi-with-ansible/cloudflare-tunnel.png)
+
+詳しい手順は、以下か他のネット資料をご参照ください。
+
+- 公式 Tunnel: [Create a remotely-managed tunnel (dashboard) · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
+- 公式 Access: [Publish a self-hosted application to the Internet · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/self-hosted-public-app/)
+- [Cloudflare Zero TrustとRaspberry Piを使って自宅のPCをクラウド化する](https://zenn.dev/so298/articles/cloudflare-raspberrypi)
+
+~/.ssh/config に以下を追加すると、`ssh raspi.remote` で Raspberry Pi に接続できるようになります (認証を挟みます)。
+
+```
+Host raspi.remote
+  HostName example.com
+  User hogefuga
+  Port 50988 # 設定した SSH ポート
+  IdentityFile ~/.ssh/id_rsa # Raspberry Pi Imager で設定・作成した秘密鍵
+  ProxyCommand cloudflared access ssh --hostname %h
+```
+
 
 ## 参考情報
 
-### 今回私が購入したリスト
-
-- [Raspberry Pi 5 8G](https://amzn.asia/d/9quzpnt)
-- [電源: Geekworm USB-C 電源アダプター PD 27W Type C](https://amzn.asia/d/1juo44J)
-- [Amazonベーシック microSDXCメモリーカード 128GB](https://amzn.asia/d/0WUKNSA)
-- お好みで
-  - [Raspberry Pi 5 Active Cooler](https://amzn.asia/d/1juo44J)
-  - [Amazonベーシック マイクロHDMI-HDMIケーブル](https://amzn.asia/d/ewfYEFH) (サーバー運用のみであれば不要)
-
-※ Amazon はサクラと思われるコメントが非常に多いらしい (ソースは[サクラチェッカー](https://sakura-checker.jp/)) ため、どうしても最安値を狙わないといけない場合を除いて、[スイッチサイエンス](https://www.switch-science.com/) や [Raspberry Pi Shop by KSY](https://raspberry-pi.ksyic.com/main/index) などの名の知れたショップを利用したほうが良さそうです。
-
-
-
-### Ansible でセットアップする理由
-
-以下の理由を考えながらやっていました。
-
-- Raspberry Pi のセットアップを自動化して、気軽に初期化できるようにする
-- Ansible 経由の変更に限定することで、Raspberry Pi の現在の設定を明示的に管理する (べき等性による)
-- サーバーを立てる際にセットアップ内容を調べ直しているのでいい加減まとめたい
-
-
 ### ディレクトリ構成
 
-色々割愛しましたが、変数は host_vars で、秘匿情報は .env で管理しています。
+色々割愛しましたが、Ansible の変数は host_vars で、秘匿情報は .env で管理しました。しかし、host_vars の中身をコミットしないのであれば .env は不要かというのが正直なところです。
+
+当記事に全てのファイルを記載するわけにはいかないため、必要に応じて適宜調整してください🙏
 
 ```bash
 $ tree
@@ -467,9 +509,9 @@ $ tree
 14 directories, 17 files
 ```
 
-ansible-playbook を実行する前に .env を読み込む必要があるため、`make apply` を実行します。
+なお、この構成では ansible-playbook を実行する前に .env を読み込む必要があるため、Makefile を作成して `make apply` で実行しています。
 
-```Makefile
+```Makefile:Makefile
 include .env
 export
 
@@ -495,8 +537,31 @@ init:
 	@ansible-galaxy install -r requirements.yml
 ```
 
+### Ansible でセットアップする理由
+
+以下の理由を考えながらやっていました。
+
+- Raspberry Pi のセットアップを自動化して、気軽に初期化できるようにする
+- Ansible 経由の変更に限定することで、Raspberry Pi の現在の設定を明示的に管理する (べき等性による)
+- サーバーを立てる際にセットアップ内容を調べ直しているのでいい加減まとめたい
+
+
+### 今回購入したリスト
+
+今回の構成で使用したリストです。サーバー運用だけであれば上三つさえあれば構築できます。参考までに。
+
+- [Raspberry Pi 5 8G](https://amzn.asia/d/9quzpnt)
+- [電源: Geekworm USB-C 電源アダプター PD 27W Type C](https://amzn.asia/d/1juo44J)
+- [Amazonベーシック microSDXCメモリーカード 128GB](https://amzn.asia/d/0WUKNSA)
+- お好みで
+  - [Raspberry Pi 5 Active Cooler](https://amzn.asia/d/1juo44J)
+  - [Amazonベーシック マイクロHDMI-HDMIケーブル](https://amzn.asia/d/ewfYEFH) (サーバー運用のみであれば不要)
+
+※ Amazon はサクラと思われるコメントが非常に多いらしい (ソースは[サクラチェッカー](https://sakura-checker.jp/)) ため、どうしても最安値を狙わないといけない場合を除いて、[スイッチサイエンス](https://www.switch-science.com/) や [Raspberry Pi Shop by KSY](https://raspberry-pi.ksyic.com/main/index) などの名の知れたショップを利用したほうが良さそうです。
+
+
 ## まとめ
 
 以上で外部ネットワークから Raspberry Pi にSSHしつつ、Prometheus / Grafana によってサーバーのモニタリング・異常通知を行えるようになりました。
 
-重ねてになりますが、Cloudflare Tunnel を使って SSH 接続を設定した場合は、必ず Cloudflare Access などを使った保護を必ず入れましょう。
+再三になりますが、Cloudflare Tunnel を使って SSH 接続を設定した場合は、必ず Cloudflare Access などを使った保護を必ず入れましょう。
