@@ -1,5 +1,23 @@
 | Date | Title |
 | ---- | ----- |
+| 2025/1/1 | [NPV（正味現在価値）とは？ 重要性と計算方法を深堀りして解説 ｜M&amp;Aキャピタルパートナーズ](https://www.ma-cp.com/about-ma/net-present-value/) |
+| 2024/12/31 | [GitHub - jordanbaird/Ice: Powerful menu bar manager for macOS](https://github.com/jordanbaird/Ice) |
+| 2024/12/31 | [SQLite4の開発物語 (1/3)\|EnterpriseZine（エンタープライズジン）](https://enterprisezine.jp/article/detail/9928) |
+| 2024/12/29 | [遂にChatGPT Plusを解約してGeminiに移行した話](https://zenn.dev/zuzuzu/articles/gemini_vs_chatgpt) |
+| 2024/12/28 | [OpenAI、AGIに向けた5段階スケールを公開！「現在は2段階直前」](https://www.multifverse.com/blog-posts/openai-agi-5-tier-progress-scale) |
+| 2024/12/26 | [Claudeが提案するエージェント構築：簡単で効果的な設計のベストプラクティス｜Kyutaro](https://note.com/kyutaro15/n/ne88fe2fcf928) |
+| 2024/12/25 | [Cursorのルール設定で実現する！チーム開発の一貫性を保つための.cursorrulesファイル活用術 #VSCode - Qiita](https://qiita.com/tichise/items/9990a9785edf7011fac3) |
+| 2024/12/22 | [1人1000億円時代に備えて僕がSolomaker.devをつくった理由](https://www.solomaker.dev/articles/4e5a5bee-f8f9-4fc0-9b46-83aab6a61031) |
+| 2024/12/20 | [アーキテクチャレベルで依存性を逆転させたら最高だった話](https://zenn.dev/litalico/articles/domain-distillation) |
+| 2024/12/19 | [core-jsがメンテされていない理由→プロジェクトは継続する #JavaScript - Qiita](https://qiita.com/yumetodo/items/eaf3b97aeae3d8c4a07e) |
+| 2024/12/19 | [Sign in to GitHub · GitHub](https://github.com/copilot/) |
+| 2024/12/18 | [ビットコイン「税率100%超」も　相続・売却に注意　金融お役立ちかわら版 - 日本経済新聞](https://www.nikkei.com/article/DGXZQOUB169CJ0W4A211C2000000/) |
+| 2024/12/17 | [Free Grammar Checker - LanguageTool](https://languagetool.org/) |
+| 2024/12/17 | [「なぜGoogleのプロジェクトは失敗するのにMetaのプロジェクトは成功しているのか」を分析してわかった3つの問題とは？ - GIGAZINE](https://gigazine.net/news/20241216-googles-lost-moonshots-meta/) |
+| 2024/12/16 | [AIが進歩したらUIはなくなるのか？｜ritar](https://note.com/ritar/n/n8ea20f73d458) |
+| 2024/12/15 | [10分で読めるReact Nativeの全公式コンポーネントまとめ](https://zenn.dev/woodstock_tech/articles/082ccfd3e12f80) |
+| 2024/12/15 | [自律型AIソフトウェアエンジニア「Devin」、ついに正式サービス開始。月額500ドルから － Publickey](https://www.publickey1.jp/blog/24/aidevin500.html) |
+| 2024/12/14 | [銀行振込設計で考えていること](https://zenn.dev/kyash/articles/2df29eaebb4509) |
 | 2024/12/14 | [TechFeed - エンジニアのための技術情報収集＆共有プラットフォーム](https://techfeed.io/entries/675a01f52f9b0d14a315ac7d) |
 | 2024/12/13 | [年収550～800万円台の「転職上手」なエンジニアほど危うい時代に？【久松剛解説】 - エンジニアtype \| 転職type](https://type.jp/et/feature/25248/) |
 | 2024/12/13 | [日本のエンジニアは甘すぎ？ 「初学者への育成論」が米国からみると超不毛な理由 - エンジニアtype \| 転職type](https://type.jp/et/feature/27363/) |
