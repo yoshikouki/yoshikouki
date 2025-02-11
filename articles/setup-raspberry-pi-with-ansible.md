@@ -34,6 +34,7 @@ published: false
     - SSH を有効化 (推奨: 公開鍵認証)
     - ホスト名を設定 (今回は raspi.local)
     - 他はお好みで
+  - 今回はサーバー運用がメインなので Raspberry Pi OS Lite を選択
 - `ssh raspi.local` で SSH 接続できることを確認
 - Cloudflare Tunnel の設定を行っておりリフレッシュトークンを取得している
 
@@ -236,7 +237,7 @@ roles:
 
 ## Prometheus / Grafana のセットアップ
 
-Raspberry Pi のメトリクスを収集・可視化・アラート通知するために、Prometheus そのプラグイン、Grafana をセットアップします。
+Raspberry Pi のメトリクスを収集・可視化・アラート通知するために、Prometheus とそのプラグイン、Grafana をセットアップします。
 
 アップデートを簡単にしたかったので、コンテナにて管理しています。
 
@@ -301,7 +302,7 @@ services:
       - --path.procfs=/host/proc
       - --path.sysfs=/host/sys
       - --collector.filesystem.ignored-mount-points="^/(sys|proc|dev|host|etc)($|/)"
-    restart: unless-stopped
+    restart: always
 
   alertmanager:
     image: prom/alertmanager:latest
@@ -321,7 +322,7 @@ services:
       - "9999:3000"
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    restart: unless-stopped
+    restart: always
 
 volumes:
   prometheus_data:
@@ -350,7 +351,7 @@ alerting:
         - targets: ['alertmanager:9093']
 ```
 
-アラート通知は Discord に通知します。ネット記事には discord_configs ではなく別プロセスを立ち上げた上での webhook_configs の記載が多いですが、それら不要で単純に discord_configs で動作します。
+アラート通知は Discord に通知します。ネット記事には discord_configs ではなく別プロセスを立ち上げた上での webhook_configs の記載が多いですが、それらは不要で単純に discord_configs で動作します ((おそらく) 動作するようになりました)。
 
 ```yaml:roles/monitoring/templates/alertmanager.yml.j2
 global:
@@ -368,7 +369,7 @@ receivers:
       - webhook_url: {{ lookup("env", "DISCORD_MONITORING_WEBHOOK_URL") }}
 ```
 
-http://raspi.local:9999 にアクセスすると Grafana にアクセスできます。(ダッシュボードは適宜インポートしました)
+http://raspi.local:9999 にアクセスすると Grafana にアクセスできます。(LAN からアクセスするなら ufw で許可することをお忘れなく。Grafana のダッシュボードは適宜インポートしました)
 デフォルトのアカウント認証は username: admin / password: admin で入れるので、すぐに username と password を変更しましょう。
 
 ![Grafana の画面](/images/setup-raspberry-pi-with-ansible/grafana.png)
@@ -545,7 +546,7 @@ init:
 - Ansible 経由の変更に限定することで、Raspberry Pi の現在の設定を明示的に管理する (べき等性による)
 - サーバーを立てる際にセットアップ内容を調べ直しているのでいい加減まとめたい
 
-
+s
 ### 今回購入したリスト
 
 今回の構成で使用したリストです。サーバー運用だけであれば上三つさえあれば構築できます。参考までに。
