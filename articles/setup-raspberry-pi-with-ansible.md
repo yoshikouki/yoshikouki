@@ -3,7 +3,7 @@ title: "Raspberry Pi の初期構築を Ansible で行う (リモートSSH / Pro
 emoji: "🍓"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["RaspberryPi", "Ansible", "Prometheus", "Grafana", "CloudflareTunnel"]
-published: false
+published: true
 ---
 
 ## はじめに
