@@ -1,5 +1,92 @@
 | Date | Title |
 | ---- | ----- |
+| 2025/2/21 | [非エンジニア必見。─ Cursorがもたらす"不可逆な書く革命"｜中村修三(ShuzoN)](https://note.com/shuzon__/n/n0e898b500e9a) |
+| 2025/2/21 | [今はまだ小さい東京ガス内製開発チームが、これからもKubernetesと共に歩み続けるために - Speaker Deck](https://speakerdeck.com/yussugi/jin-hamataxiao-saidong-jing-kasunei-zhi-kai-fa-timuka-korekaramokubernetestogong-nibu-misok-kerutameni) |
+| 2025/2/21 | [DeNA南場智子が語る「AI時代の会社経営と成長戦略」全文書き起こし \| フルスイング by DeNA](https://fullswing.dena.com/archives/100153/) |
+| 2025/2/21 | [君たちはCursorを本当に使えているか](https://zenn.dev/jessicazu/articles/7a46a7e15c153f) |
+| 2025/2/21 | [「Apple Intelligence」が4月に日本語対応、「iPhone 16e」も利用可 - ケータイ Watch](https://k-tai.watch.impress.co.jp/docs/news/1664281.html) |
+| 2025/2/21 | [Homelab automated with Ansible and FluxCD \| Pi Kubernetes Cluster](https://picluster.ricsanfre.com/) |
+| 2025/2/21 | [AIを“AIで”改善　Sakana AIが新技術「AI CUDA Engineer」発表　目指すは100万倍の効率化 - ITmedia AI＋](https://www.itmedia.co.jp/aiplus/spv/2502/20/news128.html) |
+| 2025/2/21 | [Comparison: Flux vs Argo CD - Earthly Blog](https://earthly.dev/blog/flux-vs-argo-cd/) |
+| 2025/2/21 | [[DevOps] 次世代のCICDツール、Flux CDを試す [ArgoCDよりも良い？]](https://zenn.dev/amezousan/scraps/b7eb151c88dec7) |
+| 2025/2/21 | [UI / UX Design Inspiration and Design Newsletter](https://uibits.co/) |
+| 2025/2/21 | [初心者に優しい Next.js app router マイベストフォルダ設計](https://zenn.dev/sonicmoov/articles/e5ce7fb6d42267) |
+| 2025/2/20 | [自作するな、そこはお前の戦場じゃない｜深津 貴之 (fladdict)](https://note.com/fladdict/n/n3ec98253e10e) |
+| 2025/2/20 | [Justd](https://getjustd.com/) |
+| 2025/2/20 | [Better Auth](https://www.better-auth.com/) |
+| 2025/2/20 | [【パスキー・2FA・OAuth】Better Authで作るモダン認証システム](https://zenn.dev/sc30gsw/articles/0484624ecd07b8) |
+| 2025/2/19 | [初心者でもわかる！Argo CDとは？SIOS Tech. Lab #](https://tech-lab.sios.jp/archives/36957) |
+| 2025/2/18 | [Google NotebookLM Plus を導入した](https://voluntas.ghost.io/google-notebooklm-plus-introduction/) |
+| 2025/2/18 | [AI Podcast:HackerVoiceのリリース, その裏側](https://zenn.dev/goriratatsu/articles/ec8f29de075349) |
+| 2025/2/17 | [お前もAI鬼にならないか？👹Bolt &amp; Cursor &amp; Supabase &amp; Vercelで人間をやめるぞ、ジョジョー！👺 - Speaker Deck](https://speakerdeck.com/taishiyade/oqian-moaigui-ninaranaika-bolt-and-cursor-and-supabase-and-vercelderen-jian-woyameruzo-ziyoziyo?slide=9) |
+| 2025/2/16 | [CursorとWindsurfを約1ヶ月弱併用して分かったそれぞれの特徴 \| 比較](https://zenn.dev/ks0318/articles/6023a5b729cb7a) |
+| 2025/2/16 | [オーディオ型の振動子を用いた触覚デバイスの実装方法](https://zenn.dev/yamarico/articles/8ead36c905e60d) |
+| 2025/2/15 | [OpenAI の Reasoningモデル のベストプラクティス｜npaka](https://note.com/npaka/n/nb6b5f3b308a4?sub_rt=share_pw) |
+| 2025/2/14 | [エンジニアだけど生まれる時代をミスった](https://anond.hatelabo.jp/20250214041250) |
+| 2025/2/14 | [OpenAI の Reasoningモデル のベストプラクティス｜npaka](https://note.com/npaka/n/nb6b5f3b308a4) |
+| 2025/2/14 | [gemini-2.0-flashが賢くてコスパがよすぎる件](https://zenn.dev/erukiti/articles/2502-gemini-20-flash) |
+| 2025/2/13 | [え？本買ってるの？？もっと良い方法あります。 #ポエム - Qiita](https://qiita.com/itsuki_m/items/3fe9b1154e6e98b182e4) |
+| 2025/2/13 | [ITクソつまんなくなった。](https://anond.hatelabo.jp/20240728023355) |
+| 2025/2/12 | [4台のラズパイでk8sクラスタを組んだ \| This Week in Gorilla](https://skanehira.github.io/this-week-in-gorilla/articles/raspberry-pi-cluster.html) |
+| 2025/2/12 | [Apple Intelligenceって具体的に何ができるの](https://zenn.dev/headwaters/articles/d90998469039fe) |
+| 2025/2/12 | [Google One AIプレミアム(月2900円)に「NotebookLM Plus」が追加 - Impress Watch](https://www.watch.impress.co.jp/docs/news/1661936.html) |
+| 2025/2/12 | [Docker Compose のスケールアップ \| Docker](https://www.docker.com/ja-jp/blog/scaling-docker-compose-up/) |
+| 2025/2/12 | [Docker+Caddyでblue/greenデプロイメント](https://zenn.dev/ransakata/articles/9e909728e8279f) |
+| 2025/2/11 | [Prometheusで監視してDiscordにアラートを通知する #discord - Qiita](https://qiita.com/tingtt/items/3562927428e61d34ffc0) |
+| 2025/2/11 | [Raspberry Pi 5にM.2 SSDを接続して起動ディスクに設定する方法まとめ、相性の良いSSDやSSDごとの転送速度の違いも検証してみた - GIGAZINE](https://gigazine.net/news/20240126-raspberry-pi-5-ssd-boot/) |
+| 2025/2/10 | [ラズパイで自宅サーバー入門してみた](https://zenn.dev/thirdlf/articles/12-zenn-home-server-begin) |
+| 2025/2/10 | [“Deep Researchの中の人”を手動でやってみる - laiso](https://laiso.hatenablog.com/entry/2025/02/09/010624) |
+| 2025/2/10 | [“Deep Researchの中の人”を手動でやってみる - laiso](https://laiso.hatenablog.com/entry/2025/02/09/010624) |
+| 2025/2/9 | [マルチエージェントアプリケーション「Dream Team」を調べて使ってみる](https://zenn.dev/nomhiro/articles/dreamteam-autogen) |
+| 2025/2/9 | [tsconfig.jsonについて調べてみた](https://zenn.dev/takayuu/articles/tsconfig-9397f39dabd990) |
+| 2025/2/9 | [tsconfig.jsonについて調べてみた](https://zenn.dev/takayuu/articles/tsconfig-9397f39dabd990) |
+| 2025/2/9 | [Next.js App Routerにおける筆者のBad Practiceを振り返る](https://zenn.dev/kagaya_22/articles/cb17489f5b3855) |
+| 2025/2/8 | [Cloudflare Tunnel を使って自宅をデータセンターみたいにする](https://zenn.dev/takajun/articles/fbd783e459c722) |
+| 2025/2/8 | [イベント『AIエージェントについてまとめてみた』に参加したメモ](https://zenn.dev/smartround_dev/articles/0cec9f95e15ade) |
+| 2025/2/8 | [イベント『AIエージェントについてまとめてみた』に参加したメモ](https://zenn.dev/smartround_dev/articles/0cec9f95e15ade) |
+| 2025/2/8 | [Raspberry Pi OS Lite をインストール後に行うべき初期設定 \| Pulog](https://www.pu10g.com/node/32/) |
+| 2025/2/8 | [JSでの主な基準のサイズ・要素のサイズと座標・ポインターの座標取得まとめメモ](https://zenn.dev/scirexs/articles/d6316a11c73ea0) |
+| 2025/2/8 | [【VSCode】試行錯誤の末たどりついた設定管理術](https://zenn.dev/hacobell_dev/articles/52b383c05ab408) |
+| 2025/2/8 | [Lingui で実現するモダンな多言語対応](https://zenn.dev/chot/articles/d325df526aa656) |
+| 2025/2/6 | [イベント リスナーを取得してデバッグする \| Blog \| Chrome for Developers](https://developer.chrome.com/blog/get-and-debug-event-listeners?hl=ja) |
+| 2025/2/6 | [DeNA南場会長「現在の事業、人員は半分に」　“AIにオールイン”の意思表明　もう半分を新規事業へ - ITmedia AI＋](https://www.itmedia.co.jp/aiplus/articles/2502/05/news130.html) |
+| 2025/2/6 | [Winning Solitaire](https://mrdoob.com/lab/javascript/effects/solitaire/) |
+| 2025/2/6 | [MJMLでhtmlメールを楽にいい感じに書くことができた話 - BASEプロダクトチームブログ](https://devblog.thebase.in/entry/mjml-happy) |
+| 2025/2/5 | [Model Context Protocol の現在地](https://zenn.dev/layerx/articles/9bdefe4d435882) |
+| 2025/2/5 | [TSKaigi 2025 のプロポーザル を募集いたします - TSKaigi 公式ブログ](https://tskaigi.hatenablog.com/entry/2025-cfp) |
+| 2025/2/3 | [Design Engineering at Vercel: What we do and how we do it - Vercel](https://vercel.com/blog/design-engineering-at-vercel) |
+| 2025/2/3 | [ソフトバンクグループとOpenAI、日本でAI網　500社に参加要請 - 日本経済新聞](https://www.nikkei.com/article/DGXZQOUB0210D0S5A200C2000000/) |
+| 2025/2/2 | [AIエージェントの解釈について整理してみる - Algomatic Tech Blog](https://tech.algomatic.jp/entry/agents/interpretation-of-ai-agents) |
+| 2025/2/2 | [エンジニアは「AIエージェントの管理者」になる？ LayerX松本勇気が語る、コードを書くスキルより重要なもの - エンジニアtype \| 転職type](https://type.jp/et/feature/27667/) |
+| 2025/2/2 | [Tailwind CSS の一歩進んだ書き方](https://zenn.dev/ixkaito/articles/advanced-tailwindcss) |
+| 2025/2/2 | [Raspberry Pi 5 16GB Review: Plenty of memory \| Tom's Hardware](https://www.tomshardware.com/raspberry-pi/raspberry-pi-5-16gb-review) |
+| 2025/2/2 | [Pi 5 16GB RAMモデルが出た、が、そんなにいるのか？ - あっきぃ日誌](https://akkiesoft.hatenablog.jp/entry/20250109/1736429334) |
+| 2025/2/2 | [Pi 5 16GB RAMモデルが出た、が、そんなにいるのか？ - あっきぃ日誌](https://akkiesoft.hatenablog.jp/entry/20250109/1736429334) |
+| 2025/2/2 | [「Raspberry Pi 5」に16GBモデルが登場--どんなユーザーにお勧めか？ - ZDNET Japan](https://japan.zdnet.com/article/35228205/) |
+| 2025/2/2 | [Zenn のウラガワ ~エンジニアのアウトプットを支える環境で Google Cloud が採用されているワケ~ #burikaigi #burikaigi_h - Speaker Deck](https://speakerdeck.com/kongmingstrap/zenn-nouragawa-enzinianoautopututowozhi-eruhuan-jing-de-google-cloud-gacai-yong-sareteiruwake-number-burikaigi-number-burikaigi-h-3374cbda-d8c3-40cc-8376-2305d4a57eb2) |
+| 2025/2/1 | [AIエージェントの解釈について整理してみる - Algomatic Tech Blog](https://tech.algomatic.jp/entry/agents/interpretation-of-ai-agents) |
+| 2025/2/1 | [【Hothotレビュー】改めて見る、「Raspberry Pi 5」の実力と使いどころ - PC Watch](https://pc.watch.impress.co.jp/docs/column/hothot/1584619.html) |
+| 2025/2/1 | [【Hothotレビュー】改めて見る、「Raspberry Pi 5」の実力と使いどころ - PC Watch](https://pc.watch.impress.co.jp/docs/column/hothot/1584619.html) |
+| 2025/2/1 | [告白ゲーム『たった今考えたプロポーズの言葉を君に捧ぐよ』のルール＆レビュー \| ぼくボド](https://boku-boardgame.net/propose-sleeve) |
+| 2025/1/31 | [「デザイナー向けCursor」を実現するOnlookのアーキテクチャ - laiso](https://laiso.hatenablog.com/entry/2025/01/31/010255) |
+| 2025/1/31 | [高品質なアニメ風イラストが簡単に！最新画像生成AIモデル「Animagine XL 4.0」登場｜AICU Japan](https://note.com/aicu/n/n34cbd0ea427e) |
+| 2025/1/30 | [新手法「TAID」を用いた小規模日本語言語モデル「TinySwallow-1.5B」の公開](https://sakana.ai/taid-jp/) |
+| 2025/1/30 | [Raspberry Pi上で動く書籍PDF検索エンジンを作ってDiscordボットとn8nと連携させてみた](https://zenn.dev/kentarok/articles/a421fa0e8e332e) |
+| 2025/1/29 | [ASCII.jp：ブームに流されるな　期待高まる「AIエージェント」にガートナーが警鐘](https://ascii.jp/elem/000/004/246/4246561/) |
+| 2025/1/29 | [Windsurf Editor and Codeium extensions](https://codeium.com/) |
+| 2025/1/29 | [Modular Monolith Monorepo ～シンプルさを保ちながらmonorepoのメリットを最大化する～ - Speaker Deck](https://speakerdeck.com/yuisakamoto/modular-monolith-monorepo-sinpurusawobao-tinagaramonoreponomeritutowozui-da-hua-suru) |
+| 2025/1/29 | [n8nをGoogle Compute Engineでセルフホストするログ](https://zenn.dev/shikibu9419/scraps/33ca911966cc19) |
+| 2025/1/27 | [GitHub - nextjs/saas-starter: Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.](https://github.com/nextjs/saas-starter) |
+| 2025/1/24 | [pnpm workspace を利用したモノレポで「この PR の影響を受けるパッケージ」をフィルタする](https://zenn.dev/layerx/articles/5ef844aa73f051) |
+| 2025/1/20 | [個人開発したサービスが２日で3万リーチした話](https://zenn.dev/nogu66/articles/release-satorify-beta-version) |
+| 2025/1/19 | [最強神器「Cursor」の本当に使い方を徹底解説【知らないとヤバいレベルです】](https://zenn.dev/aimasaou/articles/f9b19ca901a0cd) |
+| 2025/1/19 | [「現状維持という衰退」と「成長への強迫」について｜yoshikouki](https://note.com/yoshikouki/n/n98c44c8d7d38) |
+| 2025/1/19 | [もしプログラミング初心者に戻れたら、初めから使っておきたかったツール36個](https://zenn.dev/shiba_program/articles/82a40f9d046b45) |
+| 2025/1/17 | [「Gemini Advanced」の新機能Deep Researchが日本語で利用可能に - 窓の杜](https://forest.watch.impress.co.jp/docs/news/1654714.html) |
+| 2025/1/15 | [Just a moment...](https://satoshi.blogs.com/life/2004/09/post.html) |
+| 2025/1/15 | [Agents](https://huyenchip.com/2025/01/07/agents.html) |
+| 2025/1/15 | [「渋滞学」西成教授に聞く！仕事の詰まり解消のカギは待ち時間だった \| i:Engineer(アイエンジニア)｜パーソルクロステクノロジー](https://staff.persol-xtech.co.jp/i-engineer/technology/jutai) |
+| 2025/1/14 | [Top 32 YouTube Insights and Statistics of 2025 That You Should Know About](https://www.charleagency.com/articles/youtube-statistics/) |
 | 2025/1/1 | [NPV（正味現在価値）とは？ 重要性と計算方法を深堀りして解説 ｜M&amp;Aキャピタルパートナーズ](https://www.ma-cp.com/about-ma/net-present-value/) |
 | 2024/12/31 | [GitHub - jordanbaird/Ice: Powerful menu bar manager for macOS](https://github.com/jordanbaird/Ice) |
 | 2024/12/31 | [SQLite4の開発物語 (1/3)\|EnterpriseZine（エンタープライズジン）](https://enterprisezine.jp/article/detail/9928) |
