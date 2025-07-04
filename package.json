@@ -13,7 +13,7 @@
   },
   "workspaces": ["apps/*"],
   "dependencies": {
-    "zenn-cli": "^0.1.158"
+    "zenn-cli": "^0.1.162"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
