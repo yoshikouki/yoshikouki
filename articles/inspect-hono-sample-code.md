@@ -4,6 +4,7 @@ emoji: "🔥"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Hono", "JavaScript", "TypeScript"]
 published: true
+publication_name: "pepabo"
 ---
 
 この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2024](https://adventar.org/calendars/10036)」の2日目の記事です。

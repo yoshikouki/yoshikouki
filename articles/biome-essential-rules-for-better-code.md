@@ -4,6 +4,7 @@ emoji: "☣️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Biome", "JavaScript", "TypeScript", "linter"]
 published: true
+publication_name: "pepabo"
 ---
 
 ※ 更新: 2024/10/20
