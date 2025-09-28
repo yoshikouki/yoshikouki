@@ -156,15 +156,15 @@ footer: "ハッカソンのすすめ - かごがくハッカソン 2025.11.4"
 
   <!-- 知識の種類 -->
   <div class="flex items-center justify-center space-x-8 mt-8">
-    <div class="bg-orange-400 rounded-full px-8 py-6 text-center">
-      <div class="text-white font-bold text-lg mb-2">特殊知識</div>
-      <div class="text-white text-sm space-y-1">
+    <div class="bg-orange-400 rounded-full px-20 py-6 text-center">
+      <div class="text-white font-bold text-2xl mb-2">特殊知識</div>
+      <div class="text-white text-xl space-y-1">
         <div>• 製品</div>
         <div>• 顧客</div>
       </div>
     </div>
-    <div class="bg-orange-400 rounded-full px-12 py-8 text-center">
-      <div class="text-white font-bold text-xl">一般知識</div>
+    <div class="bg-orange-400 rounded-full px-20 py-8 text-center">
+      <div class="text-white font-bold text-2xl">一般知識</div>
     </div>
   </div>
 
@@ -181,19 +181,10 @@ footer: "ハッカソンのすすめ - かごがくハッカソン 2025.11.4"
 
 ## 作るもののアイデアを見つける
 
-今回は時間の都合で割愛しますが、以下の本がヒントになります
+アイデアを増やしたい方は以下の本がヒントになります
 
-### 『アイデアのつくり方』ジェームス・W・ヤング
-
-- **60ページの薄い本だが、アイデア創出の本質が凝縮**
-- アイデアは「既存要素の新しい組み合わせ」
-- 前述の5段階プロセスで体系的にアイデアを生み出せる
-
-### 『センスは知識から始まる』水野学
-
-- **デザインやセンスは才能ではなく、知識の蓄積**
-- 良いものを「知る」ことから始まるセンスの磨き方
-- ハッカソンでのプロダクト設計にも応用可能
+- ジェームス・W・ヤング『アイデアのつくり方』CCCメディアハウス, 1988年
+- 水野学『センスは知識からはじまる』朝日新聞出版, 2014年
 
 ---
 
