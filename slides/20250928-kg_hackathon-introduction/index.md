@@ -8,7 +8,7 @@ footer: "ハッカソンのすすめ - かごがくハッカソン 2025.11.4"
 ---
 
 <!-- TailwindCSS を使うための設定 -->
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://cdn.tailwindcss.com"></script>
 <script>tailwind.config = { corePlugins: { preflight: false } }</script>
 
 <style>
