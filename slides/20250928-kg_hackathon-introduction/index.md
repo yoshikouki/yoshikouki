@@ -97,7 +97,7 @@ footer: "ハッカソンのすすめ - かごがくハッカソン 2025.11.4"
 
 <!-- _header: 1. はじめに -->
 
-## ハッカソンの定義
+## 「ハッカソン」とは
 
 - ハッカソン hackathon = ハック hack + マラソン marathon
 - Wikipediaより:
@@ -108,7 +108,7 @@ footer: "ハッカソンのすすめ - かごがくハッカソン 2025.11.4"
 
 <!-- _header: 1. はじめに -->
 
-## 本日のゴール
+## 「かごがくハッカソン」のゴール
 
 イベント終了時に「**楽しかった！またやりたい！**」と心から思えること
 
@@ -119,15 +119,81 @@ footer: "ハッカソンのすすめ - かごがくハッカソン 2025.11.4"
 
 ---
 
+<!-- _header: 1. はじめに -->
+
+## アイデアの作り方 : 5段階
+
+<div class="flex flex-col items-center space-y-8 py-8">
+  <div class="flex items-center space-x-4">
+    <div class="size-40 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold text-md text-center leading-tight">
+      データ集め
+    </div>
+    <div class="w-8 h-1 bg-gray-300 relative">
+      <div class="absolute top-1/2 right-0 transform -translate-y-1/2 w-0 h-0 border-l-4 border-l-gray-300 border-t-2 border-b-2 border-t-transparent border-b-transparent"></div>
+    </div>
+    <div class="size-40 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold text-md text-center leading-tight">
+      データ咀嚼
+    </div>
+    <div class="w-8 h-1 bg-gray-300 relative">
+      <div class="absolute top-1/2 right-0 transform -translate-y-1/2 w-0 h-0 border-l-4 border-l-gray-300 border-t-2 border-b-2 border-t-transparent border-b-transparent"></div>
+    </div>
+    <div class="size-40 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold text-md text-center leading-tight">
+      消化<br/>(忘却)
+    </div>
+    <div class="w-8 h-1 bg-gray-300 relative">
+      <div class="absolute top-1/2 right-0 transform -translate-y-1/2 w-0 h-0 border-l-4 border-l-gray-300 border-t-2 border-b-2 border-t-transparent border-b-transparent"></div>
+    </div>
+    <div class="size-40 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold text-md text-center leading-tight">
+      ひらめき
+    </div>
+    <div class="w-8 h-1 bg-gray-300 relative">
+      <div class="absolute top-1/2 right-0 transform -translate-y-1/2 w-0 h-0 border-l-4 border-l-gray-300 border-t-2 border-b-2 border-t-transparent border-b-transparent"></div>
+    </div>
+    <div class="size-40 bg-blue-500 rounded-lg flex items-center justify-center text-white font-bold text-md text-center leading-tight">
+      確認<br/>具体化
+    </div>
+  </div>
+
+  <!-- 知識の種類 -->
+  <div class="flex items-center justify-center space-x-8 mt-8">
+    <div class="bg-orange-400 rounded-full px-8 py-6 text-center">
+      <div class="text-white font-bold text-lg mb-2">特殊知識</div>
+      <div class="text-white text-sm space-y-1">
+        <div>• 製品</div>
+        <div>• 顧客</div>
+      </div>
+    </div>
+    <div class="bg-orange-400 rounded-full px-12 py-8 text-center">
+      <div class="text-white font-bold text-xl">一般知識</div>
+    </div>
+  </div>
+
+  <!-- 出典 -->
+  <div class="flex justify-end w-full text-right text-sm opacity-50 mt-4">
+    <a href="#" class="underline">アイデアのつくり方</a> より著者が作図
+  </div>
+</div>
+
+
+---
 
 <!-- _header: 1. はじめに -->
 
-## アイデアの見つけ方
+## 作るもののアイデアを見つける
 
 今回は時間の都合で割愛しますが、以下の本がヒントになります
 
-- 『アイデアのつくり方』
-- 『コンセプト・センス 正解のない時代の答えのつくりかた』
+### 『アイデアのつくり方』ジェームス・W・ヤング
+
+- **60ページの薄い本だが、アイデア創出の本質が凝縮**
+- アイデアは「既存要素の新しい組み合わせ」
+- 前述の5段階プロセスで体系的にアイデアを生み出せる
+
+### 『センスは知識から始まる』水野学
+
+- **デザインやセンスは才能ではなく、知識の蓄積**
+- 良いものを「知る」ことから始まるセンスの磨き方
+- ハッカソンでのプロダクト設計にも応用可能
 
 ---
 
