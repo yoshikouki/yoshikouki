@@ -68,6 +68,47 @@ footer: "ハッカソンのすすめ - かごがくハッカソン 2025.11.4"
   </div>
 </div>
 
+---
+
+<!-- _header: 自己紹介 -->
+
+# yoshikouki よしこ
+
+<img src="./profile.png" alt="yoshikouki-profile-img" class="fixed top-0 right-0 h-full opacity-60" />
+<div class="flex flex-col justify-left h-full gap-10">
+  <div class="text-2xl">GMOペパボ株式会社<br />事業開発部 エンジニアリングリード</div>
+  <ul class="space-y-4 text-xl opacity-75">
+    <li>新規事業のプロダクト開発・マネジメントを担当</li>
+    <li>専門は Web アプリケーション開発</li>
+    <li>最近 3D プリンターを買いました</li>
+    <li>2020年入社 / 鹿児島オフィス勤務</li>
+    <li>X: @yoshikouki_</li>
+    <li>GitHub: yoshikouki</li>
+  </ul>
+</div>
+
+
+---
+
+<!-- _footer: "" -->
+
+<div class="flex justify-center items-baseline" style="font-size: 5rem;">
+  まず<strong style="font-size: 10rem;">自分</strong>を褒めましょう
+</div>
+
+<div class="flex justify-center items-center" style="font-size: 20rem;">
+  👏👏👏
+</div>
+
+---
+
+<!-- _footer: "" -->
+
+2日間のイベントに参加するというのはハードルが高いものです
+
+参加理由や動機はどうでもいいです
+
+**行動した自分** を自覚し、その上で褒めましょう
 
 ---
 
