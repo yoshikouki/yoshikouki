@@ -3,7 +3,7 @@ title: "Claude Code を使って OSS にコントリビュートする"
 emoji: "🌎"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Claude Code", "OSS"]
-published: true
+published: false
 publication_name: "pepabo"
 ---
 
