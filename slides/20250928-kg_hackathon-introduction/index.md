@@ -546,4 +546,4 @@ footer: "ハッカソンのすすめ - かごがくハッカソン 2025.11.4"
 <!-- _header: "" -->
 <style scoped>section { justify-content: center; }</style>
 
-# <!--fit--> 始めましょう
+# <!--fit--> Happy Hacking!!1
