@@ -56,7 +56,7 @@ footer: "ハッカソンのすすめ - かごがくハッカソン 2025.11.4"
   }
 </style>
 
-# <!--fit--> ハッカソンのすすめ
+# <!--fit--> ハッカソンのススメ
 
 <div class="flex justify-end items-end h-1/2">
   <div class="flex items-center gap-4">
