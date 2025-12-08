@@ -10,12 +10,32 @@ published: false
 # はじめに
 この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929)」の17日目の記事です。
 
+この記事は、前作「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」の内容から更に踏み込み、ブラウザへの理解を深めるために Chromium のリポジトリをざっくりと理解していきます。
+
 
 # Chromium リポジトリの概要
 
 https://chromium.googlesource.com/
 
 # Chromium リポジトリの構造
+
+言うまでもないことですが Chromium/src のリポジトリは巨大です。
+
+- **./cc**: The Chromium compositor implementation.
+- **./chrome**: The Chromium browser (see below).
+- **./components**: directory for components that have the Content Module as the uppermost layer they depend on.
+- **./content:** The core code needed for a multi-process sandboxed browser (see below). [More information](https://www.chromium.org/developers/content-module) about why we have separated out this code.
+  - **./content/browser**: The backend for the application which handles all I/O and communication with the child processes . This talks to the `renderer` to manage web pages.
+  - **./content/common:** Files shared between the multiple processes (i.e. browser and renderer, renderer and plugin, etc...). This is the code specific to Chromium (and not applicable to being in base).
+  - **./content/gpu:** Code for the GPU process, which is used for 3D compositing and 3D APIs.
+  - **./content/plugin:** Code for running browser plugins in other processes.
+  - **./content/ppapi_plugin:** Code for the [Pepper](https://www.chromium.org/developers/design-documents/pepper-plugin-implementation) plugin process.
+  - **./content/renderer**: Code for the subprocess in each tab. This embeds WebKit and talks to `browser` for I/O.
+  - **./content/utility:** Code for running random operations in a sandboxed process. The browser process uses it when it wants to run an operation on untrusted data.
+  - **./content/worker:** Code for running HTML5 Web Workers.
+- **./third_party**: 200+ small and large "external" libraries such as image decoders, compression libraries and the web engine Blink (here because it inherits license limitations from WebKit). [Adding new packages](https://www.chromium.org/developers/adding-3rd-party-libraries).
+    - **.../blink/renderer**: The web engine responsible for turning HTML, CSS and scripts into paint commands and other state changes.
+- **./v8**: The V8 Javascript library. This is pulled directly from Google Code's Subversion repository.
 
 公式ドキュメント [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/) がリポジトリの全体像を掴むのに役立ちます (少なくとも2017年以降更新されていないので、古い情報として扱う必要はありますが)。
 
@@ -55,12 +75,55 @@ $ ls -lh ./chrome/app/chrome_main*
 ```
 
 `ChromeMain()` の中で Chromium の抽象層である [`content::ContentMain()` (`./content/app/content_main.cc`)](https://source.chromium.org/chromium/chromium/src/+/main:content/app/content_main.cc;l=355-360) が呼ばれ、
+```c:content/app/content_main.cc
+// This function must be marked with NO_STACK_PROTECTOR or it may crash on
+// return, see the --change-stack-guard-on-fork command line flag.
+NO_STACK_PROTECTOR int ContentMain(ContentMainParams params) {
+  auto runner = ContentMainRunner::Create();
+  return RunContentProcess(std::move(params), runner.get());
+}
+```
+
 [`./content/app/content_main_runner_impl.cc`](https://source.chromium.org/chromium/chromium/src/+/main:content/app/content_main_runner_impl.cc;l=1128-1132) の中で以下の各プロセスを起動します。
 
 - [`BrowserMain()` `./content/browser/browser_main.cc`](https://source.chromium.org/chromium/chromium/src/+/main:content/browser/browser_main.cc)
 - [`RendererMain()` `./content/renderer/renderer_main.cc`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc)
 - [`GpuMain()` `./content/gpu/gpu_main.cc`](https://source.chromium.org/chromium/chromium/src/+/main:content/gpu/gpu_main.cc)
 - [`UtilityMain()` `./content/utility/utility_main.cc`](https://source.chromium.org/chromium/chromium/src/+/main:content/utility/utility_main.cc)
+
+```c:content/app/content_main_runner_impl.cc:1126-1133
+  RegisterMainThreadFactories();
+
+  if (process_type.empty())
+    return RunBrowser(std::move(main_params), start_minimal_browser);
+
+  return RunOtherNamedProcessTypeMain(process_type, std::move(main_params),
+                                      delegate_);
+}
+```
+
+```c:content/app/content_main_runner_impl.cc:721-768
+  static const auto kMainFunctions = std::to_array<MainFunction>({
+      {switches::kUtilityProcess, UtilityMain},
+      {switches::kRendererProcess, RendererMain},
+      {switches::kGpuProcess, GpuMain},
+  });
+
+  // ...省略
+
+  for (const MainFunction& main_function : kMainFunctions) {
+    if (process_type == main_function.name) {
+      auto exit_code =
+          delegate->RunProcess(process_type, std::move(main_function_params));
+      if (std::holds_alternative<int>(exit_code)) {
+        DCHECK_GE(std::get<int>(exit_code), 0);
+        return std::get<int>(exit_code);
+      }
+      return main_function.function(
+          std::move(std::get<MainFunctionParams>(exit_code)));
+    }
+  }
+```
 
 
 ### Renderer Process の起動
