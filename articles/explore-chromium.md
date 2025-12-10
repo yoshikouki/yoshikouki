@@ -7,20 +7,54 @@ published: false
 ---
 
 
-# はじめに
+## はじめに
 この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929)」の17日目の記事です。
 
-この記事は、前作「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」の内容から更に踏み込み、ブラウザへの理解を深めるために Chromium のリポジトリをざっくりと理解していきます。
+もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」を投稿しました。この記事では、その内容からもう少し踏み込み、「Chromium を題材にブラウザがどのように開発されているのか」への理解を深めようと、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
 
 
-# Chromium リポジトリの概要
-
+## Chromium リポジトリの概要
+<!-- TODO: 概要とリポジトリのリンクを貼る -->
+Chromium は
 https://chromium.googlesource.com/
 
-# Chromium リポジトリの構造
+<!-- TODO: chromium/src の紹介を行う -->
 
-言うまでもないことですが Chromium/src のリポジトリは巨大です。
+<!-- TODO: 手元のPCにコードを落とす場合は git clone ではなく公式が案内している方法があることとそのリンクを紹介する -->
 
+
+## Chromium のリポジトリを理解するうえで必要な前提知識
+<!-- 
+TODO: マルチプロセス (最低限 BroeserProcess, RendererProcess のある程度の説明と GpuProcess, UtilityProcess の存在を紹介)
+[Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/) の紹介
+-->
+
+<!-- TODO: マルチプロセスの理解に役立つ画像を貼る -->
+
+<!--
+TODO: Sandboxing について簡単に解説する
+chromium/src/docs/design/sandbox.md を紹介する
+-->
+
+<!-- TODO: RendererProcess の中のマルチスレッドで登場する役割について、少なくとも Main Thread と Compositor Thread について紹介する -->
+
+<!-- TODO: マルチプロセスとマルチスレッドの理解に役立つ画像を貼る -->
+
+<!-- TODO: [🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering) も理解に約に立つよということを伝える -->
+
+
+## Chromium リポジトリの構造
+言うまでもありませんが Chromium/src のリポジトリは巨大です。
+
+<!-- TODO: リポジトリの依存関係を図で示した画像を貼る -->
+
+- **./cc**: The Chromium compositor implementation.
+- **./chrome**: The Chromium browser (see below).
+- **./content:** The core code needed for a multi-process sandboxed browser (see below). [More information](https://www.chromium.org/developers/content-module) about why we have separated out this code.
+  - **./content/renderer**: Code for the subprocess in each tab. This embeds WebKit and talks to `browser` for I/O.
+
+
+<!-- 
 - **./cc**: The Chromium compositor implementation.
 - **./chrome**: The Chromium browser (see below).
 - **./components**: directory for components that have the Content Module as the uppermost layer they depend on.
@@ -40,16 +74,10 @@ https://chromium.googlesource.com/
 公式ドキュメント [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/) がリポジトリの全体像を掴むのに役立ちます (少なくとも2017年以降更新されていないので、古い情報として扱う必要はありますが)。
 
 また、Chromium の中で動くマルチプロセスの仕組みを理解するために、公式ドキュメント [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/) も参考になります
-
-# Renderer Process の概要
-
-
-# Renderer Process のコードを追っていく
-
+-->
 
 
 ## ブラウザの起動
-
 Chromium ではなく Chrome の話になりますが、各プラットフォーム毎のエントリーポイントが `./chrome/app/chrome_exe_main*` にあります。
 
 ```bash
@@ -131,8 +159,12 @@ NO_STACK_PROTECTOR int ContentMain(ContentMainParams params) {
 
 ※ 先に紹介した [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/) にも[古い情報が記載](https://chromium.googlesource.com/playground/chromium-org-site/+/refs/heads/main/developers/how-tos/getting-around-the-chrome-source-code/index.md#application-startup)されています
 
-# おわりに
+
+## おわりに
 前作の記事「[レンダリングを探訪する](https://zenn.dev/pepabo/articles/explore-rendering)」の続編として、Chromiumのリポジトリを題材に、レンダリングの仕組みを掘り下げてみました。この記事が、Chromium やブラウザ、レンダリングについて詳しく知りたいと思うきっかけとなり、案内役としてお役立ていただけたなら幸いです。
+
+Chromium に対するコントリビュートに興味をお持ちの方は、jxck さんの記事がおすすめです
+https://blog.jxck.io/entries/2024-03-26/chromium-contribution.html
 
 最後までお読みいただき、ありがとうございました。
 明日の [🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929) は、[Kentaro Kuribayashi (あんちぽ)](https://kentarokuribayashi.com/) さんです！乞うご期待！
