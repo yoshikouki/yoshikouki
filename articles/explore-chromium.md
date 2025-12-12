@@ -36,19 +36,19 @@ Chromium はマルチプロセス・マルチスレッドで動作します。
 ![アクティビティモニター](/images/explore-rendering/activity-monitor.webp)
 
 
-プロセスのうち、Render Process, Browser Process, GPU Process (Viz Process) が [RenderingNG architecture](https://developer.chrome.com/docs/chromium/renderingng-architecture) で紹介されています。
+プロセスのうち、Renderer Process, Browser Process, GPU Process (Viz Process) が [RenderingNG architecture](https://developer.chrome.com/docs/chromium/renderingng-architecture) で紹介されています。
 
 ![プロセスとスレッド](/images/explore-rendering/process-and-thread.webp)
 *[引用: RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture)*
 
-> - Render Process:
+> - Renderer Process:
 >   - 単一のサイトとタブの組み合わせに対して、レンダリング、アニメーション、スクロール、入力ルーティングを行う
 >   - 複数プロセスが起動する
 > - Browser Process:
->   - ブラウザの UI (アドレスバー、タブタイトル、アイコンを含む) に対して、レンダリング、アニメーション、入力のルーティングを行い、残りのすべての入力を適切な Render Process にルーティングする
+>   - ブラウザの UI (アドレスバー、タブタイトル、アイコンを含む) に対して、レンダリング、アニメーション、入力のルーティングを行い、残りのすべての入力を適切な Renderer Process にルーティングする
 >   - プロセスは1つだけ存在する
 > - Viz Process:
->   - 複数の Render Process および Browser Process からの合成 (コンポジターフレーム) を集約する
+>   - 複数の Renderer Process および Browser Process からの合成 (コンポジターフレーム) を集約する
 >   - 集約後、GPU を使用してラスタライズと描画を行う
 >   - プロセスは1つだけ存在する
 >
