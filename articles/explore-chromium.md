@@ -29,16 +29,71 @@ TODO: マルチプロセス (最低限 BroeserProcess, RendererProcess のある
 [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/) の紹介
 -->
 
-<!-- TODO: マルチプロセスの理解に役立つ画像を貼る -->
+Chromium はマルチプロセス・マルチスレッドで動作します。
+
+複数のプロセスが起動する様子は、macOS におけるアクティビティモニターなどで確認できます。
+
+![アクティビティモニター](/images/explore-rendering/activity-monitor.webp)
+
+
+プロセスのうち、Render Process, Browser Process, GPU Process (Viz Process) が [RenderingNG architecture](https://developer.chrome.com/docs/chromium/renderingng-architecture) で紹介されています。
+
+![プロセスとスレッド](/images/explore-rendering/process-and-thread.webp)
+*[引用: RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture)*
+
+> - Render Process:
+>   - 単一のサイトとタブの組み合わせに対して、レンダリング、アニメーション、スクロール、入力ルーティングを行う
+>   - 複数プロセスが起動する
+> - Browser Process:
+>   - ブラウザの UI (アドレスバー、タブタイトル、アイコンを含む) に対して、レンダリング、アニメーション、入力のルーティングを行い、残りのすべての入力を適切な Render Process にルーティングする
+>   - プロセスは1つだけ存在する
+> - Viz Process:
+>   - 複数の Render Process および Browser Process からの合成 (コンポジターフレーム) を集約する
+>   - 集約後、GPU を使用してラスタライズと描画を行う
+>   - プロセスは1つだけ存在する
+> 
+> ブラウザウィンドウを例にすると、以下のようになります。
+> 
+> ![ブラウザウィンドウ](/images/explore-rendering/browser-window.webp)
+> *Viz Process が GPU Process を担う*
+> *[Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
 
 <!--
 TODO: Sandboxing について簡単に解説する
 chromium/src/docs/design/sandbox.md を紹介する
 -->
 
-<!-- TODO: RendererProcess の中のマルチスレッドで登場する役割について、少なくとも Main Thread と Compositor Thread について紹介する -->
+各プロセスはマルチスレッドで動き、RendererProcess では Main Thread や Compositor Thread などのスレッドが動いています。聞き覚えのある方もいるのではないでしょうか？
 
-<!-- TODO: マルチプロセスとマルチスレッドの理解に役立つ画像を貼る -->
+
+![各プロセス内のスレッド](/images/explore-rendering/process-and-thread-detail.webp)
+*[RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture) の画像を筆者が加工したもの*
+
+より詳細な図が、Chromium 公式ドキュメントの [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview) で紹介されています。
+
+![](/images/explore-chromium/architectural-overview.png)
+*引用: [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview)*
+
+Main Thread と Compositor Thread は、それぞれ以下の処理を行います。
+
+- Main thread:
+  - HTML、CSS、その他のデータ形式の解析
+  - スクリプトの実行
+  - レンダリングイベントループ
+  - ドキュメントのライフサイクル
+  - ヒットテスト
+  - スクリプトイベントのディスパッチ
+- Compositor thread:
+  - 入力イベントの処理
+  - ウェブコンテンツのスクロールやアニメーションの実行
+  - ウェブコンテンツの最適なレイヤリングの計算
+  - 画像のデコード
+  - ペイントワークレット
+  - ラスタタスクの調整
+
+
+![レンダリングパイプラインの実行場所](/images/explore-rendering/rendering-pipeline-chromium-execution-location.webp)
+*左図のステージは、実行される場所が色によって示されています*
 
 <!-- TODO: [🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering) も理解に約に立つよということを伝える -->
 
@@ -46,7 +101,9 @@ chromium/src/docs/design/sandbox.md を紹介する
 ## Chromium リポジトリの構造
 言うまでもありませんが Chromium/src のリポジトリは巨大です。
 
-<!-- TODO: リポジトリの依存関係を図で示した画像を貼る -->
+
+![](/images/explore-chromium/chromium-modules-diagram.png)
+*[引用: Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/#application-startup)*
 
 - **./cc**: The Chromium compositor implementation.
 - **./chrome**: The Chromium browser (see below).
