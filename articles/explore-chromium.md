@@ -24,7 +24,7 @@ https://chromium.googlesource.com/
 
 
 ## Chromium のリポジトリを理解するうえで必要な前提知識
-<!-- 
+<!--
 TODO: マルチプロセス (最低限 BroeserProcess, RendererProcess のある程度の説明と GpuProcess, UtilityProcess の存在を紹介)
 [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/) の紹介
 -->
@@ -39,7 +39,7 @@ Chromium はマルチプロセス・マルチスレッドで動作します。
 プロセスのうち、Render Process, Browser Process, GPU Process (Viz Process) が [RenderingNG architecture](https://developer.chrome.com/docs/chromium/renderingng-architecture) で紹介されています。
 
 ![プロセスとスレッド](/images/explore-rendering/process-and-thread.webp)
-*[引用: RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture)*
+*[引用: RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture)*
 
 > - Render Process:
 >   - 単一のサイトとタブの組み合わせに対して、レンダリング、アニメーション、スクロール、入力ルーティングを行う
@@ -51,12 +51,12 @@ Chromium はマルチプロセス・マルチスレッドで動作します。
 >   - 複数の Render Process および Browser Process からの合成 (コンポジターフレーム) を集約する
 >   - 集約後、GPU を使用してラスタライズと描画を行う
 >   - プロセスは1つだけ存在する
-> 
+>
 > ブラウザウィンドウを例にすると、以下のようになります。
-> 
+>
 > ![ブラウザウィンドウ](/images/explore-rendering/browser-window.webp)
 > *Viz Process が GPU Process を担う*
-> *[Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
+> *[Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
 
 <!--
 TODO: Sandboxing について簡単に解説する
@@ -67,7 +67,7 @@ chromium/src/docs/design/sandbox.md を紹介する
 
 
 ![各プロセス内のスレッド](/images/explore-rendering/process-and-thread-detail.webp)
-*[RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture) の画像を筆者が加工したもの*
+*[RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture) の画像を筆者が加工したもの*
 
 より詳細な図が、Chromium 公式ドキュメントの [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview) で紹介されています。
 
@@ -101,37 +101,60 @@ Main Thread と Compositor Thread は、それぞれ以下の処理を行いま�
 ## Chromium リポジトリの構造
 言うまでもありませんが Chromium/src のリポジトリは巨大です。
 
-
 ![](/images/explore-chromium/chromium-modules-diagram.png)
-*[引用: Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/#application-startup)*
+*[引用: Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/#application-startup)（※図中の WebKit は現在 Blink に置き換わっています）*
 
-- **./cc**: The Chromium compositor implementation.
-- **./chrome**: The Chromium browser (see below).
-- **./content:** The core code needed for a multi-process sandboxed browser (see below). [More information](https://www.chromium.org/developers/content-module) about why we have separated out this code.
-  - **./content/renderer**: Code for the subprocess in each tab. This embeds WebKit and talks to `browser` for I/O.
+公式ドキュメント [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/) がリポジトリの全体像を掴むのに役立ちます（少なくとも2017年以降更新されていないので、古い情報として読む必要はあります）。
 
+### 主要ディレクトリとプロセスの対応
 
-<!-- 
-- **./cc**: The Chromium compositor implementation.
-- **./chrome**: The Chromium browser (see below).
-- **./components**: directory for components that have the Content Module as the uppermost layer they depend on.
-- **./content:** The core code needed for a multi-process sandboxed browser (see below). [More information](https://www.chromium.org/developers/content-module) about why we have separated out this code.
-  - **./content/browser**: The backend for the application which handles all I/O and communication with the child processes . This talks to the `renderer` to manage web pages.
-  - **./content/common:** Files shared between the multiple processes (i.e. browser and renderer, renderer and plugin, etc...). This is the code specific to Chromium (and not applicable to being in base).
-  - **./content/gpu:** Code for the GPU process, which is used for 3D compositing and 3D APIs.
-  - **./content/plugin:** Code for running browser plugins in other processes.
-  - **./content/ppapi_plugin:** Code for the [Pepper](https://www.chromium.org/developers/design-documents/pepper-plugin-implementation) plugin process.
-  - **./content/renderer**: Code for the subprocess in each tab. This embeds WebKit and talks to `browser` for I/O.
-  - **./content/utility:** Code for running random operations in a sandboxed process. The browser process uses it when it wants to run an operation on untrusted data.
-  - **./content/worker:** Code for running HTML5 Web Workers.
-- **./third_party**: 200+ small and large "external" libraries such as image decoders, compression libraries and the web engine Blink (here because it inherits license limitations from WebKit). [Adding new packages](https://www.chromium.org/developers/adding-3rd-party-libraries).
-    - **.../blink/renderer**: The web engine responsible for turning HTML, CSS and scripts into paint commands and other state changes.
-- **./v8**: The V8 Javascript library. This is pulled directly from Google Code's Subversion repository.
+前のセクションで紹介したマルチプロセスアーキテクチャは、リポジトリ構造にも反映されています。
 
-公式ドキュメント [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/) がリポジトリの全体像を掴むのに役立ちます (少なくとも2017年以降更新されていないので、古い情報として扱う必要はありますが)。
+| プロセス | 主要ディレクトリ |
+|---------|-----------------|
+| Browser Process | `./content/browser` |
+| Renderer Process | `./content/renderer`, `./third_party/blink/renderer` |
+| GPU Process | `./content/gpu`, `./cc` |
 
-また、Chromium の中で動くマルチプロセスの仕組みを理解するために、公式ドキュメント [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/) も参考になります
--->
+主要なディレクトリの役割を以下に示します。
+
+- **./chrome**: Chrome ブラウザ固有の機能（拡張機能、オートフィル、ブックマークなど）
+- **./content**: マルチプロセス・サンドボックス化ブラウザのコアコード。[Content Module](https://www.chromium.org/developers/content-module) として、Chrome 固有機能と分離されています
+  - **./content/browser**: Browser Process のバックエンド。I/O と子プロセスとの通信を担当
+  - **./content/renderer**: Renderer Process のコード。Blink を埋め込み、Browser Process と通信
+  - **./content/gpu**: GPU Process のコード。3D 合成と 3D API に使用
+- **./cc**: Chromium Compositor の実装。Compositor Thread で動作し、レイヤーの合成を担当
+- **./v8**: JavaScript エンジン V8
+
+### Web エンジン Blink
+
+Blink は `./third_party/blink/renderer` に配置されており、HTML、CSS、JavaScript を解析してレンダリング命令に変換する役割を担います。
+
+```
+./third_party/blink/renderer/
+├── core/       # DOM、HTML、CSS など Web Platform の核心機能
+├── modules/    # WebGL、WebCrypto など自己完結した Web API
+├── platform/   # 低レベル機能（タスクスケジューラ、グラフィックス等）
+└── bindings/   # V8 との連携（JavaScript バインディング）
+```
+
+これらのディレクトリには厳密な依存関係のルールがあり、`modules/` → `core/` → `platform/` の方向にのみ依存できます（DEPS ファイルで強制）。
+
+#### レンダリングパイプラインとの対応
+
+前作「[レンダリングを探訪する](https://zenn.dev/yoshikouki/articles/explore-rendering)」で紹介したレンダリングパイプラインの各ステージは、Blink の以下のディレクトリで実装されています。
+
+| ステージ | ディレクトリ |
+|---------|-------------|
+| Parse | `core/html/parser/`, `core/css/parser/` |
+| Style | `core/css/`, `core/style/` |
+| Layout | `core/layout/` |
+| Paint | `core/paint/` |
+| Composite | `./cc`（Blink 外） |
+
+![レンダリングパイプラインの実行場所](/images/explore-rendering/rendering-pipeline-chromium-execution-location.webp)
+
+Blink（Main Thread）で Parse から Paint までを処理し、その後 Compositor Thread（`./cc`）でレイヤーの合成が行われ、最終的に GPU Process（Viz）で画面に描画されます。
 
 
 ## ブラウザの起動
@@ -218,9 +241,9 @@ flowchart TD
     Entry[chrome_exe_main_*.cc] --> ChromeMain[ChromeMain]
     ChromeMain --> ContentMain[content::ContentMain]
     ContentMain --> Runner[ContentMainRunnerImpl::Run]
-    
+
     Runner --> Check{process_type Check}
-    
+
     Check -- Empty --> BrowserMain[RunBrowser<br>BrowserMain]
     Check -- Not Empty --> ChildMain[RunOtherNamedProcessTypeMain<br>RendererMain, GpuMain, etc.]
 ```
