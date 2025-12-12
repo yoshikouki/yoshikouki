@@ -252,6 +252,17 @@ flowchart TD
 
 
 ### Renderer Process の起動
+
+Renderer Process 関連の主要ファイルは以下の通りです：
+
+```bash
+$ ls -lh ./content/renderer/renderer_main.cc ./content/renderer/render_thread_impl.cc ./content/renderer/render_thread_impl.h ./content/renderer/render_process_impl.cc
+-rw-r--r--@ 1 yoshikouki  staff   8.3K Oct 28 22:52 ./content/renderer/render_process_impl.cc
+-rw-r--r--@ 1 yoshikouki  staff    63K Nov 29 15:10 ./content/renderer/render_thread_impl.cc
+-rw-r--r--@ 1 yoshikouki  staff    23K Nov 29 15:10 ./content/renderer/render_thread_impl.h
+-rw-r--r--@ 1 yoshikouki  staff    14K Nov 29 15:10 ./content/renderer/renderer_main.cc
+```
+
 Renderer Process のエントリーポイントは [`content::RendererMain()` (`./content/renderer/renderer_main.cc`)](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc) です。
 
 ここでは、Blink の初期化、スケジューラの作成、そして Renderer ごとのメインスレッドとなる `RenderThreadImpl` の生成とメッセージループの開始が行われます。
@@ -267,21 +278,79 @@ flowchart TD
 
 #### 主な処理の流れ
 
-1. **Blink の初期化**
-   - [`blink::Platform::InitializeBlink()`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=215) が呼ばれ、Web エンジン Blink の初期化が行われます。
+**1. Blink の初期化とスケジューラの作成**
 
-2. **Main Thread Scheduler の作成**
-   - [`WebThreadScheduler::CreateMainThreadScheduler()`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=216-218) で、レンダラープロセスのメインスレッド用のスケジューラが作成されます。これは、JavaScript の実行、HTML の解析、スタイルの計算などを適切なタイミングで行うために重要です。
+```cpp:content/renderer/renderer_main.cc:215-218
+  blink::Platform::InitializeBlink();
+  std::unique_ptr<blink::scheduler::WebThreadScheduler> main_thread_scheduler =
+      blink::scheduler::WebThreadScheduler::CreateMainThreadScheduler(
+          CreateMainThreadMessagePump());
+```
 
-3. **RenderThreadImpl の生成**
-   - [`new RenderThreadImpl(...)`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=291-292) で、レンダラスレッドの実体である `RenderThreadImpl` オブジェクトが生成されます。
-   - コンストラクタ (`./content/renderer/render_thread_impl.cc`) 内では、Browser Process との通信経路 (Mojo) の確立や、GPU チャネルの確立 ([`gpu_->EstablishGpuChannel`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/render_thread_impl.cc;l=523-527)) などが行われます。
+[`blink::Platform::InitializeBlink()`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=215) が呼ばれ、Web エンジン Blink の初期化が行われます。続いて [`WebThreadScheduler::CreateMainThreadScheduler()`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=216-218) で、レンダラープロセスのメインスレッド用のスケジューラが作成されます。これは、JavaScript の実行、HTML の解析、スタイルの計算などを適切なタイミングで行うために重要です。
 
-4. **メッセージループ (RunLoop) の開始**
-   - [`run_loop.Run()`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=366) によってメッセージループが開始され、プロセスはイベント待ちの状態になります。これ以降、IPC メッセージや入力イベント、タイマーイベントなどが処理されていきます。
+**2. RenderProcess と RenderThreadImpl の生成**
 
-5. **Sandbox化**
-   - 処理の途中で [`platform.EnableSandbox()`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=302-306) (プラットフォームにより異なる) が呼ばれ、プロセスがサンドボックス化されます。これにより、セキュリティリスクが軽減されます。
+```cpp:content/renderer/renderer_main.cc:287-292
+    std::unique_ptr<RenderProcess> render_process = RenderProcessImpl::Create();
+    // It's not a memory leak since RenderThread has the same lifetime
+    // as a renderer process.
+    base::RunLoop run_loop;
+    new RenderThreadImpl(run_loop.QuitClosure(),
+                         std::move(main_thread_scheduler));
+```
+
+[`RenderProcessImpl::Create()`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=287) で RenderProcess が生成され、続いて [`new RenderThreadImpl(...)`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=291-292) でレンダラスレッドの実体である `RenderThreadImpl` オブジェクトが生成されます。
+
+**3. GPU チャネルの確立**
+
+`RenderThreadImpl` のコンストラクタ内では、GPU Process との通信経路が確立されます。
+
+```cpp:content/renderer/render_thread_impl.cc:518-527
+  gpu_ = viz::Gpu::Create(std::move(remote_gpu), GetIOTaskRunner());
+
+  // Establish the GPU channel now, so its ready when needed and we don't have
+  // to wait on a sync call.
+  if (base::FeatureList::IsEnabled(features::kEarlyEstablishGpuChannel)) {
+    gpu_->EstablishGpuChannel(
+        base::BindOnce([](scoped_refptr<gpu::GpuChannelHost> host) {
+          if (host)
+            GetContentClient()->SetGpuInfo(host->gpu_info());
+        }));
+  }
+```
+
+**4. Sandbox化**
+
+処理の途中で [`platform.EnableSandbox()`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=250) (プラットフォームにより異なる) が呼ばれ、プロセスがサンドボックス化されます。これにより、セキュリティリスクが軽減されます。
+
+```cpp:content/renderer/renderer_main.cc:320-325
+    if (need_sandbox) {
+      should_run_loop = platform.EnableSandbox();
+      if (client) {
+        client->PostSandboxInitialized();
+      }
+    }
+```
+
+**5. メッセージループ (RunLoop) の開始**
+
+```cpp:content/renderer/renderer_main.cc:356-367
+    if (should_run_loop) {
+#if BUILDFLAG(IS_MAC)
+      if (pool)
+        pool->Recycle();
+#endif
+      TRACE_EVENT_INSTANT0("toplevel", "RendererMain.START_MSG_LOOP",
+                           TRACE_EVENT_SCOPE_THREAD);
+      const base::TimeTicks run_loop_start_time = base::TimeTicks::Now();
+      RenderThreadImpl::current()->set_run_loop_start_time(run_loop_start_time);
+      LogTimeToStartRunLoop(command_line, run_loop_start_time);
+      run_loop.Run();
+    }
+```
+
+[`run_loop.Run()`](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/renderer_main.cc;l=366) によってメッセージループが開始され、プロセスはイベント待ちの状態になります。これ以降、IPC メッセージや入力イベント、タイマーイベントなどが処理されていきます。
 
 `RenderThreadImpl` は、Renderer Process 全体の要となるクラスで、Browser Process や GPU Process とのやり取り、リソースの管理などを統括します。
 
