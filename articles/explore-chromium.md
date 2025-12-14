@@ -28,13 +28,13 @@ Chromium はマルチプロセス・マルチスレッドで動作します。
 
 プロセスのうち、Renderer Process, Browser Process, GPU Process が複数の公式ドキュメントで紹介されています。
 
-![主要プロセスとその関係性](/images/explore-rendering/process-and-thread.webp)
+![主要プロセスとその関係性](/images/explore-chromium/process-and-thread.webp)
 *[引用: RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture)*
 
 ![Renderer Process と Plugin Process は複数プロセスが動く](/images/explore-chromium/processes-in-chromium.png)
 *[引用: Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
 
-![ブラウザウィンドウ](/images/explore-rendering/browser-window.webp)
+![ブラウザウィンドウ](/images/explore-chromium/browser-window.webp)
 *[引用: Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
 
 1. Browser Process
@@ -53,7 +53,7 @@ Chromium はマルチプロセス・マルチスレッドで動作します。
 各プロセスはマルチスレッドで動いており、Renderer Process に存在する Main Thread や Compositor Thread、Web Worker は聞き覚えのある方もいるのではないでしょうか？
 
 
-![各プロセス内のスレッド](/images/explore-rendering/process-and-thread-detail.webp)
+![各プロセス内のスレッド](/images/explore-chromium/process-and-thread-detail.webp)
 *[RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture) の画像を筆者が加工したもの*
 
 古い情報にはなりますが、より詳細な関係性が Chromium のデザインドキュメント [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview) で紹介されています。この図では、Renderer Process に対応する Renderer Process Host が Browser Process 内に存在すること、各プロセス間は IPC (Inter-Process Communication。最近では `Mojo` という抽象) で通信していることが示されています。
@@ -72,12 +72,12 @@ Renderer Process は一つの Main Thread と Compositor Thread を持ちます�
 *引用: [How Blink works](https://docs.google.com/document/u/0/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/mobilebasic)*
 
 
-![レンダリングパイプラインの実行場所](/images/explore-rendering/rendering-pipeline-chromium-execution-location.webp)
+![レンダリングパイプラインの実行場所](/images/explore-chromium/rendering-pipeline-chromium-execution-location.webp)
 *左図のステージは、実行される場所が色によって示されています*
 
 Chromium 由来のブラウザで複数のプロセスが起動する様子は、macOS におけるアクティビティモニターなどで確認できます。
 
-![アクティビティモニター](/images/explore-rendering/activity-monitor.webp)
+![アクティビティモニター](/images/explore-chromium/activity-monitor.webp)
 
 
 ## Chromium リポジトリの構造
@@ -168,7 +168,7 @@ Blink は `./third_party/blink/renderer` に配置されており、HTML、CSS�
 
 ※ `core/` = `./third_party/blink/renderer/core/`
 
-![レンダリングパイプラインの実行場所](/images/explore-rendering/rendering-pipeline-chromium-execution-location.webp)
+![レンダリングパイプラインの実行場所](/images/explore-chromium/rendering-pipeline-chromium-execution-location.webp)
 
 Blink（Main Thread）で Parse から Paint までを処理し、その後 Compositor Thread（`./cc`）でレイヤーの合成が行われ、最終的に GPU Process（Viz）で画面に描画されます。
 
