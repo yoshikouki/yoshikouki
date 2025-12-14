@@ -165,13 +165,16 @@ Blink は `./third_party/blink/renderer` に配置されており、HTML、CSS�
 | Paint | `core/paint/` |
 | Composite | `./cc`（Blink 外） |
 
+※ `core/` = `./third_party/blink/renderer/core/`
+
 ![レンダリングパイプラインの実行場所](/images/explore-rendering/rendering-pipeline-chromium-execution-location.webp)
 
 Blink（Main Thread）で Parse から Paint までを処理し、その後 Compositor Thread（`./cc`）でレイヤーの合成が行われ、最終的に GPU Process（Viz）で画面に描画されます。
 
 
 ## ブラウザの起動
-Chromium ではなく Chrome の話になりますが、各プラットフォーム毎のエントリーポイントが `./chrome/app/chrome_exe_main*` にあります。
+ここからは、具体的な処理において、Chromium リポジトリ内のどの部分が関与しているのかを見ていきます。まずは、Chromium ベースのブラウザが起動する際の流れを追いかけてみましょう。
+Chromium ではなく Chrome の話になりますが、各プラットフォーム毎のエントリーポイントは `./chrome/app/chrome_exe_main*` に存在します。
 
 ```bash
 $ ls -lh ./chrome/app/chrome_exe_main*
@@ -196,7 +199,7 @@ $ ls -lh ./chrome/app/chrome_main*
 ```
 
 `ChromeMain()` の中で Chromium の抽象層である [`content::ContentMain()` (`./content/app/content_main.cc`)](https://source.chromium.org/chromium/chromium/src/+/main:content/app/content_main.cc;l=355-360) が呼ばれ、
-```c:content/app/content_main.cc
+```cpp:content/app/content_main.cc
 // This function must be marked with NO_STACK_PROTECTOR or it may crash on
 // return, see the --change-stack-guard-on-fork command line flag.
 NO_STACK_PROTECTOR int ContentMain(ContentMainParams params) {
@@ -212,7 +215,7 @@ NO_STACK_PROTECTOR int ContentMain(ContentMainParams params) {
 - [`GpuMain()` `./content/gpu/gpu_main.cc`](https://source.chromium.org/chromium/chromium/src/+/main:content/gpu/gpu_main.cc)
 - [`UtilityMain()` `./content/utility/utility_main.cc`](https://source.chromium.org/chromium/chromium/src/+/main:content/utility/utility_main.cc)
 
-```c:content/app/content_main_runner_impl.cc:1126-1133
+```cpp:content/app/content_main_runner_impl.cc:1126-1133
   RegisterMainThreadFactories();
 
   if (process_type.empty())
@@ -223,7 +226,7 @@ NO_STACK_PROTECTOR int ContentMain(ContentMainParams params) {
 }
 ```
 
-```c:content/app/content_main_runner_impl.cc:721-768
+```cpp:content/app/content_main_runner_impl.cc:721-768
   static const auto kMainFunctions = std::to_array<MainFunction>({
       {switches::kUtilityProcess, UtilityMain},
       {switches::kRendererProcess, RendererMain},
