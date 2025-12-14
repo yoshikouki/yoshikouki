@@ -270,7 +270,7 @@ flowchart TD
 
 ### Renderer Process の起動
 
-Renderer Process 関連の主要ファイルは以下の通りです：
+Renderer Process 関連の主要ファイルは以下の通りです。
 
 ```bash
 $ ls -lh ./content/renderer/renderer_main.cc ./content/renderer/render_thread_impl.cc ./content/renderer/render_thread_impl.h ./content/renderer/render_process_impl.cc
@@ -365,9 +365,13 @@ Renderer Process のエントリーポイントは [`content::RendererMain()` (`
 
 
 ## おわりに
-この記事では、前作「[レンダリングを探訪する](https://zenn.dev/pepabo/articles/explore-rendering)」の続編として、Chromiumのリポジトリを題材に、レンダリングの仕組みを掘り下げてみました。この記事が、Chromium やブラウザ、レンダリングについて詳しく知りたいと思うきっかけとなり、案内役としてお役立ていただけたなら幸いです。
+この記事では、前作「[レンダリングを探訪する](https://zenn.dev/pepabo/articles/explore-rendering)」の続編として、Chromiumのリポジトリを題材に、レンダリングの仕組みを掘り下げてみました。
 
-Chromium に対するコントリビュートに興味をお持ちの方は、jxck さんの記事がおすすめです
+Chromium/src のリポジトリは巨大です。世界最大級のオープンソースプロジェクトの一つとも言えるのではないでしょうか。私自身、Web アプリケーションエンジニアとしても一般利用者としても Chrome ブラウザや V8 にお世話になっておりますが、以前からその仕組みについて興味がありました。今回、その興味のままリポジトリの中身を覗いてみたのですが、正直なかなか理解が難しい部分が多かったです。
+
+ブラウザという、多くの一般利用者の持つ端末上に存在する仮想OSのような存在について、Unknown Unknowns（知られざる未知）の領域が想像していた以上に広大なことに驚きました。一方、少しでも Known Unknowns（知られている未知）になった部分もあり、特に Chromium における登場人物や役割、レンダリングパイプラインとの対応関係など、以前よりも理解が深まったと感じています。
+
+この記事が、Chromium やブラウザ、レンダリングについて詳しく知りたいと思うきっかけとなり、案内役としてお役立ていただけたなら幸いです。発展して、Chromium に対するコントリビュートに興味をお持ちの方は、jxck さんの記事がおすすめですので紹介します。
 https://blog.jxck.io/entries/2024-03-26/chromium-contribution.html
 
 最後までお読みいただき、ありがとうございました。
