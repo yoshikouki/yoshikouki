@@ -369,7 +369,7 @@ Renderer Process のエントリーポイントは [`content::RendererMain()` (`
 
 Chromium/src のリポジトリは巨大です。世界最大級のオープンソースプロジェクトの一つとも言えるのではないでしょうか。私自身、Web アプリケーションエンジニアとしても一般利用者としても Chrome ブラウザや V8 にお世話になっておりますが、以前からその仕組みについて興味がありました。今回、その興味のままリポジトリの中身を覗いてみたのですが、正直なかなか理解が難しい部分が多かったです。
 
-ブラウザという、多くの一般利用者の持つ端末上に存在する仮想OSのような存在について、Unknown Unknowns（知られざる未知）の領域が想像していた以上に広大なことに驚きました。一方、少しでも Known Unknowns（知られている未知）になった部分もあり、特に Chromium における登場人物や役割、レンダリングパイプラインとの対応関係など、以前よりも理解が深まったと感じています。
+ブラウザという、多くの一般利用者の持つ端末上に存在する仮想OSのような存在について、Unknown Unknowns（未知の未知）の領域が想像していた以上に広大なことに驚きました。一方、少しでも Known Unknowns（知られている未知）になった部分もあり、特に Chromium における登場人物や役割、レンダリングパイプラインとの対応関係など、以前よりも理解が深まったと感じています。
 
 この記事が、Chromium やブラウザ、レンダリングについて詳しく知りたいと思うきっかけとなり、案内役としてお役立ていただけたなら幸いです。発展して、Chromium に対するコントリビュートに興味をお持ちの方は、jxck さんの記事がおすすめですので紹介します。
 https://blog.jxck.io/entries/2024-03-26/chromium-contribution.html
@@ -401,7 +401,7 @@ https://blog.jxck.io/entries/2024-03-26/chromium-contribution.html
     - CPU、メモリ、プロセスなどからブラウザの基本的な仕組みまで解説してくれます
 10. [RenderingNG  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng?hl=ja)
     - Chromium の次世代レンダリングアーキテクチャについて解説しています
-11. [Life of a Pixel - Google スライド](https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y
+11. [Life of a Pixel - Google スライド](https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y)
     - レンダリングパイプラインの各ステージについて、詳しく解説しています
 12. [Site Isolation Design Document](https://www.chromium.org/developers/design-documents/site-isolation/)
 13. [Chromium Docs - Sandbox](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
