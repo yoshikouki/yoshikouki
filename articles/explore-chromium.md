@@ -10,7 +10,7 @@ published: false
 ## はじめに
 この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929)」の17日目の記事です。
 
-もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」を投稿しました。この記事では、その内容からもう少し踏み込み、Chromium を題材に「ブラウザを動かしているコード」への理解を深めたいと思い、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
+もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/articles/explore-rendering)」を投稿しました。この記事では、その内容からもう少し踏み込み、Chromium を題材に「ブラウザを動かしているコード」への理解を深めたいと思い、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
 
 
 ## Chromium リポジトリの概要
@@ -63,7 +63,7 @@ Chromium はマルチプロセス・マルチスレッドで動作します。
 
 特に Renderer Process がマルチプロセスで動くこと、状況によって変わりますが登録可能ドメイン (ドメイン foo.example.com の "example.com" に当たる部分) につき1つの Renderer Process が起動することは押さえておきましょう。この理由は、ブラウザやWebページのセキュリティ・速度・安定性を向上させるため (特にセキュリティ) です。より詳しく知りたい場合は、["Site Isolation"](https://www.chromium.org/developers/design-documents/site-isolation/) や ["Sandbox"](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md) などのキーワード、["Spectre" の歴史](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)を調べてみると良いでしょう。
 
-Renderer Process は一つの Main Thread と Compositor Thread を持ちます。これらのスレッドがレンダリングパイプラインで担う役割については、前作「[レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」で紹介しておりますので、是非ご参照ください。
+Renderer Process は一つの Main Thread と Compositor Thread を持ちます。これらのスレッドがレンダリングパイプラインで担う役割については、前作「[レンダリングを探訪する](https://zenn.dev/yoshikouki/articles/explore-rendering)」で紹介しておりますので、是非ご参照ください。
 
 また、レンダリングパイプラインの各ステージについて詳しく知りたいかたは、[スライド Life of a Pixel](https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y) や [Chromium RenderingNG](https://developer.chrome.com/docs/chromium/renderingng?hl=ja) がおすすめです ([Chrome University の動画はこちら](https://www.youtube.com/watch?v=m-J-tbAlFic))。
 
@@ -406,5 +406,5 @@ https://blog.jxck.io/entries/2024-03-26/chromium-contribution.html
 12. [Site Isolation Design Document](https://www.chromium.org/developers/design-documents/site-isolation/)
 13. [Chromium Docs - Sandbox](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
 14. [Google Online Security Blog: Today's CPU vulnerability: what you need to know](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)
-15. [🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)
+15. [🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/articles/explore-rendering)
     - 前作。Chromium のレンダリングパイプラインを中心に解説しています
