@@ -83,26 +83,61 @@ Chromium 由来のブラウザで複数のプロセスが起動する様子は�
 ## Chromium リポジトリの構造
 ここからは、Chromium/src リポジトリの構造をざっくりと概観し、前節で紹介した各プロセスがどのディレクトリに対応しているのかを見ていきます。
 
-### 主要ディレクトリとプロセスの対応
+### Chromium ソースツリーの構造
 
-前のセクションで紹介したマルチプロセスアーキテクチャは、次表のディレクトリのような対応になります。
+Chromium のソースコードは、役割に応じて以下の3つの層に分かれています。
+
+#### 1. Core Application Logic（コアアプリケーション層）
+
+| ディレクトリ | 役割 |
+|------------|------|
+| [./chrome](https://source.chromium.org/chromium/chromium/src/+/main:chrome/) | Chrome ブラウザアプリケーション本体。UI、ブラウザ固有の機能、アプリケーションロジックを含みます |
+| [./components](https://source.chromium.org/chromium/chromium/src/+/main:components/) | 再利用可能なモジュール群（autofill、bookmarks、signin、policy など）。`./content` の上に構築され、相互依存を最小限に抑えた設計になっています |
+
+#### 2. Core Abstraction Layers（コア抽象層）
+
+| ディレクトリ | 役割 |
+|------------|------|
+| [./content](https://source.chromium.org/chromium/chromium/src/+/main:content/) | マルチプロセス・サンドボックス化レンダリングエンジンの抽象層。ほとんどの機能は Content API の上に構築されます。`./chrome` の下層に位置します |
+| [./third_party/blink](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/) | Blink レンダリングエンジン。オープンな Web プラットフォーム（DOM、CSS、JavaScript API など）を実装。サンドボックス化された Renderer Process 内で動作します |
+
+#### 3. Foundational Libraries（基盤ライブラリ層）
+
+| ディレクトリ | 役割 |
+|------------|------|
+| [./base](https://source.chromium.org/chromium/chromium/src/+/main:base/) | Chromium の基盤となる構成要素。C++ のユーティリティ、データ構造、スレッディングプリミティブ（`base::Callback`、`base::TaskRunner`）、プラットフォーム抽象化を提供。ほとんどのコードが `./base` に依存します |
+| [./net](https://source.chromium.org/chromium/chromium/src/+/main:net/) | ネットワークスタック。HTTP から QUIC まですべてを実装し、ネットワークリクエストの抽象化を提供します |
+| [./mojo](https://source.chromium.org/chromium/chromium/src/+/main:mojo/) | プロセス間通信（IPC）のためのコアライブラリ。プロセスやサービス間の通信に使用されます |
+| [./services](https://source.chromium.org/chromium/chromium/src/+/main:services/) | 独立したサービスのコレクション。多くは専用のプロセスで動作し、Mojo インターフェースを介して通信します |
+
+#### 4. UI Toolkits（UI ツールキット）
+
+| ディレクトリ | 役割 |
+|------------|------|
+| [./ui](https://source.chromium.org/chromium/chromium/src/+/main:ui/) | ユーザーインターフェース構築のための基盤ツールキット |
+| [./ui/views](https://source.chromium.org/chromium/chromium/src/+/main:ui/views/) | クロスプラットフォームなデスクトップ UI（Windows、Linux、ChromeOS）を構築するための主要フレームワーク。ウィジェットベースのシステムでネイティブな操作感のインターフェースを実現します |
+
+これらの構造を図示すると以下のようになります。
+
+![](/images/explore-chromium/chromium-modules-diagram.png)
+*[引用: How Blink works](https://docs.google.com/document/u/0/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/mobilebasic)*
+
+
+
+#### 主要ディレクトリとプロセスの対応
+
+前のセクションで紹介したマルチプロセスアーキテクチャは、以下のようにディレクトリに対応しています。
 
 | プロセス | 主要ディレクトリ |
 |---------|-----------------|
-| Browser Process | `./content/browser` |
-| Renderer Process | `./content/renderer`, `./third_party/blink/renderer` |
-| Renderer Process (Compositor Thread) | `./cc` |
-| GPU Process | `./content/gpu` |
+| Browser Process | [./content/browser](https://source.chromium.org/chromium/chromium/src/+/main:content/browser/) |
+| Renderer Process | [./content/renderer](https://source.chromium.org/chromium/chromium/src/+/main:content/renderer/), [./third_party/blink/renderer](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/) |
+| Renderer Process (Compositor Thread) | [./cc](https://source.chromium.org/chromium/chromium/src/+/main:cc/) |
+| GPU Process | [./content/gpu](https://source.chromium.org/chromium/chromium/src/+/main:content/gpu/) |
 
-主要なディレクトリの役割を以下に示します。
+その他の重要なディレクトリ:
 
-- **./chrome**: Chrome ブラウザ固有の機能（拡張機能、オートフィル、ブックマークなど）
-- **./content**: マルチプロセス・サンドボックス化ブラウザのコアコード。[Content Module](https://www.chromium.org/developers/content-module) として、Chrome 固有機能と分離されています
-  - **./content/browser**: Browser Process のバックエンド。I/O と子プロセスとの通信を担当
-  - **./content/renderer**: Renderer Process のコード。Blink を埋め込み、Browser Process と通信
-  - **./content/gpu**: GPU Process のコード。3D 合成と 3D API に使用
-- **./cc**: Chromium Compositor の実装。Compositor Thread で動作し、レイヤーの合成を担当
-- **./v8**: JavaScript エンジン V8
+- [./v8](https://source.chromium.org/chromium/chromium/src/+/main:v8/): JavaScript エンジン V8
 
 ### レンダリングエンジン Blink
 Blink は `./third_party/blink/renderer` に配置されており、HTML、CSS、JavaScript を解析してレンダリング命令に変換する役割を担います。
