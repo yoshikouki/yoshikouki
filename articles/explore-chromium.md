@@ -34,10 +34,10 @@ Chromium はマルチプロセス・マルチスレッドで動作します。
 ![主要プロセスとその関係性](/images/explore-chromium/process-and-thread.webp)
 *[引用: RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture)*
 
-![Renderer Process と Plugin Process は複数プロセスが動く](/images/explore-chromium/processes-in-chromium.png)
+![ブラウザウィンドウ](/images/explore-chromium/browser-window.webp)
 *[引用: Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
 
-![ブラウザウィンドウ](/images/explore-chromium/browser-window.webp)
+![Renderer Process と Plugin Process は複数プロセスが動く](/images/explore-chromium/processes-in-chromium.png)
 *[引用: Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
 
 1. Browser Process
@@ -64,7 +64,7 @@ Chromium はマルチプロセス・マルチスレッドで動作します。
 ![](/images/explore-chromium/architectural-overview.png)
 *引用: [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview)*
 
-特に Renderer Process がマルチプロセスで動くこと、状況によって変わりますが登録可能ドメイン (ドメイン foo.example.com の "example.com" に当たる部分) につき1つの Renderer Process が起動することは押さえておきましょう。この理由は、ブラウザやWebページのセキュリティ・速度・安定性を向上させるため (特にセキュリティ) です。より詳しく知りたい場合は、["Site Isolation"](https://www.chromium.org/developers/design-documents/site-isolation/) や ["Sandbox"](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md) などのキーワード、["Spectre" の歴史](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)を調べてみると良いでしょう。
+特に Renderer Process が複数プロセスで動くこと、状況によって変わりますが登録可能ドメイン (ドメイン foo.example.com の "example.com" に当たる部分) につき1つの Renderer Process が起動することは押さえておきましょう。この理由は、ブラウザやWebページのセキュリティ・速度・安定性を向上させるため (特にセキュリティ) です。より詳しく知りたい場合は、["Site Isolation"](https://www.chromium.org/developers/design-documents/site-isolation/) や ["Sandbox"](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md) などのキーワード、["Spectre" の歴史](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)を調べてみると良いでしょう。
 
 Renderer Process は一つの Main Thread と Compositor Thread を持ちます。これらのスレッドがレンダリングパイプラインで担う役割については、前作「[レンダリングを探訪する](https://zenn.dev/yoshikouki/articles/explore-rendering)」で紹介しておりますので、是非ご参照ください。
 
@@ -370,9 +370,9 @@ Renderer Process のエントリーポイントは [`content::RendererMain()` (`
 ## おわりに
 この記事では、前作「[レンダリングを探訪する](https://zenn.dev/pepabo/articles/explore-rendering)」の続編として、Chromiumのリポジトリを題材に、レンダリングの仕組みを掘り下げてみました。
 
-Chromium/src のリポジトリは巨大です。世界最大級のオープンソースプロジェクトの一つとも言えるのではないでしょうか。私自身、Web アプリケーションエンジニアとしても一般利用者としても Chrome ブラウザや V8 にお世話になっておりますが、以前からその仕組みについて興味がありました。今回、その興味のままリポジトリの中身を覗いてみたのですが、正直なかなか理解が難しい部分が多かったです。
+Chromium/src のリポジトリは巨大です。世界最大級のオープンソースプロジェクトの一つとも言えるのではないでしょうか。私自身、Web アプリケーションエンジニアとしても一般利用者としても Chrome ブラウザや V8 にお世話になっており、以前からその仕組みについて興味がありました。今回、その興味のままリポジトリの中身を覗いてみたのですが、正直なかなか理解が難しい部分が多かったです。
 
-ブラウザという、多くの一般利用者の持つ端末上に存在する仮想OSのような存在について、Unknown Unknowns（未知の未知）の領域が想像していた以上に広大なことに驚きました。一方、少しでも Known Unknowns（知られている未知）になった部分もあり、特に Chromium における登場人物や役割、レンダリングパイプラインとの対応関係など、以前よりも理解が深まったと感じています。
+ブラウザという、多くの一般利用者の持つ端末上に存在する仮想OSのような存在について、Unknown Unknowns（未知の未知）の領域が想像していた以上に広大なことに驚きました。一方、少しでも Known Unknowns（知られている未知）になった部分もあり、特に Chromium における登場人物や役割、レンダリングパイプラインとの対応関係など、以前よりも理解が深まったと感じています。多くのドキュメントを読む中で、この記事内では紹介しきれなかった思想や歴史背景も知ることができ、非常に有意義な時間となりました。
 
 この記事が、Chromium やブラウザ、レンダリングについて詳しく知りたいと思うきっかけとなり、案内役としてお役立ていただけたなら幸いです。発展して、Chromium に対するコントリビュートに興味をお持ちの方は、jxck さんの記事がおすすめですので紹介します。
 https://blog.jxck.io/entries/2024-03-26/chromium-contribution.html
