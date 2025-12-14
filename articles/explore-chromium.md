@@ -83,23 +83,6 @@ Chromium 由来のブラウザで複数のプロセスが起動する様子は�
 ## Chromium リポジトリの構造
 ここからは、Chromium/src リポジトリの構造をざっくりと概観し、前節で紹介した各プロセスがどのディレクトリに対応しているのかを見ていきます。
 
-言うまでもないことでしょうが、Chromium/src のリポジトリは巨大です。世界最大級のオープンソースプロジェクトの一つとも言えるのではないでしょうか。
-私のPCの環境 (未ビルド) では、ディレクトリ数は43,227、ファイル数は482,952、総サイズは66GBとなっており、third_party ディレクトリが全体の半分近くを占めています。
-
-| ディレクトリ | ファイル数      |
-|--------------|----------------:|
-| third_party/ | 241,285         |
-| chrome/      | 82,986          |
-| components/  | 38,914          |
-| ios/         | 18,615          |
-| content/     | 16,771          |
-| ash/         | 12,061          |
-| ui/          | 10,401          |
-| chromeos/    | 8,920           |
-| net/         | 5,467           |
-| base/        | 3,896           |
-
-
 リポジトリの全体像を掴むために、公式ドキュメント [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/) が役立ちます（少なくとも2017年以降は更新されていないので、古い情報として読む必要はあります）。
 
 ![](/images/explore-chromium/chromium-modules-diagram.png)
