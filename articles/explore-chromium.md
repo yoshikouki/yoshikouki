@@ -109,6 +109,7 @@ Chromium のソースコードは、役割に応じて以下の3つの層に分�
 | [./net](https://source.chromium.org/chromium/chromium/src/+/main:net/) | ネットワークスタック。HTTP から QUIC まですべてを実装し、ネットワークリクエストの抽象化を提供します |
 | [./mojo](https://source.chromium.org/chromium/chromium/src/+/main:mojo/) | プロセス間通信（IPC）のためのコアライブラリ。プロセスやサービス間の通信に使用されます |
 | [./services](https://source.chromium.org/chromium/chromium/src/+/main:services/) | 独立したサービスのコレクション。多くは専用のプロセスで動作し、Mojo インターフェースを介して通信します |
+| [./v8](https://source.chromium.org/chromium/chromium/src/+/main:v8/) | JavaScript エンジン V8。JavaScript の実行環境を提供し、Blink から使用されます |
 
 #### 4. UI Toolkits（UI ツールキット）
 
@@ -135,9 +136,6 @@ Chromium のソースコードは、役割に応じて以下の3つの層に分�
 | Renderer Process (Compositor Thread) | [./cc](https://source.chromium.org/chromium/chromium/src/+/main:cc/) |
 | GPU Process | [./content/gpu](https://source.chromium.org/chromium/chromium/src/+/main:content/gpu/) |
 
-その他の重要なディレクトリ:
-
-- [./v8](https://source.chromium.org/chromium/chromium/src/+/main:v8/): JavaScript エンジン V8
 
 ### レンダリングエンジン Blink
 Blink は `./third_party/blink/renderer` に配置されており、HTML、CSS、JavaScript を解析してレンダリング命令に変換する役割を担います。
