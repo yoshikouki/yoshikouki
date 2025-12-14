@@ -149,7 +149,7 @@ Blink は `./third_party/blink/renderer` に配置されており、HTML、CSS�
 └── bindings/   # Web API を V8 (JavaScript) から利用可能にするラッパー層
 ```
 
-これらのディレクトリには厳密な依存関係のルールがあり、Chromium -> `controller/` -> `modules/` -> `core/` -> `platform/` -> 低レベル機能の方向にのみ依存できます。
+これらのディレクトリには[厳密な依存関係のルール](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/README.md)があり、Chromium -> `controller/` -> `modules/` -> `core/` -> `platform/` -> 低レベル機能の方向にのみ依存できます。
 
 ![](/images/explore-chromium/blink-dependencies-flow.png)
 *[引用: How Blink works](https://docs.google.com/document/u/0/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/mobilebasic)*
