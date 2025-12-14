@@ -56,12 +56,12 @@ Chromium はマルチプロセス・マルチスレッドで動作します。
 ![各プロセス内のスレッド](/images/explore-rendering/process-and-thread-detail.webp)
 *[RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture) の画像を筆者が加工したもの*
 
-古い情報にはなりますが、より詳細な関係性が Chromium のデザインドキュメント [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview) で紹介されています。
+古い情報にはなりますが、より詳細な関係性が Chromium のデザインドキュメント [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview) で紹介されています。この図では、Renderer Process に対応する Renderer Process Host が Browser Process 内に存在すること、各プロセス間は IPC (Inter-Process Communication。最近では `Mojo` という抽象) で通信していることが示されています。
 
 ![](/images/explore-chromium/architectural-overview.png)
 *引用: [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview)*
 
-特に Renderer Process がマルチプロセスで動くこと、状況によって変わりますが、登録可能ドメイン (ドメイン foo.example.com の "example.com" に当たる部分) につき1つの Renderer Process が起動することは押さえておきましょう。この理由は、ブラウザやWebページのセキュリティ・速度・安定性を向上させるため (特にセキュリティ) です。より詳しく知りたい場合は、["Site Isolation"](https://www.chromium.org/developers/design-documents/site-isolation/) や ["Sandbox"](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md) などのキーワード、["Spectre" の歴史](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)を調べてみると良いでしょう。
+特に Renderer Process がマルチプロセスで動くこと、状況によって変わりますが登録可能ドメイン (ドメイン foo.example.com の "example.com" に当たる部分) につき1つの Renderer Process が起動することは押さえておきましょう。この理由は、ブラウザやWebページのセキュリティ・速度・安定性を向上させるため (特にセキュリティ) です。より詳しく知りたい場合は、["Site Isolation"](https://www.chromium.org/developers/design-documents/site-isolation/) や ["Sandbox"](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md) などのキーワード、["Spectre" の歴史](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)を調べてみると良いでしょう。
 
 Renderer Process は一つの Main Thread と Compositor Thread を持ちます。これらのスレッドがレンダリングパイプラインで担う役割については、前作「[レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」で紹介しておりますので、是非ご参照ください。
 
@@ -83,19 +83,16 @@ Chromium 由来のブラウザで複数のプロセスが起動する様子は�
 ## Chromium リポジトリの構造
 ここからは、Chromium/src リポジトリの構造をざっくりと概観し、前節で紹介した各プロセスがどのディレクトリに対応しているのかを見ていきます。
 
-![](/images/explore-chromium/chromium-modules-diagram.png)
-*[引用: How Blink works](https://docs.google.com/document/u/0/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/mobilebasic)*
-
-
 ### 主要ディレクトリとプロセスの対応
 
-前のセクションで紹介したマルチプロセスアーキテクチャは、リポジトリ構造にも反映されています。
+前のセクションで紹介したマルチプロセスアーキテクチャは、次表のディレクトリのような対応になります。
 
 | プロセス | 主要ディレクトリ |
 |---------|-----------------|
 | Browser Process | `./content/browser` |
 | Renderer Process | `./content/renderer`, `./third_party/blink/renderer` |
-| GPU Process | `./content/gpu`, `./cc` |
+| Renderer Process (Compositor Thread) | `./cc` |
+| GPU Process | `./content/gpu` |
 
 主要なディレクトリの役割を以下に示します。
 
