@@ -10,101 +10,101 @@ published: false
 ## はじめに
 この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929)」の17日目の記事です。
 
-もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」を投稿しました。この記事では、その内容からもう少し踏み込み、「Chromium を題材にブラウザがどのように開発されているのか」への理解を深めようと、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
+もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」を投稿しました。この記事では、その内容からもう少し踏み込み、「Chromium を題材にブラウザを動かしているコード」への理解を深めようと、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
 
 
 ## Chromium リポジトリの概要
-<!-- TODO: 概要とリポジトリのリンクを貼る -->
-Chromium は
-https://chromium.googlesource.com/
+[Chromium](https://www.chromium.org/chromium-projects/) は、オープンソースのブラウザプロジェクトです。Googleが開発している Chrome だけでなく、Microsoft Edge、Samsung Internet、Arc、Android WebView、Vivaldi、Brave、Opera など、多くのブラウザが Chromium をベースに作られています。
 
-<!-- TODO: chromium/src の紹介を行う -->
+Chromium のコードは https://source.chromium.org/chromium/chromium/src で確認・検索できます。
 
-<!-- TODO: 手元のPCにコードを落とす場合は git clone ではなく公式が案内している方法があることとそのリンクを紹介する -->
+コードをPCに落としたい場合は、公式の手順を参考にしてください。
+https://www.chromium.org/developers/how-tos/get-the-code/
 
+ただしダウンロードサイズが大きいこと、そのため時間がかかること、ビルドまでやろうとするとさらに時間がかかることに留意してください
 
-## Chromium のリポジトリを理解するうえで必要な前提知識
-<!--
-TODO: マルチプロセス (最低限 BroeserProcess, RendererProcess のある程度の説明と GpuProcess, UtilityProcess の存在を紹介)
-[Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/) の紹介
--->
-
+## Chromium を理解するうえで必要な前提知識
 Chromium はマルチプロセス・マルチスレッドで動作します。
 
-複数のプロセスが起動する様子は、macOS におけるアクティビティモニターなどで確認できます。
+プロセスのうち、Renderer Process, Browser Process, GPU Process が複数の公式ドキュメントで紹介されています。
 
-![アクティビティモニター](/images/explore-rendering/activity-monitor.webp)
-
-
-プロセスのうち、Renderer Process, Browser Process, GPU Process (Viz Process) が [RenderingNG architecture](https://developer.chrome.com/docs/chromium/renderingng-architecture) で紹介されています。
-
-![プロセスとスレッド](/images/explore-rendering/process-and-thread.webp)
+![主要プロセスとその関係性](/images/explore-rendering/process-and-thread.webp)
 *[引用: RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture)*
 
-> - Renderer Process:
->   - 単一のサイトとタブの組み合わせに対して、レンダリング、アニメーション、スクロール、入力ルーティングを行う
->   - 複数プロセスが起動する
-> - Browser Process:
->   - ブラウザの UI (アドレスバー、タブタイトル、アイコンを含む) に対して、レンダリング、アニメーション、入力のルーティングを行い、残りのすべての入力を適切な Renderer Process にルーティングする
->   - プロセスは1つだけ存在する
-> - Viz Process:
->   - 複数の Renderer Process および Browser Process からの合成 (コンポジターフレーム) を集約する
->   - 集約後、GPU を使用してラスタライズと描画を行う
->   - プロセスは1つだけ存在する
->
-> ブラウザウィンドウを例にすると、以下のようになります。
->
-> ![ブラウザウィンドウ](/images/explore-rendering/browser-window.webp)
-> *Viz Process が GPU Process を担う*
-> *[Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
+![Renderer Process と Plugin Process は複数プロセスが動く](/images/explore-chromium/processes-in-chromium.png)
+*[引用: Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
 
-<!--
-TODO: Sandboxing について簡単に解説する
-chromium/src/docs/design/sandbox.md を紹介する
--->
+![ブラウザウィンドウ](/images/explore-rendering/browser-window.webp)
+*[引用: Inside look at modern web browser (part 1)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1)*
 
-各プロセスはマルチスレッドで動き、RendererProcess では Main Thread や Compositor Thread などのスレッドが動いています。聞き覚えのある方もいるのではないでしょうか？
+1. Browser Process
+    - アドレスバー、ブックマーク、戻るボタン、進むボタンなど、「Chrome アプリケーション」の部分を制御します。
+    - また、ネットワーク リクエストやファイル アクセスなど、ウェブブラウザの不可視の特権部分も処理します。
+    - プロセスは1つだけ存在します。
+2. Renderer Process
+    - ウェブサイトが表示されているタブ内のすべての要素を制御します。
+    - 他のサイトとは分離されてプロセスが起動し、サンドボックス化されています。
+3. GPU Process
+    - 他のプロセスから分離して GPU タスクを処理します。
+    - Renderer Process・Browser Process からの合成 (コンポジターフレーム) を集約し、GPU を使用して描画を行います。
+    - プロセスは1つだけ存在します。
+
+
+各プロセスはマルチスレッドで動いており、Renderer Process に存在する Main Thread や Compositor Thread、Web Worker は聞き覚えのある方もいるのではないでしょうか？
 
 
 ![各プロセス内のスレッド](/images/explore-rendering/process-and-thread-detail.webp)
 *[RenderingNG architecture  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng-architecture) の画像を筆者が加工したもの*
 
-より詳細な図が、Chromium 公式ドキュメントの [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview) で紹介されています。
+古い情報にはなりますが、より詳細な関係性が Chromium のデザインドキュメント [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview) で紹介されています。
 
 ![](/images/explore-chromium/architectural-overview.png)
 *引用: [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview)*
 
-Main Thread と Compositor Thread は、それぞれ以下の処理を行います。
+特に Renderer Process がマルチプロセスで動くこと、状況によって変わりますが、登録可能ドメイン (ドメイン foo.example.com の "example.com" に当たる部分) につき1つの Renderer Process が起動することは押さえておきましょう。この理由は、ブラウザやWebページのセキュリティ・速度・安定性を向上させるため (特にセキュリティ) です。より詳しく知りたい場合は、["Site Isolation"](https://www.chromium.org/developers/design-documents/site-isolation/) や ["Sandbox"](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md) などのキーワード、["Spectre" の歴史](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)を調べてみると良いでしょう。
 
-- Main thread:
-  - HTML、CSS、その他のデータ形式の解析
-  - スクリプトの実行
-  - レンダリングイベントループ
-  - ドキュメントのライフサイクル
-  - ヒットテスト
-  - スクリプトイベントのディスパッチ
-- Compositor thread:
-  - 入力イベントの処理
-  - ウェブコンテンツのスクロールやアニメーションの実行
-  - ウェブコンテンツの最適なレイヤリングの計算
-  - 画像のデコード
-  - ペイントワークレット
-  - ラスタタスクの調整
+Renderer Process は一つの Main Thread と Compositor Thread を持ちます。これらのスレッドがレンダリングパイプラインで担う役割については、前作「[レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」で紹介しておりますので、是非ご参照ください。
+
+また、レンダリングパイプラインの各ステージについて詳しく知りたいかたは、[スライド Life of a Pixel](https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y) や [Chromium RenderingNG](https://developer.chrome.com/docs/chromium/renderingng?hl=ja) がおすすめです ([Chrome University の動画はこちら](https://www.youtube.com/watch?v=m-J-tbAlFic))。
+
+
+![スレッド別のレンダリングパイプラインタスク](/images/explore-chromium/rendering-pipeline-by-thread.png)
+*引用: [How Blink works](https://docs.google.com/document/u/0/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/mobilebasic)*
 
 
 ![レンダリングパイプラインの実行場所](/images/explore-rendering/rendering-pipeline-chromium-execution-location.webp)
 *左図のステージは、実行される場所が色によって示されています*
 
-<!-- TODO: [🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering) も理解に約に立つよということを伝える -->
+Chromium 由来のブラウザで複数のプロセスが起動する様子は、macOS におけるアクティビティモニターなどで確認できます。
+
+![アクティビティモニター](/images/explore-rendering/activity-monitor.webp)
 
 
 ## Chromium リポジトリの構造
-言うまでもありませんが Chromium/src のリポジトリは巨大です。
+ここからは、Chromium/src リポジトリの構造をざっくりと概観し、前節で紹介した各プロセスがどのディレクトリに対応しているのかを見ていきます。
+
+言うまでもないことでしょうが、Chromium/src のリポジトリは巨大です。世界最大級のオープンソースプロジェクトの一つとも言えるのではないでしょうか。
+私のPCの環境 (未ビルド) では、ディレクトリ数は43,227、ファイル数は482,952、総サイズは66GBとなっており、third_party ディレクトリが全体の半分近くを占めています。
+
+| ディレクトリ | ファイル数      |
+|--------------|----------------:|
+| third_party/ | 241,285         |
+| chrome/      | 82,986          |
+| components/  | 38,914          |
+| ios/         | 18,615          |
+| content/     | 16,771          |
+| ash/         | 12,061          |
+| ui/          | 10,401          |
+| chromeos/    | 8,920           |
+| net/         | 5,467           |
+| base/        | 3,896           |
+
+
+リポジトリの全体像を掴むために、公式ドキュメント [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/) が役立ちます（少なくとも2017年以降は更新されていないので、古い情報として読む必要はあります）。
 
 ![](/images/explore-chromium/chromium-modules-diagram.png)
-*[引用: Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/#application-startup)（※図中の WebKit は現在 Blink に置き換わっています）*
+*[引用: How Blink works](https://docs.google.com/document/u/0/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/mobilebasic)*
 
-公式ドキュメント [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/) がリポジトリの全体像を掴むのに役立ちます（少なくとも2017年以降更新されていないので、古い情報として読む必要はあります）。
 
 ### 主要ディレクトリとプロセスの対応
 
@@ -126,8 +126,7 @@ Main Thread と Compositor Thread は、それぞれ以下の処理を行いま�
 - **./cc**: Chromium Compositor の実装。Compositor Thread で動作し、レイヤーの合成を担当
 - **./v8**: JavaScript エンジン V8
 
-### Web エンジン Blink
-
+### レンダリングエンジン Blink
 Blink は `./third_party/blink/renderer` に配置されており、HTML、CSS、JavaScript を解析してレンダリング命令に変換する役割を担います。
 
 ```
@@ -138,7 +137,10 @@ Blink は `./third_party/blink/renderer` に配置されており、HTML、CSS�
 └── bindings/   # V8 との連携（JavaScript バインディング）
 ```
 
-これらのディレクトリには厳密な依存関係のルールがあり、`modules/` → `core/` → `platform/` の方向にのみ依存できます（DEPS ファイルで強制）。
+これらのディレクトリには厳密な依存関係のルールがあり、`modules/` → `core/` → `platform/` の方向にのみ依存できます。
+
+![](/images/explore-chromium/blink-dependencies-flow.png)
+*[引用: How Blink works](https://docs.google.com/document/u/0/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/mobilebasic)*
 
 #### レンダリングパイプラインとの対応
 
