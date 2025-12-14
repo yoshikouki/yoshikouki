@@ -23,6 +23,10 @@ https://www.chromium.org/developers/how-tos/get-the-code/
 
 ただしダウンロードサイズが大きいこと、そのため時間がかかること、ビルドまでやろうとするとさらに時間がかかることに留意してください
 
+:::message
+本記事で参照しているソースコードは、2025年12月4日時点のコミット [`5f0738f9fc2a`](https://source.chromium.org/chromium/chromium/src/+/5f0738f9fc2a21bcc8f5b411efb9af26cc5862cc:) に基づいています。Chromium は活発に開発されているため、最新のコードでは行番号やファイル構成が変わっている可能性があります。
+:::
+
 ## Chromium を理解するうえで必要な前提知識
 Chromium はマルチプロセス・マルチスレッドで動作します。
 
