@@ -8,10 +8,9 @@ published: false
 
 
 ## はじめに
-この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929)」の17日目の記事です。
-
 もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/articles/explore-rendering)」を投稿しました。この記事では、その内容からもう少し踏み込み、Chromium を題材に「ブラウザを動かしているコード」への理解を深めたいと思い、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
 
+この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929)」の17日目の記事です。
 
 ## Chromium リポジトリの概要
 [Chromium](https://www.chromium.org/chromium-projects/) は、オープンソースのブラウザプロジェクトです。Googleが開発している Chrome だけでなく、Microsoft Edge、Samsung Internet、Arc、Android WebView、Vivaldi、Brave、Opera など、多くのブラウザが Chromium をベースに作られています。
