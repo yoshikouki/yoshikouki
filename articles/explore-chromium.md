@@ -83,8 +83,6 @@ Chromium 由来のブラウザで複数のプロセスが起動する様子は�
 ## Chromium リポジトリの構造
 ここからは、Chromium/src リポジトリの構造をざっくりと概観し、前節で紹介した各プロセスがどのディレクトリに対応しているのかを見ていきます。
 
-リポジトリの全体像を掴むために、公式ドキュメント [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/) が役立ちます（少なくとも2017年以降は更新されていないので、古い情報として読む必要はあります）。
-
 ![](/images/explore-chromium/chromium-modules-diagram.png)
 *[引用: How Blink works](https://docs.google.com/document/u/0/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/mobilebasic)*
 
@@ -350,3 +348,32 @@ https://blog.jxck.io/entries/2024-03-26/chromium-contribution.html
 最後までお読みいただき、ありがとうございました。
 明日の [🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929) は、[Kentaro Kuribayashi (あんちぽ)](https://kentarokuribayashi.com/) さんです！乞うご期待！
 
+
+## リンク集・参考資料
+引用したリンクに限らず、記事内では紹介しきれなかった参考資料を以下にまとめます。
+
+1.  [Getting Around the Chromium Source Code Directory Structure](https://www.chromium.org/developers/how-tos/getting-around-the-chrome-source-code/)
+    - リポジトリ全体像を掴むのに役立ちます（少なくとも2017年以降は更新されていないので、古い情報として読む必要はあります）
+2. [Get the Code: Checkout, Build, & Run Chromium](https://www.chromium.org/developers/how-tos/get-the-code/)
+    - chromium/src リポジトリの OS 別のダウンロード手順
+3. [How Blink works](https://docs.google.com/document/u/0/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/mobilebasic)
+    - Blink の公式ドキュメント。ある程度詳しく新し目の解説があります。レンダリングを理解したいなら必読です
+4. [Multi-process Architecture](https://www.chromium.org/developers/design-documents/multi-process-architecture/#architectural-overview)
+    - 公式ドキュメント。アーキテクチャの目的や背景に関する説明があります
+5. [How Chromium Displays Web Pages](https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome/)
+    - 公式ドキュメント。情報が古いので参考までに
+6. [source_tree_overview.md - Chromium Code Search](https://source.chromium.org/chromium/chromium/src/+/main:docs/source_tree_overview.md;l=1;bpv=1;bpt=0)
+    - コード上のドキュメント。本当にざっくりとしたソースコードのディレクトリ概要が載っています
+7. [startup.md - Chromium Code Search](https://source.chromium.org/chromium/chromium/src/+/main:docs/design/startup.md;l=1)
+    - コード上のドキュメント。ざっくりと Chrome の起動について解説されています。
+8. [最新のウェブブラウザの詳細（パート 1）  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1?hl=ja)
+    - CPU、メモリ、プロセスなどからブラウザの基本的な仕組みまで解説してくれます
+9.  [RenderingNG  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng?hl=ja)
+    - Chromium の次世代レンダリングアーキテクチャについて解説しています
+10. [Life of a Pixel - Google スライド](https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y
+    - レンダリングパイプラインの各ステージについて、詳しく解説しています
+11. [Site Isolation Design Document](https://www.chromium.org/developers/design-documents/site-isolation/)
+12. [Chromium Docs - Sandbox](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
+13. [Google Online Security Blog: Today's CPU vulnerability: what you need to know](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)
+14. [🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)
+    - 前作。Chromium のレンダリングパイプラインを中心に解説しています
