@@ -10,7 +10,7 @@ published: false
 ## はじめに
 この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929)」の17日目の記事です。
 
-もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」を投稿しました。この記事では、その内容からもう少し踏み込み、「Chromium を題材にブラウザを動かしているコード」への理解を深めようと、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
+もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)」を投稿しました。この記事では、その内容からもう少し踏み込み、Chromium を題材に「ブラウザを動かしているコード」への理解を深めたいと思い、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
 
 
 ## Chromium リポジトリの概要
@@ -284,15 +284,6 @@ Renderer Process のエントリーポイントは [`content::RendererMain()` (`
 
 ここでは、Blink の初期化、スケジューラの作成、そして Renderer ごとのメインスレッドとなる `RenderThreadImpl` の生成とメッセージループの開始が行われます。
 
-```mermaid
-flowchart TD
-    RendererMain[RendererMain] --> InitBlink[blink::Platform::InitializeBlink]
-    InitBlink --> Scheduler[WebThreadScheduler::CreateMainThreadScheduler]
-    Scheduler --> RenderProcess[RenderProcessImpl::Create]
-    RenderProcess --> RenderThread[new RenderThreadImpl]
-    RenderThread --> RunLoop[run_loop.Run]
-```
-
 #### 主な処理の流れ
 
 **1. Blink の初期化とスケジューラの作成**
@@ -374,7 +365,7 @@ flowchart TD
 
 
 ## おわりに
-前作の記事「[レンダリングを探訪する](https://zenn.dev/pepabo/articles/explore-rendering)」の続編として、Chromiumのリポジトリを題材に、レンダリングの仕組みを掘り下げてみました。この記事が、Chromium やブラウザ、レンダリングについて詳しく知りたいと思うきっかけとなり、案内役としてお役立ていただけたなら幸いです。
+この記事では、前作「[レンダリングを探訪する](https://zenn.dev/pepabo/articles/explore-rendering)」の続編として、Chromiumのリポジトリを題材に、レンダリングの仕組みを掘り下げてみました。この記事が、Chromium やブラウザ、レンダリングについて詳しく知りたいと思うきっかけとなり、案内役としてお役立ていただけたなら幸いです。
 
 Chromium に対するコントリビュートに興味をお持ちの方は、jxck さんの記事がおすすめです
 https://blog.jxck.io/entries/2024-03-26/chromium-contribution.html
@@ -400,14 +391,16 @@ https://blog.jxck.io/entries/2024-03-26/chromium-contribution.html
     - コード上のドキュメント。本当にざっくりとしたソースコードのディレクトリ概要が載っています
 7. [startup.md - Chromium Code Search](https://source.chromium.org/chromium/chromium/src/+/main:docs/design/startup.md;l=1)
     - コード上のドキュメント。ざっくりと Chrome の起動について解説されています。
-8. [最新のウェブブラウザの詳細（パート 1）  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1?hl=ja)
+8. [README.md - Chromium Code Search](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/README.md)
+    - Blink レンダリングエンジンの README。概要と依存関係について解説しています
+9. [最新のウェブブラウザの詳細（パート 1）  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/inside-browser-part1?hl=ja)
     - CPU、メモリ、プロセスなどからブラウザの基本的な仕組みまで解説してくれます
-9.  [RenderingNG  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng?hl=ja)
+10. [RenderingNG  |  Chromium  |  Chrome for Developers](https://developer.chrome.com/docs/chromium/renderingng?hl=ja)
     - Chromium の次世代レンダリングアーキテクチャについて解説しています
-10. [Life of a Pixel - Google スライド](https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y
+11. [Life of a Pixel - Google スライド](https://docs.google.com/presentation/d/1boPxbgNrTU0ddsc144rcXayGA_WF53k96imRH8Mp34Y
     - レンダリングパイプラインの各ステージについて、詳しく解説しています
-11. [Site Isolation Design Document](https://www.chromium.org/developers/design-documents/site-isolation/)
-12. [Chromium Docs - Sandbox](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
-13. [Google Online Security Blog: Today's CPU vulnerability: what you need to know](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)
-14. [🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)
+12. [Site Isolation Design Document](https://www.chromium.org/developers/design-documents/site-isolation/)
+13. [Chromium Docs - Sandbox](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
+14. [Google Online Security Blog: Today's CPU vulnerability: what you need to know](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)
+15. [🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/explore-rendering)
     - 前作。Chromium のレンダリングパイプラインを中心に解説しています
