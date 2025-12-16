@@ -1,14 +1,14 @@
 ---
-title: "Chromiumのリポジトリを探訪する"
-emoji: "🔦"
+title: "「ブラウザを動かしているコード」を Chromium で追う"
+emoji: "🖼️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Chromium", "Chrome", "Browser", "Rendering", "Web"]
-published: false
+published: true
 ---
 
 
 ## はじめに
-もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/articles/explore-rendering)」を投稿しました。この記事では、その内容からもう少し踏み込み、Chromium を題材に「ブラウザを動かしているコード」への理解を深めたいと思い、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
+もう一年以上前になりますが、Chromium を題材にレンダリングに対する理解を深めようとする記事「[🖼️ レンダリングを探訪する](https://zenn.dev/yoshikouki/articles/explore-rendering)」を投稿しました。今回の記事では、その内容からもう少し踏み込んで Chromium を題材に「ブラウザを動かしているコード」への理解を深めたいと思い、Chromium のリポジトリとソースコードの触りをざっくりと理解していきます。
 
 この記事は、「[🎅GMOペパボ エンジニア Advent Calendar 2025](https://adventar.org/calendars/11929)」の17日目の記事です。
 
@@ -253,7 +253,7 @@ NO_STACK_PROTECTOR int ContentMain(ContentMainParams params) {
   }
 ```
 
-これらの流れをシーケンス図にまとめると以下のようになります。
+これらの流れを図にまとめると以下のようになります。
 
 
 ```mermaid
@@ -368,7 +368,7 @@ Renderer Process のエントリーポイントは [`content::RendererMain()` (`
 
 
 ## おわりに
-この記事では、前作「[レンダリングを探訪する](https://zenn.dev/pepabo/articles/explore-rendering)」の続編として、Chromiumのリポジトリを題材に、レンダリングの仕組みを掘り下げてみました。
+この記事では、前作「[レンダリングを探訪する](https://zenn.dev/pepabo/articles/explore-rendering)」の続編として、Chromiumのリポジトリを題材に、ブラウザのリポジトリとコードについて掘り下げてみました。
 
 Chromium/src のリポジトリは巨大です。世界最大級のオープンソースプロジェクトの一つとも言えるのではないでしょうか。私自身、Web アプリケーションエンジニアとしても一般利用者としても Chrome ブラウザや V8 にお世話になっており、以前からその仕組みについて興味がありました。今回、その興味のままリポジトリの中身を覗いてみたのですが、正直なかなか理解が難しい部分が多かったです。
 
