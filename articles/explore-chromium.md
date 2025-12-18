@@ -4,6 +4,7 @@ emoji: "🖼️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Chromium", "Chrome", "Browser", "Rendering", "Web"]
 published: true
+publication_name: "pepabo"
 ---
 
 
