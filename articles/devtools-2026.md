@@ -1,6 +1,6 @@
-# 開発環境2026
+# 開発環境現状確認 2026
 
-自分の開発環境をまとめたもの（2026年1月時点）
+流行っていたので定期
 
 ## 基本環境
 
@@ -9,53 +9,56 @@
   - Apple Silicon (ARM64)
 
 ### エディタ
-- **Cursor** - メインエディタ（AI統合IDE）
-- **Visual Studio Code** - サブエディタ
-- **Neovim** - ターミナル内での編集
-- **Vim** - 標準搭載、基本的な編集用
+- **Neovim**
+  - 2026年になってから入門した
+  - Coding Agent の開発が主になったのでターミナルで完結できるようになりつつあり、満足度が高い
+  - ゼロからすべて設定していこうと思ったが2日で諦めて LazyVim から入門して少しずつカスタマイズしている
+  - この記事も Neovim で書いている
+- **VSCode** - 2023年頃からメインエディタとして活躍していた
 
 ### ターミナル
-- **Warp** - メインターミナル（AI機能搭載）
+- **Warp** - メインターミナル
+  - 入力欄がテキストエディタのように操作できるところが気に入っている
 - **Ghostty** - サブターミナル
-  - フォントサイズ: 15
-  - 背景透過度: 0.85
-  - 背景ぼかし: 20
+  - めちゃくいいと評判だったので入れてみたもの
+  - Warp の操作系が心地よくてあまり活用できていない
+  - タブなしの表示にしたらカッコよくなったらので tmux に入門して専用クライアントとして運用できないか思案中
 
 ### シェル
-- **Zsh** - デフォルトシェル
-  - ロケール: ja_JP.UTF-8
-  - カスタムエイリアス多数（Git, Docker等）
+- **fish** - デフォルトシェル
+  - 以前と変わらず。社内の凄腕が使っているのを見て憧れて入門したが活用しきれているかはわからない
+  - Claude Code のコマンドが zsh で実行されるため相性の悪さを感じている
 
 ### ターミナルマルチプレクサ
-- **tmux** - メイン
-- **Zellij** - サブ
-- **screen** - 標準搭載
+- **tmux** - ターミナルで完結させようとするとターミナルのペインが辛くなるので入門中 
 
 ## AIツール
 
 ### コーディングエージェント
-- **Claude Code CLI** - ターミナルベースのAIコーディングアシスタント
-  - パーミッション設定でセーフティネット
-  - 停止時に音で通知（Ping.aiff）
+- **Claude Code** - メインで使っている Coding Agent
+  - 早い。
+  - 基本的に各タスクの前に Plan モードで計画を練ってもらっている
+- Codex CLI - サブ
+  - CCが期待通りにタスク解決できないときやデータモデリング、多方面からレビューが欲しいに使用
 
-### AIアシスタント（Claude Code プラグイン）
-- **context7** - ドキュメント検索
+### AIアシスタント（Claude Code プラグイン, MCP）
+- React Ink などの尖った自作スキルを作ったりしている
+- Anthropic 純正と Google 提供のモノを中心に構成
+- chrome-devtools-mcp - ヘッドレスモードで運用
 - **github** - GitHub統合
+- **code-review** - コードレビュー支援
+- **code-simplifier** - コード簡素化
+- **frontend-design** - フロントエンド設計
+- **plugin-dev** - プラグイン開発
+- **context7** - ドキュメント検索
 - **typescript-lsp** - TypeScript言語サーバー
 - **lua-lsp** - Lua言語サーバー
-- **code-review** - コードレビュー支援
 - **feature-dev** - 機能開発支援
-- **frontend-design** - フロントエンド設計
-- **code-simplifier** - コード簡素化
 - **hookify** - フック管理
-- **plugin-dev** - プラグイン開発
 - **claude-opus-4-5-migration** - Claude Opus 4.5移行支援
 - **security-guidance** - セキュリティガイダンス
 
-### MCP設定
-- 現在未設定（今後導入予定）
-
-## 開発ツール
+## ツール
 
 ### ブラウザ
 - **Arc** - メインブラウザ
@@ -64,14 +67,11 @@
 
 ### ランチャー
 - **Raycast** - アプリケーションランチャー・生産性ツール
+  - ウィンドウマネジャーの Reactangle を長年使ってきたが、最近 Raycast に移管した
 
 ### フォント
 - **Hack Nerd Font** - プログラミング用フォント
 - **Symbols Only Nerd Font** - アイコン表示用
-
-### ウィンドウマネージャー
-- **Rectangle** - ウィンドウ整列ツール
-- **AeroSpace** - タイル型ウィンドウマネージャー
 
 ## 環境構築・管理
 
@@ -89,19 +89,23 @@
 ## 日本語入力
 
 ### IME / 日本語入力
-- macOS標準の日本語入力
-  - ロケール設定: ja_JP
+- azooKey - ライブ変換の精度がすごくいい
+  - iPhone で入れて感動したので macOS にも入れた
+  - Claude Code との相性に若干の難があるがメリットに対して些細なものなので気にしていない
 
 ## ハードウェア
 
 ### キーリマッパー
 - **Karabiner-Elements** - キーボードカスタマイズ
+  - こいつのおかげで hjkl 移動に全く違和感がなくなっていたので、Neovim 入門が楽になったのだと思っている
 
 ## CLIツール
 
 ### Git関連ツール
-- **git-delta** - diff viewer（git pager）
+- GitHub Desktop - GUIベースのGitクライアント。ずっと現役だったが最近TUIに移行したい気持ちがある
 - **lazygit** - TUIベースのGitクライアント
+  - Neovim と連携しつつ使っている。Diff が見づらく思案中
+  - **git-delta** を diff viewer（git pager）で使っている
 - **GitHub CLI (gh)** - GitHub操作用CLI
   - Git認証ヘルパーとして使用
 
@@ -128,69 +132,14 @@
 - **Notion Mail** - メール管理
 
 ### TODO管理
-- **Notion** を使用（専用TODOアプリは未使用）
+- macOS 純正の **リマインダー** をRaycastで一発起動するようにして使用している
+  - iPhone とシームレスに連携できて必要最低限の機能が揃っているので気に入っている 
 
-## プログラミング言語
-
-### メイン言語
-- **Node.js** v24.11.1
-- **Bun** 1.2.18（高速JavaScriptランタイム）
-- **Go** 1.25.4
-- **TypeScript** / **JavaScript**
-
-### サブ言語
-- **Python** (asdf管理)
-- **Ruby** (asdf管理)
-- **Deno** (asdf管理)
-- **Rust** (asdf管理)
-
-## データベース・インフラ
+# データベース・インフラ
 
 ### DBクライアント
-- **psql** - PostgreSQL
-- **mysql** - MySQL
-- **sqlite3** - SQLite
+- **TablePlus** - 1年分だけ買い切り感覚で課金してそのまま使用している。UIが見やすいと感じる
 
 ### コンテナ
-- **Docker**
-- **Docker Compose**
-  - カスタムエイリアス: `dc`
-  - コンテナ・イメージ・ボリューム削除用エイリアス設定
+- **colima** - あまり強い気持ちがないままランタイムは colima を継続利用。最近いろいろあるらしいので移行したい
 
-### IaC・インフラツール
-- **Terraform** (asdf管理)
-- **Ansible**
-- **Packer** (asdf管理)
-- **Nomad** (asdf管理)
-- **Consul** (asdf管理)
-- **Vault** (asdf管理)
-- **Waypoint** (asdf管理)
-- **Boundary** (asdf管理)
-
-### Kubernetes
-- **kubectl** (kubectl-cluster-caution経由)
-- **AWS CLI**
-
-## パッケージマネージャー
-
-- **Homebrew** - macOS用パッケージマネージャー
-- **pnpm** - 高速Node.jsパッケージマネージャー
-  - PNPM_HOME: ~/Library/pnpm
-
-## その他の特徴
-
-### エイリアス設定
-- 安全性重視: `rm`, `cp`, `mv` に `-i` オプション
-- Git操作の短縮: `gc`, `gcb`, `gpl`, `gp`, `gcm` 等
-- Docker操作の効率化
-- kubectl の誤操作防止ラッパー
-
-### PATH設定
-- asdf shims優先
-- /opt/local/bin (MacPorts?)
-- ~/.local/bin (ローカルツール)
-- pnpm グローバルbin
-
----
-
-**更新日**: 2026年1月19日
