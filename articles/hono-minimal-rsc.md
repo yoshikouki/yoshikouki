@@ -4,6 +4,7 @@ emoji: "🔥"
 type: "tech"
 topics: ["react", "hono", "rsc", "vite", "cloudflare"]
 published: true
+publication_name: "pepabo"
 ---
 
 ## はじめに
