@@ -16,7 +16,7 @@ published: true
 
 https://github.com/yoshikouki/hono-rsc-template
 
-この記事では、テンプレートの設計をコードとともに解説していきます。以前「[Hono のサンプルコードの内側を覗く](https://zenn.dev/pepabo/articles/inspect-hono-sample-code)」という記事で Hono の内部実装を追いましたが、今回は逆に *Hono の上に何を載せられるか*を探る試みです。
+この記事では、テンプレートの設計をコードとともに解説していきます。以前「[Hono のサンプルコードの内側を覗く](https://zenn.dev/pepabo/articles/inspect-hono-sample-code)」という記事で Hono の内部実装を追いましたが、今回は逆に **Hono の上に何を載せられるか**を探る試みです。
 
 :::message
 **スコープについて**
