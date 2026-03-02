@@ -3,7 +3,7 @@ title: "Hono 上で最小構成の React Server Components を実現する"
 emoji: "🔥"
 type: "tech"
 topics: ["react", "hono", "rsc", "vite", "cloudflare"]
-published: false
+published: true
 ---
 
 ## はじめに
