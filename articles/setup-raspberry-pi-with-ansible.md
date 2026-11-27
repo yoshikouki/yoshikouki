@@ -237,7 +237,7 @@ roles:
 
 ## Prometheus / Grafana のセットアップ
 
-`raspi` のメトリクスを収集・可視化・アラート通知するために、Prometheus とそのプラグイン、Grafana をセットアップします。
+Raspberry Pi のメトリクスを収集・可視化・アラート通知するために、Prometheus とそのプラグイン、Grafana をセットアップします。
 
 アップデートを簡単にしたかったので、コンテナにて管理しています。
 
@@ -453,7 +453,7 @@ Cloudflare Tunnel を以下のように設定すると、外部ネットワー�
 - 公式 Access: [Publish a self-hosted application to the Internet · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/self-hosted-public-app/)
 - [Cloudflare Zero TrustとRaspberry Piを使って自宅のPCをクラウド化する](https://zenn.dev/so298/articles/cloudflare-raspberrypi)
 
-~/.ssh/config に以下を追加すると、`ssh raspi.remote` で `raspi` に接続できるようになります (認証を挟みます)。
+~/.ssh/config に以下を追加すると、`ssh raspi.remote` で 自宅の `raspi` に接続できるようになります (認証を挟みます)。
 
 ```
 Host raspi.remote
@@ -542,8 +542,8 @@ init:
 
 以下の理由を考えながらやっていました。
 
-- `raspi` のセットアップを自動化して、気軽に初期化できるようにする
-- Ansible 経由の変更に限定することで、`raspi` の現在の設定を明示的に管理する (べき等性による)
+- Raspberry Pi のセットアップを自動化して、気軽に初期化できるようにする
+- Ansible 経由の変更に限定することで、Raspberry Pi の現在の設定を明示的に管理する (べき等性による)
 - サーバーを立てる際にセットアップ内容を調べ直しているのでいい加減まとめたい
 
 s
@@ -563,6 +563,6 @@ s
 
 ## まとめ
 
-以上で外部ネットワークから `raspi` にSSHしつつ、Prometheus / Grafana によってサーバーのモニタリング・異常通知を行えるようになりました。
+以上で外部ネットワークから 自宅の `raspi` にSSHしつつ、Prometheus / Grafana によってサーバーのモニタリング・異常通知を行えるようになりました。
 
 再三になりますが、Cloudflare Tunnel を使って SSH 接続を設定した場合は、必ず Cloudflare Access などを使った保護を必ず入れましょう。
