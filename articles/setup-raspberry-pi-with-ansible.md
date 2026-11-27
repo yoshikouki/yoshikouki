@@ -453,7 +453,7 @@ Cloudflare Tunnel を以下のように設定すると、外部ネットワー�
 - 公式 Access: [Publish a self-hosted application to the Internet · Cloudflare Zero Trust docs](https://developers.cloudflare.com/cloudflare-one/applications/configure-apps/self-hosted-public-app/)
 - [Cloudflare Zero TrustとRaspberry Piを使って自宅のPCをクラウド化する](https://zenn.dev/so298/articles/cloudflare-raspberrypi)
 
-~/.ssh/config に以下を追加すると、`ssh raspi.remote` で Raspberry Pi に接続できるようになります (認証を挟みます)。
+~/.ssh/config に以下を追加すると、`ssh raspi.remote` で自宅の `raspi` に接続できるようになります (認証を挟みます)。
 
 ```
 Host raspi.remote
@@ -563,6 +563,6 @@ s
 
 ## まとめ
 
-以上で外部ネットワークから Raspberry Pi にSSHしつつ、Prometheus / Grafana によってサーバーのモニタリング・異常通知を行えるようになりました。
+以上で外部ネットワークから自宅の `raspi` にSSHしつつ、Prometheus / Grafana によってサーバーのモニタリング・異常通知を行えるようになりました。
 
 再三になりますが、Cloudflare Tunnel を使って SSH 接続を設定した場合は、必ず Cloudflare Access などを使った保護を必ず入れましょう。
